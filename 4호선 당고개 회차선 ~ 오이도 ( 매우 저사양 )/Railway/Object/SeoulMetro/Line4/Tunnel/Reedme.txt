@@ -1,0 +1,43 @@
+ストラクチャー　「開削トンネル」ver2.6		
+ダウンロードいただきありがとうございます。中身をおさらいします。			
+					使い方
+ファイル名				このファイルは一般的な開削トンネルをモチーフとしています。
+・Tunnel_SIKAKUL.csv			←左側に設置します。
+・Tunnel_SIKAKUR.csv			←右側に設置します。
+・Tunnel_SIKAKUENTL.csv			←入口用で、左側用です。
+・Tunnel_SIKAKUENTR.csv			←入口用で、右側用です。
+・Tunnel_SIKAKUENDL.csv			←出口用で、左側用です。
+・Tunnel_SIKAKUENDR.csv			←出口用で、右側用です。
+・TunnelWall.bmp			←テクスチャーです。これがなきゃ意味がありません。
+・TunnelWallEND.bmp			←テクスチャーです。
+・TunnelWallENT.bmp			←テクスチャーです。
+となっております。			
+設置方法			
+Wall構文で設置するのが適当でしょう。		
+Structure.WallL(X).Load XXX\Tunnel_SIKAKU\Tunnel_SIKAKUL.csv			
+Structure.WallR(X).Load XXX\Tunnel_SIKAKU\Tunnel_SIKAKUR.csv	
+Structure.WallL(X).Load XXX\Tunnel_SIKAKU\Tunnel_SIKAKUENTL.csv			
+Structure.WallR(X).Load XXX\Tunnel_SIKAKU\Tunnel_SIKAKUENTR.csv
+Structure.WallL(X).Load XXX\Tunnel_SIKAKU\Tunnel_SIKAKUENDL.csv			
+Structure.WallR(X).Load XXX\Tunnel_SIKAKU\Tunnel_SIKAKUENDR.csv			
+として、			
+Track.Wall 0; -1: X			
+または			
+Track.Wall 0; 1: X			
+とすれば設置できます。			
+著作権について			
+一切の著作権は海都に帰属します。			
+路線などに組み込んで配布する場合は許可を取る必要はありません。
+ですが、できれば連絡をください。（強制ではないです）
+著作権が海都にある事を明記してください。	
+例　・・・・（Ｃ）海都　など
+改造しての配布は許可制にします。			
+（路線に組み込まない配布は禁止とします）			
+
+ver2.0　画像編集。明るい所が細くなり、よりリアルに。また、天井付近の改造。
+ver2.5　画像編集。明るい所の改造でリアルに。また、蛍光灯をリアルに。
+ver2.6　さらに画像編集。明るい所の改造でリアルに。構文の編集。		
+			
+連絡などは、メール、または掲示板でお願いします。	
+メール　krt_tyktrailway@yahoo.co.jp
+掲示板　http://9230.teacup.com/kaito_1014/bbs

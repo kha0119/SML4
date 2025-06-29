@@ -1,0 +1,29 @@
+
+CreateMeshBuilder
+AddVertex,1.9,4.7,0
+AddVertex,-1.9,4.7,0
+AddVertex,-1.9,1.1,0
+AddVertex,1.9,1.1,0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture, namtaeryong.bmp
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,5
+SetTextureCoordinates,3,1,5
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex,1.9,4.7,0
+AddVertex,-1.9,4.7,0
+AddVertex,-1.9,1.1,0
+AddVertex,1.9,1.1,0
+AddFace,0,1,2,3
+SetColor,50,50,50
+GenerateNormals
+LoadTexture, Concrete.bmp
+SetTextureCoordinates,0,3,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,5
+SetTextureCoordinates,3,3,5
+SetDecalTransparentColor,0,0,0

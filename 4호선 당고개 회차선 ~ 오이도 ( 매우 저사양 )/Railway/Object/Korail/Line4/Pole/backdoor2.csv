@@ -1,0 +1,13 @@
+
+CreateMeshBuilder
+AddVertex, -0.43, 1.15, 0
+AddVertex, -0.43, 3.13, 0
+AddVertex, 0.43, 3.13, 0
+AddVertex, 0.43, 1.15, 0
+AddFace2, 3,2,1,0
+GenerateNormals
+LoadTexture, backdoor.png
+SetTextureCoordinates, 0, 1, 1
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 0, 1

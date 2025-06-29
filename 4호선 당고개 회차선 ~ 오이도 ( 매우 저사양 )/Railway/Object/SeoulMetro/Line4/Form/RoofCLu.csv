@@ -1,0 +1,26 @@
+;地下ホーム屋根オブジェクト　中央左,,,,
+;製作者＝超あずさ　ＨＰ＝http://www3.to/t-s-s/,,,,
+
+;ホーム屋根部,,,,
+CreateMeshBuilder,,,,
+AddVertex,-7.2,4.7,0,
+AddVertex,-7.2,4.7,25.3,
+AddVertex,-2.7,4.7,25.3,
+AddVertex,-2.7,4.7,0,
+AddFace,3,2,1,0
+SetColor,240,240,240,
+GenerateNormals,,,,
+LoadTexture,Roof2.bmp,,,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,4,
+SetTextureCoordinates,2,0,4,
+SetTextureCoordinates,3,0,0,
+
+CreateMeshBuilder,,,,
+AddVertex,-2.7,4.7,0,
+AddVertex,-7.2,4.7,0,
+AddVertex,-7.2,6,0,
+AddVertex,-2.7,6,0,
+AddFace2,3,2,1,0
+GenerateNormals,,,,
+SetColor,128,128,122,

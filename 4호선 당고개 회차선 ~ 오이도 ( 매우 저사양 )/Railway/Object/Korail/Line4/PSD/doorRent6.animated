@@ -1,0 +1,49 @@
+[object]
+States=doornoR.csv 
+
+[object]
+Position = 0, 0, 2.5
+States=doorfrontR.csv
+
+[object]
+Position = 0, 0, 2.5
+States=doorbackR.csv
+
+[object]
+Position = 0, 0, 7.5
+States=doorfrontR.csv
+
+[object]
+Position = 0, 0, 7.5
+States=doorbackR.csv
+
+[object]
+Position = 0, 0, 12.5
+States=doorfrontR.csv
+TranslateZFunction = 1 * rightdoors 
+
+[object]
+Position = 0, 0, 12.5
+States=doorbackR.csv
+TranslateZFunction = -1 * 1 * rightdoors 
+
+[object]
+Position = 0, 0, 17.5
+States=doorfrontR.csv
+TranslateZFunction = 1 * rightdoors 
+
+[object]
+Position = 0, 0, 17.5
+States=doorbackR.csv
+TranslateZFunction = -1 * 1 * rightdoors 
+
+[object]
+Position = 0, 0, 22.5
+States=doorfrontR.csv
+TranslateZFunction = 1 * rightdoors 
+
+[object]
+Position = 0, 0, 22.5
+States=doorbackR.csv
+TranslateZFunction = -1 * 1 * rightdoors 
+

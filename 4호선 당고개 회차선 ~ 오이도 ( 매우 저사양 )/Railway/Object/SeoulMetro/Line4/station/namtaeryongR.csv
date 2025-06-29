@@ -1,0 +1,120 @@
+CreateMeshBuilder
+AddVertex,3.1,0.105,25
+AddVertex,3.1,0.105,25
+AddVertex,2.6,-0.55,25
+AddVertex,2.6,-0.55,0
+AddVertex,3.1,0.105,0
+AddVertex,3.1,0.105,0
+AddVertex,3.9,3.38,25
+AddVertex,3.9,3.38,25
+AddVertex,4,2.725,25
+AddVertex,4,2.725,25
+AddVertex,4,2.725,0
+AddVertex,4,2.725,0
+AddVertex,3.9,3.38,0
+AddVertex,3.9,3.38,0
+AddVertex,3.8,4.035,0
+AddVertex,3.8,4.035,0
+AddVertex,3.8,4.035,25
+AddVertex,3.8,4.035,25
+AddVertex,3.9,2.07,0
+AddVertex,3.9,2.07,0
+AddVertex,3.9,2.07,25
+AddVertex,3.9,2.07,25
+AddVertex,3.8,1.415,25
+AddVertex,3.8,1.415,25
+AddVertex,3.8,1.415,0
+AddVertex,3.8,1.415,0
+AddVertex,3.5,0.76,25
+AddVertex,3.5,0.76,25
+AddVertex,3.5,0.76,0
+AddVertex,3.5,0.76,0
+AddVertex,3.5,4.69,0
+AddVertex,3.5,4.69,0
+AddVertex,3.5,4.69,25
+AddVertex,3.5,4.69,25
+AddVertex,3.1,5.345,25
+AddVertex,3.1,5.345,25
+AddVertex,3.1,5.345,0
+AddVertex,3.1,5.345,0
+AddVertex,2.6,6,0
+AddVertex,2.6,6,25
+AddFace,4,3,2,0
+AddFace,12,10,8,6
+AddFace,16,14,12,6
+AddFace,20,8,10,18
+AddFace,24,22,20,18
+AddFace,28,4,0,26
+AddFace,22,24,28,26
+AddFace,14,16,32,30
+AddFace,36,30,32,34
+AddFace,39,38,36,34
+GenerateNormals
+LoadTexture,namtaeryong.bmp
+SetTextureCoordinates,0,3,0.9
+SetTextureCoordinates,1,3,0.9
+SetTextureCoordinates,2,3,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0,0.9
+SetTextureCoordinates,5,0,0.9
+SetTextureCoordinates,6,3,0.4
+SetTextureCoordinates,7,3,0.4
+SetTextureCoordinates,8,3,0.5
+SetTextureCoordinates,9,3,0.5
+SetTextureCoordinates,10,0,0.5
+SetTextureCoordinates,11,0,0.5
+SetTextureCoordinates,12,0,0.4
+SetTextureCoordinates,13,0,0.4
+SetTextureCoordinates,14,0,0.3
+SetTextureCoordinates,15,0,0.3
+SetTextureCoordinates,16,3,0.3
+SetTextureCoordinates,17,3,0.3
+SetTextureCoordinates,18,0,0.6
+SetTextureCoordinates,19,0,0.6
+SetTextureCoordinates,20,3,0.6
+SetTextureCoordinates,21,3,0.6
+SetTextureCoordinates,22,3,0.7
+SetTextureCoordinates,23,3,0.7
+SetTextureCoordinates,24,0,0.7
+SetTextureCoordinates,25,0,0.7
+SetTextureCoordinates,26,3,0.8
+SetTextureCoordinates,27,3,0.8
+SetTextureCoordinates,28,0,0.8
+SetTextureCoordinates,29,0,0.8
+SetTextureCoordinates,30,0,0.2
+SetTextureCoordinates,31,0,0.2
+SetTextureCoordinates,32,3,0.2
+SetTextureCoordinates,33,3,0.2
+SetTextureCoordinates,34,3,0.1
+SetTextureCoordinates,35,3,0.1
+SetTextureCoordinates,36,0,0.1
+SetTextureCoordinates,37,0,0.1
+SetTextureCoordinates,38,0,0
+SetTextureCoordinates,39,3,0
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex,2.6, 6.0, 0
+AddVertex,2.6, 6.0, 25
+AddVertex,-20, 6.0, 25
+AddVertex,-20, 6.0, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture,namtaeryong.bmp
+SetTextureCoordinates, 0, 3, 1
+SetTextureCoordinates, 1, 0, 1
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 3, 1
+
+CreateMeshBuilder
+AddVertex,2.6, -0.55, 0
+AddVertex,2.6,-0.55, 25
+AddVertex,-20, -0.55, 25
+AddVertex,-20, -0.55, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture,namtaeryong.bmp
+SetTextureCoordinates, 0, 3, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 3, 0

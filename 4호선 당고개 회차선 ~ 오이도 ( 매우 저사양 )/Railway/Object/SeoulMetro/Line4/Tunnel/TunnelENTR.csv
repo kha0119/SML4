@@ -1,0 +1,69 @@
+CreateMeshBuilder
+AddVertex,2.6, 5.0, 0
+AddVertex,2.6, 5.0, 25
+AddVertex,2.6, 0, 25
+AddVertex,2.6, 0, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture, TunnelWallENT.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder
+AddVertex,2.6, 0, 0
+AddVertex,2.6, 0, 25
+AddVertex,2.6, -0.55, 25
+AddVertex,2.6, -0.55, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture, TunnelWallENT.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 0.1
+SetTextureCoordinates, 3, 0, 0.1
+
+CreateMeshBuilder
+AddVertex,2.6, 6, 0
+AddVertex,2.6, 6, 25
+AddVertex,2.6, 5, 25
+AddVertex,2.6, 5, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture, TunnelWallENT.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 0.1
+SetTextureCoordinates, 3, 0, 0.1
+
+CreateMeshBuilder
+AddVertex,2.6, 6.0, 0
+AddVertex,2.6, 6.0, 25
+AddVertex,-20, 6.0, 25
+AddVertex,-20, 6.0, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture, TunnelWallENT.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 0.1
+SetTextureCoordinates, 3, 0, 0.1
+
+CreateMeshBuilder
+AddVertex,2.6, -0.55, 0
+AddVertex,2.6,-0.55, 25
+AddVertex,-20, -0.55, 25
+AddVertex,-20, -0.55, 0
+AddFace2, 3, 2, 1, 0
+GenerateNormals
+LoadTexture, TunnelWallENT.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 0.1
+SetTextureCoordinates, 3, 0, 0.1
+
+CreateMeshBuilder
+Cube, 0.02 [, 0.1, 0.6]
+Translate,2.59, 2.75, 13.55
+GenerateNormals

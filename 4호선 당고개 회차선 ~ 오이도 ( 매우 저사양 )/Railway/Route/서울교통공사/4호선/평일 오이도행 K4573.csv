@@ -1,0 +1,8133 @@
+With Route
+.Comment 코레일 4호선 당고개발 오이도행 평일 K4573 다이어
+.Comment 당고개발 오이도행 평일 K4573 2020년 2월 27일 시행
+.Change -1
+.Gauge 1435
+With Train
+.Folder Korail341035
+.Run(0) 0
+.Run(1) 0
+.Run(2) 1
+.Run(3) 0
+.Run(4) 0
+.Run(5) 1
+.Run(6) 1
+.Run(7) 0
+.Run(8) 0
+.Run(9) 1
+.Run(10) 1
+With Structure
+.Rail(0) SeoulMetro\Line4\Rail\Straight.csv
+.Rail(1) SeoulMetro\Line4\Rail\StraightSlab.csv
+.Rail(2) SeoulMetro\Line4\Rail\StraightDarkSlab.csv
+.Rail(3) SeoulMetro\Line4\Rail\-166.csv
+.Rail(4) SeoulMetro\Line4\Rail\166.csv
+.Rail(5) SeoulMetro\Line4\Rail\-166DarkSlab.csv
+.Rail(6) SeoulMetro\Line4\Rail\166DarkSlab.csv
+.Rail(7) SeoulMetro\Line4\Rail\-332.csv
+.Rail(8) SeoulMetro\Line4\Rail\332.csv
+.Rail(9) SeoulMetro\Line4\Rail\-332DarkSlab.csv
+.Rail(10) SeoulMetro\Line4\Rail\332DarkSlab.csv
+.Rail(11) Korail\Line1\Null.csv
+.Rail(12) Korail\Line1\NoRail_102\NoRail1.csv
+.Rail(13) Korail\Line1\NoRail_102\NoRail2.csv
+.Rail(14) Korail\Line1\bridge1\Straight.csv
+.Rail(15) Korail\Line1\Road\RoadL.csv
+.Rail(16) Korail\Line1\Road\RoadR.csv
+.Rail(17) Korail\Line1\Road\Road2L.csv
+.Rail(18) Korail\Line1\Road\Road2R.csv
+.Rail(19) Korail\Line1\Road\Road3L.csv
+.Rail(20) Korail\Line1\Road\Road3R.csv
+.Rail(21) Korail\Line1\Road\Road4L.csv
+.Rail(22) Korail\Line1\Road\Road4R.csv
+.Rail(23) SeoulMetro\Line4\Rail\StraightDark.csv
+.Rail(24) SeoulMetro\Line4\Rail\-166Dark.csv
+.Rail(25) SeoulMetro\Line4\Rail\166Dark.csv
+.Rail(26) SeoulMetro\Line4\Rail\-332Dark.csv
+.Rail(27) SeoulMetro\Line4\Rail\332Dark.csv
+.Ground(0) Korail\Line4\background\Grass.csv
+.Ground(1) Korail\Line4\background\black.csv
+.Ground(2) Korail\Line4\background\River.csv
+.Ground(3) Korail\Line4\background\Levee.csv
+.Ground(4) Null.csv
+.Ground(5) Korail\Line4\background\GrassU2L.csv
+.Ground(6) Korail\Line4\background\GrassU2R.csv
+.WallL(0) SeoulMetro\Line4\Tunnel\TunnelL.csv
+.WallR(0) SeoulMetro\Line4\Tunnel\TunnelR.csv
+.WallL(1) SeoulMetro\Line4\Tunnel\TunnelLin.csv
+.WallR(1) SeoulMetro\Line4\Tunnel\TunnelRin.csv
+.WallL(3) Korail\Line4\WWallL.csv
+.WallR(3) Korail\Line4\WWallR.csv
+.WallL(4) Korail\Line4\WWallL1.csv
+.WallR(4) Korail\Line4\WWallR1.csv
+.WallL(5) Korail\Line4\WWallL2.csv
+.WallR(5) Korail\Line4\WWallR2.csv
+.WallL(6) Korail\Line4\WWallL3.csv
+.WallR(6) Korail\Line4\WWallR3.csv
+.WallL(7) Korail\Line4\bangumL.csv
+.WallR(7) Korail\Line4\bangumR.csv
+.WallL(8) Korail\Line4\bangumL1.csv
+.WallR(8) Korail\Line4\bangumR1.csv
+.WallL(9) Korail\Line4\bangumL3.csv
+.WallR(9) Korail\Line4\bangumR3.csv
+.WallL(10) SeoulMetro\Line4\Tunnel\sheld\TunnelL.csv
+.WallR(10) SeoulMetro\Line4\Tunnel\sheld\TunnelR.csv
+.WallL(11) SeoulMetro\Line4\station\danggogaeL.csv
+.WallR(11) SeoulMetro\Line4\station\danggogaeR.csv
+.WallL(12) SeoulMetro\Line4\station\sanggyeL.csv
+.WallR(12) SeoulMetro\Line4\station\sanggyeR.csv
+.WallL(13) SeoulMetro\Line4\station\nowonL.csv
+.WallR(13) SeoulMetro\Line4\station\nowonR.csv
+.WallL(14) SeoulMetro\Line4\station\nowon2L.csv
+.WallR(14) SeoulMetro\Line4\station\nowon2R.csv
+.WallL(15) SeoulMetro\Line4\station\changdongL.csv
+.WallR(15) SeoulMetro\Line4\station\changdongR.csv
+.WallL(16) SeoulMetro\Line4\station\ssangmunL.csv
+.WallR(16) SeoulMetro\Line4\station\ssangmunR.csv
+.WallL(17) SeoulMetro\Line4\station\suyuL.csv
+.WallR(17) SeoulMetro\Line4\station\suyuR.csv
+.WallL(18) SeoulMetro\Line4\station\miaL.csv
+.WallR(18) SeoulMetro\Line4\station\miaR.csv
+.WallL(19) SeoulMetro\Line4\station\miasageoriL.csv
+.WallR(19) SeoulMetro\Line4\station\miasageoriR.csv
+.WallL(20) SeoulMetro\Line4\station\girumL.csv
+.WallR(20) SeoulMetro\Line4\station\girumR.csv
+.WallL(21) SeoulMetro\Line4\station\sungsinL.csv
+.WallR(21) SeoulMetro\Line4\station\sungsinR.csv
+.WallL(22) SeoulMetro\Line4\station\hanseongL.csv
+.WallR(22) SeoulMetro\Line4\station\hanseongR.csv
+.WallL(23) SeoulMetro\Line4\station\hyehwaL.csv
+.WallR(23) SeoulMetro\Line4\station\hyehwaR.csv
+.WallL(24) SeoulMetro\Line4\station\dongdaemunL.csv
+.WallR(24) SeoulMetro\Line4\station\dongdaemunR.csv
+.WallL(25) SeoulMetro\Line4\station\stadiumL.csv
+.WallR(25) SeoulMetro\Line4\station\stadiumR.csv
+.WallL(26) SeoulMetro\Line4\station\chungmuroL.csv
+.WallR(26) SeoulMetro\Line4\station\chungmuroR.csv
+.WallL(27) SeoulMetro\Line4\station\myeongdongL.csv
+.WallR(27) SeoulMetro\Line4\station\myeongdongR.csv
+.WallL(28) SeoulMetro\Line4\station\hoehyeonL.csv
+.WallR(28) SeoulMetro\Line4\station\hoehyeonR.csv
+.WallL(29) SeoulMetro\Line4\station\seoulL.csv
+.WallR(29) SeoulMetro\Line4\station\seoulR.csv
+.WallL(30) SeoulMetro\Line4\station\sukmyeongL.csv
+.WallR(30) SeoulMetro\Line4\station\sukmyeongR.csv
+.WallL(31) SeoulMetro\Line4\station\samgakjiL.csv
+.WallR(31) SeoulMetro\Line4\station\samgakjiR.csv
+.WallL(32) SeoulMetro\Line4\station\sinyongsanL.csv
+.WallR(32) SeoulMetro\Line4\station\sinyongsanR.csv
+.WallL(33) SeoulMetro\Line4\station\ichonL.csv
+.WallR(33) SeoulMetro\Line4\station\ichonR.csv
+.WallL(34) SeoulMetro\Line4\station\dongjakL.csv
+.WallR(34) SeoulMetro\Line4\station\dongjakR.csv
+.WallL(35) SeoulMetro\Line4\station\isuL.csv
+.WallR(35) SeoulMetro\Line4\station\isuR.csv
+.WallL(36) SeoulMetro\Line4\station\sadangL.csv
+.WallR(36) SeoulMetro\Line4\station\sadangR.csv
+.WallL(37) SeoulMetro\Line4\station\namtaeryongL.csv
+.WallR(37) SeoulMetro\Line4\station\namtaeryongR.csv
+.WallL(38) SeoulMetro\Line4\station\seonbawiL.csv
+.WallR(38) SeoulMetro\Line4\station\seonbawiR.csv
+.WallL(39) SeoulMetro\Line4\station\racecourseL.csv
+.WallR(39) SeoulMetro\Line4\station\racecourseR.csv
+.WallL(40) SeoulMetro\Line4\station\grandparkL.csv
+.WallR(40) SeoulMetro\Line4\station\grandparkR.csv
+.WallL(41) SeoulMetro\Line4\station\gwacheonL.csv
+.WallR(41) SeoulMetro\Line4\station\gwacheonR.csv
+.WallL(42) SeoulMetro\Line4\station\govementL.csv
+.WallR(42) SeoulMetro\Line4\station\govementR.csv
+.WallL(43) SeoulMetro\Line4\station\govement2L.csv
+.WallR(43) SeoulMetro\Line4\station\govement2R.csv
+.WallL(44) SeoulMetro\Line4\station\indgwonL.csv
+.WallR(44) SeoulMetro\Line4\station\indgwonR.csv
+.WallL(45) SeoulMetro\Line4\station\pyeongchonL.csv
+.WallR(45) SeoulMetro\Line4\station\pyeongchonR.csv
+.WallL(46) SeoulMetro\Line4\station\beomgyeL.csv
+.WallR(46) SeoulMetro\Line4\station\beomgyeR.csv
+.WallL(48) Korail\Line4\station\sanbonL.csv
+.WallR(48) Korail\Line4\station\sanbonR.csv
+.WallL(49) Korail\Line4\station\surisanL.csv
+.WallR(49) Korail\Line4\station\surisanR.csv
+.WallL(50) Korail\Line4\station\daeyamiL.csv
+.WallR(50) Korail\Line4\station\daeyamiR.csv
+.WallL(51) Korail\Line4\station\sangnoksuL.csv
+.WallR(51) Korail\Line4\station\sangnoksuR.csv
+.WallL(52) Korail\Line4\station\jungangL.csv
+.WallR(52) Korail\Line4\station\jungangR.csv
+.WallL(53) Korail\Line4\station\gojanL.csv
+.WallR(53) Korail\Line4\station\gojanR.csv
+.WallL(54) Korail\Line4\station\chojiL.csv
+.WallR(54) Korail\Line4\station\chojiR.csv
+.WallL(55) Korail\Line4\station\jeongwangL.csv
+.WallR(55) Korail\Line4\station\jeongwangR.csv
+.DikeL(0) Korail\Line1\background\DikeL.csv
+.DikeR(0) Korail\Line1\background\DikeR.csv
+.DikeL(1) Korail\Line1\syamen\yamaL.csv
+.DikeR(1) Korail\Line1\syamen\yamaR.csv
+.DikeL(2) Korail\Line1\syamen\yamaL2.csv
+.DikeR(2) Korail\Line1\syamen\yamaR2.csv
+.DikeL(3) Korail\Line1\Road\raildikeL.csv
+.DikeR(3) Korail\Line1\Road\raildikeR.csv
+.DikeL(4) SeoulMetro\Line4\Tunnel\SubpoleL.csv
+.DikeR(4) SeoulMetro\Line4\Tunnel\SubpoleR.csv
+.DikeL(5) SeoulMetro\Line4\station\StadikeL.csv
+.DikeR(5) SeoulMetro\Line4\station\StadikeR.csv
+.DikeL(6) Korail\Line1\Tree\treeL.csv
+.DikeR(6) Korail\Line1\Tree\treeR.csv
+.DikeL(10) SeoulMetro\Line4\station\dongdaemunL2.csv
+.DikeR(10) SeoulMetro\Line4\station\dongdaemunR2.csv
+.DikeL(11) SeoulMetro\Line4\station\chungmuroL2.csv
+.DikeR(11) SeoulMetro\Line4\station\chungmuroR2.csv
+.DikeL(12) SeoulMetro\Line4\station\ddppole.csv
+.DikeR(12) SeoulMetro\Line4\station\myeongdongpole.csv
+.DikeL(13) SeoulMetro\Line4\station\seoulpole.csv
+.DikeR(13) SeoulMetro\Line4\station\sadangpole.csv
+.DikeL(14) SeoulMetro\Line4\station\samgakjipoleL.csv
+.DikeR(14) SeoulMetro\Line4\station\samgakjipoleR.csv
+.DikeL(15) SeoulMetro\Line4\station\seonbawiL2.csv
+.DikeR(15) SeoulMetro\Line4\station\seonbawiR2.csv
+.CrackL(0) SeoulMetro\Line4\Rail\CraSlbL.csv
+.CrackR(0) SeoulMetro\Line4\Rail\CraSlbR.csv
+.FormL(0) Korail\Line4\Form\FormLu.csv
+.FormR(0) Korail\Line4\Form\FormRu.csv
+.FormCL(0) Korail\Line4\Form\FormCLu.csv
+.FormCR(0) Korail\Line4\Form\FormCRu.csv
+.FormL(1) Null.csv
+.FormR(1) Null.csv
+.FormCL(1) Null.csv
+.FormCR(1) Null.csv
+.RoofL(2) SeoulMetro\Line4\Form\RoofLu.csv
+.RoofR(2) SeoulMetro\Line4\Form\RoofRu.csv
+.RoofCL(2) SeoulMetro\Line4\Form\RoofCLu.csv
+.RoofCR(2) SeoulMetro\Line4\Form\RoofCRu.csv
+.RoofL(3) SeoulMetro\Line4\Form\RoofLup.csv
+.RoofR(3) SeoulMetro\Line4\Form\RoofRup.csv
+.RoofCL(3) SeoulMetro\Line4\Form\RoofCLu.csv
+.RoofCR(3) SeoulMetro\Line4\Form\RoofCRu.csv
+.RoofL(4) Korail\Line1\station\geumjeongroofL.csv
+.RoofR(4) Korail\Line1\station\geumjeongroofR.csv
+.RoofCL(4) Korail\Line1\Null.csv
+.RoofCR(4) Korail\Line1\Null.csv
+.RoofL(5) Korail\Line4\station\daeyamiroofL.csv
+.RoofR(5) Korail\Line4\station\daeyamiroofR.csv
+.RoofCL(5) Korail\Line1\Null.csv
+.RoofCR(5) Korail\Line1\Null.csv
+.RoofL(6) Korail\Line4\station\banwolL.csv
+.RoofR(6) Korail\Line4\station\banwolR.csv
+.RoofCL(6) Korail\Line1\Null.csv
+.RoofCR(6) Korail\Line1\Null.csv
+.RoofL(7) Korail\Line4\station\ansanroofL.csv
+.RoofR(7) Korail\Line4\station\ansanroofR.csv
+.RoofCL(7) Korail\Line1\Null.csv
+.RoofCR(7) Korail\Line1\Null.csv
+.RoofL(9) Korail\Line4\station\singiloncheonroofL.csv
+.RoofR(9) Korail\Line4\station\singiloncheonroofR.csv
+.RoofCL(9) Korail\Line1\Null.csv
+.RoofCR(9) Korail\Line1\Null.csv
+.RoofL(10) Korail\Line4\station\oidoroofL.csv
+.RoofR(10) Korail\Line4\station\oidoroofR.csv
+.RoofCL(10) Korail\Line1\Null.csv
+.RoofCR(10) Korail\Line1\Null.csv
+.freeobj(0) Korail\Line4\stop6.csv
+.freeobj(1) SeoulMetro\Line4\Rail\Railend.csv
+.freeobj(2) SeoulMetro\Line4\Rail\RailendTun.csv
+.freeobj(8) Korail\Line4\PSD\doorLclose.animated
+.freeobj(9) Korail\Line4\PSD\doorRclose.animated
+.freeobj(10) Korail\Line4\PSD\doorL.animated
+.freeobj(11) Korail\Line4\PSD\doorR.animated
+.freeobj(12) Korail\Line4\PSD\doorLend.animated
+.freeobj(13) Korail\Line4\PSD\doorRend.animated
+.freeobj(14) Korail\Line4\PSD\doorLent6.animated
+.freeobj(15) Korail\Line4\PSD\doorRent6.animated
+.freeobj(16) Korail\Line4\PSD\doorLent8.animated
+.freeobj(17) Korail\Line4\PSD\doorRent8.animated
+.freeobj(18) Korail\Line4\PSD\doorLent10.animated
+.freeobj(19) Korail\Line4\PSD\doorRent10.animated
+.freeobj(24) Korail\Line1\station\oedaestair.csv
+.freeobj(25) Korail\Line1\station\gasan.csv
+;.freeobj(31) Korail\Line4\station\geumjeong.csv
+;.freeobj(32) Korail\Line4\station\geumjeong2.csv
+.freeobj(33) Korail\Line4\station\surisan.csv
+.freeobj(34) Korail\Line4\station\surisan2.csv
+.freeobj(35) Korail\Line4\station\handaeap.csv
+;.freeobj(36) Korail\Line4\station\handaeap2.csv
+.freeobj(37) Korail\Line4\station\ansan.csv
+.freeobj(38) Korail\Line4\station\ansan2.csv
+.freeobj(39) Korail\Line4\station\ansandepot.csv
+.freeobj(40) Korail\Line4\station\singiloncheon.csv
+.freeobj(41) Korail\Line4\station\singiloncheon2.csv
+.freeobj(42) Korail\Line4\station\oido.csv
+.freeobj(43) Korail\Line4\station\oido2.csv
+.freeobj(74) SeoulMetro\Line4\station\Staend.csv
+.freeobj(75) SeoulMetro\Line4\station\StaendL.csv
+.freeobj(76) SeoulMetro\Line4\station\StaendR.csv
+.freeobj(77) Korail\Line4\PeopleL.csv
+.freeobj(78) Korail\Line4\PeopleR.csv
+.freeobj(79) Korail\Line4\PeopleL2.csv
+.freeobj(80) Korail\Line4\PeopleR2.csv
+.freeobj(81) Korail\Line4\PeopleL3.csv
+.freeobj(82) Korail\Line4\PeopleR3.csv
+.freeobj(83) SeoulMetro\Line4\Tunnel\TDent.csv
+.freeobj(84) SeoulMetro\Line4\Tunnel\TSent.csv
+.freeobj(85) SeoulMetro\Line4\Tunnel\TDent2.csv
+.freeobj(87) Korail\Line1\syamen\tunent2.csv
+.freeobj(88) Korail\Line1\syamen\tunent.csv
+.freeobj(89) Korail\Line1\syamen\mountin.csv
+.freeobj(90) SeoulMetro\Line4\station\danggogaeend.csv
+.freeobj(91) SeoulMetro\Line4\station\sanggyeend.csv
+.freeobj(92) SeoulMetro\Line4\station\nowonend.csv
+.freeobj(95) SeoulMetro\Line4\station\ssangmunend.csv
+.freeobj(96) SeoulMetro\Line4\station\suyuend.csv
+.freeobj(97) SeoulMetro\Line4\station\miaend.csv
+.freeobj(98) SeoulMetro\Line4\station\miasageoriend.csv
+.freeobj(100) SeoulMetro\Line4\station\sungsinend.csv
+.freeobj(101) SeoulMetro\Line4\station\hyehwaend.csv
+.freeobj(102) SeoulMetro\Line4\station\dongdaemunend.csv
+.freeobj(105) SeoulMetro\Line4\station\chungmuroend.csv
+.freeobj(106) SeoulMetro\Line4\station\myeongdongstair.csv
+.freeobj(109) SeoulMetro\Line4\station\sukmyeongend.csv
+.freeobj(110) SeoulMetro\Line4\station\samgakjiend.csv
+.freeobj(112) SeoulMetro\Line4\station\sinyongsanend.csv
+.freeobj(113) SeoulMetro\Line4\station\ichonend.csv
+.freeobj(114) SeoulMetro\Line4\station\dongjakend.csv
+.freeobj(115) SeoulMetro\Line4\station\isuend.csv
+.freeobj(116) SeoulMetro\Line4\station\sadangend.csv
+.freeobj(117) SeoulMetro\Line4\station\sadangend2.csv
+.freeobj(119) SeoulMetro\Line4\station\namtaeryongend.csv
+.freeobj(120) SeoulMetro\Line4\station\seonbawiend.csv
+.freeobj(121) SeoulMetro\Line4\station\racecourseend.csv
+.freeobj(122) SeoulMetro\Line4\station\racecoursepole.csv
+.freeobj(123) SeoulMetro\Line4\station\grandparkend.csv
+.freeobj(124) SeoulMetro\Line4\station\grandparkpole.csv
+.freeobj(125) SeoulMetro\Line4\station\gwacheonend.csv
+.freeobj(126) SeoulMetro\Line4\station\govementend.csv
+.freeobj(127) SeoulMetro\Line4\station\indgwonend.csv
+.freeobj(128) SeoulMetro\Line4\station\pyeongchonend.csv
+.freeobj(129) SeoulMetro\Line4\station\pyeongchonpole.csv
+.freeobj(130) SeoulMetro\Line4\station\beomgyeend.csv
+.freeobj(141) SeoulMetro\Line4\station\sign\danggogae.csv
+.freeobj(142) SeoulMetro\Line4\station\sign\sanggye.csv
+.freeobj(143) SeoulMetro\Line4\station\sign\nowon.csv
+.freeobj(144) SeoulMetro\Line4\station\sign\changdong.csv
+.freeobj(145) SeoulMetro\Line4\station\sign\ssangmun.csv
+.freeobj(146) SeoulMetro\Line4\station\sign\suyu.csv
+.freeobj(147) SeoulMetro\Line4\station\sign\mia.csv
+.freeobj(148) SeoulMetro\Line4\station\sign\miasa.csv
+.freeobj(149) SeoulMetro\Line4\station\sign\girum.csv
+.freeobj(150) SeoulMetro\Line4\station\sign\seongsin.csv
+.freeobj(151) SeoulMetro\Line4\station\sign\hanseong.csv
+.freeobj(152) SeoulMetro\Line4\station\sign\hyehwa.csv
+.freeobj(153) SeoulMetro\Line4\station\sign\dongdaemun.csv
+.freeobj(154) SeoulMetro\Line4\station\sign\dongdaemun2.csv
+.freeobj(155) SeoulMetro\Line4\station\sign\stadium.csv
+;.freeobj(156) SeoulMetro\Line4\station\sign\chungmuro.csv
+.freeobj(157) SeoulMetro\Line4\station\sign\myeongdong.csv
+.freeobj(158) SeoulMetro\Line4\station\sign\hoehyeon.csv
+.freeobj(159) SeoulMetro\Line4\station\sign\seoul.csv
+.freeobj(160) SeoulMetro\Line4\station\sign\sukmyeong.csv
+.freeobj(161) SeoulMetro\Line4\station\sign\samgakji.csv
+.freeobj(162) SeoulMetro\Line4\station\sign\sinyongsan.csv
+.freeobj(163) SeoulMetro\Line4\station\sign\ichon.csv
+;.freeobj(164) SeoulMetro\Line4\station\sign\dongjak.csv
+.freeobj(165) SeoulMetro\Line4\station\sign\isu.csv
+.freeobj(166) SeoulMetro\Line4\station\sign\sadang.csv
+.freeobj(167) SeoulMetro\Line4\station\sign\namtaeryeong.csv
+.freeobj(168) SeoulMetro\Line4\station\sign\seonbawi.csv
+.freeobj(169) SeoulMetro\Line4\station\sign\racecourse.csv
+.freeobj(170) SeoulMetro\Line4\station\sign\grandpark.csv
+.freeobj(171) SeoulMetro\Line4\station\sign\gwacheon.csv
+.freeobj(173) SeoulMetro\Line4\station\sign\indeogwon.csv
+.freeobj(174) SeoulMetro\Line4\station\sign\pyeongchon.csv
+.freeobj(175) SeoulMetro\Line4\station\sign\beomgye.csv
+.freeobj(176) Korail\Line4\station\sign\geumjeong.csv
+.freeobj(177) Korail\Line4\station\sign\sanbon.csv
+.freeobj(178) Korail\Line4\station\sign\surisan.csv
+.freeobj(179) Korail\Line4\station\sign\daeyami.csv
+.freeobj(180) Korail\Line4\station\sign\banwol.csv
+.freeobj(181) Korail\Line4\station\sign\sangnoksu.csv
+.freeobj(182) Korail\Line4\station\sign\handaeap.csv
+.freeobj(183) Korail\Line4\station\sign\jungang.csv
+.freeobj(184) Korail\Line4\station\sign\gojan.csv
+.freeobj(185) Korail\Line4\station\sign\choji.csv
+.freeobj(186) Korail\Line4\station\sign\ansan.csv
+.freeobj(187) Korail\Line4\station\sign\singiloncheon.csv
+.freeobj(188) Korail\Line4\station\sign\jeongwang.csv
+.freeobj(189) Korail\Line4\station\sign\oido.csv
+.freeobj(200) Korail\Line1\Roadcross.csv
+.freeobj(201) Korail\Line1\Apart\Apart1.csv
+.freeobj(202) Korail\Line1\Apart\Apart2.csv
+.freeobj(203) Korail\Line1\Apart\Apart3.csv
+.freeobj(204) Korail\Line1\Apart\Apart4.csv
+.freeobj(205) Korail\Line1\Apart\Apart5.csv
+.freeobj(206) Korail\Line1\Apart\Apart6.csv
+.freeobj(207) Korail\Line1\Apart\Apart1-2.csv
+.freeobj(208) Korail\Line1\Apart\Apart2-2.csv
+.freeobj(209) Korail\Line1\Apart\Apart3-2.csv
+.freeobj(210) Korail\Line1\Apart\Apart4-2.csv
+.freeobj(211) Korail\Line1\Apart\Apart5-2.csv
+.freeobj(212) Korail\Line1\Apart\Apart6-2.csv
+.freeobj(213) Korail\Line1\house\house1.csv
+.freeobj(214) Korail\Line1\house\house2.csv
+.freeobj(215) Korail\Line1\house\house3.csv
+.freeobj(216) Korail\Line1\house\house4.csv
+.freeobj(217) Korail\Line1\house\house5.csv
+.freeobj(218) Korail\Line1\house\house6.csv
+.freeobj(219) Korail\Line1\Tree\tree1.csv
+.freeobj(220) Korail\Line1\Tree\tree2.csv
+.freeobj(221) Korail\Line1\Tree\tree3.csv
+.freeobj(222) Korail\Line1\Building\TMart.csv;테크노마트
+.freeobj(223) Korail\Line1\Building\Buil1.csv;빌딩 왼쪽
+.freeobj(224) Korail\Line1\Building\Buil1(M).csv;빌딩 오른쪽
+.freeobj(225) Korail\Line1\Building\Buil2.csv;빌딩 왼쪽
+.freeobj(226) Korail\Line1\Building\Buil2(M).csv;빌딩 오른쪽
+.freeobj(227) Korail\Line1\Building\Buil3.csv;빌딩 왼쪽
+.freeobj(228) Korail\Line1\Building\Buil3(M).csv;빌딩 오른쪽
+.freeobj(229) Korail\Line1\Building\Buil4.csv;빌딩 왼쪽
+.freeobj(230) Korail\Line1\Building\Buil4(M).csv;빌딩 오른쪽
+.freeobj(233) Korail\Line1\Building\Buil6.csv;빌딩 왼쪽
+.freeobj(234) Korail\Line1\Building\Buil6(M).csv;빌딩 오른쪽
+.freeobj(235) Korail\Line1\Building\Buil7.csv;빌딩 왼쪽
+.freeobj(236) Korail\Line1\Building\Buil7(M).csv;빌딩 오른쪽
+.freeobj(237) Korail\Line1\Building\sangga1.csv;상가 왼쪽
+.freeobj(238) Korail\Line1\Building\sangga1(M).csv;상가 오른쪽
+.freeobj(239) Korail\Line1\Building\sangga2.csv;상가 왼쪽
+.freeobj(240) Korail\Line1\Building\sangga2(M).csv;상가 오른쪽
+.freeobj(241) Korail\Line1\Building\sangga3.csv;상가 왼쪽
+.freeobj(242) Korail\Line1\Building\sangga3(M).csv;상가 오른쪽
+.freeobj(243) Korail\Line1\Building\sangga4.csv;상가 왼쪽
+.freeobj(244) Korail\Line1\Building\sangga4(M).csv;상가 오른쪽
+.freeobj(245) Korail\Line1\Building\sangga5.csv;상가 왼쪽
+.freeobj(246) Korail\Line1\Building\sangga5(M).csv;상가 오른쪽
+.freeobj(247) Korail\Line1\Building\sangga6.csv;상가 왼쪽
+.freeobj(248) Korail\Line1\Building\sangga6(M).csv;상가 오른쪽
+.freeobj(249) Korail\Line1\house\buil1.csv
+.freeobj(250) Korail\Line1\house\buil2.csv
+.freeobj(251) Korail\Line1\house\buil3.csv
+.freeobj(252) Korail\Line1\house\buil4.csv
+.freeobj(253) Korail\Line4\Train\S-VVVF\TC.csv;교행열차 서교공 VVVF
+.freeobj(254) Korail\Line4\Train\S-VVVF\M.csv
+.freeobj(255) Korail\Line4\Train\S-VVVF\T.csv
+.freeobj(256) Korail\Line4\Train\S-VVVF\T1.csv
+.freeobj(257) Korail\Line4\Train\S-VVVF\TC2.csv
+.freeobj(258) Korail\Line4\Train\VVVF1st\TC.csv;교행열차 납작이
+.freeobj(259) Korail\Line4\Train\VVVF1st\M.csv
+.freeobj(260) Korail\Line4\Train\VVVF1st\M2.csv
+.freeobj(261) Korail\Line4\Train\VVVF1st\T.csv
+.freeobj(262) Korail\Line4\Train\VVVF1st\T1.csv
+.freeobj(263) Korail\Line4\Train\VVVF1st\TC2.csv
+.freeobj(264) Korail\Line4\Train\VVVF2nd\TC.csv;교행열차 동작이
+.freeobj(265) Korail\Line4\Train\VVVF2nd\M.csv
+.freeobj(266) Korail\Line4\Train\VVVF2nd\M2.csv
+.freeobj(267) Korail\Line4\Train\VVVF2nd\T.csv
+.freeobj(268) Korail\Line4\Train\VVVF2nd\T1.csv
+.freeobj(269) Korail\Line4\Train\VVVF2nd\TC2.csv
+.freeobj(270) Korail\Line4\Train\VVVF3rd\TC.csv;교행열차 주둥이
+.freeobj(271) Korail\Line4\Train\VVVF3rd\M.csv
+.freeobj(272) Korail\Line4\Train\VVVF3rd\M2.csv
+.freeobj(273) Korail\Line4\Train\VVVF3rd\T.csv
+.freeobj(274) Korail\Line4\Train\VVVF3rd\T1.csv
+.freeobj(275) Korail\Line4\Train\VVVF3rd\TC2.csv
+.freeobj(276) Korail\Bundang\Train\VVVF4rd\TC.csv;교행열차 수인선 뱀눈이
+.freeobj(277) Korail\Bundang\Train\VVVF4rd\M.csv
+.freeobj(278) Korail\Bundang\Train\VVVF4rd\M2.csv
+.freeobj(279) Korail\Bundang\Train\VVVF4rd\T.csv
+.freeobj(280) Korail\Bundang\Train\VVVF4rd\TC2.csv
+.freeobj(306) Korail\Line4\station\stair.csv
+.freeobj(307) SeoulMetro\Line4\station\stair4.csv
+.freeobj(308) SeoulMetro\Line4\PSD\doorLclose.animated
+.freeobj(309) SeoulMetro\Line4\PSD\doorRclose.animated
+.freeobj(310) SeoulMetro\Line4\PSD\doorL.animated
+.freeobj(311) SeoulMetro\Line4\PSD\doorR.animated
+.freeobj(312) SeoulMetro\Line4\PSD\doorLend.animated
+.freeobj(313) SeoulMetro\Line4\PSD\doorRend.animated
+.freeobj(314) SeoulMetro\Line4\PSD\doorLent6.animated
+.freeobj(315) SeoulMetro\Line4\PSD\doorRent6.animated
+.freeobj(316) SeoulMetro\Line4\PSD\doorLent8.animated
+.freeobj(317) SeoulMetro\Line4\PSD\doorRent8.animated
+.freeobj(318) SeoulMetro\Line4\PSD\doorLent10.animated
+.freeobj(319) SeoulMetro\Line4\PSD\doorRent10.animated
+.freeobj(321) SeoulMetro\Line4\station\ssangmunstairL.csv
+.freeobj(322) SeoulMetro\Line4\station\ssangmunstairR.csv
+.freeobj(323) SeoulMetro\Line4\station\suyupole.csv
+.freeobj(324) SeoulMetro\Line4\station\suyustair.csv
+.freeobj(325) SeoulMetro\Line4\station\miastairL.csv
+.freeobj(326) SeoulMetro\Line4\station\miastairR.csv
+.freeobj(327) SeoulMetro\Line4\station\miasageoristair.csv
+.freeobj(328) SeoulMetro\Line4\station\girumstair.csv
+.freeobj(329) SeoulMetro\Line4\station\girumpole.csv
+.freeobj(330) SeoulMetro\Line4\station\sungsinstair.csv
+.freeobj(332) SeoulMetro\Line4\station\hanseongstair.csv
+.freeobj(333) SeoulMetro\Line4\station\hanseongpole.csv
+.freeobj(334) SeoulMetro\Line4\station\hyehwa.csv
+.freeobj(335) SeoulMetro\Line4\station\dongdaemunstair.csv
+.freeobj(336) SeoulMetro\Line4\station\dongdaemunpole.csv
+.freeobj(337) SeoulMetro\Line4\station\ddpstair.csv
+.freeobj(338) SeoulMetro\Line4\station\ddppole.csv
+.freeobj(339) SeoulMetro\Line4\station\chungmurostair.csv
+.freeobj(343) SeoulMetro\Line4\station\seoulstair.csv
+.freeobj(344) SeoulMetro\Line4\station\sukmyeongstair.csv
+.freeobj(345) SeoulMetro\Line4\station\samgakjistair.csv
+.freeobj(346) SeoulMetro\Line4\station\sinyongsanstair.csv
+.freeobj(347) SeoulMetro\Line4\station\ichonstair.csv
+.freeobj(348) SeoulMetro\Line4\station\isustair.csv
+.freeobj(349) SeoulMetro\Line4\station\sadangstair.csv
+.freeobj(350) SeoulMetro\Line4\station\namtaeryong2.csv
+.freeobj(351) SeoulMetro\Line4\station\seonbawistair.csv
+.freeobj(352) SeoulMetro\Line4\station\racecoursestair.csv
+.freeobj(353) SeoulMetro\Line4\station\grandparkstair.csv
+.freeobj(354) SeoulMetro\Line4\station\gwacheonstair.csv
+.freeobj(355) SeoulMetro\Line4\station\govementstair.csv
+.freeobj(356) SeoulMetro\Line4\station\indgwonstair.csv
+.freeobj(357) SeoulMetro\Line4\station\pyeongchonstair.csv
+.freeobj(358) SeoulMetro\Line4\station\beomgyestair.csv
+Texture.Background(0) Korail\Line4\background\BG1.bmp
+Texture.Background(1) Korail\Line4\background\BG2.bmp
+Texture.Background(5) Korail\Line4\background\black.bmp
+With Track
+;교행열차
+;S4052열차,
+15400,.freeobj 1;253;0;0;0
+15420,.freeobj 1;254;0;0;0
+15440,.freeobj 1;254;0;0;0
+15460,.freeobj 1;255;0;0;0
+15480,.freeobj 1;256;0;0;0
+15500,.freeobj 1;254;0;0;0
+15520,.freeobj 1;255;0;0;0
+15540,.freeobj 1;254;0;0;0
+15560,.freeobj 1;254;0;0;0
+15580,.freeobj 1;257;0;0;0
+,
+;S4550열차,
+16200,.freeobj 1;253;0;0;-2
+16220,.freeobj 1;254;0;0;0
+16240,.freeobj 1;254;0;0;0
+16260,.freeobj 1;255;0;0;0
+16280,.freeobj 1;256;0;0;0
+16300,.freeobj 1;254;0;0;0
+16320,.freeobj 1;255;0;0;0
+16340,.freeobj 1;254;0;0;0
+16360,.freeobj 1;254;0;0;0
+16380,.freeobj 1;257;0;0;0
+,
+;S4054열차,
+17200,.freeobj 1;253;0;0;5
+17220,.freeobj 1;254;0;0;0
+17240,.freeobj 1;254;0;0;0.5
+17260,.freeobj 1;255;0;0;0
+17280,.freeobj 1;256;0;0;0
+17300,.freeobj 1;254;0;0;0
+17320,.freeobj 1;255;0;0;0
+17340,.freeobj 1;254;0;0;0
+17360,.freeobj 1;254;0;0;0
+17380,.freeobj 1;257;0;0;0
+,
+;S4552열차,
+18540,.freeobj 1;253;0;0;0
+18560,.freeobj 1;254;0;0;0
+18580,.freeobj 1;254;0;0;0
+18600,.freeobj 1;255;0;0;0
+18620,.freeobj 1;256;0;0;0
+18640,.freeobj 1;254;0;0;0
+18660,.freeobj 1;255;0;0;0.5
+18680,.freeobj 1;254;0;0;2
+18700,.freeobj 1;254;0;0;2.8
+18720,.freeobj 1;257;0;0;0
+,
+;S4056열차,
+19800,.freeobj 1;253;0;0;-1.5
+19820,.freeobj 1;254;0;0;0
+19840,.freeobj 1;254;0;0;-0.2
+19860,.freeobj 1;255;0;0;-0.3
+19880,.freeobj 1;256;0;0;0
+19900,.freeobj 1;254;0;0;0
+19920,.freeobj 1;255;0;0;0
+19940,.freeobj 1;254;0;0;0
+19960,.freeobj 1;254;0;0;0
+19980,.freeobj 1;257;0;0;0
+,
+;S4552열차,
+20500,.freeobj 1;253;0;0;0
+20520,.freeobj 1;254;0;0;0
+20540,.freeobj 1;254;0;0;0
+20560,.freeobj 1;255;0;0;0
+20580,.freeobj 1;256;0;0;0
+20600,.freeobj 1;254;0;0;0
+20620,.freeobj 1;255;0;0;0
+20640,.freeobj 1;254;0;0;0
+20660,.freeobj 1;254;0;0;0
+20680,.freeobj 1;257;0;0;0
+,
+;S4056열차,
+21920,.freeobj 1;253;0;0;0
+21940,.freeobj 1;254;0;0;0
+21960,.freeobj 1;254;0;0;0
+21980,.freeobj 1;255;0;0;0
+22000,.freeobj 1;256;0;0;0
+22020,.freeobj 1;254;0;0;0
+22040,.freeobj 1;255;0;0;0
+22060,.freeobj 1;254;0;0;0
+22080,.freeobj 1;254;0;0;0
+22100,.freeobj 1;257;0;0;0
+,
+;S4314열차,
+23290,.freeobj 1;253;0;0;0
+23310,.freeobj 1;254;0;0;0
+23330,.freeobj 1;254;0;0;0
+23350,.freeobj 1;255;0;0;0
+23370,.freeobj 1;256;0;0;0
+23390,.freeobj 1;254;0;0;0
+23410,.freeobj 1;255;0;0;0
+23430,.freeobj 1;254;0;0;0
+23450,.freeobj 1;254;0;0;0
+23470,.freeobj 1;257;0;0;0
+,
+;S4060열차,
+24100,.freeobj 1;253;0;0;0
+24120,.freeobj 1;254;0;0;0
+24140,.freeobj 1;254;0;0;0
+24160,.freeobj 1;255;0;0;0
+24180,.freeobj 1;256;0;0;0
+24200,.freeobj 1;254;0;0;0
+24220,.freeobj 1;255;0;0;0
+24240,.freeobj 1;254;0;0;0
+24260,.freeobj 1;254;0;0;0
+24280,.freeobj 1;257;0;0;0
+,
+;S4556열차,
+25500,.freeobj 1;253;0;0;0
+25520,.freeobj 1;254;0;0;0
+25540,.freeobj 1;254;0;0;0
+25560,.freeobj 1;255;0;0;0
+25580,.freeobj 1;256;0;0;0
+25600,.freeobj 1;254;0;0;0
+25620,.freeobj 1;255;0;0;0
+25640,.freeobj 1;254;0;0;0
+25660,.freeobj 1;254;0;0;0
+25680,.freeobj 1;257;0;0;0
+,
+;S4894열차,
+26050,.freeobj 1;253;0;0;0
+26070,.freeobj 1;254;0;0;0
+26090,.freeobj 1;254;0;0;0
+26110,.freeobj 1;255;0;0;0
+26130,.freeobj 1;256;0;0;0
+26150,.freeobj 1;254;0;0;0
+26170,.freeobj 1;255;0;0;0
+26190,.freeobj 1;254;0;0;0
+26210,.freeobj 1;254;0;0;0
+26230,.freeobj 1;257;0;0;0
+
+;K4558열차,
+27900,.freeobj 1;258;0;0;0
+27920,.freeobj 1;259;0;0;0
+27940,.freeobj 1;260;0;0;0
+27960,.freeobj 1;261;0;0;0
+27980,.freeobj 1;262;0;0;0
+28000,.freeobj 1;259;0;0;0
+28020,.freeobj 1;261;0;0;0
+28040,.freeobj 1;259;0;0;0
+28060,.freeobj 1;260;0;0;0
+28080,.freeobj 1;263;0;0;0
+,
+;S4064열차,
+29450,.freeobj 1;253;0;0;0
+29470,.freeobj 1;254;0;0;0
+29490,.freeobj 1;254;0;0;0
+29510,.freeobj 1;255;0;0;0
+29530,.freeobj 1;256;0;0;0
+29550,.freeobj 1;254;0;0;0
+29570,.freeobj 1;255;0;0;0
+29590,.freeobj 1;254;0;0;0
+29610,.freeobj 1;254;0;0;0
+29630,.freeobj 1;257;0;0;0
+,
+;S4564열차,
+35900,.freeobj 1;253;0;0;0
+35920,.freeobj 1;254;0;0;0
+35940,.freeobj 1;254;0;0;0
+35960,.freeobj 1;255;0;0;0
+35980,.freeobj 1;256;0;0;0
+36000,.freeobj 1;254;0;0;0
+36020,.freeobj 1;255;0;0;0
+36040,.freeobj 1;254;0;0;0
+36060,.freeobj 1;254;0;0;0
+36080,.freeobj 1;257;0;0;0
+,
+;S4070열차,
+36900,.freeobj 1;253;0;0;0
+36920,.freeobj 1;254;0;0;0
+36940,.freeobj 1;254;0;0;0
+36960,.freeobj 1;255;0;0;0
+36980,.freeobj 1;256;0;0;0
+37000,.freeobj 1;254;0;0;0
+37020,.freeobj 1;255;0;0;0
+37040,.freeobj 1;254;0;0;0
+37060,.freeobj 1;254;0;0;0
+37080,.freeobj 1;257;0;0;0
+,
+;S4566열차,
+38120,.freeobj 1;253;0;0;0
+38140,.freeobj 1;254;0;0;0
+38160,.freeobj 1;254;0;0;0
+38180,.freeobj 1;255;0;0;0
+38200,.freeobj 1;256;0;0;0
+38220,.freeobj 1;254;0;0;0
+38240,.freeobj 1;255;0;0;0
+38260,.freeobj 1;254;0;0;0
+38280,.freeobj 1;254;0;0;0
+38300,.freeobj 1;257;0;0;0
+,
+;S4072열차,
+39670,.freeobj 1;253;0;0;0
+39690,.freeobj 1;254;0;0;0
+39710,.freeobj 1;254;0;0;0
+39730,.freeobj 1;255;0;0;0
+39750,.freeobj 1;256;0;0;0
+39770,.freeobj 1;254;0;0;0
+39790,.freeobj 1;255;0;0;0
+39810,.freeobj 1;254;0;0;0
+39830,.freeobj 1;254;0;0;0
+39850,.freeobj 1;257;0;0;0
+,
+;K4568열차,
+41100,.freeobj 1;258;0;0;0
+41120,.freeobj 1;259;0;0;0
+41140,.freeobj 1;260;0;0;0
+41160,.freeobj 1;261;0;0;0
+41180,.freeobj 1;262;0;0;0
+41200,.freeobj 1;259;0;0;0
+41220,.freeobj 1;261;0;0;0
+41240,.freeobj 1;259;0;0;0
+41260,.freeobj 1;260;0;0;0
+41280,.freeobj 1;263;0;0;0
+,
+;S4074열차,
+43400,.freeobj 1;253;0;0;0
+43420,.freeobj 1;254;0;0;0
+43440,.freeobj 1;254;0;0;0
+43460,.freeobj 1;255;0;0;0
+43480,.freeobj 1;256;0;0;0
+43500,.freeobj 1;254;0;0;0
+43520,.freeobj 1;255;0;0;0
+43540,.freeobj 1;254;0;0;0
+43560,.freeobj 1;254;0;0;0
+43580,.freeobj 1;257;0;0;0
+,
+;S4570열차,
+44900,.freeobj 1;253;0;0;0
+44920,.freeobj 1;254;0;0;0
+44940,.freeobj 1;254;0;0;0
+44960,.freeobj 1;255;0;0;0
+44980,.freeobj 1;256;0;0;0
+45000,.freeobj 1;254;0;0;0
+45020,.freeobj 1;255;0;0;0
+45040,.freeobj 1;254;0;0;0
+45060,.freeobj 1;254;0;0;0
+45080,.freeobj 1;257;0;0;0
+,
+;K4572열차,
+48720,.freeobj 1;258;0;0;0
+48740,.freeobj 1;259;0;0;-0.3
+48760,.freeobj 1;260;0;0;-0.8
+48780,.freeobj 1;261;0;0;-1.1
+48800,.freeobj 1;262;0;0;-1.5
+48820,.freeobj 1;259;0;0;0
+48840,.freeobj 1;261;0;0;-0.3
+48860,.freeobj 1;259;0;0;-0.8
+48880,.freeobj 1;260;0;0;-1.1
+48900,.freeobj 1;263;0;0;-1.5
+,
+;K4574열차,
+51670,.freeobj 1;258;0;0;0
+51690,.freeobj 1;259;0;0;1.2
+51710,.freeobj 1;260;0;0;2.3
+51730,.freeobj 1;261;0;0;3.4
+51750,.freeobj 1;262;0;0;4.6
+51770,.freeobj 1;259;0;0;0
+51790,.freeobj 1;261;0;0;1.2
+51810,.freeobj 1;259;0;0;2.3
+51830,.freeobj 1;260;0;0;3.4
+51850,.freeobj 1;263;0;0;4.6
+,
+;K4576열차,
+55650,.freeobj 1;258;0;0;-2.8
+55670,.freeobj 1;259;0;0;0
+55690,.freeobj 1;260;0;0;-0.7
+55710,.freeobj 1;261;0;0;-1.5
+55730,.freeobj 1;262;0;0;-2.1
+55750,.freeobj 1;259;0;0;-2.8
+55770,.freeobj 1;261;0;0;0
+55790,.freeobj 1;259;0;0;-0.7
+55810,.freeobj 1;260;0;0;-1.5
+55830,.freeobj 1;263;0;0;-2.1
+,
+;K4578열차,
+59100,.freeobj 1;258;0;0;0
+59120,.freeobj 1;259;0;0;0
+59140,.freeobj 1;260;0;0;0
+59160,.freeobj 1;261;0;0;0
+59180,.freeobj 1;262;0;0;0
+59200,.freeobj 1;259;0;0;0
+59220,.freeobj 1;261;0;0;0
+59240,.freeobj 1;259;0;0;0
+59260,.freeobj 1;260;0;0;0
+59280,.freeobj 1;263;0;0;0
+,
+;K4580열차,
+62200,.freeobj 1;258;0;0;0
+62220,.freeobj 1;259;0;0;0
+62240,.freeobj 1;260;0;0;0
+62260,.freeobj 1;261;0;0;0
+62280,.freeobj 1;262;0;0;0
+62300,.freeobj 1;259;0;0;0
+62320,.freeobj 1;261;0;0;0
+62340,.freeobj 1;259;0;0;0
+62360,.freeobj 1;260;0;0;0
+62380,.freeobj 1;263;0;0;0
+,
+;K4582열차,
+66500,.freeobj 1;258;0;0;0
+66520,.freeobj 1;259;0;0;0
+66540,.freeobj 1;260;0;0;0
+66560,.freeobj 1;261;0;0;0
+66580,.freeobj 1;262;0;0;0
+66600,.freeobj 1;259;0;0;0
+66620,.freeobj 1;261;0;0;0
+66640,.freeobj 1;259;0;0;0
+66660,.freeobj 1;260;0;0;0
+66680,.freeobj 1;263;0;0;0
+,
+;K4584열차,
+71050,.freeobj 1;258;0;0;0
+71070,.freeobj 1;259;0;0;0
+71090,.freeobj 1;260;0;0;0
+71110,.freeobj 1;261;0;0;0
+71130,.freeobj 1;262;0;0;0
+71150,.freeobj 1;259;0;0;0
+71170,.freeobj 1;261;0;0;0
+71190,.freeobj 1;259;0;0;0
+71210,.freeobj 1;260;0;0;0
+71230,.freeobj 1;263;0;0;0
+,
+;K4316열차,
+74320,.freeobj 1;258;0;0;0
+74340,.freeobj 1;259;0;0;0
+74360,.freeobj 1;260;0;0;0
+74380,.freeobj 1;261;0;0;0
+74400,.freeobj 1;262;0;0;0
+74420,.freeobj 1;259;0;0;0
+74440,.freeobj 1;261;0;0;0
+74460,.freeobj 1;259;0;0;0
+74480,.freeobj 1;260;0;0;0
+74500,.freeobj 1;263;0;0;0
+,
+;K4586열차,
+78500,.freeobj 1;258;0;0;0
+78520,.freeobj 1;259;0;0;0
+78540,.freeobj 1;260;0;0;0
+78560,.freeobj 1;261;0;0;0
+78580,.freeobj 1;262;0;0;0
+78600,.freeobj 1;259;0;0;0
+78620,.freeobj 1;261;0;0;0
+78640,.freeobj 1;259;0;0;0
+78660,.freeobj 1;260;0;0;0
+78680,.freeobj 1;263;0;0;0
+,
+;S4588열차,
+80570,.freeobj 1;253;0;0;0
+80590,.freeobj 1;254;0;0;0
+80610,.freeobj 1;254;0;0;0
+80630,.freeobj 1;255;0;0;0
+80650,.freeobj 1;256;0;0;0
+80670,.freeobj 1;254;0;0;0
+80690,.freeobj 1;255;0;0;0
+80710,.freeobj 1;254;0;0;0
+80730,.freeobj 1;254;0;0;0
+80750,.freeobj 1;257;0;0;0
+,
+;K4590열차,
+84000,.freeobj 1;258;0;0;-2.3
+84020,.freeobj 1;259;0;0;0
+84040,.freeobj 1;260;0;0;-0.7
+84060,.freeobj 1;261;0;0;-1.2
+84080,.freeobj 1;262;0;0;-1.8
+84100,.freeobj 1;259;0;0;-2.3
+84120,.freeobj 1;261;0;0;0
+84140,.freeobj 1;259;0;0;-0.7
+84160,.freeobj 1;260;0;0;-1.2
+84180,.freeobj 1;263;0;0;-1.8
+,
+;K4592열차,
+87070,.freeobj 3;258;0;0;0
+87090,.freeobj 3;259;0;0;0
+87110,.freeobj 3;260;0;0;0
+87130,.freeobj 3;261;0;0;0
+87150,.freeobj 3;262;0;0;0
+87170,.freeobj 3;259;0;0;0
+87190,.freeobj 3;261;0;0;0
+87210,.freeobj 3;259;0;0;0
+87230,.freeobj 3;260;0;0;0
+87250,.freeobj 3;263;0;0;0
+
+
+
+82200
+;K6548열차
+;본문
+14975
+.rail 1;3.8;0;0
+.back 0
+.Ground 0
+.wall 0;-1;0
+.wall 1;1;0
+.Height 8.45
+.railtype 0;0
+.Sta 당고개회차선; ; ; 0; 0; 0; 0; ; 30; 0; 
+15225
+.stop 1
+15250
+.wall 0;-1;3
+.wall 1;1;3
+15275
+.pole 0;1;0;50;0
+.wallend 0
+.wallend 1
+.curve 166
+.railtype 0;4
+.rail 1;3.8;0;3
+.rail 2;0;0;0
+.rail 3;3.8;0;0
+.wall 2;-1;3
+.wall 3;1;3
+15300
+.curve -166
+.railtype 0;3
+.rail 1;0;0;4
+.rail 2;-1.9;0;0
+.rail 3;1.9;0;0
+15325
+.pole 0;1;1;50;0
+.wallend 2
+.wallend 3
+.wall 1;-1;3
+.wall 0;1;3
+.curve 0
+.railtype 0;0
+.rail 1;-3.8;0;0
+.railend 2;-3.8;0
+.railend 3;0;0
+15375
+.freeobj 0;90
+.wall 1;-1;11
+.wall 0;1;11
+.Sta 당고개; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+15400
+.curve -1900
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15410
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+15425
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15440
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+15450
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15475
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15500
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15525
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15530
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+15550
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15570
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+15575
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+15580
+.stop -1
+15600
+.curve 0
+.freeobj 0;90
+.wall 1;-1;3
+.wall 0;1;3
+15625
+.rail 2;0;0;3
+.rail 3;-3.8;0;4
+15650
+.rail 2;-1.9;0;4
+.rail 3;-1.9;0;3
+15675
+.railend 2;-3.8;0
+.railend 3;0;0
+15900
+.curve -300
+16075
+.curve 0
+16125
+.curve 700
+16250
+.curve 0
+16300
+.Announce Korail\line4\sanggye.wav
+16400
+.curve 190
+16525
+.curve 0
+16600
+.curve -1000
+.freeobj 0;91;-1.9
+.wall 1;-1;12
+.wall 0;1;12
+.Sta 상계; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+16625
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16630
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+16650
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16670
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+16675
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16700
+.curve 0
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16725
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+.freeobj 0;311
+.freeobj 1;308
+16750
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16770
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+16775
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16800
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;313
+.freeobj 1;308
+16805
+.stop 1
+16825
+.freeobj 0;91;-1.9;0;180
+.wall 1;-1;3
+.wall 0;1;3
+16875
+.curve 300
+17075
+.curve 0
+17150
+.curve -270
+17225
+.curve 0
+17325
+.Announce Korail\line4\nowon.wav
+17400
+.curve 330
+17500
+.curve 0
+17625
+.wall 1;-1;13
+.wall 0;1;13
+.freeobj 0;92;-1.9
+.Sta 노원; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+17645
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17650
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17655
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+17670
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17675
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17687
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17695
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0180
+17700
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17705
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17725
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17750
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17770
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17775
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17780
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+17800
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17820
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+17825
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;313
+.freeobj 1;308
+17830
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+.stop 1
+17850
+.wall 1;-1;3
+.wall 0;1;3
+.rail 2;0;0;7
+.rail 3;-3.8;0;8
+17875
+.rail 2;-0.95;0;0
+.rail 3;-2.85;0;0
+17900
+.rail 2;-2.85;0;8
+.rail 3;-0.95;0;7
+17925
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+.rail 2;-3.8;0;3
+.rail 3;0;0;4
+17950
+.pole 0;3;2;50;0
+.rail 2;-5.7;0;0
+.rail 3;1.9;0;0
+17975
+.pole 0;1;1;50;0
+.wall 0;1;3
+.wall 1;-1;3
+.wall 2;0;3
+.wall 3;0;3
+.rail 2;-9.5;0;4
+.rail 3;5.7;0;3
+18000
+.rail 2;-11.4;0;0
+.rail 3;7.6;0;0
+18050
+.pitch 20
+.Height 8.45
+18075
+.rail 2;-11.4;-1;0
+.rail 3;7.6;-1;0
+18100
+.rail 2;-11.4;-2;0
+.rail 3;7.6;-2;0
+18125
+.rail 2;-11.4;-3;0
+.rail 3;7.6;-3;0
+18150
+.rail 2;-11.4;-4;0
+.rail 3;7.6;-4;0
+18175
+.rail 2;-11.4;-5;0
+.rail 3;7.6;-5;0
+18200
+.rail 2;-11.4;-6;0
+.rail 3;7.6;-6;0
+18225
+.rail 2;-11.4;-7;0
+.rail 3;7.6;-7;0
+18250
+.rail 2;-11.4;-8;0
+.rail 3;7.6;-8;0
+18275
+.rail 2;-11.4;-9;0
+.rail 3;7.6;-9;0
+18300
+.rail 2;-11.4;-10;4
+.rail 3;7.6;-10;4
+18325
+.rail 2;-9.5;-11;4
+.rail 3;9.5;-11;4
+18350
+.rail 2;-3.8;-12;4
+.rail 3;15.2;-12;4
+.pitch 0
+.Height 14.45
+18375
+.rail 2;5.7;-12;4
+.rail 3;24.7;-12;4
+18400
+.rail 2;19.95;-12;4
+.rail 3;38.95.1;-12;4
+18425
+.curve 500
+.rail 2;38;-12;4
+.rail 3;57;-12;4
+18450
+.wallend 2
+.wallend 3
+.railend 2;58.9;-12
+.railend 3;77.9;-12
+18425
+18475
+18500
+.pitch -25
+.Height 14.45
+.rail 2;27.55;-10;4
+.wall 2;0;3
+18525
+.curve 0
+18550
+.ground 2
+.rail 2;19;-9;4
+18575
+.ground 3
+.rail 2;12.35;-8;4
+18600
+.ground 0
+.rail 2;7.6;-7;4
+18650
+.curve -500
+.rail 2;5.7;-6;0
+18675
+.rail 2;5.7;-5;0
+18700
+.rail 2;5.7;-4;0
+18725
+.rail 2;5.7;-3;0
+18750
+.curve 0
+.rail 2;5.7;-2;0
+18775
+.rail 2;5.7;-1;0
+.Announce Korail\line4\changdong.wav
+18800
+.pitch 0
+.Height 8.45
+.rail 2;5.7;0;0
+.wall 2;1;3
+19000
+.wallend 0
+19075
+.wall 0;1;3
+.wall 2;1;3
+.wallend 2
+.railend 2
+.wall 1;-1;15
+.wall 0;1;15
+.Sta 창동; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+19100
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19105
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+19125
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19145
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+19150
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19175
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19200
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19225
+.freeobj -1;208;125
+.freeobj -1;208;225
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19230
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+19250
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19270
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+19275
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;313
+.freeobj 1;308
+19280
+.stop 1
+19300
+.wall 1;-1;3
+.wall 0;1;3
+.pitch -35
+.Height 8.45
+19400
+.Height 4.95
+19425
+.freeobj -1;203;40;0;25
+19500
+.rail 2;5.1;-1;11
+.rail 3;-8.9;-1;11
+.dike 2;-1;3
+.dike 3;1;3
+.Height 1.45
+.ground 6
+19525
+.rail 2;5.1;-0.125;11
+.rail 3;-8.9;-0.125;11
+19550
+.rail 2;5.1;0.75;11
+.rail 3;-8.9;0.75;11
+19575
+.freeobj 2;203;40
+.freeobj 2;203;95
+.rail 2;5.1;1.625;11
+.rail 3;-8.9;1.625;11
+19600
+.Height -2.05
+.rail 2;5.1;2.5;11
+.rail 3;-8.9;2.5;11
+19625
+.rail 2;5.1;3.375;11
+.rail 3;-8.9;3.375;11
+19650
+.curve 1000
+.rail 2;5.1;4.25;11
+.rail 3;-8.9;4.25;11
+19675
+.dikeend 2
+.dikeend 3
+.rail 2;5.1;5.125
+.rail 3;-8.9;5.125
+.poleend 0
+.wall 0;1;1
+.wall 1;-1;1
+.railtype 0;23
+.railtype 1;23
+.dike 0;-1;4
+.back 5
+19750
+.wall 0;1;0
+.wall 1;-1;0
+.ground 0
+19775
+.pitch 0
+.Height -8.175
+19850
+.curve 0
+20150
+.Announce Korail\line4\ssangmun.wav
+20075
+.curve -250
+20325
+.curve 0
+20450
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.wall 0;1;16
+.wall 1;-1;16
+.dike 0;-1;5
+.freeobj 0;95
+.Sta 쌍문; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;319
+.freeobj 1;308
+20470
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20475
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+.freeobj 0;321
+.freeobj 1;322
+20500
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20525
+.wall 0;1;16
+.wall 1;-1;16
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;322;0;0;180
+.freeobj 1;321;0;0;180
+.freeobj 0;311
+.freeobj 1;308
+20530
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20550
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20555
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20575
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20580
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20600
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+.freeobj 0;321
+.freeobj 1;322
+20625
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20650
+.wall 0;1;16
+.wall 1;-1;16
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;322;0;0;180
+.freeobj 1;321;0;0;180
+.freeobj 0;313
+.freeobj 1;308
+20655
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+.stop 1
+20675
+.railend 2
+.railend 3
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;95
+20950
+.curve 1000
+21225
+.curve 0
+21600
+.Announce Korail\line4\suyu.wav
+21900
+.wall 0;1;17
+.wall 1;-1;17
+.dike 0;-1;5
+.freeobj 0;96;4.9
+.freeobj 1;96;-4.9
+.Sta 수유; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+21925
+.rail 2;-15.2;0;11
+.rail 3;11.4;0;11
+.rail 4;1.5;0;11
+.rail 5;-5.3;0;11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+21950
+.wallend 0
+.wallend 1
+.wall 4;1;17
+.wall 5;-1;17
+.freeobj 0;96;9.5
+.freeobj 1;96;-9.5
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;324;7.3
+.freeobj 1;324;-7.3
+.freeobj 0;311
+.freeobj 1;308
+21975
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+21985
+.freeobj 0;324;7.3;0;180
+.freeobj 1;324;-7.3;0;180
+22000
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+22025
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+22040
+.freeobj 0;324;7.3
+.freeobj 1;324;-7.3
+22050
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+22075
+.wall 0;1;17
+.wall 1;-1;17
+.wallend 4
+.wallend 5
+.freeobj 0;96;9.5
+.freeobj 1;96;-9.5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;324;7.3;0;180
+.freeobj 1;324;-7.3;0;180 
+.freeobj 0;311
+.freeobj 1;308
+22100
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+22105
+.stop 1
+22125
+.freeobj 0;96;4.9
+.freeobj 1;96;-4.9
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+22175
+.curve -300
+22475
+.curve 0
+22950
+.Announce Korail\line4\mia.wav
+23250
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.wall 0;1;18
+.wall 1;-1;18
+.dike 0;-1;5
+.freeobj 0;97
+.Sta 미아; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+23270
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23275
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;326
+.freeobj 1;325
+.freeobj 0;311
+.freeobj 1;308
+23300
+.freeobj 0;147;9.69;0;180
+.freeobj 1;147;-9.69;
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23325
+.wall 0;1;18
+.wall 1;-1;18
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;325;0;0;180
+.freeobj 1;326;0;0;180
+.freeobj 0;311
+.freeobj 1;308
+23330
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23350
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23355
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23370
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23375
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23395
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23400
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;326
+.freeobj 1;325
+.freeobj 0;311
+.freeobj 1;308
+23425
+.freeobj 0;147;9.69;0;180
+.freeobj 1;147;-9.69;
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23450
+.wall 0;1;18
+.wall 1;-1;18
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;325;0;0;180
+.freeobj 1;326;0;0;180
+.freeobj 0;313
+.freeobj 1;308
+23455
+.stop 1
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23475
+.railend 2
+.railend 3
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;97
+24350
+.curve 500
+24475
+.curve 0
+.Announce Korail\line4\miasa.wav
+24775
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.wall 0;1;19
+.wall 1;-1;19
+.dike 0;-1;5
+.freeobj 0;98;6.15;0;180
+.freeobj 1;98;-6.15;0;180
+.Sta 미아사거리; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;319
+.freeobj 1;308
+24800
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6
+.freeobj 1;327;-7.6
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24825
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24850
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6;0;180
+.freeobj 1;327;-7.6;0;180
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24875
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24900
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24925
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6
+.freeobj 1;327;-7.6
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24950
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24975
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6;0;180
+.freeobj 1;327;-7.6;0;180
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;313
+.freeobj 1;308
+24980
+.stop 1
+25000
+.railend 2
+.railend 3
+.wall 0;1;0
+.wall 1;-1;0
+.freeobj 0;98;6.15;
+.freeobj 1;98;-6.15;
+.dike 0;-1;4
+25050
+.curve 725
+25150
+.curve 0
+25300
+.curve 225
+25450
+.curve 0
+25875
+.curve -400
+25775
+.Announce Korail\line4\girum.wav
+25900
+.dikeend 0
+25925
+.rail 1;-4.75;0;23
+25950
+.rail 1;-6.65;0;23
+25975
+.rail 1;-8.55;0;23
+.wall 0;0;0
+.wall 1;0;0
+26000
+.curve 0
+.rail 1;-10.45;0;23
+26025
+.rail 1;-11.4;0;23
+.wall 0;1;20
+.wall 1;-1;20
+.Sta 길음; ; ; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;329;-5.7
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+26050
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26055
+.freeobj 0;328;-5.7
+26075
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26100
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26110
+.freeobj 0;328;-5.7
+26125
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26150
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26165
+.freeobj 0;328;-5.7;0;180
+26175
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26200
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26220
+.freeobj 0;328;-5.7;0;180
+26225
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+26230
+.stop 1
+26250
+.wall 0;0;0
+.wall 1;0;0
+26900
+.curve 500
+27050
+.curve 0
+27125
+.Announce Korail\line4\sungsin.wav
+27350
+.rail 1;-3.8;0;23
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+27400
+.curve 500
+27425
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;21
+.wall 1;-1;21
+.dike 0;-1;5
+.freeobj 0;100;4.9
+.freeobj 1;100;-4.9
+.Sta 성신여대입구; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+27440
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27450
+.wallend 0
+.wallend 1
+.wall 4;1;21
+.wall 5;-1;21
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27455
+.freeobj 0;330;7.4
+.freeobj 1;330;-7.4
+27475
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27495
+.freeobj 0;330;7.4;0;180
+.freeobj 1;331;-7.4;0;180
+27500
+.wall 0;1;21
+.wall 1;-1;21
+.wallend 4
+.wallend 5
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27510
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27525
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27530
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.3630
+27545
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27550
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27565
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27575
+.wallend 0
+.wallend 1
+.wall 4;1;21
+.wall 5;-1;21
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27580
+.freeobj 0;330;7.4
+.freeobj 1;330;-7.4
+27600
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27610
+.freeobj 0;150;9.09;0.36;180
+.freeobj 1;150;-9.09;0.36
+27620
+.freeobj 0;330;7.4;0;180
+.freeobj 1;330;-7.4;0;180
+27625
+.wall 0;1;21
+.wall 1;-1;21
+.wallend 4
+.wallend 5
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+27630
+.stop 1
+27650
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.curve 0
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;100;4.9
+.freeobj 1;100;-4.9
+27700
+.curve -500
+27850
+.curve 0
+28075
+.curve 664
+28100
+.curve 0
+.rail 1;-4.75;0;23
+28125
+.rail 1;-8.55;0;23
+28150
+.curve -664
+.rail 1;-10.45;0;23
+.rail 2;-5.7;0;23
+28175
+.rail 1;-11.4;0;23
+.curve 3000
+28200
+.Announce Korail\line4\hanseong.wav
+28250
+.curve 0
+28400
+.dikeend 0
+.rail 2;-5.7;0;27
+28425
+.rail 2;-4.75;0;23
+28450
+.rail 2;-1.9;0;24
+28475
+.railend 2;0;0
+28500
+.wall 0;1;22
+.wall 1;-1;22
+.Sta 한성대입구; ; ; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;333;-5.7
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+28525
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28550
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28565
+.freeobj 0;332;-5.7;0;180
+28575
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28600
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28615
+.freeobj 0;332;-5.7;0;180
+28625
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28635
+.freeobj 0;332;-5.7;0
+28650
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28675
+.freeobj 0;332;-5.7;0
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28700
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+28705
+.stop 1
+28725
+.wall 0;0;0
+.wall 1;0;0
+28750
+.curve -664
+28775
+.rail 1;-10.45;0;23
+28800
+.curve 664
+.rail 1;-7.6;0;23
+28825
+.rail 1;-4.75;0;23
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+28850
+.curve -800
+.rail 1;-3.8;0;23
+29075
+.curve -400
+29125
+.Announce Korail\line4\hyehwa.wav
+29275
+.curve 0
+29425
+.wall 0;1;23
+.wall 1;-1;23
+.dike 0;-1;5
+.freeobj 0;101
+.Sta 혜화; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+29450
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;311
+.freeobj 1;308
+29460
+.freeobj 0;334;6.0
+.freeobj 1;334;-6.0
+29475
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29490
+.freeobj 0;334;6.0;0;180
+.freeobj 1;334;-6.0;0;180
+29500
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29525
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29550
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29575
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29585
+.freeobj 0;334;6.0
+.freeobj 1;334;-6.0
+29600
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29615
+.freeobj 0;334;6.0;0;180
+.freeobj 1;334;-6.0;0;180
+29625
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+29630
+.stop 1
+29650
+.curve 800
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;101
+29750
+.curve 0
+30050
+.curve -300
+30300
+.curve 332
+30325
+.rail 1;-4.75;0;23
+30350
+.wall 0;0;10
+.wall 1;0;10
+.dikeend 0
+.rail 1;-6.65;0;23
+30375
+.rail 1;-8.55;0;23
+30400
+.rail 1;-10.45;0;23
+30425
+.rail 1;-12.35;0;23
+30450
+.curve 0
+.rail 1;-14.25;0;23
+30475
+.rail 1;-15.2;0;23
+30650
+.Announce Korail\line4\dongdaemun.wav
+30950
+.curve 800
+.wall 0;1;24
+.wall 1;-1;24
+.dike 0;-1;10
+.dike 1;1;10
+.Sta 동대문; ; ; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;102;-3.8;0;180
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+30963
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+30975
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+30988
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31000
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31013
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31025
+.freeobj 0;102;-7.6;0;180
+.dikeend 0
+.dikeend 1
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31038
+.freeobj 0;153;3.95;-0.18;180
+31050
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31062
+.freeobj 0;153;3.95;-0.18;180
+31075
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31087
+.freeobj 0;153;3.95;-0.18;180
+31100
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31112
+.freeobj 0;153;3.95;-0.18;180
+31125
+.freeobj 0;102;-7.6
+.dike 0;-1;10
+.dike 1;1;10
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31137
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31150
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+31155
+.stop 1
+31162
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31175
+.dikeend 0
+.dikeend 1
+.wall 0;0;10
+.wall 1;0;10
+.freeobj 0;102;-3.8
+31350
+.rail 1;-15.2;0;23
+.curve 0
+31550
+.wall 0;0;0
+.wall 1;0;0
+31575
+.rail 2;-4.3;0;11
+.rail 3;-10.9;0;11
+.dike 2;-1;12
+.dike 3;-1;12
+.wall 0;1;25
+.wall 1;-1;25
+.Sta 동대문역사문화공원; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+31588
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31600
+.freeobj 0;337;-7.6;0;180
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31613
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31625
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31630
+.freeobj 0;337;-7.6;0;0
+31638
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31650
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31663
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;2.59;-0.15
+31670
+.freeobj 0;337;-7.6;0;180
+31675
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31688
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31700
+.curve 600
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31712
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31725
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31730
+.freeobj 0;337;-7.6;0;0
+31737
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31750
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31762
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31770
+.freeobj 0;337;-7.6;0;180
+31775
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;312
+.freeobj 1;309
+31780
+.stop 1
+31787
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31800
+.dikeend 2
+.dikeend 3
+.railend 2
+.railend 3
+.wall 0;0;0
+.wall 1;0;0
+31875
+.curve -664
+31900
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.rail 1;-10.45;0;23
+31925
+.curve 664
+.rail 1;-7.65;0;23
+31950
+.rail 1;-4.75;0;23
+31975
+.curve 0
+.rail 1;-3.8;0;23
+32500
+.wallend 1
+.rail 2;-8.55;0;23
+.wall 2;-1;0
+32525
+.rail 2;-6.65;0;23
+32550
+.rail 2;-4.75;0;26
+32575
+.wallend 2
+.wall 1;-1;0
+.dikeend 0
+.rail 2;-3.8;0;27
+32600
+.rail 2;-2.85;0;23
+.Announce Korail\line4\chungmuro.wav
+32625
+.rail 2;-0.95;0;26
+32650
+.railend 2;0;0
+.dike 0;-1;4
+32900
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;26
+.wall 1;-1;26
+.dike 0;-1;5
+.freeobj 0;105;4.9
+.freeobj 1;105;-4.9
+.Sta 충무로; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+32925
+.wall 4;1;26
+.wall 5;-1;26
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;105;9.5
+.freeobj 1;105;-9.5
+.freeobj 0;311
+.freeobj 1;308
+32930
+.freeobj 0;339;7.4
+.freeobj 1;339;-7.4
+32950
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+32970
+.freeobj 0;339;7.4;0;180
+.freeobj 1;339;-7.4;0;180
+32975
+.wallend 4
+.wallend 5
+.dike 0;1;11
+.dike 1;-1;11
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+33000
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+33025
+.railend 5
+.curve 664
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+33050
+.curve 700
+.dikeend 0
+.dikeend 1
+.wall 0;1;26
+.wall 1;-1;26
+.rail 1;-4.275;0;23
+.railend 3
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;105;9.5
+.freeobj 1;105;-9.5
+.freeobj 0;311
+.freeobj 1;308
+33055
+.freeobj 0;339;6.6;0
+.freeobj 1;339;-6.6;0
+33075
+.rail 1;-5.225;0;23
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+33095
+.freeobj 0;339;6.6;0;180
+.freeobj 1;339;-6.6;0;180
+33100
+.rail 1;-6.175;0;23
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+33105
+.stop 1
+33125
+.rail 1;-7.125;0;23
+.rail 2;15.2;0;11
+.rail 4;1.9;0;11
+.freeobj 0;105;4.9
+.freeobj 1;105;-4.9
+.curve 0
+.wall 0;0;0
+.wall 1;0;0
+.dikeend 0
+33150
+.rail 1;-8.075;0;23
+33175
+.rail 1;-9.025;0;23
+33200
+.rail 1;-9.975;0;23
+33225
+.rail 1;-10.925;0;23
+33250
+.rail 1;-12.325;0;23
+33275
+.curve 700
+.rail 1;-14.25;0;23
+33300
+.rail 1;-15.2;0;23
+33325
+.Announce Korail\line4\myeongdong.wav
+33375
+.curve -900
+33475
+.curve 0
+33625
+.rail 2;-7.6;0;11
+.dike 2;1;12
+.wall 0;1;27
+.wall 1;-1;27
+.Sta 명동; ; ; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;106;-7.6;0;180
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+33638
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33650
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33663
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33675
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33688
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33700
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33713
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33725
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33738
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33750
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33762
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33775
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33787
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33800
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33812
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33825
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+33830
+.stop 1
+33837
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33850
+.freeobj 0;106;-7.6;0;
+.dikeend 2
+.railend 2
+.wall 0;0;0
+.wall 1;0;0
+33875
+34025
+.curve -300
+34075
+.Announce Korail\line4\hoehyeon.wav
+34125
+.curve 400
+34225
+.curve 0
+34350
+.curve -400
+34375
+.rail 2;-4.3;0;11
+.rail 3;-10.9;0;11
+.dike 2;1;12
+.dike 3;1;12
+.wall 0;1;28
+.wall 1;-1;28
+.Sta 회현; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+34388
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34400
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34413
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34425
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34438
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34450
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34463
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34475
+.curve 400
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34488
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34500
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34512
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34525
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34537
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34550
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34562
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34575
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;312
+.freeobj 1;309
+34580
+.stop 1
+34587
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34600
+.dikeend 2
+.dikeend 3
+.railend 2
+.railend 3
+.wall 0;0;0
+.wall 1;0;0
+.curve 0
+34900
+.curve -200
+.Announce Korail\line4\seoul.wav
+35100
+.curve 0
+.rail 1;-14.25;
+35125
+.rail 1;-12.35;
+35175
+.rail 1;-11.4;
+35200
+.rail 2;-5.7;0;11
+.curve 1000
+.wall 0;1;29
+.wall 1;-1;29
+.dike 2;-1;13
+.Sta 서울역; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;318
+.freeobj 1;309
+35213
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35225
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+35238
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35250
+.dikeend 2
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35255
+.freeobj 0;343;-5.7;0
+35263
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35275
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35288
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35295
+.freeobj 0;343;-5.7;0;180
+35300
+.dike 2;-1;13
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+35313
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35325
+.curve 0
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+35337
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35350
+.dikeend 2
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35355
+.freeobj 0;343;-5.7;0
+35362
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35375
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35387
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35395
+.freeobj 0;343;-5.7;0;180
+35400
+.dike 2;-1;13
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;312
+.freeobj 1;309
+35405
+.stop 1
+35412
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35425
+.dikeend 2
+.railend 2
+.rail 2;4.75;0;23
+.wall 0;-1;0
+.wall 1;0;0
+.wall 2;1;0
+35450
+.rail 2;2.85;0;23
+35475
+.rail 2;0.95;0;27
+35500
+.wallend 2
+.wall 0;1;0
+.wall 1;-1;0
+.rail 2;0;0;24
+.rail 3;-11.4;0;25
+35525
+.rail 2;-1.9;0;27
+.rail 3;-9.5;0;26
+35550
+.dike 0;-1;4
+.dike 1;1;4
+.rail 2;-4.75;0;27
+.rail 3;-6.65;0;26
+35575
+.rail 2;-5.7;0;23
+.railend 3;-5.7;0
+35600
+35725
+.curve -400
+35800
+.curve 0
+35850
+.railend 2
+.curve -332
+35875
+.curve 0
+.rail 1;-10.45;0;23
+35900
+.rail 1;-8.55;0;23
+.Announce Korail\line4\sukmyeong.wav
+35925
+.rail 1;-6.65;0;23
+35950
+.curve 332
+.rail 1;-4.75;0;23
+35975
+.dikeend 1
+.curve 0
+.rail 1;-3.8;0;23
+36100
+.curve -800
+36200
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.curve 0
+.wall 0;1;30
+.wall 1;-1;30
+.dike 0;-1;5
+.freeobj 0;109;4.9
+.freeobj 1;109;-4.9
+.Sta 숙대입구; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;319
+.freeobj 1;308
+36213
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+36225
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 4;1;30
+.wall 5;-1;30
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36230
+.freeobj 0;344;7.4
+.freeobj 1;344;-7.4
+36250
+.freeobj 0;160;9.49;0.35;180
+.freeobj 1;160;-9.49;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36270
+.freeobj 0;344;7.4;0;180
+.freeobj 1;344;-7.4;0;180
+36275
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 0;1;30
+.wall 1;-1;30
+.wallend 4
+.wallend 5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36300
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36325
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36350
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 4;1;30
+.wall 5;-1;30
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36355
+.freeobj 0;344;7.4
+.freeobj 1;344;-7.4
+36375
+.freeobj 0;160;9.49;0.35;180
+.freeobj 1;160;-9.49;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36395
+.freeobj 0;344;7.4;0;180
+.freeobj 1;344;-7.4;0;180
+36400
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 0;1;30
+.wall 1;-1;30
+.wallend 4
+.wallend 5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;313
+.freeobj 1;308
+36405
+.stop -1
+36412
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+36425
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;109;4.9
+.freeobj 1;109;-4.9
+37150
+.Announce Korail\line4\samgakji.wav
+37225
+.curve 200
+37375
+.curve 0
+37450
+.rail 2;11.61;0;11
+.rail 3;-15.41;0;11
+.rail 4;19;0;11
+.rail 5;-22.8;0;11
+.wallend 0
+.wallend 1
+.dike 0;-1;5
+.dike 2;1;14
+.dike 3;-1;14
+.freeobj 0;110;4.9
+.freeobj 1;110;-4.9
+.Sta 삼각지; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;319
+.freeobj 1;308
+37475
+.wall 0;1;31
+.wall 1;-1;31
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37488
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+37500
+.wallend 0
+.wallend 1
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37525
+.freeobj 0;110;11.51
+.freeobj 1;110;-11.51
+.dikeend 2
+.dikeend 3
+.wall 0;1;31
+.wall 1;-1;31
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37550
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37575
+.rail 2;1.9;0;11
+.rail 3;-5.7;0;11
+.rail 4;15.2;0;11
+.rail 5;-19;0;11
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37600
+.wallend 0
+.wallend 1
+.wall 2;1;31
+.wall 3;-1;31
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37605
+.freeobj 0;345;7.4
+.freeobj 1;345;-7.4
+37625
+.freeobj 0;161;9.09;0.24;180
+.freeobj 1;161;-9.09;0.24
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37645
+.freeobj 0;345;7.4;0;180
+.freeobj 1;345;-7.4;0;180
+37650
+.freeobj 0;110;9.5
+.freeobj 1;110;-9.5
+.wallend 2
+.wallend 3
+.wall 0;1;31
+.wall 1;-1;31
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;313
+.freeobj 1;308
+37655
+.stop -1
+37662
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+37675
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;110;4.9
+.freeobj 1;110;-4.9
+37800
+.Announce Korail\line4\sinyongsan.wav
+38100
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;32
+.wall 1;-1;32
+.dike 0;-1;5
+.freeobj 0;112;4.9
+.freeobj 1;112;-4.9
+.Sta 신용산; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+38112
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+38125
+.freeobj 0;112;9.5
+.freeobj 1;112;-9.5
+.wall 4;1;32
+.wall 5;-1;32
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38130
+.freeobj 0;346;7.4
+.freeobj 1;346;-7.4
+38150
+.freeobj 0;162;9.09;0.15;180
+.freeobj 1;162;-9.09;0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38170
+.freeobj 0;346;7.4;0;180
+.freeobj 1;346;-7.4;0;180
+38175
+.freeobj 0;112;9.5
+.freeobj 1;112;-9.5
+.wall 0;1;32
+.wall 1;-1;32
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38200
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38225
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38250
+.freeobj 0;112;9.5
+.freeobj 1;112;-9.5
+.wall 4;1;32
+.wall 5;-1;32
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38255
+.freeobj 0;346;7.4
+.freeobj 1;346;-7.4
+38275
+.freeobj 0;162;9.09;0.15;180
+.freeobj 1;162;-9.09;0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38295
+.freeobj 0;346;7.4;0;180
+.freeobj 1;346;-7.4;0;180
+38300
+.freeobj 0;112;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;32
+.wall 1;-1;32
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+38305
+.stop 1
+38313
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+38325
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;112;4.9
+.freeobj 1;112;-4.9
+38575
+.curve -200
+39000
+.curve 0
+39300
+.curve -400
+39450
+.curve 500
+39575
+.curve 0
+39650
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;33
+.wall 1;-1;33
+.dike 0;-1;5
+.freeobj 0;113;4.9
+.freeobj 1;113;-4.9
+.Sta 이촌; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+39662
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39675
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;33
+.wall 5;-1;33
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39680
+.freeobj 0;347;7.4
+.freeobj 1;347;-7.4
+39696
+.freeobj 0;163;9.09;0.25;180
+.freeobj 1;163;-9.09;0.25
+39700
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39720
+.freeobj 0;347;7.4;0;180
+.freeobj 1;347;-7.4;0;180
+39725
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;33
+.wall 1;-1;33
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39737
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39750
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39754
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39771
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39775
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39788
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39800
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;33
+.wall 5;-1;33
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39805
+.freeobj 0;347;7.4
+.freeobj 1;347;-7.4
+39825
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39829
+.freeobj 0;163;9.09;0.25;180
+.freeobj 1;163;-9.09;0.25
+39845
+.freeobj 0;347;7.4;0;180
+.freeobj 1;347;-7.4;0;180
+39850
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;33
+.wall 1;-1;33
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;311
+.freeobj 1;308
+39855
+.stop 1
+39863
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39875
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;113;4.9
+.freeobj 1;113;-4.9
+40375
+.curve -1200
+40475
+.curve 200
+40550
+.pitch 35
+.Height -8.175
+.back 0
+40650
+.wall 0;1;3
+.wall 1;-1;3
+.dikeend 0
+.railtype 0;0
+.railtype 1;0
+40750
+.curve 0
+40850
+.curve 400
+41000
+.curve 0
+41025
+.pitch 0
+.Height 8.45
+41050
+;철교레일
+41125
+.ground 2
+42025
+;철교레일 끝
+.ground 3
+42050
+.ground 0
+42250
+.curve -360
+42325
+.wall 0;1;34
+.wall 1;-1;34
+.Sta 동작; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+42350
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42375
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42400
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42425
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42450
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42475
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42500
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42525
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42530
+.stop 1
+42550
+.wall 0;1;3
+.wall 1;-1;3
+42575
+.curve 0
+42625
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.railtype 0;23
+.railtype 1;23
+.freeobj 1;85
+.freeobj 0;88;-1.9
+.freeobj 0;89;78.1
+.freeobj 0;89;158.1
+42675
+.back 5
+.freeobj 0;89;-65;0;90
+42825
+.curve 260
+42875
+.back 0
+42975
+.wall 0;1;4
+.wall 1;-1;4
+.dikeend 0
+.railtype 0;0
+.railtype 1;0
+43050
+.curve 0
+43175
+.curve -400
+43225
+.back 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.railtype 0;23
+.railtype 1;23
+.freeobj 1;85
+43275
+.curve 0
+.Height 8.45
+43300
+.Height -8.175
+43900
+.curve 960
+44125
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.dike 0;-1;5
+.freeobj 0;115;4.9
+.freeobj 1;115;-4.9
+.curve -960
+.wall 0;1;35
+.wall 1;-1;35
+.dike 0;-1;5
+.Sta 총신대입구; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+44137
+.freeobj 0;165;7.19;0.17;180
+.freeobj 1;165;-7.19;0.17
+44150
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;35
+.wall 5;-1;35
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44155
+.freeobj 0;348;7.4
+.freeobj 1;348;-7.4
+44175
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44179
+.freeobj 0;165;9.09;0.17;180
+.freeobj 1;165;-9.09;0.17
+44195
+.freeobj 0;348;7.4;0;180
+.freeobj 1;348;-7.4;0;180
+44200
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;35
+.wall 1;-1;35
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44213
+.freeobj 0;165;7.19;0.17;180
+.freeobj 1;165;-7.19;0.17
+44225
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44237
+.freeobj 0;165;7.19;0.17;180
+.freeobj 1;165;-7.19;0.17
+44250
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;35
+.wall 5;-1;35
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44255
+.freeobj 0;348;7.4
+.freeobj 1;348;-7.4
+44271
+.freeobj 0;165;9.09;0.17;180
+.freeobj 1;165;-9.09;0.17
+44275
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44295
+.freeobj 0;348;7.4;0;180
+.freeobj 1;348;-7.4;0;180
+44300
+.freeobj 0;113;11.4
+.freeobj 1;113;-11.4
+.railend 4
+.railend 5
+.rail 4;3.8;0;11
+.rail 5;-7.6;0;11
+.rail 6;11.1;0;11
+.rail 7;-14.9;0;11
+.dike 6;1;14
+.dike 7;-1;14
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+44304
+.freeobj 0;165;10.99;0.17;180
+.freeobj 1;165;-10.99;0.17
+44325
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;313
+.freeobj 1;308
+44329
+.freeobj 0;165;10.99;0.17;180
+.freeobj 1;165;-10.99;0.17
+44330
+.stop 1
+44350
+.railend 2
+.railend 3
+.railend 6
+.railend 7
+.dikeend 6
+.dikeend 7
+.rail 2;14.0;0;11
+.rail 3;-17.8;0;11
+.curve 0
+.freeobj 0;115;4.9
+.freeobj 1;115;-4.9
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.form 2;l;2;0
+.form 3;r;2;0
+44375
+.form 2;l;2;0
+.form 3;r;2;0
+44400
+.wallend 4
+.wallend 5
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+45125
+.curve 664
+45150
+.curve 0
+.rail 1;-4.75
+45175
+.rail 1;-6.65
+45200
+.rail 1;-8.55
+45225
+.curve -664
+.rail 1;-10.45
+45250
+.curve 0
+.rail 2;-3.8;0;11
+.rail 3;-7.6;0;11
+.dike 2;1;13
+.dike 3;1;13
+.rail 1;-11.4
+.wall 0;1;36
+.wall 1;-1;36
+.dikeend 0
+.Sta 사당; ; ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+45275
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45300
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45325
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+45350
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45375
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45400
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45425
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45450
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;312
+.freeobj 1;309
+45460
+.stop 1
+45475
+.freeobj 0;117;-5.7;0;0
+.dikeend 2
+.dikeend 3
+.railend 2
+.railend 3
+.wall 0;0;0
+.wall 1;0;0
+45500
+.wall 0;1;0
+.wall 1;-1;0
+.rail 2;0;0;24
+.rail 3;-11.4;0;25
+45525
+.rail 2;-1.9;0;25
+.rail 3;-9.5;0;23
+45550
+.rail 2;-3.8;0;23
+.rail 3;-5.7;0;24
+45575
+.wall 0;1;0
+.wall 1;0;0
+.wall 2;-1;0
+.dike 0;-1;4
+.railend 3;-3.8;
+45600
+.curve -300
+45750
+.curve 0
+45850
+.wall 0;0;0
+.wallend 2
+.dikeend 0
+.railend 2
+46000
+.rail 1;-12.35;0
+46025
+.rail 1;-14.25;0
+46050
+.rail 1;-15.2;0
+.curve -600
+46400
+.curve 600
+46875
+.curve 0
+.wall 0;1;37
+.wall 1;-1;37
+.Sta 남태령; ; ; 0; -1; 0; 0; ; 30; 0; 
+.freeobj 0;119;-3.8;0;180
+.freeobj 1;119;3.8;0;180
+.freeobj 0;167;3.95;-0.08
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+46900
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46925
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46950
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46975
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+47000
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+47025
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+47050
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+47075
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+47080
+.stop 1
+47100
+.freeobj 0;119;-3.8
+.freeobj 1;119;3.8
+.freeobj 1;167;-3.95;-0.08;180
+.wall 0;0;0
+.wall 1;0;0
+47125
+.wall 0;1;0
+.wall 1;-1;0
+.rail 2;0;0;24
+.rail 3;-15.2;0;25
+47150
+.rail 2;-1.9;0;23
+.rail 3;-13.3;0;24
+47175
+.rail 2;-5.7;0;23
+.rail 3;-11.4;0;23
+.wall 0;0;10
+.wall 1;0;10
+47200
+.rail 2;-9.5;0;25
+47225
+.railend 2;-11.4;0
+47300
+.railend 3
+47400
+.curve -1000
+47700
+.curve 0
+.wallend 1
+.rail 1;-15.2;-0;0
+47725
+.rail 1;-15.2;-0.75
+47750
+.rail 1;-15.2;-1.5
+47775
+.rail 1;-15.2;-2.25
+47800
+.rail 1;-15.2;-3.0
+47825
+.rail 1;-15.2;-3.75
+47850
+.rail 1;-15.2;-4.5
+47875
+.rail 1;-15.2;-5.25
+47900
+.rail 1;-15.2;-6.0
+47925
+.rail 1;-15.2;-7.75
+47950
+.rail 1;-14.25;-8.5
+47975
+.rail 1;-11.4;-8.5
+48000
+.rail 1;-7.6;-8.5
+48025
+.rail 1;-3.8;-8.5
+48100
+.rail 1;-0;-8.5;0
+48125
+.rail 1;3.8;-8.5;0
+48150
+.rail 1;6.65;-7.75;0
+48175
+.rail 1;7.6;-6.75;0
+48200
+.rail 1;7.6;-6
+48325
+.rail 1;7.6;-5.25
+48350
+.rail 1;7.6;-4.5
+48375
+.rail 1;7.6;-3.75
+48300
+.rail 1;7.6;-3
+48325
+.rail 1;7.6;-2.25
+48350
+.rail 1;7.6;-1.5
+48375
+.rail 1;7.6;-0.75
+48400
+.rail 1;7.6;0;23
+48425
+.rail 1;7.6;0
+48450
+.rail 1;6.65;0
+48475
+.rail 1;4.75;0
+48500
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+.rail 1;3.8;0
+48700
+.curve 900
+.wall 0;-1;38
+.wall 1;1;38
+.dike 0;1;5
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-15.2;0;11
+.rail 5;19;0;11
+.freeobj 0;120;-4.9
+.freeobj 1;120;4.9
+.Sta 선바위; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+48715
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48725
+.wallend 0
+.wallend 1
+.wall 2;-1;38
+.wall 3;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48735
+.freeobj 0;351;-7
+.freeobj 1;351;7
+48750
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48765
+.freeobj 0;351;-7;0;180
+.freeobj 1;351;7;0;180
+48775
+.wallend 2
+.wallend 3
+.wall 0;-1;38
+.wall 1;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48790
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48800
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48805
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48820
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48825
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48835
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48850
+.wallend 0
+.wallend 1
+.wall 2;-1;38
+.wall 3;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48865
+.freeobj 0;351;-7
+.freeobj 1;351;7
+48875
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48890
+.freeobj 0;351;-7;0;180
+.freeobj 1;351;7;0;180
+48900
+.wallend 2
+.wallend 3
+.wall 0;-1;38
+.wall 1;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+48905
+.stop 1
+48910
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48925
+.curve 0
+.freeobj 0;120;-4.9
+.freeobj 1;120;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+49700
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+.rail 4;-15.2;0;11
+.rail 5;19;0;11
+.freeobj 0;121;-4.9
+.freeobj 1;121;4.9
+.curve 600
+.wall 0;-1;39
+.wall 1;1;39
+.dike 0;1;5
+.Sta 경마공원; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+49715
+.freeobj 0;169;-7.19;0.3
+.freeobj 1;169;7.19;0.3;180
+49725
+.wallend 0
+.wallend 1
+.wall 2;-1;39
+.wall 3;1;39
+.freeobj 0;121;-9.5
+.freeobj 1;121;9.5
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49735
+.freeobj 0;352;-9.4
+.freeobj 1;352;9.4
+49750
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49765
+.freeobj 0;352;-9.4;0;180
+.freeobj 1;352;9.4;0;180
+49775
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49790
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49800
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49805
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49820
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49825
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49835
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49850
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49860
+.freeobj 0;352;-9.4
+.freeobj 1;352;9.4
+49875
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49890
+.freeobj 0;352;-9.4;0;180
+.freeobj 1;352;9.4;0;180
+49900
+.wallend 2
+.wallend 3
+.wall 0;-1;39
+.wall 1;1;39
+.freeobj 0;121;-9.5
+.freeobj 1;121;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+49905
+.stop 1
+49910
+.freeobj 0;169;-7.19;0.3
+.freeobj 1;169;7.19;0.3;180
+49925
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;121;-4.9
+.freeobj 1;121;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+.curve 0
+50375
+.curve 400
+50575
+.curve 0
+50625
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+.rail 4;-15.2;0;11
+.rail 5;19;0;11
+.freeobj 0;123;-4.9
+.freeobj 1;123;4.9
+.wall 0;-1;40
+.wall 1;1;40
+.dike 0;1;5
+.Sta 대공원; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+50640
+.freeobj 0;170;-7.19;0.3
+.freeobj 1;170;7.19;0.3;180
+50650
+.wallend 0
+.wallend 1
+.wall 2;-1;40
+.wall 3;1;40
+.freeobj 0;123;-9.5
+.freeobj 1;123;9.5
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50660
+.freeobj 0;353;-9.4
+.freeobj 1;353;9.4
+50675
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50690
+.freeobj 0;353;-9.4;0;180
+.freeobj 1;353;9.4;0;180
+50700
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50715
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50725
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50730
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50745
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50750
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50760
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50775
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50785
+.freeobj 0;353;-9.4
+.freeobj 1;353;9.4
+50800
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50815
+.freeobj 0;353;-9.4;0;180
+.freeobj 1;353;9.4;0;180
+50825
+.wallend 2
+.wallend 3
+.wall 0;-1;40
+.wall 1;1;40
+.freeobj 0;123;-9.5
+.freeobj 1;123;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+50830
+.stop 1
+50835
+.freeobj 0;170;-7.19;0.3
+.freeobj 1;170;7.19;0.3;180
+50850
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;123;-4.9
+.freeobj 1;123;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+51150
+.curve 300
+51250
+.curve 0
+51650
+.curve -300
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;41
+.wall 1;1;41
+.dike 0;1;5
+.freeobj 0;125;-4.9
+.freeobj 1;125;4.9
+.Sta 과천; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+51665
+.freeobj 0;171;-7.19;0.2
+.freeobj 1;171;7.19;0.2;180
+51675
+.wallend 0
+.wallend 1
+.wall 2;-1;41
+.wall 3;1;41
+.freeobj 0;125;-9.5
+.freeobj 1;125;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51685
+.freeobj 0;354;-7.5
+.freeobj 1;354;7.5
+51700
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51715
+.freeobj 0;354;-7.5;0;180
+.freeobj 1;354;7.5;0;180
+51725
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51740
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51750
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51755
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51770
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51775
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51785
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51800
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51810
+.freeobj 0;354;-7.5
+.freeobj 1;354;7.5
+51825
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51840
+.freeobj 0;354;-7.5;0;180
+.freeobj 1;354;7.5;0;180
+51850
+.wallend 2
+.wallend 3
+.wall 0;-1;41
+.wall 1;1;41
+.freeobj 0;125;-9.5
+.freeobj 1;125;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+51855
+.stop 1
+51860
+.freeobj 0;171;-7.19;-0.2
+.freeobj 1;171;7.19;-0.2;180
+51875
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;125;-4.9
+.freeobj 1;125;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+51975
+.curve 0
+52475
+.curve 800
+52575
+.curve 0
+52650
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;42
+.wall 1;1;42
+.dike 0;1;4
+.freeobj 0;126;-4.9
+.freeobj 1;126;4.9
+.Sta 정부과천청사; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+52675
+.wallend 0
+.wallend 1
+.wall 2;-1;43
+.wall 3;1;43
+.freeobj 0;126;-9.5
+.freeobj 1;126;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52685
+.freeobj 0;355;-7.5
+.freeobj 1;355;7.5
+52700
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52715
+.freeobj 0;355;-7.5;0;180
+.freeobj 1;355;7.5;0;180
+52725
+.wall 2;-1;42
+.wall 3;1;42
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52750
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52775
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52800
+.wall 2;-1;43
+.wall 3;1;43
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52810
+.freeobj 0;355;-7.5
+.freeobj 1;355;7.5
+52825
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52840
+.freeobj 0;355;-7.5;0;180
+.freeobj 1;355;7.5;0;180
+52850
+.wallend 2
+.wallend 3
+.wall 0;-1;42
+.wall 1;1;42
+.freeobj 0;126;-9.5
+.freeobj 1;126;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+52855
+.stop 1
+52875
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;126;-4.9
+.freeobj 1;126;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+53700
+.curve -1200
+53875
+.curve 0
+54200
+.curve -1000
+54350
+.curve 0
+55300
+.curve 500
+55625
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;44
+.wall 1;1;44
+.dike 0;1;5
+.freeobj 0;127;-4.9
+.freeobj 1;127;4.9
+.Sta 인덕원; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+55640
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55650
+.wallend 0
+.wallend 1
+.wall 2;-1;44
+.wall 3;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55655
+.freeobj 0;356;-7.5
+.freeobj 1;356;7.5
+55675
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55695
+.freeobj 0;356;-7.5;0;180
+.freeobj 1;356;7.5;0;180
+55700
+.wallend 2
+.wallend 3
+.wall 0;-1;44
+.wall 1;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55715
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55725
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55730
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55745
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55750
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55760
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55775
+.wallend 0
+.wallend 1
+.wall 2;-1;44
+.wall 3;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55780
+.freeobj 0;356;-7.5
+.freeobj 1;356;7.5
+55800
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55820
+.freeobj 0;356;-7.5;0;180
+.freeobj 1;356;7.5;0;180
+55825
+.wallend 2
+.wallend 3
+.wall 0;-1;44
+.wall 1;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+55830
+.stop 1
+55835
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55850
+.curve 400
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;127;-4.9
+.freeobj 1;127;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+56000
+.curve 0
+56100
+.curve 1200
+56300
+.curve 0
+57175
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+.rail 4;-15.2;0;11
+.rail 5;19.0;0;11
+.wall 0;-1;45
+.wall 1;1;45
+.dike 0;1;5
+.freeobj 0;128;-4.9
+.freeobj 1;128;4.9
+.Sta 평촌; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+57190
+.freeobj 0;174;-7.19;-0.08
+.freeobj 1;174;7.19;-0.08;180
+57200
+.wallend 0
+.wallend 1
+.wall 2;-1;45
+.wall 3;1;45
+.freeobj 0;128;-9.5
+.freeobj 1;128;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57210
+.freeobj 0;357;-9.4
+.freeobj 1;357;9.4
+57225
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57240
+.freeobj 0;357;-9.4;0;180
+.freeobj 1;357;9.4;0;180
+57250
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57265
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57275
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57280
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57295
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57300
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57310
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57325
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57335
+.freeobj 0;357;-9.4
+.freeobj 1;357;9.4
+57350
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57365
+.freeobj 0;357;-9.4;0;180
+.freeobj 1;357;9.4;0;180
+57375
+.wallend 2
+.wallend 3
+.wall 0;-1;45
+.wall 1;1;45
+.freeobj 0;128;-9.5
+.freeobj 1;128;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+57380
+.stop 1
+57385
+.freeobj 0;174;-7.19;-0.08
+.freeobj 1;174;7.19;-0.08;180
+57400
+.freeobj 0;128;-4.9
+.freeobj 1;128;4.9
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+58400
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;46
+.wall 1;1;46
+.dike 0;1;5
+.freeobj 0;130;-4.9
+.freeobj 1;130;4.9
+.Sta 범계; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+58415
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58425
+.wallend 0
+.wallend 1
+.wall 2;-1;46
+.wall 3;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58430
+.freeobj 0;358;-7.5
+.freeobj 1;358;7.5
+58450
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58470
+.freeobj 0;358;-7.5;0;180
+.freeobj 1;358;7.5;0;180
+58475
+.wallend 2
+.wallend 3
+.wall 0;-1;46
+.wall 1;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58490
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58500
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58505
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58520
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58525
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58535
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58550
+.wallend 0
+.wallend 1
+.wall 2;-1;46
+.wall 3;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58555
+.freeobj 0;358;-7.5
+.freeobj 1;358;7.5
+58575
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58595
+.freeobj 0;358;-7.5;0;180
+.freeobj 1;358;7.5;0;180
+58600
+.wallend 2
+.wallend 3
+.wall 0;-1;46
+.wall 1;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+58605
+.stop 1
+58610
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58625
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;130;-4.9
+.freeobj 1;130;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+58725
+.curve -600
+58825
+.curve 0
+59325
+.curve 2000
+59475
+.curve 0
+59550
+.curve -332
+.rail 1;3.8;0;0
+59575
+.rail 1;4.75;0;0
+59600
+.wall 0;0;0
+.wall 1;0;0
+.dikeend 0
+.curve -500
+.rail 1;7.6;0;0
+59625
+.rail 1;11.4;0;0
+59650
+.rail 1;15.2;0;0
+59675
+.curve 0
+.rail 1;19;0;0
+59700
+.rail 1;22.8;0;0
+59725
+.rail 1;26.6;0;0
+59750
+.rail 1;30.4;0;0
+59775
+.rail 1;34.2;0;0
+59800
+.rail 1;38;0;0
+59825
+.rail 1;41.8;0;0
+59850
+.rail 1;44.65;0;0
+59875
+.rail 1;45.6;0;0
+60050
+.curve -400
+60250
+.curve 0
+60350
+.curve 800
+.back 0
+60375
+.Height -8.45
+60550
+.railtype 0;0
+.Height 0.45
+.wallend 0
+.wallend 1
+;지상으로
+60625
+.curve 0
+60825
+.curve 166
+.rail 1;45.6;0;0
+.rail 2;22.8;0;0
+.rail 3;26.6;0;0
+.rail 4;30.4;0;0
+.rail 5;34.2;0;0
+.rail 6;11.4;0;0
+60850
+.curve 0
+.rail 1;43.7;0;0
+.rail 2;20.9;0;0
+.rail 3;24.7;0;0
+.rail 4;28.5;0;0
+.rail 5;32.3;0;0
+.rail 6;9.5;0;0
+.rail 7;0;0;3
+60875
+.rail 1;39.9;0;0
+.rail 2;17.1;0;0
+.rail 3;20.9;0;0
+.rail 4;24.7;0;0
+.rail 5;28.5;0;0
+.rail 6;5.7;0;0
+.rail 7;-1.9;0;3
+60900
+.curve -166
+.rail 1;36.1;0;0
+.rail 2;13.3;0;0
+.rail 3;17.1;0;0
+.rail 4;20.9;0;0
+.rail 5;24.7;0;0
+.rail 6;1.9;0;0
+.rail 7;-7.6;0;4
+60925
+.curve 0
+.rail 1;34.2;0;0
+.rail 2;11.4;0;0
+.rail 3;15.2;0;0
+.rail 4;19;0;0
+.rail 5;22.8;0;0
+.railend 6;0;0
+.rail 7;-11.4;0;0
+.Sta 금정; ; ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;9
+.freeobj 1;8
+60950
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+60975
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+61000
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+61025
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+61050
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+61075
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+.freeobj 2;25;5.7
+.freeobj 2;24;-5.3
+.freeobj 5;24;5.3
+61100
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+.freeobj 2;25;5.7
+61125
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;13
+.freeobj 1;8
+61130
+.stop 1
+61150
+.rail 7;-11.4;0;4
+61175
+.rail 7;-9.5;0;0
+61200
+.rail 7;-5.7;0;0
+61225
+.rail 7;-1.9;0;3
+61250
+.rail 7;0;0;4
+61275
+.rail 7;1.9;0;0
+61300
+.wall 0;0;3
+.wall 1;0;3
+.height 0.45
+.pitch 20
+.curve -332
+.rail 7;5.7;0;0
+61325
+.rail 1;35.15;-0.5;0
+.rail 2;12.35;-0.5;0
+.rail 3;16.15;-0.5;0
+.rail 4;19.95;-0.5;0
+.rail 5;23.75;-0.5;0
+.rail 7;10.45;-0.5;3
+61350
+.rail 1;38;-1;0
+.rail 2;15.2;-1;0
+.rail 3;19;-1;0
+.rail 4;22.8;-1;0
+.rail 5;26.6;-1;0
+.railend 7;15.2;-1
+61375
+.rail 1;42.75;-1;0
+.rail 2;19.95;-1.5;0
+.rail 3;23.75;-1.5;0
+.rail 4;27.55;-1.5;0
+.rail 5;31.35;-1.5;0
+61400
+.curve 0
+.rail 1;49.4;-1;0
+.rail 2;26.6;-2;0
+.rail 3;30.4;-2;0
+.rail 4;34.2;-2;0
+.rail 5;38;-2;0
+61425
+.rail 1;57;-1;0
+.rail 2;34.2;-2.5;0
+.rail 3;38;-2.5;0
+.rail 4;41.8;-2.5;0
+.rail 5;45.6;-2.5;0
+61450
+.rail 1;64.6;-1;0
+.rail 2;41.8;-3;0
+.rail 3;45.6;-3;0
+.rail 4;49.4;-3;0
+.rail 5;53.2;-3;0
+61475
+.curve 332
+.rail 1;72.2;-1;0
+.rail 2;48.925;-3.5;0
+.rail 3;53.2;-3.5;0
+.rail 4;57;-3.5;0
+.rail 5;60.8;-3.5;0
+61500
+.rail 2;54.625;-4;0
+.rail 3;59.85;-4;0
+.rail 4;63.65;-4;0
+.rail 5;67.45;-4;0
+61525
+.rail 2;58.425;-4.5;0
+.rail 3;64.6;-4.5;0
+.rail 4;68.4;-4.5;0
+.rail 5;72.2;-4.5;0
+61550
+.rail 2;62.7;-5;0
+.rail 3;67.45;-5;0
+.rail 4;71.25;-5;0
+.rail 5;75.05;-5;0
+61575
+.rail 2;64.6;-5.5;0
+.rail 3;68.4;-5.5;0
+.rail 4;72.2;-5.5;0
+.rail 5;76;-5.5;0
+61600
+.rail 2;63.65;-6;0
+.rail 3;67.45;-6;0
+.rail 4;71.25;-6;0
+.rail 5;75.05;-6;0
+61625
+.rail 2;60.8;-6.5;0
+.rail 3;64.6;-6.5;0
+.rail 4;68.4;-6.5;0
+.rail 5;72.2;-6.5;0
+61650
+.rail 2;56.05;-7;0
+.rail 3;59.85;-7;0
+.rail 4;63.65;-7;0
+.rail 5;67.45;-7;0
+61675
+.rail 2;49.4;-7.5;0
+.rail 3;53.2;-7.5;0
+.rail 4;57;-7.5;0
+.rail 5;60.8;-7.5;0
+61700
+.height 8.45
+.pitch 0
+.rail 2;40.85;-8;0
+.rail 3;44.65;-8;0
+.rail 4;48.45;-8;0
+.rail 5;52.25;-8;0
+61725
+.rail 2;30.4;-8;0
+.rail 3;34.2;-8;0
+.rail 4;38;-8;0
+.rail 5;41.8;-8;0
+61750
+.rail 2;18.05;-8;0
+.rail 3;21.85;-8;0
+.rail 4;25.65;-8;0
+.rail 5;29.45;-8;0
+61775
+.rail 1;95;0;8
+.rail 2;3.8;-8;0
+.rail 3;7.6;-8;0
+.rail 4;11.4;-8;0
+.rail 5;15.2;-8;0
+61800
+.rail 1;87.4;0;8
+.rail 2;-12.35;-8;0
+.rail 3;-8.55;-8;0
+.rail 4;-4.75;-8;0
+.rail 5;-0.95;-8;0
+61825
+.rail 1;79.8;0;8
+.rail 2;-31.35;-8;0
+.rail 3;-27.55;-8;0
+.rail 4;-23.75;-8;0
+.rail 5;-19.95;-8;0
+61850
+.rail 1;72.2;0;8
+.railend 2;-31.35;-8;
+.railend 3;-27.55;-8;
+.railend 4;-23.75;-8;
+.railend 5;-19.95;-8;
+61875
+.rail 1;64.6;0;8
+61900
+.rail 1;57;0;8
+61925
+.rail 1;49.4;0;8
+61950
+.rail 1;41.8;0;8
+61975
+.rail 1;34.2;0;8
+62000
+.rail 1;26.6;0;8
+62025
+.curve 0
+.rail 1;19;0;8
+62050
+.rail 1;12.35;0;8
+62075
+.rail 1;7.6;0;8
+62100
+.wall 0;-1;3
+.wall 1;1;3
+.rail 1;4.75;0;8
+62125
+.freeobj 0;241;10;-8
+.freeobj 1;238;-10;-8
+.rail 1;3.8;0;0
+.rail 3;0;0;8
+62150
+.freeobj 0;247;10;-8
+.freeobj 1;246;-10;-8
+.rail 3;0.95;0;0
+62175
+.freeobj 0;239;10;-8
+.freeobj 1;242;-10;-8
+.rail 3;2.85;0;7
+62200
+.freeobj 0;245;10;-8
+.freeobj 1;240;-10;-8
+;선로 합류점
+.railend 3;3.8;0
+62225
+.freeobj 0;243;10;-8
+.freeobj 1;248;-10;-8
+62250
+.freeobj 0;237;10;-8
+.freeobj 1;244;-10;-8
+62275
+.freeobj 0;239;10;-8
+.freeobj 1;246;-10;-8
+62300
+.freeobj 0;241;10;-8
+.freeobj 1;238;-10;-8
+62325
+.freeobj 0;247;10;-8
+.freeobj 1;246;-10;-8
+62350
+.freeobj 0;239;10;-8
+.freeobj 1;242;-10;-8
+62375
+.freeobj 0;245;10;-8
+.freeobj 1;240;-10;-8
+62400
+.freeobj 0;243;10;-8
+.freeobj 1;248;-10;-8
+62425
+.freeobj 0;237;10;-8
+.freeobj 1;244;-10;-8
+62450
+.freeobj 0;204;-30;-8;0
+.freeobj 0;204;-80;-8;0
+.freeobj 0;204;-130;-8;0
+.freeobj 1;246;-10;-8
+.freeobj 1;251;35;-8
+62475
+.freeobj 1;217;35;-8
+62500
+.freeobj 1;252;35;-8
+62525
+.freeobj 1;214;35;-8
+62550
+.freeobj 0;210;-80;-8;0
+.freeobj 1;249;35;-8
+62575
+.freeobj 1;216;35;-8
+62600
+.freeobj 1;250;35;-8
+62625
+.freeobj 1;215;35;-8
+62650
+.freeobj 1;214;35;-8
+62675
+.freeobj 0;202;-60;-8;0
+.freeobj 0;202;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 1;217;35;-8
+62700
+.freeobj 1;216;35;-8
+62725
+.freeobj 1;213;35;-8
+62750
+.freeobj 1;215;35;-8
+62775
+.freeobj 0;202;-60;-8;0
+.freeobj 0;202;-110;-8;0
+.freeobj 0;202;-160;-8;0
+62875
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-230;-8;0
+.freeobj 0;208;-280;-8;0
+.freeobj 0;202;-330;-8;0
+63000
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-230;-8;0
+.freeobj 0;208;-280;-8;0
+.freeobj 0;202;-330;-8;0
+63050
+.wallend 0
+.wallend 1
+;산본 부본선 분기
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+.wall 2;-1;3
+.wall 3;1;3
+63075
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+63100
+.rail 2;-3.8;0;0
+.rail 3;7.6;0;0
+.rail 4;0;0;8
+63125
+.rail 2;-7.6;0;8
+.rail 3;11.4;0;7
+.rail 4;0.95;0;0
+63150
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+.rail 4;2.85;0;7
+63175
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+.railend 4;3.8;0
+63200
+.freeobj 1;230;0;-8;0
+.freeobj 1;226;0;-8;0
+.wall 2;-1;48
+.wall 3;1;48
+.Sta 산본; ; ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+63225
+.freeobj 1;224;0;-8;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63227
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+63247
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63250
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63273
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+63275
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63297
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63300
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63325
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63328
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63350
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63352
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+63375
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63378
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63398
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+63400
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+63405
+.stop 1
+63425
+.wall 2;-1;3
+.wall 3;1;3
+;산본역 끝
+.rail 4;3.8;0;7
+63450
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+.rail 4;2.85;0;0
+63475
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+.rail 4;0.95;0;8
+63500
+.rail 2;-7.6;0;0
+.rail 3;8.55;0;0
+.railend 4;0;0
+63525
+.rail 2;-3.8;0;7
+.rail 3;7.6;0;8
+63550
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+63575
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;0;0
+.railend 3;3.8;0
+63675
+.curve -600;30
+64100
+.height 8.95
+64175
+.curve 0
+64200
+.height 0.95
+64225
+.freeobj 0;212;-90
+64300
+.freeobj 0;212;-90
+.wall 0;-1;49
+.wall 1;1;49
+.Sta 수리산; ; ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;18
+.freeobj 1;9
+64325
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64350
+.freeobj 0;212;-90
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64375
+.freeobj 1;212;90
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64400
+.wallend 0
+.wallend 1
+;역사 계단 15m
+.freeobj 0;212;-90
+.freeobj 0;33;1.9
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64425
+;역사 시점
+.freeobj 0;34;1.9
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64450
+.freeobj 0;212;-90
+.freeobj 1;212;90
+.freeobj 0;34;1.9
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64475
+;역사 끝 종점
+.wall 0;-1;49
+.wall 1;1;49
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64500
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;10
+.freeobj 1;9
+64505
+.stop 1
+64525
+.freeobj 1;212;90
+.wall 0;-1;9
+.wall 1;1;9
+.dike 0;-1;6
+.dike 1;1;7
+64600
+.freeobj 1;212;90
+64725
+.freeobj 1;206;70
+64800
+.freeobj 1;206;70
+.rail 2;-7.6;0;11
+.dike 2;-1;2
+64875
+.freeobj 1;206;70
+64900
+.wallend 0
+64975
+.curve -2000
+65025
+.freeobj 1;206;70
+65100
+.freeobj 1;206;70
+65125
+.curve 0
+65175
+.freeobj 1;206;70
+65200
+.railend 2
+.dikeend 0
+.dikeend 1
+.dikeend 2
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+65650
+.height 0.95
+65675
+.height 8.45
+65700
+.height 2.45
+65800
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+66025
+;육교
+66075
+.curve -800
+66300
+;육교
+66350
+;육교
+66475
+.curve 0
+66800
+.rail 2;-0.1;0;11
+.rail 3;3.9;0;1
+.dikeend 0
+.dikeend 1
+.dike 2;-1;0
+.dike 3;1;0
+66825
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+66850
+.freeobj 0;218;-50
+.rail 2;-2.85;0;11
+.rail 3;6.65;0;11
+66875
+.freeobj 0;214;-50
+.rail 2;-4.75;0;11
+.rail 3;8.55;0;11
+66900
+.freeobj 0;217;-50
+.rail 2;-6.65;0;11
+.rail 3;10.45;0;11
+66925
+.freeobj 0;213;-50
+.rail 2;-8.55;0;11
+.rail 3;12.35;0;11
+66950
+.freeobj 0;216;-50
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+66975
+.freeobj 0;217;-50
+.rail 2;-11.4;0;11
+.rail 3;15.2;0;11
+.Sta 대야미; ; ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;18
+.freeobj 1;9
+67000
+.freeobj 0;214;-50
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67002
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+67025
+.freeobj 0;213;-50
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67048
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+67050
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67060
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+67075
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67100
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67115
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+67125
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67127
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+67150
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+67173
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+67175
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;12
+.freeobj 1;9
+67180
+.stop 1
+67200
+67225
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+67250
+.rail 2;-8.55;0;11
+.rail 3;12.35;0;11
+67275
+.rail 2;-6.65;0;11
+.rail 3;10.45;0;11
+67300
+.rail 2;-4.75;0;11
+.rail 3;8.55;0;11
+67325
+.rail 2;-2.85;0;11
+.rail 3;6.65;0;11
+67350
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+67375
+.dikeend 2
+.dikeend 3
+.dike 0;-1;0
+.dike 1;1;0
+.railend 2;-0.1;0
+.railend 3;3.9;0
+67550
+.pitch -19
+67700
+;육교
+68275
+.dike 0;-1;1
+.dike 1;1;1
+68425
+.dike 0;-1;0
+.dike 1;1;0
+68675
+.pitch 0
+68875
+.rail 2;-0.1;0;11
+.rail 3;3.9;0;1
+.dikeend 0
+.dikeend 1
+.dike 2;-1;0
+.dike 3;1;0
+68900
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+68925
+.rail 2;-2.85;0;11
+.rail 3;6.65;0;11
+68950
+.rail 2;-4.75;0;11
+.rail 3;8.55;0;11
+68975
+.rail 2;-6.65;0;11
+.rail 3;10.45;0;11
+69000
+.rail 2;-8.55;0;11
+.rail 3;12.35;0;11
+69025
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+69050
+.rail 2;-11.4;0;11
+.rail 3;15.2;0;11
+.Sta 반월; ; ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;18
+.freeobj 1;9
+69075
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69077
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+69100
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69123
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+69125
+.dike 3;1;2
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69135
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+69150
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69175
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69190
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+69200
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69202
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+69225
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69248
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+69250
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;12
+.freeobj 1;9
+69255
+.stop 1
+69275
+.dike 0;-1;2
+.rail 2;-11.4;0;11
+.rail 3;15.2;0;11
+69300
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+69325
+.rail 2;-7.6;0;11
+.rail 3;11.4;0;11
+69350
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+69375
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+69400
+.dikeend 2
+.dikeend 3
+.dike 0;-1;2
+.dike 1;1;2
+.railend 2;-0.1;0
+.railend 3;3.9;0
+69425
+.dikeend 0
+.dikeend 1
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+.freeobj 0;89;81.9
+.freeobj 0;89;161.9
+.freeobj 0;89;241.9
+69625
+.curve 800
+69650
+.wallend 0
+.wallend 1
+.dike 0;-1;3
+.dike 1;1;3
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+69850
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+.height 0.45
+69950
+.height 8.45
+70200
+.curve 0
+70225
+;아래 고속도로
+70250
+;아래 고속도로
+70550
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+70570
+;고속철도 교각
+70750
+.dikeend 0
+.dikeend 1
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+.freeobj 0;89;81.9
+.freeobj 0;89;161.9
+.freeobj 0;89;241.9
+70950
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+71250
+.dikeend 0
+.dikeend 1
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+.freeobj 0;89;81.9
+.freeobj 0;89;161.9
+.freeobj 0;89;241.9
+71400
+.curve 800
+.height 8.45
+71750
+.curve 0
+.height 9.45
+72325
+.wallend 0
+.wallend 1
+.dike 0;-1;2
+.dike 1;1;2
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+72425
+.curve 2000
+72450
+.dikeend 0
+.wall 0;-1;3
+72600
+.curve 0
+.rail 2;3.8;0;7
+.rail 3;0;0;8
+72625
+.rail 2;2.85;0;0
+.rail 3;0.95;0;0
+72650
+.rail 2;0.95;0;8
+.rail 3;2.85;0;7
+72675
+.wallend 0
+.dikeend 1
+.wall 2;-1;3
+.dike 3;1;2
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+72700
+.rail 2;-0.95;0;0
+.rail 3;4.75;0;0
+72725
+.rail 2;-2.85;0;0
+.rail 3;6.65;0;0
+72750
+.rail 2;-4.75;0;0
+.rail 3;8.55;0;0
+72775
+.rail 2;-6.65;0;0
+.rail 3;10.45;0;0
+72800
+.rail 2;-8.55;0;0
+.rail 3;12.35;0;0
+72825
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+72850
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+.wall 2;-1;51
+.wall 3;1;51
+.Sta 상록수; ; ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+72875
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72877
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+72897
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+72900
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72923
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+72925
+.dikeend 3
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72928
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+72950
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72975
+.freeobj -1;202;-250
+.freeobj -1;202;-275
+.freeobj -1;202;-290
+.freeobj -1;202;-320
+.freeobj -1;202;-345
+.freeobj -1;202;-365
+.freeobj -1;202;-385
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72978
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+73000
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+73002
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+73025
+.freeobj -1;247;-20
+.freeobj -1;245;-50
+.freeobj -1;241;-90
+.freeobj -1;243;-120
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+73028
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+73048
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+73050
+.freeobj -1;239;-20
+.freeobj -1;243;-50
+.freeobj -1;245;-90
+.freeobj -1;237;-120
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;12
+.freeobj 1;9
+73055
+.stop 1
+73075
+.freeobj -1;243;-20
+.freeobj -1;237;-50
+.freeobj -1;241;-90
+.freeobj -1;239;-120
+.wall 2;-1;3
+.wall 3;1;3
+73100
+.freeobj -1;245;-20
+.freeobj -1;239;-50
+.freeobj -1;243;-90
+.freeobj -1;241;-120
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+73125
+.freeobj -1;202;-250
+.freeobj -1;202;-275
+.freeobj -1;202;-290
+.freeobj -1;202;-320
+.freeobj -1;202;-345
+.freeobj -1;202;-365
+.freeobj -1;202;-385
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+73150
+.rail 2;-7.6;0;0
+.rail 3;11.4;0;0
+73175
+.rail 2;-3.8;0;7
+.rail 3;7.6;0;8
+73200
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+73225
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;0;0
+.railend 3;3.8;0
+73275
+.curve 600
+73700
+.rail 2;-36.1;-9;7
+.rail 3;-28.5;-9;7
+73725
+.rail 2;-24.7;-9;7
+.rail 3;-13.3;-9;7
+73750
+.rail 2;-17.1;-9;7
+.rail 3;-1.9;-9;7
+73775
+.rail 2;-12.825;-9;7
+.rail 3;6.175;-9;7
+73800
+.curve 0
+.pitch -15
+.height 9.45
+.rail 2;-11.4;-9;0
+.rail 3;11.4;-9;7
+73825
+.rail 2;-11.4;-8.25;0
+.rail 3;14.25;-8.25;7
+73850
+.rail 2;-11.4;-7.5;0
+.rail 3;15.2;-7.5;0
+73875
+.rail 2;-11.4;-6.75;0
+.rail 3;15.2;-6.75;0
+73900
+.rail 2;-11.4;-6;0
+.rail 3;15.2;-6;0
+73925
+.rail 2;-11.4;-5.25;0
+.rail 3;15.2;-5.25;0
+73950
+.rail 2;-11.4;-4.5;0
+.rail 3;15.2;-4.5;0
+73975
+.rail 2;-11.4;-3.75;0
+.rail 3;15.2;-3.75;0
+74000
+.wallend 0
+.wallend 1
+.rail 2;-11.4;-3;0
+.rail 3;15.2;-3;0
+74025
+.rail 2;-11.4;-2.25;0
+.rail 3;15.2;-2.25;0
+74050
+.rail 2;-11.4;-1.5;0
+.rail 3;15.2;-1.5;0
+74075
+.rail 2;-11.4;-0.75;0
+.rail 3;15.2;-0.75;0
+74100
+.freeobj 1;209;-225;-4.95
+.freeobj 1;208;-410;-4.95
+.pitch 0
+.height 4.95
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+74150
+.freeobj 1;209;-225;-4.95
+74200
+.freeobj 1;209;-225;-4.95
+.freeobj 1;208;-410;-4.95
+74250
+.freeobj 1;209;-225;-4.95
+.freeobj 1;208;-410;-4.95
+74300
+.Sta 한대앞; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+74325
+.freeobj -1;245;-170
+.freeobj -1;239;-210
+.freeobj -1;243;-250
+.freeobj -1;241;-290
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74350
+.form 0;2;4;0
+.form 1;3;4;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74375
+.freeobj -1;247;-170
+.freeobj -1;241;-210
+.freeobj -1;239;-250
+.freeobj -1;237;-290
+.freeobj 0;182;-5.7;0
+.freeobj 1;182;5.7;0;180
+.form 0;2;4;0
+.form 1;3;4;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74380
+.freeobj 0;24;-5.3
+.freeobj 1;24;5.3
+74400
+.freeobj 0;35;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74425
+.freeobj -1;241;-170
+.freeobj -1;245;-210
+.freeobj -1;237;-250
+.freeobj -1;239;-290
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74450
+.freeobj 0;182;-5.7;0
+.freeobj 1;182;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74475
+.freeobj -1;239;-170
+.freeobj -1;237;-210
+.freeobj -1;243;-250
+.freeobj -1;241;-290
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74500
+.freeobj 0;182;-5.7;0
+.freeobj 1;182;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;12
+.freeobj 1;9
+74505
+.stop 1
+74525
+74650
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+74675
+.rail 2;-10.45;0;0
+.rail 3;14.25;0;0
+74700
+.rail 2;-8.55;0;0
+.rail 3;12.35;0;0
+74725
+.rail 2;-6.65;0;0
+.rail 3;10.45;0;0
+74750
+.rail 2;-4.75;0;0
+.rail 3;8.55;0;0
+74775
+.rail 2;-2.85;0;0
+.rail 3;6.65;0;0
+74800
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+74825
+.dike 0;-1;0
+.dike 1;1;0
+.railend 2;0;0
+.railend 3;3.8;0
+74925
+.curve -600
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+74975
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+75400
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+75500
+.curve 0
+75625
+.ground 3
+75650
+.ground 0
+75675
+.freeobj 0;242;60;0;0
+75700
+.freeobj 0;246;60;0;0
+75725
+.freeobj 0;244;60;0;0
+.rail 2;0;0;12
+.rail 3;3.8;0;12
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+75750
+.freeobj 0;246;60;0;0
+.freeobj 0;239;-110;0;0
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+75775
+.freeobj 0;240;60;0;0
+.freeobj 0;243;-110;0;0
+.rail 2;-3.8;0;12
+.rail 3;7.6;0;12
+75800
+.freeobj 0;238;60;0;0
+.freeobj 0;247;-110;0;0
+.rail 2;-7.6;0;12
+.rail 3;11.4;0;12
+75825
+.freeobj 0;242;60;0;0
+.freeobj 0;243;-110;0;0
+.rail 2;-10.45;0;12
+.rail 3;14.25;0;12
+75850
+.freeobj 0;244;60;0;0
+.freeobj 0;245;-110;0;0
+.rail 2;-11.4;0;12
+.rail 3;15.2;0;12
+75875
+.freeobj 0;248;60;0;0
+.freeobj 0;239;-110;0;0
+75900
+.freeobj 0;246;60;0;0
+.freeobj 0;237;-110;0;0
+.wall 2;-1;52
+.wall 3;1;52
+.Sta 중앙; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+75925
+.freeobj 0;240;60;0;0
+.freeobj 0;241;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75927
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+75947
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+75950
+.freeobj 0;242;60;0;0
+.freeobj 0;243;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75973
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+75975
+.freeobj 0;238;60;0;0
+.freeobj 0;247;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75978
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+76000
+.freeobj 0;248;60;0;0
+.freeobj 0;245;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+76025
+.freeobj 0;244;60;0;0
+.freeobj 0;239;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+76028
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+76050
+.freeobj 0;246;60;0;0
+.freeobj 0;241;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+76052
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+76075
+.freeobj 0;240;60;0;0
+.freeobj 0;237;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+76078
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+76098
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+76100
+.freeobj 0;238;60;0;0
+.freeobj 0;247;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;12
+.freeobj 1;9
+.stop -1
+76125
+.freeobj 0;242;60;0;0
+.freeobj 0;243;-110;0;0
+.wall 2;-1;3
+.wall 3;1;3
+.rail 2;-11.4;0;12
+.rail 3;15.2;0;12
+76150
+.freeobj 0;244;60;0;0
+.freeobj 0;245;-110;0;0
+.rail 2;-10.45;0;12
+.rail 3;14.25;0;12
+76175
+.freeobj 0;201;-250;0;0
+.freeobj 0;201;-300;0;0
+.freeobj 0;201;-350;0;0
+.freeobj 0;201;-400;0;0
+.freeobj 0;248;60;0;0
+.freeobj 0;239;-110;0;0
+.rail 2;-7.6;0;12
+.rail 3;11.4;0;12
+76200
+.freeobj 0;246;60;0;0
+.rail 2;-3.8;0;12
+.rail 3;7.6;0;12
+76225
+.freeobj 0;240;60;0;0
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+76250
+.freeobj 0;242;60;0;0
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;-0.1;0
+.railend 3;3.9;0
+76275
+.freeobj 0;201;-250;0;0
+.freeobj 0;201;-300;0;0
+.freeobj 0;201;-350;0;0
+.freeobj 0;201;-400;0;0
+.freeobj 0;238;60;0;0
+76300
+.freeobj 0;248;60;0;0
+76325
+.freeobj 0;244;60;0;0
+76350
+.freeobj 0;246;60;0;0
+76375
+.freeobj 0;201;-250;0;0
+.freeobj 0;201;-300;0;0
+.freeobj 0;201;-350;0;0
+.freeobj 0;201;-400;0;0
+.freeobj 0;240;60;0;0
+76400
+.freeobj 0;248;60;0;0
+76425
+.freeobj 0;244;60;0;0
+76450
+.freeobj 0;246;60;0;0
+76475
+.freeobj 0;240;60;0;0
+76500
+.freeobj 0;238;60;0;0
+76525
+.freeobj 0;242;60;0;0
+76550
+.freeobj 0;244;60;0;0
+76575
+.freeobj 0;248;60;0;0
+76600
+.freeobj 0;246;60;0;0
+76625
+.freeobj 0;240;60;0;0
+76650
+.freeobj 0;242;60;0;0
+76675
+.freeobj 0;238;60;0;0
+76700
+.freeobj 0;244;60;0;0
+76725
+.freeobj 0;242;60;0;0
+77075
+.rail 2;-0.1;0;12
+.rail 3;3.9;0;12
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+77100
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+77125
+.rail 2;-2.85;0;12
+.rail 3;6.65;0;12
+77150
+.rail 2;-4.75;0;12
+.rail 3;8.55;0;12
+77175
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;-6.65;0
+.railend 3;10.45;0
+77275
+.wall 0;-1;53
+.wall 1;1;53
+.Sta 고잔; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77300
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77325
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77350
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77375
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77400
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77425
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77450
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77475
+.stop 1
+.wall 0;-1;3
+.wall 1;1;3
+77600
+.rail 2;-4.75;0;12
+.rail 3;8.55;0;12
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+77625
+.rail 2;-2.85;0;12
+.rail 3;6.65;0;12
+77650
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+77675
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;-0.1;0
+.railend 3;3.9;0
+78050
+.curve 800
+78425
+.curve 0
+78875
+.wall 0;-1;54
+.wall 1;1;54
+.Sta 초지; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;18
+.freeobj 1;9
+78900
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78912
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+78925
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78950
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78962
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+78975
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+79000
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+79013
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+79025
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+79050
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+79063
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+79075
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;12
+.freeobj 1;9
+79080
+.stop 1
+79100
+.wall 0;-1;3
+.wall 1;1;3
+79350
+.curve -800
+.pitch -12
+.height 4.45
+79500
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+79575
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+79625
+.curve 0
+79825
+.curve 800
+80075
+.dikeend 0
+.dikeend 1
+;서해선 선로 시작점
+80150
+.curve 0
+.pitch 0
+.height 0.45
+.rail 4;9.5;0;0
+.rail 5;-5.7;0;0
+80200
+.rail 3;0;0;8
+80225
+.rail 3;0.95;0;0
+80250
+.rail 3;2.85;0;7
+80275
+.rail 3;3.8;0;8
+80300
+.rail 3;4.75;0;0
+80325
+.rail 2;0;0;7
+.rail 3;6.65;0
+80350
+.rail 2;-0.95;0;0
+.rail 3;8.55;0
+.rail 4;9.5;0;8
+80375
+.rail 2;-2.85;0;0
+.rail 3;10.45;0
+.rail 4;10.45;0;8
+.rail 7;-19;0;0
+.rail 8;-24.7;0;0
+.rail 9;-30.4;0;0
+.rail 10;-38;0;0
+.freeobj 8;39
+80400
+.freeobj 8;39
+.rail 2;-4.75;0;0
+.rail 3;12.35;0
+.rail 4;13.3;0;0
+.rail 5;-5.7;0;7
+80425
+.freeobj 8;39
+.rail 2;-6.65;0;0
+.rail 3;14.25;0;7
+.railend 5;-6.65;0
+.rail 4;17.1;0;3
+.rail 5;17.1;0;0
+80450
+.freeobj 8;39
+.rail 2;-8.55;0;0
+.rail 3;15.2;0;0
+.rail 4;19;0;0
+.rail 5;20.9;0;3
+.rail 6;20.9;0;0
+80475
+.freeobj 8;39
+.rail 2;-10.45;0;8
+.rail 5;22.8;0;0
+.rail 6;24.7;0;3
+80500
+.freeobj 8;39
+.rail 2;-11.4;0;0
+.rail 6;26.6;0;0
+80525
+.freeobj 8;39
+80550
+.freeobj 8;39
+.Sta 안산; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;18
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80575
+.freeobj 8;39
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80600
+.rail 9;-30.4;0;8
+.rail 10;-36.1;0;8
+.freeobj 0;38;30.4
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80625
+.rail 9;-29.45;0;8
+.rail 10;-35.15;0;8
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.freeobj 0;38;30.4
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80630
+.freeobj 0;24;-5.7
+.freeobj 1;24;5.7
+80650
+.freeobj 0;37;1.9
+;역사 전방 25m 후방 10m
+.rail 8;-24.7;0;4
+.rail 9;-26.6;0;0
+.rail 10;-32.3;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80675
+.railend 8;-22.8;0
+.rail 9;-22.8;0;7
+.rail 10;-28.5;0;0
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80700
+.rail 9;-19.95;0;7
+.rail 10;-25.65;0;7
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80725
+.railend 9;-19;0
+.rail 10;-24.7;0;0
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80750
+.rail 7;-19;0;0
+.rail 10;-23.75;0;8
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;12
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80755
+.stop 1
+80775
+.rail 3;15.2;0;0
+.rail 4;19;0;0
+.rail 5;22.8;0;3
+.rail 6;26.6;0;3
+.rail 7;-19;0;0
+.rail 10;-20.9;0;3
+80800
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;3
+.rail 4;19;0;3
+.rail 5;20.9;0;0
+.rail 6;24.7;0;0
+.rail 7;-19;0;0
+.railend 10;-19;0
+80825
+.rail 2;-10.45;0;8
+.rail 3;13.3;0;0
+.rail 4;17.1;0;3
+.railend 5;17.1;0
+.rail 6;20.9;0;0
+.rail 7;-19;0;8
+.rail 8;-26.6;0;0
+80850
+.rail 2;-7.6;0;0
+.rail 3;9.5;0;0
+.rail 4;11.4;0;4
+.rail 6;17.1;0;0
+.rail 7;-18.05;0;8
+.rail 8;-22.8;0;0
+80875
+.rail 2;-3.8;0;7
+.rail 3;5.7;0;4
+.railend 4;5.7;0
+.rail 6;13.3;0;0
+.rail 7;-15.2;0;0
+.rail 8;-19;0;0
+80900
+.rail 2;-0.95;0;7
+.rail 3;3.8;0;7
+.rail 6;9.5;0;4
+.rail 7;-11.4;0;0
+.rail 8;-15.2;0;0
+80925
+.railend 2;0;0
+.rail 3;2.85;0;0
+.rail 6;7.6;0;0
+.rail 7;-7.6;0;7
+.rail 8;-11.4;0;7
+80950
+.rail 3;0.95;0;8
+.rail 7;-4.75;0;7
+.rail 8;-8.55;0;7
+80975
+.rail 3;0;0;0
+.rail 7;-3.8;0;0
+.rail 8;-7.6;0;0
+81000
+.rail 3;0;0;7
+81025
+.rail 3;-0.95;0;0
+81050
+.rail 3;-2.85;0;8
+81075
+.rail 2;-3.8;0;3
+.rail 3;-3.8;0;0
+.railend 7
+81100
+.rail 2;-5.7;0;0
+.rail 8;-7.6;0;3
+81125
+.rail 2;-9.5;0;4
+.rail 7;-3.8;0;3
+.railend 8;-9.5;0
+81150
+.rail 2;-11.4;0;0
+.rail 7;-5.7;0;4
+81175
+.rail 2;-11.4;0;0
+.rail 7;-7.6;0;0
+.railend 6
+81375
+.railend 2
+81400
+.railend 3
+.railend 7
+81850
+.curve 2000
+82075
+;육교
+82100
+.curve 0
+82500
+;육교
+.rail 3;0;0;8
+82525
+;육교
+.rail 3;0.95;0;0
+82550
+.rail 3;2.85;0;7
+82575
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+82625
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+82650
+.rail 2;-3.8;0;0
+.rail 3;7.6;0;0
+82675
+.rail 2;-7.6;0;8
+.rail 3;11.4;0;7
+82700
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+82725
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+82800
+.Sta 신길온천; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;18
+.freeobj 1;9
+82825
+.freeobj 0;187;-5.7;0
+.freeobj 1;187;5.7;0;180
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82850
+.freeobj 0;40;1.9
+;역사 시작
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82875
+.freeobj 0;40;1.9
+.freeobj 0;41;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82900
+.freeobj 0;40;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82925
+;역사 끝
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82940
+.freeobj 0;41;1.9;0;180
+82950
+.freeobj 0;187;-5.7;0
+.freeobj 1;187;5.7;0;180
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82975
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+83000
+.freeobj 0;187;-5.7;0
+.freeobj 1;187;5.7;0;180
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;12
+.freeobj 1;9
+83005
+.stop 1
+83025
+83050
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+83075
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+83100
+.rail 2;-7.6;0;0
+.rail 3;11.4;0;0
+83125
+.rail 2;-3.8;0;7
+.rail 3;7.6;0;8
+83150
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+83175
+.wall 0;-1;7
+.railend 2;0;0
+.rail 3;3.8;0;0
+83225
+.rail 3;3.8;0;7
+83250
+.rail 3;2.85;0;0
+83275
+.rail 3;0.95;0;8
+83300
+.railend 3;0;0
+83500
+.dike 1;1;0
+.curve 600
+.pitch 10
+.height 0.45
+83575
+;육교
+83675
+.wallend 0
+.dike 0;-1;0
+83825
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+83875
+.wallend 1
+.dike 1;1;0
+83975
+.pitch 0
+.height 5.45
+84200
+.curve -600
+.dikeend 1
+.wall 1;1;3
+84475
+.pitch 1
+.height 5.45
+84700
+.curve 0
+84975
+.pitch 0
+.height 5.95
+85250
+.rail 3;0;0;8
+85275
+.rail 3;0.95;0;0
+85300
+.rail 3;2.85;0;7
+85325
+.railend 3;3.8;0
+85550
+.wall 0;-1;55
+.wall 1;1;55
+.Sta 정왕; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;18
+.freeobj 1;9
+85575
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85600
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85625
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85650
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85675
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85700
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85725
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85750
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+85755
+.stop 1
+85775
+.wall 0;-1;3
+.wall 1;1;3
+.pitch -10
+85825
+.rail 3;3.8;0;3
+85850
+.rail 3;1.9;0;4
+85875
+.railend 3;0;0
+85925
+.curve 500
+86075
+.height 5.95
+86300
+.wallend 1
+.dike 1;1;0
+86575
+.pitch 0
+.height 0.95
+86750
+.wallend 0
+.dikeend 1
+.curve 0
+86775
+.rail 2;3.8;0;7
+.rail 3;0;0;8
+86800
+.rail 2;2.85;0;0
+.rail 3;0.95;0;0
+86825
+.rail 2;0.95;0;8
+.rail 3;2.85;0;7
+86850
+.rail 2;0;0;0
+.rail 3;3.8;0;0
+86875
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+86900
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+86925
+.rail 2;-3.8;0;0
+.rail 3;7.6;0;0
+86950
+.rail 2;-7.6;0;8
+.rail 3;11.4;0;7
+86975
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+87000
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+87050
+.Sta 오이도; ; ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;18
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87075
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87100
+.freeobj 0;189;-5.7;0
+.freeobj 1;189;5.7;0;180
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87125
+.freeobj 0;42;1.9
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87150
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87160
+.freeobj 0;43;1.9
+87175
+.freeobj 0;43;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87200
+;역사 끝
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87225
+.freeobj 0;189;-5.7;0
+.freeobj 1;189;5.7;0;180
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87250
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+87255
+.stop 1

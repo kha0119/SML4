@@ -1,0 +1,94 @@
+CreateMeshBuilder
+AddVertex,-2.6, 5.0, 0
+AddVertex,-2.6, 5.0, 25
+AddVertex,-2.6, 0, 25
+AddVertex,-2.6, 0, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, TunnelWall.bmp
+SetTextureCoordinates, 0, 1, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex,-2.6, 0, 0
+AddVertex,-2.6, 0, 25
+AddVertex,-1.9, -0.55, 25
+AddVertex,-1.9, -0.55, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, TunnelWall.bmp
+SetTextureCoordinates, 0, 1, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 0.1
+SetTextureCoordinates, 3, 1, 0.1
+
+CreateMeshBuilder
+AddVertex,-1.9, 6, 0
+AddVertex,-1.9, 6, 25
+AddVertex,-2.6, 5, 25
+AddVertex,-2.6, 5, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, TunnelWall.bmp
+SetTextureCoordinates, 0, 1, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 0.1
+SetTextureCoordinates, 3, 1, 0.1
+
+CreateMeshBuilder
+AddVertex,-2.6, 6.0, 0
+AddVertex,-2.6, 6.0, 25
+AddVertex,1.9, 6.0, 25
+AddVertex,1.9, 6.0, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, TunnelWall.bmp
+SetTextureCoordinates, 0, 1, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 0.1
+SetTextureCoordinates, 3, 1, 0.1
+
+CreateMeshBuilder
+AddVertex,-2.6, -0.55, 0
+AddVertex,-2.6,-0.55, 25
+AddVertex,1.9, -0.55, 25
+AddVertex,1.9, -0.55, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, TunnelWall.bmp
+SetTextureCoordinates, 0, 1, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 0.1
+SetTextureCoordinates, 3, 1, 0.1
+
+CreateMeshBuilder
+Cube, 0.02 [, 0.05, 1]
+Translate,-2.59, 3.65, 12.5
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,-3.8,-3.3,0
+AddVertex,-3.8,8.1,0
+AddVertex,1.9,8.1,0
+AddVertex,1.9,-3.3,0
+AddVertex,-3.8,-3.3,25
+AddVertex,-3.8,8.1,25
+AddVertex,1.9,8.1,25
+AddVertex,1.9,-3.3,25
+AddFace,0,1,2,3
+AddFace,1,0,4,5
+AddFace,2,1,5,6
+AddFace,4,0,3,7
+GenerateNormals
+LoadTexture,Tunnel_Portal_Double2.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0.5,0
+SetTextureCoordinates,3,0.5,1
+SetTextureCoordinates,4,0,1
+SetTextureCoordinates,5,0,0
+SetTextureCoordinates,6,0.5,0
+SetTextureCoordinates,7,0.5,1
+SetDecalTransparentColor,0,0,255

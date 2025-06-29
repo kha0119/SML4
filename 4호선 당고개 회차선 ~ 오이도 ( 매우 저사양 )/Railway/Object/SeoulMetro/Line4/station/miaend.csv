@@ -1,0 +1,28 @@
+
+CreateMeshBuilder
+AddVertex,-6.4,4.7,0
+AddVertex,-11.0,4.7,0
+AddVertex,-11.0,1.1,0
+AddVertex,-6.4,1.1,0
+AddFace2,3,2,1,0
+GenerateNormals
+LoadTexture, mia.bmp
+SetTextureCoordinates,0,0.6,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,0.6,1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex,2.6,4.7,0
+AddVertex,7.2,4.7,0
+AddVertex,7.2,1.1,0
+AddVertex,2.6,1.1,0
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, mia.bmp
+SetTextureCoordinates,0,0.6,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,0.6,1
+SetDecalTransparentColor,0,0,0

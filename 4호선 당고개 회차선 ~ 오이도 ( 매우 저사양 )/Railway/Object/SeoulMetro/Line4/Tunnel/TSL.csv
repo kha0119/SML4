@@ -1,0 +1,37 @@
+CreateMeshBuilder
+AddVertex,0,5.8,0
+AddVertex,-0.64,5.8,0
+AddVertex,-1.76,5.16,0
+AddVertex,-2.4,4.04,0
+AddVertex,-2.4,1.66,0
+AddVertex,-1.63,-0.9,0
+AddVertex,0,5.8,25.7
+AddVertex,-0.64,5.8,25.7
+AddVertex,-1.76,5.16,25.7
+AddVertex,-2.4,4.04,25.7
+AddVertex,-2.4,1.66,25.7
+AddVertex,-1.63,-0.9,25.7
+AddFace,1,0,6,7
+AddFace,2,1,7,8
+AddFace,3,2,8,9
+AddFace,4,3,9,10
+AddFace,5,4,10,11
+GenerateNormals
+LoadTexture,TunnelWall.bmp
+SetTextureCoordinates,0,0,0.1
+SetTextureCoordinates,1,0,0.1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,0.18
+SetTextureCoordinates,4,0,0.68
+SetTextureCoordinates,5,0,1
+SetTextureCoordinates,6,1.02,0.1
+SetTextureCoordinates,7,1.02,0.1
+SetTextureCoordinates,8,1.02,0
+SetTextureCoordinates,9,1.02,0.18
+SetTextureCoordinates,10,1.02,0.68
+SetTextureCoordinates,11,1.02,1
+
+CreateMeshBuilder
+Cube, 0.02 [, 0.05, 1]
+Translate,-2.4, 3.65, 12.5
+GenerateNormals

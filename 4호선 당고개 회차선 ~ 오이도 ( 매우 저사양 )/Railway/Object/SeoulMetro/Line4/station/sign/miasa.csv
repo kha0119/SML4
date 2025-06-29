@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,0,2.9,2.6,
+AddVertex,0,2.9,-2.6,
+AddVertex,0,3.5,-2.6,
+AddVertex,0,3.5,2.6,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,miasa.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetDecalTransparentColor,0,0,0,

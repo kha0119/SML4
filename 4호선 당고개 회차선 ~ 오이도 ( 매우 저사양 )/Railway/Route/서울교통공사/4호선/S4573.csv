@@ -1,0 +1,9974 @@
+With Route
+.Comment 서울교통공사 4호선 당고개발 오이도행 평일 S4573 다이어
+.Elevation 159.38
+.Gauge 1435
+
+,;TFO
+,;4호선
+.TfoXML TFO\S4062.xml,;사당발 진접행
+.TfoXML TFO\F4952.xml,;회송
+.TfoXML TFO\S4064.xml,;사당발 당고개행
+.TfoXML TFO\S4554.xml,;오이도발 당고개행
+.TfoXML TFO\S4066.xml,;사당발 진접행
+.TfoXML TFO\K4556.xml,;오이도발 당고개행
+.TfoXML TFO\S4068.xml,;사당발 당고개행
+.TfoXML TFO\K4558.xml,;오이도발 당고개행
+.TfoXML TFO\S4560.xml,;오이도발 당고개행
+.TfoXML TFO\S4072.xml,;사당발 진접행
+.TfoXML TFO\S4562.xml,;오이도발 당고개행
+.TfoXML TFO\S4074.xml,;사당발 당고개행
+.TfoXML TFO\S4564.xml,;오이도발 당고개행
+.TfoXML TFO\S4076.xml,;사당발 당고개행
+.TfoXML TFO\K4566.xml,;오이도발 당고개행
+.TfoXML TFO\S4078.xml,;사당발 당고개행
+.TfoXML TFO\S4568.xml,;오이도발 당고개행
+.TfoXML TFO\S4080.xml,;사당발 진접행
+.TfoXML TFO\S4082.xml,;사당발 당고개행
+.TfoXML TFO\K4570.xml,;오이도발 당고개행
+.TfoXML TFO\S4084.xml,;사당발 진접행
+.TfoXML TFO\S4572.xml,;오이도발 당고개행
+.TfoXML TFO\K4574.xml,;오이도발 당고개행
+.TfoXML TFO\K4576.xml,;오이도발 당고개행
+.TfoXML TFO\K4578.xml,;오이도발 당고개행
+.TfoXML TFO\K4580.xml,;오이도발 당고개행
+.TfoXML TFO\K4582.xml,;오이도발 당고개행
+.TfoXML TFO\K4316.xml,;안산발 당고개행
+.TfoXML TFO\K4584.xml,;오이도발 당고개행
+.TfoXML TFO\S4586.xml,;오이도발 당고개행
+.TfoXML TFO\K4588.xml,;오이도발 당고개행
+.TfoXML TFO\K4590.xml,;오이도발 당고개행
+.TfoXML TFO\K4592.xml,;오이도발 당고개행
+.TfoXML TFO\F4594.xml,;회송
+
+,;수인분당선
+.TfoXML TFO\K6540.xml,;인천발 왕십리행
+.TfoXML TFO\K6542.xml,;인천발 왕십리행
+.TfoXML TFO\G6916.xml,;회송
+
+With Train
+
+.Folder Korail341035
+.Run(0) 0
+.Run(1) 0
+.Run(2) 1
+.Run(3) 0
+.Run(4) 0
+.Run(5) 1
+.Run(6) 1
+.Run(7) 0
+.Run(8) 0
+.Run(9) 1
+.Run(10) 1
+With Structure
+.Rail(0) SeoulMetro\Line4\Rail\Straight.csv
+.Rail(1) SeoulMetro\Line4\Rail\StraightSlab.csv
+.Rail(2) SeoulMetro\Line4\Rail\StraightDarkSlab.csv
+.Rail(3) SeoulMetro\Line4\Rail\-166.csv
+.Rail(4) SeoulMetro\Line4\Rail\166.csv
+.Rail(5) SeoulMetro\Line4\Rail\-166DarkSlab.csv
+.Rail(6) SeoulMetro\Line4\Rail\166DarkSlab.csv
+.Rail(7) SeoulMetro\Line4\Rail\-332.csv
+.Rail(8) SeoulMetro\Line4\Rail\332.csv
+.Rail(9) SeoulMetro\Line4\Rail\-332DarkSlab.csv
+.Rail(10) SeoulMetro\Line4\Rail\332DarkSlab.csv
+.Rail(11) Korail\Line1\Null.csv
+.Rail(12) Korail\Line1\NoRail_102\NoRail1.csv
+.Rail(13) Korail\Line1\NoRail_102\NoRail2.csv
+.Rail(14) Korail\Line1\bridge1\Straight.csv
+.Rail(15) Korail\Line1\Road\RoadL.csv
+.Rail(16) Korail\Line1\Road\RoadR.csv
+.Rail(17) Korail\Line1\Road\Road2L.csv
+.Rail(18) Korail\Line1\Road\Road2R.csv
+.Rail(19) Korail\Line1\Road\Road3L.csv
+.Rail(20) Korail\Line1\Road\Road3R.csv
+.Rail(21) Korail\Line1\Road\Road4L.csv
+.Rail(22) Korail\Line1\Road\Road4R.csv
+.Rail(23) SeoulMetro\Line4\Rail\StraightDark.csv
+.Rail(24) SeoulMetro\Line4\Rail\-166Dark.csv
+.Rail(25) SeoulMetro\Line4\Rail\166Dark.csv
+.Rail(26) SeoulMetro\Line4\Rail\-332Dark.csv
+.Rail(27) SeoulMetro\Line4\Rail\332Dark.csv
+.Ground(0) Korail\Line4\background\Grass.csv
+.Ground(1) Korail\Line4\background\black.csv
+.Ground(2) Korail\Line4\background\River.csv
+.Ground(3) Korail\Line4\background\Levee.csv
+.Ground(4) Null.csv
+.Ground(5) Korail\Line4\background\GrassU2L.csv
+.Ground(6) Korail\Line4\background\GrassU2R.csv
+.WallL(0) SeoulMetro\Line4\Tunnel\TunnelL.csv
+.WallR(0) SeoulMetro\Line4\Tunnel\TunnelR.csv
+.WallL(1) SeoulMetro\Line4\Tunnel\TunnelLin.csv
+.WallR(1) SeoulMetro\Line4\Tunnel\TunnelRin.csv
+.WallL(3) Korail\Line4\WWallL.csv
+.WallR(3) Korail\Line4\WWallR.csv
+.WallL(4) Korail\Line4\WWallL1.csv
+.WallR(4) Korail\Line4\WWallR1.csv
+.WallL(5) Korail\Line4\WWallL2.csv
+.WallR(5) Korail\Line4\WWallR2.csv
+.WallL(6) Korail\Line4\WWallL3.csv
+.WallR(6) Korail\Line4\WWallR3.csv
+.WallL(7) Korail\Line4\bangumL.csv
+.WallR(7) Korail\Line4\bangumR.csv
+.WallL(8) Korail\Line4\bangumL1.csv
+.WallR(8) Korail\Line4\bangumR1.csv
+.WallL(9) Korail\Line4\bangumL3.csv
+.WallR(9) Korail\Line4\bangumR3.csv
+.WallL(10) SeoulMetro\Line4\Tunnel\sheld\TunnelL.csv
+.WallR(10) SeoulMetro\Line4\Tunnel\sheld\TunnelR.csv
+.WallL(11) SeoulMetro\Line4\station\danggogaeL.csv
+.WallR(11) SeoulMetro\Line4\station\danggogaeR.csv
+.WallL(12) SeoulMetro\Line4\station\sanggyeL.csv
+.WallR(12) SeoulMetro\Line4\station\sanggyeR.csv
+.WallL(13) SeoulMetro\Line4\station\nowonL.csv
+.WallR(13) SeoulMetro\Line4\station\nowonR.csv
+.WallL(14) SeoulMetro\Line4\station\nowon2L.csv
+.WallR(14) SeoulMetro\Line4\station\nowon2R.csv
+.WallL(15) SeoulMetro\Line4\station\changdongL.csv
+.WallR(15) SeoulMetro\Line4\station\changdongR.csv
+.WallL(16) SeoulMetro\Line4\station\ssangmunL.csv
+.WallR(16) SeoulMetro\Line4\station\ssangmunR.csv
+.WallL(17) SeoulMetro\Line4\station\suyuL.csv
+.WallR(17) SeoulMetro\Line4\station\suyuR.csv
+.WallL(18) SeoulMetro\Line4\station\miaL.csv
+.WallR(18) SeoulMetro\Line4\station\miaR.csv
+.WallL(19) SeoulMetro\Line4\station\miasageoriL.csv
+.WallR(19) SeoulMetro\Line4\station\miasageoriR.csv
+.WallL(20) SeoulMetro\Line4\station\girumL.csv
+.WallR(20) SeoulMetro\Line4\station\girumR.csv
+.WallL(21) SeoulMetro\Line4\station\sungsinL.csv
+.WallR(21) SeoulMetro\Line4\station\sungsinR.csv
+.WallL(22) SeoulMetro\Line4\station\hanseongL.csv
+.WallR(22) SeoulMetro\Line4\station\hanseongR.csv
+.WallL(23) SeoulMetro\Line4\station\hyehwaL.csv
+.WallR(23) SeoulMetro\Line4\station\hyehwaR.csv
+.WallL(24) SeoulMetro\Line4\station\dongdaemunL.csv
+.WallR(24) SeoulMetro\Line4\station\dongdaemunR.csv
+.WallL(25) SeoulMetro\Line4\station\stadiumL.csv
+.WallR(25) SeoulMetro\Line4\station\stadiumR.csv
+.WallL(26) SeoulMetro\Line4\station\chungmuroL.csv
+.WallR(26) SeoulMetro\Line4\station\chungmuroR.csv
+.WallL(27) SeoulMetro\Line4\station\myeongdongL.csv
+.WallR(27) SeoulMetro\Line4\station\myeongdongR.csv
+.WallL(28) SeoulMetro\Line4\station\hoehyeonL.csv
+.WallR(28) SeoulMetro\Line4\station\hoehyeonR.csv
+.WallL(29) SeoulMetro\Line4\station\seoulL.csv
+.WallR(29) SeoulMetro\Line4\station\seoulR.csv
+.WallL(30) SeoulMetro\Line4\station\sukmyeongL.csv
+.WallR(30) SeoulMetro\Line4\station\sukmyeongR.csv
+.WallL(31) SeoulMetro\Line4\station\samgakjiL.csv
+.WallR(31) SeoulMetro\Line4\station\samgakjiR.csv
+.WallL(32) SeoulMetro\Line4\station\sinyongsanL.csv
+.WallR(32) SeoulMetro\Line4\station\sinyongsanR.csv
+.WallL(33) SeoulMetro\Line4\station\ichonL.csv
+.WallR(33) SeoulMetro\Line4\station\ichonR.csv
+.WallL(34) SeoulMetro\Line4\station\dongjakL.csv
+.WallR(34) SeoulMetro\Line4\station\dongjakR.csv
+.WallL(35) SeoulMetro\Line4\station\isuL.csv
+.WallR(35) SeoulMetro\Line4\station\isuR.csv
+.WallL(36) SeoulMetro\Line4\station\sadangL.csv
+.WallR(36) SeoulMetro\Line4\station\sadangR.csv
+.WallL(37) SeoulMetro\Line4\station\namtaeryongL.csv
+.WallR(37) SeoulMetro\Line4\station\namtaeryongR.csv
+.WallL(38) SeoulMetro\Line4\station\seonbawiL.csv
+.WallR(38) SeoulMetro\Line4\station\seonbawiR.csv
+.WallL(39) SeoulMetro\Line4\station\racecourseL.csv
+.WallR(39) SeoulMetro\Line4\station\racecourseR.csv
+.WallL(40) SeoulMetro\Line4\station\grandparkL.csv
+.WallR(40) SeoulMetro\Line4\station\grandparkR.csv
+.WallL(41) SeoulMetro\Line4\station\gwacheonL.csv
+.WallR(41) SeoulMetro\Line4\station\gwacheonR.csv
+.WallL(42) SeoulMetro\Line4\station\govementL.csv
+.WallR(42) SeoulMetro\Line4\station\govementR.csv
+.WallL(43) SeoulMetro\Line4\station\govement2L.csv
+.WallR(43) SeoulMetro\Line4\station\govement2R.csv
+.WallL(44) SeoulMetro\Line4\station\indgwonL.csv
+.WallR(44) SeoulMetro\Line4\station\indgwonR.csv
+.WallL(45) SeoulMetro\Line4\station\pyeongchonL.csv
+.WallR(45) SeoulMetro\Line4\station\pyeongchonR.csv
+.WallL(46) SeoulMetro\Line4\station\beomgyeL.csv
+.WallR(46) SeoulMetro\Line4\station\beomgyeR.csv
+.WallL(48) Korail\Line4\station\sanbonL.csv
+.WallR(48) Korail\Line4\station\sanbonR.csv
+.WallL(49) Korail\Line4\station\surisanL.csv
+.WallR(49) Korail\Line4\station\surisanR.csv
+.WallL(50) Korail\Line4\station\daeyamiL.csv
+.WallR(50) Korail\Line4\station\daeyamiR.csv
+.WallL(51) Korail\Line4\station\sangnoksuL.csv
+.WallR(51) Korail\Line4\station\sangnoksuR.csv
+.WallL(52) Korail\Line4\station\jungangL.csv
+.WallR(52) Korail\Line4\station\jungangR.csv
+.WallL(53) Korail\Line4\station\gojanL.csv
+.WallR(53) Korail\Line4\station\gojanR.csv
+.WallL(54) Korail\Line4\station\chojiL.csv
+.WallR(54) Korail\Line4\station\chojiR.csv
+.WallL(55) Korail\Line4\station\jeongwangL.csv
+.WallR(55) Korail\Line4\station\jeongwangR.csv
+.DikeL(0) Korail\Line1\background\DikeL.csv
+.DikeR(0) Korail\Line1\background\DikeR.csv
+.DikeL(1) Korail\Line1\syamen\yamaL.csv
+.DikeR(1) Korail\Line1\syamen\yamaR.csv
+.DikeL(2) Korail\Line1\syamen\yamaL2.csv
+.DikeR(2) Korail\Line1\syamen\yamaR2.csv
+.DikeL(3) Korail\Line1\Road\raildikeL.csv
+.DikeR(3) Korail\Line1\Road\raildikeR.csv
+.DikeL(4) SeoulMetro\Line4\Tunnel\SubpoleL.csv
+.DikeR(4) SeoulMetro\Line4\Tunnel\SubpoleR.csv
+.DikeL(5) SeoulMetro\Line4\station\StadikeL.csv
+.DikeR(5) SeoulMetro\Line4\station\StadikeR.csv
+.DikeL(6) Korail\Line1\Tree\treeL.csv
+.DikeR(6) Korail\Line1\Tree\treeR.csv
+.DikeL(10) SeoulMetro\Line4\station\dongdaemunL2.csv
+.DikeR(10) SeoulMetro\Line4\station\dongdaemunR2.csv
+.DikeL(11) SeoulMetro\Line4\station\chungmuroL2.csv
+.DikeR(11) SeoulMetro\Line4\station\chungmuroR2.csv
+.DikeL(12) SeoulMetro\Line4\station\ddppole.csv
+.DikeR(12) SeoulMetro\Line4\station\myeongdongpole.csv
+.DikeL(13) SeoulMetro\Line4\station\seoulpole.csv
+.DikeR(13) SeoulMetro\Line4\station\sadangpole.csv
+.DikeL(14) SeoulMetro\Line4\station\samgakjipoleL.csv
+.DikeR(14) SeoulMetro\Line4\station\samgakjipoleR.csv
+.DikeL(15) SeoulMetro\Line4\station\seonbawiL2.csv
+.DikeR(15) SeoulMetro\Line4\station\seonbawiR2.csv
+.CrackL(0) SeoulMetro\Line4\Rail\CraSlbL.csv
+.CrackR(0) SeoulMetro\Line4\Rail\CraSlbR.csv
+.FormL(0) Korail\Line4\Form\FormLu.csv
+.FormR(0) Korail\Line4\Form\FormRu.csv
+.FormCL(0) Korail\Line4\Form\FormCLu.csv
+.FormCR(0) Korail\Line4\Form\FormCRu.csv
+.FormL(1) Null.csv
+.FormR(1) Null.csv
+.FormCL(1) Null.csv
+.FormCR(1) Null.csv
+.RoofL(2) SeoulMetro\Line4\Form\RoofLu.csv
+.RoofR(2) SeoulMetro\Line4\Form\RoofRu.csv
+.RoofCL(2) SeoulMetro\Line4\Form\RoofCLu.csv
+.RoofCR(2) SeoulMetro\Line4\Form\RoofCRu.csv
+.RoofL(3) SeoulMetro\Line4\Form\RoofLup.csv
+.RoofR(3) SeoulMetro\Line4\Form\RoofRup.csv
+.RoofCL(3) SeoulMetro\Line4\Form\RoofCLu.csv
+.RoofCR(3) SeoulMetro\Line4\Form\RoofCRu.csv
+.RoofL(4) Korail\Line1\station\geumjeongroofL.csv
+.RoofR(4) Korail\Line1\station\geumjeongroofR.csv
+.RoofCL(4) Korail\Line1\Null.csv
+.RoofCR(4) Korail\Line1\Null.csv
+.RoofL(5) Korail\Line4\station\daeyamiroofL.csv
+.RoofR(5) Korail\Line4\station\daeyamiroofR.csv
+.RoofCL(5) Korail\Line1\Null.csv
+.RoofCR(5) Korail\Line1\Null.csv
+.RoofL(6) Korail\Line4\station\banwolL.csv
+.RoofR(6) Korail\Line4\station\banwolR.csv
+.RoofCL(6) Korail\Line1\Null.csv
+.RoofCR(6) Korail\Line1\Null.csv
+.RoofL(7) Korail\Line4\station\ansanroofL.csv
+.RoofR(7) Korail\Line4\station\ansanroofR.csv
+.RoofCL(7) Korail\Line1\Null.csv
+.RoofCR(7) Korail\Line1\Null.csv
+.RoofL(9) Korail\Line4\station\singiloncheonroofL.csv
+.RoofR(9) Korail\Line4\station\singiloncheonroofR.csv
+.RoofCL(9) Korail\Line1\Null.csv
+.RoofCR(9) Korail\Line1\Null.csv
+.RoofL(10) Korail\Line4\station\oidoroofL.csv
+.RoofR(10) Korail\Line4\station\oidoroofR.csv
+.RoofCL(10) Korail\Line1\Null.csv
+.RoofCR(10) Korail\Line1\Null.csv
+.freeobj(0) Korail\Line4\stop6.csv
+.freeobj(1) SeoulMetro\Line4\Rail\Railend.csv
+.freeobj(2) SeoulMetro\Line4\Rail\RailendTun.csv
+.freeobj(8) Korail\Line4\PSD\doorLclose.animated
+.freeobj(9) Korail\Line4\PSD\doorRclose.animated
+.freeobj(10) Korail\Line4\PSD\doorL.animated
+.freeobj(11) Korail\Line4\PSD\doorR.animated
+.freeobj(12) Korail\Line4\PSD\doorLend.animated
+.freeobj(13) Korail\Line4\PSD\doorRend.animated
+.freeobj(14) Korail\Line4\PSD\doorLent6.animated
+.freeobj(15) Korail\Line4\PSD\doorRent6.animated
+.freeobj(16) Korail\Line4\PSD\doorLent8.animated
+.freeobj(17) Korail\Line4\PSD\doorRent8.animated
+.freeobj(18) Korail\Line4\PSD\doorLent10.animated
+.freeobj(19) Korail\Line4\PSD\doorRent10.animated
+.freeobj(24) Korail\Line1\station\oedaestair.csv
+.freeobj(25) Korail\Line1\station\gasan.csv
+;.freeobj(31) Korail\Line4\station\geumjeong.csv
+;.freeobj(32) Korail\Line4\station\geumjeong2.csv
+.freeobj(33) Korail\Line4\station\surisan.csv
+.freeobj(34) Korail\Line4\station\surisan2.csv
+.freeobj(35) Korail\Line4\station\handaeap.csv
+;.freeobj(36) Korail\Line4\station\handaeap2.csv
+.freeobj(37) Korail\Line4\station\ansan.csv
+.freeobj(38) Korail\Line4\station\ansan2.csv
+.freeobj(39) Korail\Line4\station\ansandepot.csv
+.freeobj(40) Korail\Line4\station\singiloncheon.csv
+.freeobj(41) Korail\Line4\station\singiloncheon2.csv
+.freeobj(42) Korail\Line4\station\oido.csv
+.freeobj(43) Korail\Line4\station\oido2.csv
+.freeobj(74) SeoulMetro\Line4\station\Staend.csv
+.freeobj(75) SeoulMetro\Line4\station\StaendL.csv
+.freeobj(76) SeoulMetro\Line4\station\StaendR.csv
+.freeobj(77) Korail\Line4\PeopleL.csv
+.freeobj(78) Korail\Line4\PeopleR.csv
+.freeobj(79) Korail\Line4\PeopleL2.csv
+.freeobj(80) Korail\Line4\PeopleR2.csv
+.freeobj(81) Korail\Line4\PeopleL3.csv
+.freeobj(82) Korail\Line4\PeopleR3.csv
+.freeobj(83) SeoulMetro\Line4\Tunnel\TDent.csv
+.freeobj(84) SeoulMetro\Line4\Tunnel\TSent.csv
+.freeobj(85) SeoulMetro\Line4\Tunnel\TDent2.csv
+.freeobj(87) Korail\Line1\syamen\tunent2.csv
+.freeobj(88) Korail\Line1\syamen\tunent.csv
+.freeobj(89) Korail\Line1\syamen\mountin.csv
+.freeobj(90) SeoulMetro\Line4\station\danggogaeend.csv
+.freeobj(91) SeoulMetro\Line4\station\sanggyeend.csv
+.freeobj(92) SeoulMetro\Line4\station\nowonend.csv
+.freeobj(95) SeoulMetro\Line4\station\ssangmunend.csv
+.freeobj(96) SeoulMetro\Line4\station\suyuend.csv
+.freeobj(97) SeoulMetro\Line4\station\miaend.csv
+.freeobj(98) SeoulMetro\Line4\station\miasageoriend.csv
+.freeobj(100) SeoulMetro\Line4\station\sungsinend.csv
+.freeobj(101) SeoulMetro\Line4\station\hyehwaend.csv
+.freeobj(102) SeoulMetro\Line4\station\dongdaemunend.csv
+.freeobj(105) SeoulMetro\Line4\station\chungmuroend.csv
+.freeobj(106) SeoulMetro\Line4\station\myeongdongstair.csv
+.freeobj(109) SeoulMetro\Line4\station\sukmyeongend.csv
+.freeobj(110) SeoulMetro\Line4\station\samgakjiend.csv
+.freeobj(112) SeoulMetro\Line4\station\sinyongsanend.csv
+.freeobj(113) SeoulMetro\Line4\station\ichonend.csv
+.freeobj(114) SeoulMetro\Line4\station\dongjakend.csv
+.freeobj(115) SeoulMetro\Line4\station\isuend.csv
+.freeobj(116) SeoulMetro\Line4\station\sadangend.csv
+.freeobj(117) SeoulMetro\Line4\station\sadangend2.csv
+.freeobj(119) SeoulMetro\Line4\station\namtaeryongend.csv
+.freeobj(120) SeoulMetro\Line4\station\seonbawiend.csv
+.freeobj(121) SeoulMetro\Line4\station\racecourseend.csv
+.freeobj(122) SeoulMetro\Line4\station\racecoursepole.csv
+.freeobj(123) SeoulMetro\Line4\station\grandparkend.csv
+.freeobj(124) SeoulMetro\Line4\station\grandparkpole.csv
+.freeobj(125) SeoulMetro\Line4\station\gwacheonend.csv
+.freeobj(126) SeoulMetro\Line4\station\govementend.csv
+.freeobj(127) SeoulMetro\Line4\station\indgwonend.csv
+.freeobj(128) SeoulMetro\Line4\station\pyeongchonend.csv
+.freeobj(129) SeoulMetro\Line4\station\pyeongchonpole.csv
+.freeobj(130) SeoulMetro\Line4\station\beomgyeend.csv
+.freeobj(141) SeoulMetro\Line4\station\sign\danggogae.csv
+.freeobj(142) SeoulMetro\Line4\station\sign\sanggye.csv
+.freeobj(143) SeoulMetro\Line4\station\sign\nowon.csv
+.freeobj(144) SeoulMetro\Line4\station\sign\changdong.csv
+.freeobj(145) SeoulMetro\Line4\station\sign\ssangmun.csv
+.freeobj(146) SeoulMetro\Line4\station\sign\suyu.csv
+.freeobj(147) SeoulMetro\Line4\station\sign\mia.csv
+.freeobj(148) SeoulMetro\Line4\station\sign\miasa.csv
+.freeobj(149) SeoulMetro\Line4\station\sign\girum.csv
+.freeobj(150) SeoulMetro\Line4\station\sign\seongsin.csv
+.freeobj(151) SeoulMetro\Line4\station\sign\hanseong.csv
+.freeobj(152) SeoulMetro\Line4\station\sign\hyehwa.csv
+.freeobj(153) SeoulMetro\Line4\station\sign\dongdaemun.csv
+.freeobj(154) SeoulMetro\Line4\station\sign\dongdaemun2.csv
+.freeobj(155) SeoulMetro\Line4\station\sign\stadium.csv
+;.freeobj(156) SeoulMetro\Line4\station\sign\chungmuro.csv
+.freeobj(157) SeoulMetro\Line4\station\sign\myeongdong.csv
+.freeobj(158) SeoulMetro\Line4\station\sign\hoehyeon.csv
+.freeobj(159) SeoulMetro\Line4\station\sign\seoul.csv
+.freeobj(160) SeoulMetro\Line4\station\sign\sukmyeong.csv
+.freeobj(161) SeoulMetro\Line4\station\sign\samgakji.csv
+.freeobj(162) SeoulMetro\Line4\station\sign\sinyongsan.csv
+.freeobj(163) SeoulMetro\Line4\station\sign\ichon.csv
+;.freeobj(164) SeoulMetro\Line4\station\sign\dongjak.csv
+.freeobj(165) SeoulMetro\Line4\station\sign\isu.csv
+.freeobj(166) SeoulMetro\Line4\station\sign\sadang.csv
+.freeobj(167) SeoulMetro\Line4\station\sign\namtaeryeong.csv
+.freeobj(168) SeoulMetro\Line4\station\sign\seonbawi.csv
+.freeobj(169) SeoulMetro\Line4\station\sign\racecourse.csv
+.freeobj(170) SeoulMetro\Line4\station\sign\grandpark.csv
+.freeobj(171) SeoulMetro\Line4\station\sign\gwacheon.csv
+.freeobj(173) SeoulMetro\Line4\station\sign\indeogwon.csv
+.freeobj(174) SeoulMetro\Line4\station\sign\pyeongchon.csv
+.freeobj(175) SeoulMetro\Line4\station\sign\beomgye.csv
+.freeobj(176) Korail\Line4\station\sign\geumjeong.csv
+.freeobj(177) Korail\Line4\station\sign\sanbon.csv
+.freeobj(178) Korail\Line4\station\sign\surisan.csv
+.freeobj(179) Korail\Line4\station\sign\daeyami.csv
+.freeobj(180) Korail\Line4\station\sign\banwol.csv
+.freeobj(181) Korail\Line4\station\sign\sangnoksu.csv
+.freeobj(182) Korail\Line4\station\sign\handaeap.csv
+.freeobj(183) Korail\Line4\station\sign\jungang.csv
+.freeobj(184) Korail\Line4\station\sign\gojan.csv
+.freeobj(185) Korail\Line4\station\sign\choji.csv
+.freeobj(186) Korail\Line4\station\sign\ansan.csv
+.freeobj(187) Korail\Line4\station\sign\singiloncheon.csv
+.freeobj(188) Korail\Line4\station\sign\jeongwang.csv
+.freeobj(189) Korail\Line4\station\sign\oido.csv
+.freeobj(200) Korail\Line1\Roadcross.csv
+.freeobj(201) Korail\Line1\Apart\Apart1.csv
+.freeobj(202) Korail\Line1\Apart\Apart2.csv
+.freeobj(203) Korail\Line1\Apart\Apart3.csv
+.freeobj(204) Korail\Line1\Apart\Apart4.csv
+.freeobj(205) Korail\Line1\Apart\Apart5.csv
+.freeobj(206) Korail\Line1\Apart\Apart6.csv
+.freeobj(207) Korail\Line1\Apart\Apart1-2.csv
+.freeobj(208) Korail\Line1\Apart\Apart2-2.csv
+.freeobj(209) Korail\Line1\Apart\Apart3-2.csv
+.freeobj(210) Korail\Line1\Apart\Apart4-2.csv
+.freeobj(211) Korail\Line1\Apart\Apart5-2.csv
+.freeobj(212) Korail\Line1\Apart\Apart6-2.csv
+.freeobj(213) Korail\Line1\house\house1.csv
+.freeobj(214) Korail\Line1\house\house2.csv
+.freeobj(215) Korail\Line1\house\house3.csv
+.freeobj(216) Korail\Line1\house\house4.csv
+.freeobj(217) Korail\Line1\house\house5.csv
+.freeobj(218) Korail\Line1\house\house6.csv
+.freeobj(219) Korail\Line1\Tree\tree1.csv
+.freeobj(220) Korail\Line1\Tree\tree2.csv
+.freeobj(221) Korail\Line1\Tree\tree3.csv
+.freeobj(222) Korail\Line1\Building\TMart.csv;테크노마트
+.freeobj(223) Korail\Line1\Building\Buil1.csv;빌딩 왼쪽
+.freeobj(224) Korail\Line1\Building\Buil1(M).csv;빌딩 오른쪽
+.freeobj(225) Korail\Line1\Building\Buil2.csv;빌딩 왼쪽
+.freeobj(226) Korail\Line1\Building\Buil2(M).csv;빌딩 오른쪽
+.freeobj(227) Korail\Line1\Building\Buil3.csv;빌딩 왼쪽
+.freeobj(228) Korail\Line1\Building\Buil3(M).csv;빌딩 오른쪽
+.freeobj(229) Korail\Line1\Building\Buil4.csv;빌딩 왼쪽
+.freeobj(230) Korail\Line1\Building\Buil4(M).csv;빌딩 오른쪽
+.freeobj(233) Korail\Line1\Building\Buil6.csv;빌딩 왼쪽
+.freeobj(234) Korail\Line1\Building\Buil6(M).csv;빌딩 오른쪽
+.freeobj(235) Korail\Line1\Building\Buil7.csv;빌딩 왼쪽
+.freeobj(236) Korail\Line1\Building\Buil7(M).csv;빌딩 오른쪽
+.freeobj(237) Korail\Line1\Building\sangga1.csv;상가 왼쪽
+.freeobj(238) Korail\Line1\Building\sangga1(M).csv;상가 오른쪽
+.freeobj(239) Korail\Line1\Building\sangga2.csv;상가 왼쪽
+.freeobj(240) Korail\Line1\Building\sangga2(M).csv;상가 오른쪽
+.freeobj(241) Korail\Line1\Building\sangga3.csv;상가 왼쪽
+.freeobj(242) Korail\Line1\Building\sangga3(M).csv;상가 오른쪽
+.freeobj(243) Korail\Line1\Building\sangga4.csv;상가 왼쪽
+.freeobj(244) Korail\Line1\Building\sangga4(M).csv;상가 오른쪽
+.freeobj(245) Korail\Line1\Building\sangga5.csv;상가 왼쪽
+.freeobj(246) Korail\Line1\Building\sangga5(M).csv;상가 오른쪽
+.freeobj(247) Korail\Line1\Building\sangga6.csv;상가 왼쪽
+.freeobj(248) Korail\Line1\Building\sangga6(M).csv;상가 오른쪽
+.freeobj(249) Korail\Line1\house\buil1.csv
+.freeobj(250) Korail\Line1\house\buil2.csv
+.freeobj(251) Korail\Line1\house\buil3.csv
+.freeobj(252) Korail\Line1\house\buil4.csv
+.freeobj(253) Korail\Line4\Train\S-VVVF\TC.csv;교행열차 서교공 VVVF
+.freeobj(254) Korail\Line4\Train\S-VVVF\M.csv
+.freeobj(255) Korail\Line4\Train\S-VVVF\T.csv
+.freeobj(256) Korail\Line4\Train\S-VVVF\T1.csv
+.freeobj(257) Korail\Line4\Train\S-VVVF\TC2.csv
+.freeobj(258) Korail\Line4\Train\VVVF1st\TC.csv;교행열차 납작이
+.freeobj(259) Korail\Line4\Train\VVVF1st\M.csv
+.freeobj(260) Korail\Line4\Train\VVVF1st\M2.csv
+.freeobj(261) Korail\Line4\Train\VVVF1st\T.csv
+.freeobj(262) Korail\Line4\Train\VVVF1st\T1.csv
+.freeobj(263) Korail\Line4\Train\VVVF1st\TC2.csv
+.freeobj(264) Korail\Line4\Train\VVVF2nd\TC.csv;교행열차 동작이
+.freeobj(265) Korail\Line4\Train\VVVF2nd\M.csv
+.freeobj(266) Korail\Line4\Train\VVVF2nd\M2.csv
+.freeobj(267) Korail\Line4\Train\VVVF2nd\T.csv
+.freeobj(268) Korail\Line4\Train\VVVF2nd\T1.csv
+.freeobj(269) Korail\Line4\Train\VVVF2nd\TC2.csv
+.freeobj(270) Korail\Line4\Train\VVVF3rd\TC.csv;교행열차 주둥이
+.freeobj(271) Korail\Line4\Train\VVVF3rd\M.csv
+.freeobj(272) Korail\Line4\Train\VVVF3rd\M2.csv
+.freeobj(273) Korail\Line4\Train\VVVF3rd\T.csv
+.freeobj(274) Korail\Line4\Train\VVVF3rd\T1.csv
+.freeobj(275) Korail\Line4\Train\VVVF3rd\TC2.csv
+.freeobj(276) Korail\Bundang\Train\VVVF4rd\TC.csv;교행열차 수인선 뱀눈이
+.freeobj(277) Korail\Bundang\Train\VVVF4rd\M.csv
+.freeobj(278) Korail\Bundang\Train\VVVF4rd\M2.csv
+.freeobj(279) Korail\Bundang\Train\VVVF4rd\T.csv
+.freeobj(280) Korail\Bundang\Train\VVVF4rd\TC2.csv
+.freeobj(306) Korail\Line4\station\stair.csv
+.freeobj(307) SeoulMetro\Line4\station\stair4.csv
+.freeobj(308) SeoulMetro\Line4\PSD\doorLclose.animated
+.freeobj(309) SeoulMetro\Line4\PSD\doorRclose.animated
+.freeobj(310) SeoulMetro\Line4\PSD\doorL.animated
+.freeobj(311) SeoulMetro\Line4\PSD\doorR.animated
+.freeobj(312) SeoulMetro\Line4\PSD\doorLend.animated
+.freeobj(313) SeoulMetro\Line4\PSD\doorRend.animated
+.freeobj(314) SeoulMetro\Line4\PSD\doorLent6.animated
+.freeobj(315) SeoulMetro\Line4\PSD\doorRent6.animated
+.freeobj(316) SeoulMetro\Line4\PSD\doorLent8.animated
+.freeobj(317) SeoulMetro\Line4\PSD\doorRent8.animated
+.freeobj(318) SeoulMetro\Line4\PSD\doorLent10.animated
+.freeobj(319) SeoulMetro\Line4\PSD\doorRent10.animated
+.freeobj(321) SeoulMetro\Line4\station\ssangmunstairL.csv
+.freeobj(322) SeoulMetro\Line4\station\ssangmunstairR.csv
+.freeobj(323) SeoulMetro\Line4\station\suyupole.csv
+.freeobj(324) SeoulMetro\Line4\station\suyustair.csv
+.freeobj(325) SeoulMetro\Line4\station\miastairL.csv
+.freeobj(326) SeoulMetro\Line4\station\miastairR.csv
+.freeobj(327) SeoulMetro\Line4\station\miasageoristair.csv
+.freeobj(328) SeoulMetro\Line4\station\girumstair.csv
+.freeobj(329) SeoulMetro\Line4\station\girumpole.csv
+.freeobj(330) SeoulMetro\Line4\station\sungsinstair.csv
+.freeobj(332) SeoulMetro\Line4\station\hanseongstair.csv
+.freeobj(333) SeoulMetro\Line4\station\hanseongpole.csv
+.freeobj(334) SeoulMetro\Line4\station\hyehwa.csv
+.freeobj(335) SeoulMetro\Line4\station\dongdaemunstair.csv
+.freeobj(336) SeoulMetro\Line4\station\dongdaemunpole.csv
+.freeobj(337) SeoulMetro\Line4\station\ddpstair.csv
+.freeobj(338) SeoulMetro\Line4\station\ddppole.csv
+.freeobj(339) SeoulMetro\Line4\station\chungmurostair.csv
+.freeobj(343) SeoulMetro\Line4\station\seoulstair.csv
+.freeobj(344) SeoulMetro\Line4\station\sukmyeongstair.csv
+.freeobj(345) SeoulMetro\Line4\station\samgakjistair.csv
+.freeobj(346) SeoulMetro\Line4\station\sinyongsanstair.csv
+.freeobj(347) SeoulMetro\Line4\station\ichonstair.csv
+.freeobj(348) SeoulMetro\Line4\station\isustair.csv
+.freeobj(349) SeoulMetro\Line4\station\sadangstair.csv
+.freeobj(350) SeoulMetro\Line4\station\namtaeryong2.csv
+.freeobj(351) SeoulMetro\Line4\station\seonbawistair.csv
+.freeobj(352) SeoulMetro\Line4\station\racecoursestair.csv
+.freeobj(353) SeoulMetro\Line4\station\grandparkstair.csv
+.freeobj(354) SeoulMetro\Line4\station\gwacheonstair.csv
+.freeobj(355) SeoulMetro\Line4\station\govementstair.csv
+.freeobj(356) SeoulMetro\Line4\station\indgwonstair.csv
+.freeobj(357) SeoulMetro\Line4\station\pyeongchonstair.csv
+.freeobj(358) SeoulMetro\Line4\station\beomgyestair.csv
+Texture.Background(0) Korail\Line4\background\BG1.bmp
+Texture.Background(1) Korail\Line4\background\BG2.bmp
+Texture.Background(5) Korail\Line4\background\black.bmp
+With Track
+;교행열차
+
+;본문
+14975
+.rail 1;3.8;0;0
+.back 0
+.Ground 0
+.wall 0;-1;0
+.wall 1;1;0
+.Height 8.45
+.railtype 0;0
+.Sta 당고개회차선; 10.2230; 10.23; 0; 0; 0; 0; ; 30; 0; 
+15225
+.stop 1
+15250
+.wall 0;-1;3
+.wall 1;1;3
+15275
+.pole 0;1;0;50;0
+.wallend 0
+.wallend 1
+.railtype 0;4
+.rail 1;3.8;0;3
+.rail 2;0;0;0
+.rail 3;3.8;0;0
+.wall 2;-1;3
+.wall 3;1;3
+15300
+.railtype 0;3
+.rail 1;0;0;4
+.rail 2;-1.9;0;0
+.rail 3;1.9;0;0
+15325
+.pole 0;1;1;50;0
+.wallend 2
+.wallend 3
+.wall 1;-1;3
+.wall 0;1;3
+.railtype 0;0
+.rail 1;-3.8;0;0
+.railend 2;-3.8;0
+.railend 3;0;0
+15375
+.freeobj 0;90
+.wall 1;-1;11
+.wall 0;1;11
+.Sta 당고개; 10.2330;10.24 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+
+15400
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15410
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+15425
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15440
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+15450
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15475
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15500
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15525
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15530
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+15550
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+15570
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+15575
+.freeobj 0;141;7.15;0;180
+.freeobj 1;141;-7.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+15580
+.stop -1
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\1. 출발역 오이도행(하선).mp3
+15600
+.freeobj 0;90
+.wall 1;-1;3
+.wall 0;1;3
+15625
+.rail 2;0;0;3
+.rail 3;-3.8;0;4
+15650
+.rail 2;-1.9;0;4
+.rail 3;-1.9;0;3
+15675
+.railend 2;-3.8;0
+.railend 3;0;0
+15900
+16075
+16125
+16250
+16300
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\2. 상계.mp3
+16400
+16525
+16600
+.freeobj 0;91;-1.9
+.wall 1;-1;12
+.wall 0;1;12
+.Sta 상계; 10.2630;10.27 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+16625
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16630
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+16650
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16670
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+16675
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16700
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16725
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+.freeobj 0;311
+.freeobj 1;308
+16750
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16770
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+16775
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+16800
+.freeobj 0;142;7.15;0;180
+.freeobj 1;142;-7.15
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;313
+.freeobj 1;308
+16805
+.stop 1
+16825
+.freeobj 0;91;-1.9;0;180
+.wall 1;-1;3
+.wall 0;1;3
+16875
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\2.1 (다음역) 노원.mp3
+17075
+17150
+17225
+17325
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\3. 노원.mp3
+17400
+17500
+17625
+.wall 1;-1;13
+.wall 0;1;13
+.freeobj 0;92;-1.9
+.Sta 노원;10.2830 ; 10.29; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+17645
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17650
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17655
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+17670
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17675
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17687
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17695
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0180
+17700
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17705
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17725
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17750
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17770
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+17775
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17780
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+17800
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 0;311
+.freeobj 1;308
+17820
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+17825
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;313
+.freeobj 1;308
+17830
+.freeobj 0;143;7.19;0;180
+.freeobj 1;143;-7.19
+.stop 1
+17850
+.wall 1;-1;3
+.wall 0;1;3
+.rail 2;0;0;7
+.rail 3;-3.8;0;8
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\3.1 (다음역) 창동.mp3
+17875
+.rail 2;-0.95;0;0
+.rail 3;-2.85;0;0
+17900
+.rail 2;-2.85;0;8
+.rail 3;-0.95;0;7
+17925
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+.rail 2;-3.8;0;3
+.rail 3;0;0;4
+17950
+.pole 0;3;2;50;0
+.rail 2;-5.7;0;0
+.rail 3;1.9;0;0
+17975
+.pole 0;1;1;50;0
+.wall 0;1;3
+.wall 1;-1;3
+.wall 2;0;3
+.wall 3;0;3
+.rail 2;-9.5;0;4
+.rail 3;5.7;0;3
+18000
+.rail 2;-11.4;0;0
+.rail 3;7.6;0;0
+18050
+.Height 8.45
+18075
+.rail 2;-11.4;-1;0
+.rail 3;7.6;-1;0
+18100
+.rail 2;-11.4;-2;0
+.rail 3;7.6;-2;0
+18125
+.rail 2;-11.4;-3;0
+.rail 3;7.6;-3;0
+18150
+.rail 2;-11.4;-4;0
+.rail 3;7.6;-4;0
+18175
+.rail 2;-11.4;-5;0
+.rail 3;7.6;-5;0
+18200
+.rail 2;-11.4;-6;0
+.rail 3;7.6;-6;0
+18225
+.rail 2;-11.4;-7;0
+.rail 3;7.6;-7;0
+18250
+.rail 2;-11.4;-8;0
+.rail 3;7.6;-8;0
+18275
+.rail 2;-11.4;-9;0
+.rail 3;7.6;-9;0
+18300
+.rail 2;-11.4;-10;4
+.rail 3;7.6;-10;4
+18325
+.rail 2;-9.5;-11;4
+.rail 3;9.5;-11;4
+18350
+.rail 2;-3.8;-12;4
+.rail 3;15.2;-12;4
+.Height 14.45
+18375
+.rail 2;5.7;-12;4
+.rail 3;24.7;-12;4
+18400
+.rail 2;19.95;-12;4
+.rail 3;38.95.1;-12;4
+18425
+.rail 2;38;-12;4
+.rail 3;57;-12;4
+18450
+.wallend 2
+.wallend 3
+.railend 2;58.9;-12
+.railend 3;77.9;-12
+18425
+18475
+18500
+.Height 14.45
+.rail 2;27.55;-10;4
+.wall 2;0;3
+18525
+18550
+.ground 2
+.rail 2;19;-9;4
+18575
+.ground 3
+.rail 2;12.35;-8;4
+18600
+.ground 0
+.rail 2;7.6;-7;4
+18650
+.rail 2;5.7;-6;0
+18675
+.rail 2;5.7;-5;0
+18700
+.rail 2;5.7;-4;0
+18725
+.rail 2;5.7;-3;0
+18750
+.rail 2;5.7;-2;0
+18775
+.rail 2;5.7;-1;0
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\4. 창동.mp3
+18800
+.Height 8.45
+.rail 2;5.7;0;0
+.wall 2;1;3
+19000
+.wallend 0
+19075
+.wall 0;1;3
+.wall 2;1;3
+.wallend 2
+.railend 2
+.wall 1;-1;15
+.wall 0;1;15
+.Sta 창동; 10.3030; 10.31; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+19100
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19105
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+19125
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19145
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+19150
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19175
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19200
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19225
+.freeobj -1;208;125
+.freeobj -1;208;225
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19230
+.freeobj 0;307;5.8
+.freeobj 1;307;-5.8
+19250
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+19270
+.freeobj 0;307;5.8;0;180
+.freeobj 1;307;-5.8;0;180
+19275
+.freeobj 0;144;7.19;0;180
+.freeobj 1;144;-7.19
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;313
+.freeobj 1;308
+19280
+.stop 1
+19300
+.wall 1;-1;3
+.wall 0;1;3
+.Height 8.45
+19400
+.Height 4.95
+19425
+.freeobj -1;203;40;0;25
+19500
+.rail 2;5.1;-1;11
+.rail 3;-8.9;-1;11
+.dike 2;-1;3
+.dike 3;1;3
+.Height 1.45
+.ground 6
+19525
+.rail 2;5.1;-0.125;11
+.rail 3;-8.9;-0.125;11
+19550
+.rail 2;5.1;0.75;11
+.rail 3;-8.9;0.75;11
+19575
+.freeobj 2;203;40
+.freeobj 2;203;95
+.rail 2;5.1;1.625;11
+.rail 3;-8.9;1.625;11
+19600
+.Height -2.05
+.rail 2;5.1;2.5;11
+.rail 3;-8.9;2.5;11
+19625
+.rail 2;5.1;3.375;11
+.rail 3;-8.9;3.375;11
+19650
+.rail 2;5.1;4.25;11
+.rail 3;-8.9;4.25;11
+19675
+.dikeend 2
+.dikeend 3
+.rail 2;5.1;5.125
+.rail 3;-8.9;5.125
+.poleend 0
+.wall 0;1;1
+.wall 1;-1;1
+.railtype 0;23
+.railtype 1;23
+.dike 0;-1;4
+.back 5
+19750
+.wall 0;1;0
+.wall 1;-1;0
+.ground 0
+19775
+.Height -8.175
+19850
+20150
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\5. 쌍문.mp3
+20075
+20325
+20450
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.wall 0;1;16
+.wall 1;-1;16
+.dike 0;-1;5
+.freeobj 0;95
+.Sta 쌍문;10.33 ; 10.3330; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;319
+.freeobj 1;308
+20470
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20475
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+.freeobj 0;321
+.freeobj 1;322
+20500
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20525
+.wall 0;1;16
+.wall 1;-1;16
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;322;0;0;180
+.freeobj 1;321;0;0;180
+.freeobj 0;311
+.freeobj 1;308
+20530
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20550
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20555
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20575
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20580
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+20600
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+.freeobj 0;321
+.freeobj 1;322
+20625
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+20650
+.wall 0;1;16
+.wall 1;-1;16
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;322;0;0;180
+.freeobj 1;321;0;0;180
+.freeobj 0;313
+.freeobj 1;308
+20655
+.freeobj 0;145;7.19;0;180
+.freeobj 1;145;-7.19;
+.stop 1
+20675
+.railend 2
+.railend 3
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;95
+20950
+21225
+21600
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\6. 수유(강북구청).mp3
+21900
+.wall 0;1;17
+.wall 1;-1;17
+.dike 0;-1;5
+.freeobj 0;96;4.9
+.freeobj 1;96;-4.9
+.Sta 수유; 10.3530; 10.36; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+21925
+.rail 2;-15.2;0;11
+.rail 3;11.4;0;11
+.rail 4;1.5;0;11
+.rail 5;-5.3;0;11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+21950
+.wallend 0
+.wallend 1
+.wall 4;1;17
+.wall 5;-1;17
+.freeobj 0;96;9.5
+.freeobj 1;96;-9.5
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;324;7.3
+.freeobj 1;324;-7.3
+.freeobj 0;311
+.freeobj 1;308
+21975
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+21985
+.freeobj 0;324;7.3;0;180
+.freeobj 1;324;-7.3;0;180
+22000
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+22025
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+22040
+.freeobj 0;324;7.3
+.freeobj 1;324;-7.3
+22050
+.form 0;3;2;0
+.form 1;2;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;323;5.1
+.freeobj 1;323;-5.1
+.freeobj 0;311
+.freeobj 1;308
+22075
+.wall 0;1;17
+.wall 1;-1;17
+.wallend 4
+.wallend 5
+.freeobj 0;96;9.5
+.freeobj 1;96;-9.5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;324;7.3;0;180
+.freeobj 1;324;-7.3;0;180 
+.freeobj 0;311
+.freeobj 1;308
+22100
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+22105
+.stop 1
+22125
+.freeobj 0;96;4.9
+.freeobj 1;96;-4.9
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+22175
+22475
+22950
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\7. 미아(서울사이버대학).mp3
+23250
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.wall 0;1;18
+.wall 1;-1;18
+.dike 0;-1;5
+.freeobj 0;97
+.Sta 미아; 10.3730;10.38 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+23270
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23275
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;326
+.freeobj 1;325
+.freeobj 0;311
+.freeobj 1;308
+23300
+.freeobj 0;147;9.69;0;180
+.freeobj 1;147;-9.69;
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23325
+.wall 0;1;18
+.wall 1;-1;18
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;325;0;0;180
+.freeobj 1;326;0;0;180
+.freeobj 0;311
+.freeobj 1;308
+23330
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23350
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23355
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23370
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23375
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23395
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23400
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;326
+.freeobj 1;325
+.freeobj 0;311
+.freeobj 1;308
+23425
+.freeobj 0;147;9.69;0;180
+.freeobj 1;147;-9.69;
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+23450
+.wall 0;1;18
+.wall 1;-1;18
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;325;0;0;180
+.freeobj 1;326;0;0;180
+.freeobj 0;313
+.freeobj 1;308
+23455
+.stop 1
+.freeobj 0;147;7.19;0;180
+.freeobj 1;147;-7.19;
+23475
+.railend 2
+.railend 3
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;97
+24350
+24475
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\8. 미아사거리.mp3
+24775
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.wall 0;1;19
+.wall 1;-1;19
+.dike 0;-1;5
+.freeobj 0;98;6.15;0;180
+.freeobj 1;98;-6.15;0;180
+.Sta 미아사거리;10.40 ;10.4030 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;319
+.freeobj 1;308
+24800
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6
+.freeobj 1;327;-7.6
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24825
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24850
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6;0;180
+.freeobj 1;327;-7.6;0;180
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24875
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24900
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24925
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6
+.freeobj 1;327;-7.6
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24950
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+24975
+.freeobj 0;148;9.69;-0.15;180
+.freeobj 1;148;-9.69;-0.15
+.freeobj 0;327;7.6;0;180
+.freeobj 1;327;-7.6;0;180
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;313
+.freeobj 1;308
+24980
+.stop 1
+25000
+.railend 2
+.railend 3
+.wall 0;1;0
+.wall 1;-1;0
+.freeobj 0;98;6.15;
+.freeobj 1;98;-6.15;
+.dike 0;-1;4
+25050
+25150
+25300
+25450
+25875
+25775
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\9. 길음.mp3
+25900
+.dikeend 0
+25925
+.rail 1;-4.75;0;23
+25950
+.rail 1;-6.65;0;23
+25975
+.rail 1;-8.55;0;23
+.wall 0;0;0
+.wall 1;0;0
+26000
+.rail 1;-10.45;0;23
+26025
+.rail 1;-11.4;0;23
+.wall 0;1;20
+.wall 1;-1;20
+.Sta 길음;10.4230 ; 10.43; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;329;-5.7
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+26050
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26055
+.freeobj 0;328;-5.7
+26075
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26100
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26110
+.freeobj 0;328;-5.7
+26125
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26150
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26165
+.freeobj 0;328;-5.7;0;180
+26175
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26200
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+26220
+.freeobj 0;328;-5.7;0;180
+26225
+.freeobj 0;329;-5.7
+.freeobj 0;149;2.59;-0.15;180
+.freeobj 1;149;-2.59;-0.15
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+26230
+.stop 1
+26250
+.wall 0;0;0
+.wall 1;0;0
+26900
+27050
+27125
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\10. 성신여대입구(우이신설선).mp3
+27350
+.rail 1;-3.8;0;23
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+27400
+27425
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;21
+.wall 1;-1;21
+.dike 0;-1;5
+.freeobj 0;100;4.9
+.freeobj 1;100;-4.9
+.Sta 성신여대입구; 10.45;10.4530 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+27440
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27450
+.wallend 0
+.wallend 1
+.wall 4;1;21
+.wall 5;-1;21
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27455
+.freeobj 0;330;7.4
+.freeobj 1;330;-7.4
+27475
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27495
+.freeobj 0;330;7.4;0;180
+.freeobj 1;331;-7.4;0;180
+27500
+.wall 0;1;21
+.wall 1;-1;21
+.wallend 4
+.wallend 5
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27510
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27525
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27530
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.3630
+27545
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27550
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27565
+.freeobj 0;150;7.19;0.36;180
+.freeobj 1;150;-7.19;0.36
+27575
+.wallend 0
+.wallend 1
+.wall 4;1;21
+.wall 5;-1;21
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27580
+.freeobj 0;330;7.4
+.freeobj 1;330;-7.4
+27600
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+27610
+.freeobj 0;150;9.09;0.36;180
+.freeobj 1;150;-9.09;0.36
+27620
+.freeobj 0;330;7.4;0;180
+.freeobj 1;330;-7.4;0;180
+27625
+.wall 0;1;21
+.wall 1;-1;21
+.wallend 4
+.wallend 5
+.freeobj 0;100;9.5
+.freeobj 1;100;-9.5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+27630
+.stop 1
+27650
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;100;4.9
+.freeobj 1;100;-4.9
+27700
+27850
+28075
+28100
+.rail 1;-4.75;0;23
+28125
+.rail 1;-8.55;0;23
+28150
+.rail 1;-10.45;0;23
+.rail 2;-5.7;0;23
+28175
+.rail 1;-11.4;0;23
+28200
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\11. 한성대입구.mp3
+28250
+28400
+.dikeend 0
+.rail 2;-5.7;0;27
+28425
+.rail 2;-4.75;0;23
+28450
+.rail 2;-1.9;0;24
+28475
+.railend 2;0;0
+28500
+.wall 0;1;22
+.wall 1;-1;22
+.Sta 한성대입구; 10.47;10.4730 ; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;333;-5.7
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+28525
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28550
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28565
+.freeobj 0;332;-5.7;0;180
+28575
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28600
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28615
+.freeobj 0;332;-5.7;0;180
+28625
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28635
+.freeobj 0;332;-5.7;0
+28650
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28675
+.freeobj 0;332;-5.7;0
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+28700
+.freeobj 0;333;-5.7
+.freeobj 0;151;2.59;-0.22;180
+.freeobj 1;151;-2.59;-0.22
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+28705
+.stop 1
+28725
+.wall 0;0;0
+.wall 1;0;0
+28750
+28775
+.rail 1;-10.45;0;23
+28800
+.rail 1;-7.6;0;23
+28825
+.rail 1;-4.75;0;23
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+28850
+.rail 1;-3.8;0;23
+29075
+29125
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\12. 혜화.mp3
+29275
+29425
+.wall 0;1;23
+.wall 1;-1;23
+.dike 0;-1;5
+.freeobj 0;101
+.Sta 혜화; 10.49; 10.4930; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+29450
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;311
+.freeobj 1;308
+29460
+.freeobj 0;334;6.0
+.freeobj 1;334;-6.0
+29475
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29490
+.freeobj 0;334;6.0;0;180
+.freeobj 1;334;-6.0;0;180
+29500
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29525
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29550
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29575
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29585
+.freeobj 0;334;6.0
+.freeobj 1;334;-6.0
+29600
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+29615
+.freeobj 0;334;6.0;0;180
+.freeobj 1;334;-6.0;0;180
+29625
+.freeobj 0;152;7.19;0.11;180
+.freeobj 1;152;-7.19;0.11
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+29630
+.stop 1
+29650
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;101
+29750
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\12.1 (다음역) 동대문.mp3
+30050
+30300
+30325
+.rail 1;-4.75;0;23
+30350
+.wall 0;0;10
+.wall 1;0;10
+.dikeend 0
+.rail 1;-6.65;0;23
+30375
+.rail 1;-8.55;0;23
+30400
+.rail 1;-10.45;0;23
+30425
+.rail 1;-12.35;0;23
+30450
+.rail 1;-14.25;0;23
+30475
+.rail 1;-15.2;0;23
+30650
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\13. 동대문_하행.mp3
+30950
+.wall 0;1;24
+.wall 1;-1;24
+.dike 0;-1;10
+.dike 1;1;10
+.Sta 동대문;10.5130 ; 10.52; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;102;-3.8;0;180
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+30963
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+30975
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+30988
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31000
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31013
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31025
+.freeobj 0;102;-7.6;0;180
+.dikeend 0
+.dikeend 1
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31038
+.freeobj 0;153;3.95;-0.18;180
+31050
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31062
+.freeobj 0;153;3.95;-0.18;180
+31075
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31087
+.freeobj 0;153;3.95;-0.18;180
+31100
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31112
+.freeobj 0;153;3.95;-0.18;180
+31125
+.freeobj 0;102;-7.6
+.dike 0;-1;10
+.dike 1;1;10
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31137
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31150
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+31155
+.stop 1
+31162
+.freeobj 0;153;3.95;-0.18;180
+.freeobj 0;154;-5.69;0.27
+31175
+.dikeend 0
+.dikeend 1
+.wall 0;0;10
+.wall 1;0;10
+.freeobj 0;102;-3.8
+31275
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\14. 동대문역사문화공원.mp3
+31350
+.rail 1;-15.2;0;23
+31550
+.wall 0;0;0
+.wall 1;0;0
+31575
+.rail 2;-4.3;0;11
+.rail 3;-10.9;0;11
+.dike 2;-1;12
+.dike 3;-1;12
+.wall 0;1;25
+.wall 1;-1;25
+.Sta 동대문역사문화공원; 10.53;10.5330 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+31588
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31600
+.freeobj 0;337;-7.6;0;180
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31613
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31625
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31630
+.freeobj 0;337;-7.6;0;0
+31638
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31650
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31663
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;2.59;-0.15
+31670
+.freeobj 0;337;-7.6;0;180
+31675
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31688
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31700
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31712
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31725
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31730
+.freeobj 0;337;-7.6;0;0
+31737
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31750
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+31762
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31770
+.freeobj 0;337;-7.6;0;180
+31775
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;312
+.freeobj 1;309
+31780
+.stop 1
+31787
+.freeobj 0;155;2.59;-0.15;180
+.freeobj 1;155;-2.59;-0.15
+31800
+.dikeend 2
+.dikeend 3
+.railend 2
+.railend 3
+.wall 0;0;0
+.wall 1;0;0
+31875
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\14.1 (다음역) 충무로.mp3
+31900
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.rail 1;-10.45;0;23
+31925
+.rail 1;-7.65;0;23
+31950
+.rail 1;-4.75;0;23
+31975
+.rail 1;-3.8;0;23
+32500
+.wallend 1
+.rail 2;-8.55;0;23
+.wall 2;-1;0
+32525
+.rail 2;-6.65;0;23
+32550
+.rail 2;-4.75;0;26
+32575
+.wallend 2
+.wall 1;-1;0
+.dikeend 0
+.rail 2;-3.8;0;27
+32600
+.rail 2;-2.85;0;23
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\15. 충무로.mp3
+32625
+.rail 2;-0.95;0;26
+32650
+.railend 2;0;0
+.dike 0;-1;4
+32900
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;26
+.wall 1;-1;26
+.dike 0;-1;5
+.freeobj 0;105;4.9
+.freeobj 1;105;-4.9
+.Sta 충무로; 10.5530; 10.56; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+32925
+.wall 4;1;26
+.wall 5;-1;26
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;105;9.5
+.freeobj 1;105;-9.5
+.freeobj 0;311
+.freeobj 1;308
+32930
+.freeobj 0;339;7.4
+.freeobj 1;339;-7.4
+32950
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+32970
+.freeobj 0;339;7.4;0;180
+.freeobj 1;339;-7.4;0;180
+32975
+.wallend 4
+.wallend 5
+.dike 0;1;11
+.dike 1;-1;11
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+33000
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+33025
+.railend 5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+33050
+.dikeend 0
+.dikeend 1
+.wall 0;1;26
+.wall 1;-1;26
+.rail 1;-4.275;0;23
+.railend 3
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;105;9.5
+.freeobj 1;105;-9.5
+.freeobj 0;311
+.freeobj 1;308
+33055
+.freeobj 0;339;6.6;0
+.freeobj 1;339;-6.6;0
+33075
+.rail 1;-5.225;0;23
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+33095
+.freeobj 0;339;6.6;0;180
+.freeobj 1;339;-6.6;0;180
+33100
+.rail 1;-6.175;0;23
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+33105
+.stop 1
+33125
+.rail 1;-7.125;0;23
+.rail 2;15.2;0;11
+.rail 4;1.9;0;11
+.freeobj 0;105;4.9
+.freeobj 1;105;-4.9
+.wall 0;0;0
+.wall 1;0;0
+.dikeend 0
+33150
+.rail 1;-8.075;0;23
+33175
+.rail 1;-9.025;0;23
+33200
+.rail 1;-9.975;0;23
+33225
+.rail 1;-10.925;0;23
+33250
+.rail 1;-12.325;0;23
+33275
+.rail 1;-14.25;0;23
+33300
+.rail 1;-15.2;0;23
+33325
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\16. 명동.mp3
+33375
+33475
+33625
+.rail 2;-7.6;0;11
+.dike 2;1;12
+.wall 0;1;27
+.wall 1;-1;27
+.Sta 명동; 10.57; 10.5730; 0; 1; 0; 0; ; 30; 0; 
+.freeobj 0;106;-7.6;0;180
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+33638
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33650
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33663
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33675
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33688
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33700
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33713
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33725
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33738
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33750
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33762
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33775
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33787
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33800
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+33812
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33825
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+33830
+.stop 1
+33837
+.freeobj 0;157;3.95;-0.18;180
+.freeobj 1;157;-3.95;-0.18
+33850
+.freeobj 0;106;-7.6;0;
+.dikeend 2
+.railend 2
+.wall 0;0;0
+.wall 1;0;0
+33875
+34025
+34075
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\16.1 회현_하행.mp3
+34125
+34225
+34350
+34375
+.rail 2;-4.3;0;11
+.rail 3;-10.9;0;11
+.dike 2;1;12
+.dike 3;1;12
+.wall 0;1;28
+.wall 1;-1;28
+.Sta 회현; 10.5830; 10.59; 0; 1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+34388
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34400
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34413
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34425
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34438
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34450
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34463
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34475
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34488
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34500
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34512
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34525
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34537
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34550
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;310
+.freeobj 1;309
+34562
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34575
+.form 0;1;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;312
+.freeobj 1;309
+34580
+.stop 1
+34587
+.freeobj 0;158;2.59;0.02;180
+.freeobj 1;158;-2.59;0.02
+34600
+.dikeend 2
+.dikeend 3
+.railend 2
+.railend 3
+.wall 0;0;0
+.wall 1;0;0
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\16.2 (다음역) 서울.mp3
+34900
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\17. 서울.mp3
+35100
+.rail 1;-14.25;
+35125
+.rail 1;-12.35;
+35175
+.rail 1;-11.4;
+
+,;서울
+35150
+.railend 2;-5.7;0;11
+.wall 0;1;29
+.wall 1;-1;29
+.dike 2;-1;13
+.Sta 서울역; 11.0030;11.01 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;318
+.freeobj 1;309
+35163
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35175
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+35188
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35200
+.dikeend 2
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35205
+.freeobj 0;343;-5.7;0
+35213
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35225
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35238
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35245
+.freeobj 0;343;-5.7;0;180
+35250
+.dike 2;-1;13
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+35263
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35275
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+35287
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35300
+.dikeend 2
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+35305
+.freeobj 0;343;-5.7;0
+35312
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35337
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35345
+.freeobj 0;343;-5.7;0;180
+35325
+.dike 2;-1;13
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;312
+.freeobj 1;309
+
+.stop 1
+35347
+.freeobj 0;159;2.59;-0.08;180
+.freeobj 1;159;-2.59;-0.08
+35350
+.dikeend 2
+.wall 1;0;0
+.wall 2;1;0
+.wall 0;-1;0;
+.wall 20;1;0;
+,;
+35350
+.rail 20;5;0;23
+35375
+.rail 20;3;0;23
+35400
+.rail 20;1.5;0;23
+35425
+.railend 20;0;0;27
+.wallend 20;
+.wall 0;0;0;
+35450
+.wallend 2
+.wall 0;1;0
+.wall 1;-1;0
+.rail 2;0;0;24
+.rail 3;-11.4;0;25
+35475
+.rail 2;-1.9;0;27
+.rail 3;-9.5;0;26
+35500
+.dike 0;-1;4
+.dike 1;1;4
+.rail 2;-4.75;0;27
+.rail 3;-6.65;0;26
+35525
+.rail 2;-5.7;0;23
+.railend 3;-5.7;0
+
+35725
+.railend 2
+35875
+.rail 1;-10.45;0;23
+35900
+.rail 1;-8.55;0;23
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\18. 숙대입구(갈월).mp3
+35925
+.rail 1;-6.65;0;23
+35950
+.rail 1;-4.75;0;23
+35975
+.dikeend 1
+.rail 1;-3.8;0;23
+36100
+
+,;숙대입구
+36150
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;30
+.wall 1;-1;30
+.dike 0;-1;5
+.freeobj 0;109;4.9
+.freeobj 1;109;-4.9
+.Sta 숙대입구;11.0230 ; 11.03; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;319
+.freeobj 1;308
+36163
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+36175
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 4;1;30
+.wall 5;-1;30
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36180
+.freeobj 0;344;7.4
+.freeobj 1;344;-7.4
+36200
+.freeobj 0;160;9.49;0.35;180
+.freeobj 1;160;-9.49;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36220
+.freeobj 0;344;7.4;0;180
+.freeobj 1;344;-7.4;0;180
+36225
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 0;1;30
+.wall 1;-1;30
+.wallend 4
+.wallend 5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36250
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36275
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36300
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 4;1;30
+.wall 5;-1;30
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36305
+.freeobj 0;344;7.4
+.freeobj 1;344;-7.4
+36325
+.freeobj 0;160;9.49;0.35;180
+.freeobj 1;160;-9.49;0.35
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+36345
+.freeobj 0;344;7.4;0;180
+.freeobj 1;344;-7.4;0;180
+36350
+.freeobj 0;109;9.5
+.freeobj 1;109;-9.5
+.wall 0;1;30
+.wall 1;-1;30
+.wallend 4
+.wallend 5
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;313
+.freeobj 1;308
+36355
+.stop -1
+36362
+.freeobj 0;160;7.19;0.35;180
+.freeobj 1;160;-7.19;0.35
+36375
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;109;4.9
+.freeobj 1;109;-4.9
+
+36475
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\18.1 (다음역) 삼각지.mp3
+37150
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\19. 삼각지_하행.mp3
+37225
+37375
+,;삼각지
+37375
+.rail 2;11.61;0;11
+.rail 3;-15.41;0;11
+.rail 4;19;0;11
+.rail 5;-22.8;0;11
+.wallend 0
+.wallend 1
+.dike 0;-1;5
+.dike 2;1;14
+.dike 3;-1;14
+.freeobj 0;110;4.9
+.freeobj 1;110;-4.9
+.Sta 삼각지; 11.0430;11.05 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;319
+.freeobj 1;308
+37400
+.wall 0;1;31
+.wall 1;-1;31
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37413
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+37425
+.wallend 0
+.wallend 1
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37450
+.freeobj 0;110;11.51
+.freeobj 1;110;-11.51
+.dikeend 2
+.dikeend 3
+.wall 0;1;31
+.wall 1;-1;31
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37475
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37500
+.rail 2;1.9;0;11
+.rail 3;-5.7;0;11
+.rail 4;15.2;0;11
+.rail 5;-19;0;11
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37525
+.wallend 0
+.wallend 1
+.wall 2;1;31
+.wall 3;-1;31
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37530
+.freeobj 0;345;7.4
+.freeobj 1;345;-7.4
+37550
+.freeobj 0;161;9.09;0.24;180
+.freeobj 1;161;-9.09;0.24
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;311
+.freeobj 1;308
+37570
+.freeobj 0;345;7.4;0;180
+.freeobj 1;345;-7.4;0;180
+37575
+.freeobj 0;110;9.5
+.freeobj 1;110;-9.5
+.wallend 2
+.wallend 3
+.wall 0;1;31
+.wall 1;-1;31
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;80
+.freeobj 1;79
+.freeobj 0;313
+.freeobj 1;308
+37580
+.stop -1
+37587
+.freeobj 0;161;7.19;0.24;180
+.freeobj 1;161;-7.19;0.24
+37600
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;110;4.9
+.freeobj 1;110;-4.9
+,;
+
+37800
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\20. 신용산.mp3
+,;신용산
+38025
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;32
+.wall 1;-1;32
+.dike 0;-1;5
+.freeobj 0;112;4.9
+.freeobj 1;112;-4.9
+.Sta 신용산; 11.06;11.0630 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+38037
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+38050
+.freeobj 0;112;9.5
+.freeobj 1;112;-9.5
+.wall 4;1;32
+.wall 5;-1;32
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38055
+.freeobj 0;346;7.4
+.freeobj 1;346;-7.4
+38075
+.freeobj 0;162;9.09;0.15;180
+.freeobj 1;162;-9.09;0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38095
+.freeobj 0;346;7.4;0;180
+.freeobj 1;346;-7.4;0;180
+38100
+.freeobj 0;112;9.5
+.freeobj 1;112;-9.5
+.wall 0;1;32
+.wall 1;-1;32
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38125
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38150
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38175
+.freeobj 0;112;9.5
+.freeobj 1;112;-9.5
+.wall 4;1;32
+.wall 5;-1;32
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38180
+.freeobj 0;346;7.4
+.freeobj 1;346;-7.4
+38200
+.freeobj 0;162;9.09;0.15;180
+.freeobj 1;162;-9.09;0.15
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+38220
+.freeobj 0;346;7.4;0;180
+.freeobj 1;346;-7.4;0;180
+38225
+.freeobj 0;112;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;32
+.wall 1;-1;32
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;313
+.freeobj 1;308
+38230
+.stop 1
+38238
+.freeobj 0;162;7.19;0.15;180
+.freeobj 1;162;-7.19;0.15
+38250
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;112;4.9
+.freeobj 1;112;-4.9
+
+38575
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\20.1 (다음역) 이촌.mp3
+39000
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\21. 이촌(이촌국립중앙박물관).mp3
+39300
+39450
+39575
+
+,;이촌
+39300
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.wall 0;1;33
+.wall 1;-1;33
+.dike 0;-1;5
+.freeobj 0;113;4.9
+.freeobj 1;113;-4.9
+.Sta 이촌;11.0830 ; 11.09; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+39312
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39325
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;33
+.wall 5;-1;33
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39330
+.freeobj 0;347;7.4
+.freeobj 1;347;-7.4
+39346
+.freeobj 0;163;9.09;0.25;180
+.freeobj 1;163;-9.09;0.25
+39350
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39370
+.freeobj 0;347;7.4;0;180
+.freeobj 1;347;-7.4;0;180
+39375
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;33
+.wall 1;-1;33
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39387
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39400
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39404
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39421
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39425
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39438
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39450
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;33
+.wall 5;-1;33
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39455
+.freeobj 0;347;7.4
+.freeobj 1;347;-7.4
+39475
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+39479
+.freeobj 0;163;9.09;0.25;180
+.freeobj 1;163;-9.09;0.25
+39495
+.freeobj 0;347;7.4;0;180
+.freeobj 1;347;-7.4;0;180
+39500
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;33
+.wall 1;-1;33
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;311
+.freeobj 1;308
+39505
+.stop 1
+39513
+.freeobj 0;163;7.19;0.25;180
+.freeobj 1;163;-7.19;0.25
+39525
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.freeobj 0;113;4.9
+.freeobj 1;113;-4.9
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\21.1 (다음역) 동작.mp3
+
+40311
+.Height -8
+.ground 4;
+.back 0
+.wall 0;1;4
+.wall 1;-1;4
+.dikeend 0
+.railtype 0;0
+.railtype 1;0
+40428
+.height 5
+.wall 0;1;3;,.wall 1;-1;3;
+.ground 0;
+40725
+.height 10
+41000
+41025
+.Height 10
+41050
+;철교레일
+40766
+.ground 2
+41703
+;철교레일 끝
+.ground 0
+42250
+41675
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\22. 동작(현충원).mp3
+41975
+.wall 0;1;34
+.wall 1;-1;34
+.Sta 동작; 11.12;11.1230 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;319
+.freeobj 1;308
+42000
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42025
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42050
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42075
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42100
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42125
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42150
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42175
+.form 0;r;0;0
+.form 1;l;0;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+42180
+.stop 1
+42200
+.wall 0;1;3
+.wall 1;-1;3
+
+,;동작터널
+42275
+.wall 0;1;0
+.wall 1;-1;0
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\22.1 (다음역) 총신대입구.mp3
+.railtype 0;23
+.railtype 1;23
+.freeobj 1;85
+.freeobj 0;88;-1.9
+.freeobj 0;89;78.1
+.freeobj 0;89;158.1
+42325
+.back 5
+.freeobj 0;89;-65;0;90
+42475
+42525
+.back 0
+42625
+.wall 0;1;4
+.wall 1;-1;4
+.dikeend 0
+.railtype 0;0
+.railtype 1;0
+
+
+
+43050
+43475
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\23. 총신대입구.mp3
+42875
+.back 5
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.railtype 0;23
+.railtype 1;23
+.freeobj 1;85
+42925
+.Height 8.45
+42950
+.Height -8.175
+43550
+43775
+.rail 2;15.2;0;11
+.rail 3;-19;0;11
+.rail 4;1.9;0;11
+.rail 5;-5.7;0;11
+.dike 0;-1;5
+.freeobj 0;115;4.9
+.freeobj 1;115;-4.9
+.wall 0;1;35
+.wall 1;-1;35
+.dike 0;-1;5
+.Sta 총신대입구;11.15 ;11.1530 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;319
+.freeobj 1;308
+43787
+.freeobj 0;165;7.19;0.17;180
+.freeobj 1;165;-7.19;0.17
+43800
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;35
+.wall 5;-1;35
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43805
+.freeobj 0;348;7.4
+.freeobj 1;348;-7.4
+43825
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43829
+.freeobj 0;165;9.09;0.17;180
+.freeobj 1;165;-9.09;0.17
+43845
+.freeobj 0;348;7.4;0;180
+.freeobj 1;348;-7.4;0;180
+43850
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 0;1;35
+.wall 1;-1;35
+.wallend 4
+.wallend 5
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43863
+.freeobj 0;165;7.19;0.17;180
+.freeobj 1;165;-7.19;0.17
+43875
+.form 0;r;2;0
+.form 1;l;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43887
+.freeobj 0;165;7.19;0.17;180
+.freeobj 1;165;-7.19;0.17
+43900
+.freeobj 0;113;9.5
+.freeobj 1;113;-9.5
+.wall 4;1;35
+.wall 5;-1;35
+.wallend 0
+.wallend 1
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43905
+.freeobj 0;348;7.4
+.freeobj 1;348;-7.4
+43921
+.freeobj 0;165;9.09;0.17;180
+.freeobj 1;165;-9.09;0.17
+43925
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43945
+.freeobj 0;348;7.4;0;180
+.freeobj 1;348;-7.4;0;180
+43950
+.freeobj 0;113;11.4
+.freeobj 1;113;-11.4
+.railend 4
+.railend 5
+.rail 4;3.8;0;11
+.rail 5;-7.6;0;11
+.rail 6;11.1;0;11
+.rail 7;-14.9;0;11
+.dike 6;1;14
+.dike 7;-1;14
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;311
+.freeobj 1;308
+43954
+.freeobj 0;165;10.99;0.17;180
+.freeobj 1;165;-10.99;0.17
+43975
+.form 0;2;2;0
+.form 1;3;2;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;313
+.freeobj 1;308
+43979
+.freeobj 0;165;10.99;0.17;180
+.freeobj 1;165;-10.99;0.17
+43980
+.stop 1
+44000
+.railend 2
+.railend 3
+.railend 6
+.railend 7
+.dikeend 6
+.dikeend 7
+.rail 2;14.0;0;11
+.rail 3;-17.8;0;11
+.freeobj 0;115;4.9
+.freeobj 1;115;-4.9
+.wall 0;1;0
+.wall 1;-1;0
+.dike 0;-1;4
+.form 2;l;2;0
+.form 3;r;2;0
+44025
+.form 2;l;2;0
+.form 3;r;2;0
+44050
+.wallend 4
+.wallend 5
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+
+44600
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\24.1 사당(4)_대항병원 - 국문 (강희선).mp3
+44950
+.Announce 4호선\서울교통공사\1. 당고개-오이도(하선)\24.2 사당(4)_대항병원 - 영문 (제니퍼 클라이드).mp3
+,;건넘선1
+44750
+.rail 5;-4.4;0;23;,.rail 6;0;0;23;
+.dikeend 0;
+44775
+.railend 5;0;,.railend 6;-4.4;
+
+44775
+44800
+.rail 1;-4.75
+44825
+.rail 1;-6.65
+44850
+.rail 1;-8.55
+44875
+.rail 1;-10.45
+44900
+.rail 2;-3.8;0;11
+.rail 3;-7.6;0;11
+.dike 2;1;13
+.dike 3;1;13
+.rail 1;-11.4
+.wall 0;1;36
+.wall 1;-1;36
+.dikeend 0
+.Sta 사당;11.17 ; 11.1730; 0; -1; 0; 0; ; 30; 0; 
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+44925
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+44950
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+44975
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+45000
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45025
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45050
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45075
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;310
+.freeobj 1;309
+45100
+.freeobj 0;166;2.59;-0.08;180
+.freeobj 1;166;-2.59;-0.08
+.form 0;1;2;0
+.freeobj 0;79
+.freeobj 1;80
+.freeobj 0;312
+.freeobj 1;309
+45110
+.stop 1
+45125
+.freeobj 0;117;-5.7;0;0
+.dikeend 2
+.dikeend 3
+.railend 2
+.railend 3
+.wall 0;0;0
+.wall 1;0;0
+45150
+.wall 0;1;0
+.wall 1;-1;0
+.rail 2;0;0;24
+.rail 3;-11.4;0;25
+45175
+.rail 2;-1.9;0;25
+.rail 3;-9.5;0;23
+45200
+.rail 2;-3.8;0;23
+.rail 3;-5.7;0;24
+45225
+.wall 0;1;0
+.wall 1;0;0
+.wall 2;-1;0
+
+.railend 3;-3.8;
+45250
+45400
+45765
+.wall 0;0;0
+.wallend 2
+.dikeend 0
+.railend 2
+45650
+.rail 1;-12.35;0
+45675
+.rail 1;-14.25;0
+45700
+.rail 1;-15.2;0
+46050
+
+46500
+.wall 0;1;37
+.wall 1;-1;37
+.Sta 남태령;11.1930 ;11.20 ; 0; -1; 0; 0; ; 30; 0; 
+.freeobj 0;119;-3.8;0;180
+.freeobj 1;119;3.8;0;180
+.freeobj 0;167;3.95;-0.08
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;318
+.freeobj 1;309
+46525
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46550
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46575
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46600
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46625
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46650
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46675
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;310
+.freeobj 1;309
+46700
+.freeobj 0;167;3.95;-0.08
+.freeobj 1;167;-3.95;-0.08;180
+.freeobj 0;350;-7.6
+.form 0;1;2;0
+.freeobj 0;312
+.freeobj 1;309
+46705
+.stop 1
+
+,;상선
+46500,.rail 1;-25;0
+46525,.rail 1;-25;0
+46550,.rail 1;-25;0
+46575,.rail 1;-25;0
+46600,.rail 1;-25;0
+46625,.rail 1;-25.001;0
+46650,.rail 1;-25.001;0
+46675,.rail 1;-25.001;0
+46700,.rail 1;-25.001;0
+46725,.rail 1;-25.001;0
+46750,.rail 1;-25.001;0
+46775,.rail 1;-25.001;0
+46800,.rail 1;-25.004;0
+46825,.rail 1;-25.147;-0.107
+46850,.rail 1;-25.672;-0.857
+46875,.rail 1;-26.615;-1.607
+46900,.rail 1;-27.976;-2.357
+46925,.rail 1;-29.756;-3.107
+46950,.rail 1;-31.956;-3.857
+46975,.rail 1;-34.563;-4.607
+47000,.rail 1;-37.366;-5.357
+47025,.rail 1;-40.178;-6.107
+47050,.rail 1;-42.974;-6.857
+47075,.rail 1;-45.632;-7.607
+47100,.rail 1;-47.996;-8.357
+47125,.rail 1;-49.921;-9.107
+47150,.rail 1;-51.283;-9.857
+47175,.rail 1;-52.048;-10.607
+47200,.rail 1;-52.221;-11.357
+47225,.rail 1;-51.801;-12.107
+47250,.rail 1;-50.787;-12.857
+47275,.rail 1;-49.176;-13.54
+47300,.rail 1;-46.963;-14.018
+47325,.rail 1;-44.141;-14.289
+47350,.rail 1;-40.701;-14.351
+47375,.rail 1;-36.631;-14.218
+47400,.rail 1;-31.92;-14.043
+47425,.rail 1;-26.551;-13.868
+47450,.rail 1;-20.506;-13.693
+47475,.rail 1;-13.765;-13.518
+47500,.rail 1;-6.326;-13.343
+47525,.rail 1;1.68;-13.168
+47550,.rail 1;10.064;-12.993
+47575,.rail 1;18.62;-12.704
+47600,.rail 1;27.191;-12.217
+47625,.rail 1;35.763;-11.682
+47650,.rail 1;44.328;-11.146
+47675,.rail 1;52.748;-10.611
+47700,.rail 1;60.709;-10.075
+47725,.rail 1;67.913;-9.54
+47750,.rail 1;74.094;-9.004
+47775,.rail 1;79.157;-8.469
+47800,.rail 1;83.126;-7.934
+47825,.rail 1;86.023;-7.398
+47850,.rail 1;87.864;-6.863
+47875,.rail 1;88.659;-6.327
+47900,.rail 1;88.411;-5.792
+47925,.rail 1;87.12;-5.257
+47950,.rail 1;84.778;-4.721
+47975,.rail 1;81.374;-4.186
+48000,.rail 1;76.939;-3.65
+48025,.rail 1;71.687;-3.115
+48050,.rail 1;65.89;-2.579
+48075,.rail 1;59.829;-2.044
+48100,.rail 1;53.733;-1.509
+48125,.rail 1;47.636;-0.973
+48150,.rail 1;41.54;-0.461
+48175,.rail 1;35.443;-0.127
+48200,.rail 1;29.429;-0.001
+48225,.rail 1;23.832;0
+48250,.rail 1;18.936;0
+48275,.rail 1;14.768;0
+48300,.rail 1;11.319;0
+48325,.rail 1;8.581;0
+48350,.rail 1;6.547;0
+48375,.rail 1;5.212;0
+48400,.rail 1;4.562;0
+48425,.rail 1;4.401;0
+48450,.rail 1;4.396;0
+48475,.rail 1;4.396;0
+48500,.rail 1;4.396;0
+48525,.rail 1;4.396;0
+48550,.rail 1;4.397;0
+
+
+
+
+
+46725
+.freeobj 0;119;-3.8
+.freeobj 1;119;3.8
+.freeobj 1;167;-3.95;-0.08;180
+.wall 0;0;0
+.wall 1;0;0
+46750
+.wall 0;1;0
+.wall 1;-1;0
+.rail 2;0;0;24
+.rail 3;-15.2;0;25
+46775
+.rail 2;-1.9;0;23
+.rail 3;-13.3;0;24
+46800
+.rail 2;-5.7;0;23
+.rail 3;-11.4;0;23
+.wall 0;0;10
+.wall 1;0;10
+46825
+.rail 2;-9.5;0;25
+46850
+.railend 2;-11.4;0
+46925
+.railend 3
+47300,.RAILEND 1;
+
+48325
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+
+
+48450
+.wall 0;-1;38
+.wall 1;1;38
+.dike 0;1;5
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-15.2;0;11
+.rail 5;19;0;11
+.freeobj 0;120;-4.9
+.freeobj 1;120;4.9
+.Sta 선바위; 11.2230; 11.23; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+48465
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48475
+.wallend 0
+.wallend 1
+.wall 2;-1;38
+.wall 3;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48485
+.freeobj 0;351;-7
+.freeobj 1;351;7
+48500
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48515
+.freeobj 0;351;-7;0;180
+.freeobj 1;351;7;0;180
+48525
+.wallend 2
+.wallend 3
+.wall 0;-1;38
+.wall 1;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48540
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48550
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48555
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48570
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48575
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48585
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48600
+.wallend 0
+.wallend 1
+.wall 2;-1;38
+.wall 3;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48615
+.freeobj 0;351;-7
+.freeobj 1;351;7
+48625
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+48640
+.freeobj 0;351;-7;0;180
+.freeobj 1;351;7;0;180
+48650
+.wallend 2
+.wallend 3
+.wall 0;-1;38
+.wall 1;1;38
+.freeobj 0;120;-9.5
+.freeobj 1;120;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+48655
+.stop 1
+48660
+.freeobj 0;168;-7.19;-0.08
+.freeobj 1;168;7.19;-0.08;180
+48675
+.freeobj 0;120;-4.9
+.freeobj 1;120;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+49400
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+.rail 4;-15.2;0;11
+.rail 5;19;0;11
+.freeobj 0;121;-4.9
+.freeobj 1;121;4.9
+.wall 0;-1;39
+.wall 1;1;39
+.dike 0;1;5
+.Sta 경마공원; 11.2430; 11.25; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+49415
+.freeobj 0;169;-7.19;0.3
+.freeobj 1;169;7.19;0.3;180
+49425
+.wallend 0
+.wallend 1
+.wall 2;-1;39
+.wall 3;1;39
+.freeobj 0;121;-9.5
+.freeobj 1;121;9.5
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49435
+.freeobj 0;352;-9.4
+.freeobj 1;352;9.4
+49450
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49465
+.freeobj 0;352;-9.4;0;180
+.freeobj 1;352;9.4;0;180
+49475
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49490
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49500
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49505
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49520
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49525
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49535
+.freeobj 0;169;-10.99;-0.3
+.freeobj 1;169;10.99;-0.3;180
+49550
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49560
+.freeobj 0;352;-9.4
+.freeobj 1;352;9.4
+49575
+.freeobj 0;122;-7.2
+.freeobj 1;122;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+49590
+.freeobj 0;352;-9.4;0;180
+.freeobj 1;352;9.4;0;180
+49600
+.wallend 2
+.wallend 3
+.wall 0;-1;39
+.wall 1;1;39
+.freeobj 0;121;-9.5
+.freeobj 1;121;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+49605
+.stop 1
+49610
+.freeobj 0;169;-7.19;0.3
+.freeobj 1;169;7.19;0.3;180
+49625
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;121;-4.9
+.freeobj 1;121;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+
+50350
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+.rail 4;-15.2;0;11
+.rail 5;19;0;11
+.freeobj 0;123;-4.9
+.freeobj 1;123;4.9
+.wall 0;-1;40
+.wall 1;1;40
+.dike 0;1;5
+.Sta 대공원;11.2630 ; 11.27; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+50365
+.freeobj 0;170;-7.19;0.3
+.freeobj 1;170;7.19;0.3;180
+50375
+.wallend 0
+.wallend 1
+.wall 2;-1;40
+.wall 3;1;40
+.freeobj 0;123;-9.5
+.freeobj 1;123;9.5
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50385
+.freeobj 0;353;-9.4
+.freeobj 1;353;9.4
+50400
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50415
+.freeobj 0;353;-9.4;0;180
+.freeobj 1;353;9.4;0;180
+50425
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50440
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50450
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50455
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50470
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50475
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50485
+.freeobj 0;170;-10.99;0.3
+.freeobj 1;170;10.99;0.3;180
+50500
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50510
+.freeobj 0;353;-9.4
+.freeobj 1;353;9.4
+50525
+.freeobj 0;124;-7.2
+.freeobj 1;124;7.2
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+50540
+.freeobj 0;353;-9.4;0;180
+.freeobj 1;353;9.4;0;180
+50555
+.stop 1
+50560
+.freeobj 0;170;-7.19;0.3
+.freeobj 1;170;7.19;0.3;180
+50550
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;123;-4.9
+.freeobj 1;123;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+51275
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;41
+.wall 1;1;41
+.dike 0;1;5
+.freeobj 0;125;-4.9
+.freeobj 1;125;4.9
+.Sta 과천; 11.2830;11.29 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+51290
+.freeobj 0;171;-7.19;0.2
+.freeobj 1;171;7.19;0.2;180
+51300
+.wallend 0
+.wallend 1
+.wall 2;-1;41
+.wall 3;1;41
+.freeobj 0;125;-9.5
+.freeobj 1;125;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51310
+.freeobj 0;354;-7.5
+.freeobj 1;354;7.5
+51325
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51340
+.freeobj 0;354;-7.5;0;180
+.freeobj 1;354;7.5;0;180
+51350
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51365
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51375
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51380
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51395
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51400
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51410
+.freeobj 0;171;-9.09;0.2
+.freeobj 1;171;9.09;0.2;180
+51425
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51435
+.freeobj 0;354;-7.5
+.freeobj 1;354;7.5
+51450
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+51465
+.freeobj 0;354;-7.5;0;180
+.freeobj 1;354;7.5;0;180
+51475
+.wallend 2
+.wallend 3
+.wall 0;-1;41
+.wall 1;1;41
+.freeobj 0;125;-9.5
+.freeobj 1;125;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+51480
+.stop 1
+51485
+.freeobj 0;171;-7.19;-0.2
+.freeobj 1;171;7.19;-0.2;180
+51500
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;125;-4.9
+.freeobj 1;125;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+
+51625
+52125
+52225
+52300
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;42
+.wall 1;1;42
+.dike 0;1;4
+.freeobj 0;126;-4.9
+.freeobj 1;126;4.9
+.Sta 정부과천청사; 11.3030;11.31 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+52325
+.wallend 0
+.wallend 1
+.wall 2;-1;43
+.wall 3;1;43
+.freeobj 0;126;-9.5
+.freeobj 1;126;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52335
+.freeobj 0;355;-7.5
+.freeobj 1;355;7.5
+52350
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52365
+.freeobj 0;355;-7.5;0;180
+.freeobj 1;355;7.5;0;180
+52375
+.wall 2;-1;42
+.wall 3;1;42
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52400
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52425
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52450
+.wall 2;-1;43
+.wall 3;1;43
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52460
+.freeobj 0;355;-7.5
+.freeobj 1;355;7.5
+52475
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+52490
+.freeobj 0;355;-7.5;0;180
+.freeobj 1;355;7.5;0;180
+52500
+.wallend 2
+.wallend 3
+.wall 0;-1;42
+.wall 1;1;42
+.freeobj 0;126;-9.5
+.freeobj 1;126;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+52505
+.stop 1
+52525
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;126;-4.9
+.freeobj 1;126;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+53350
+53525
+53850
+54000
+54950
+55275
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;44
+.wall 1;1;44
+.dike 0;1;5
+.freeobj 0;127;-4.9
+.freeobj 1;127;4.9
+.Sta 인덕원; 11.34;11.3430 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+55290
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55300
+.wallend 0
+.wallend 1
+.wall 2;-1;44
+.wall 3;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55305
+.freeobj 0;356;-7.5
+.freeobj 1;356;7.5
+55325
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55345
+.freeobj 0;356;-7.5;0;180
+.freeobj 1;356;7.5;0;180
+55350
+.wallend 2
+.wallend 3
+.wall 0;-1;44
+.wall 1;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55365
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55375
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55380
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55395
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55400
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55410
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55425
+.wallend 0
+.wallend 1
+.wall 2;-1;44
+.wall 3;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55430
+.freeobj 0;356;-7.5
+.freeobj 1;356;7.5
+55450
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+55470
+.freeobj 0;356;-7.5;0;180
+.freeobj 1;356;7.5;0;180
+55475
+.wallend 2
+.wallend 3
+.wall 0;-1;44
+.wall 1;1;44
+.freeobj 0;127;-9.5
+.freeobj 1;127;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+55480
+.stop 1
+55485
+.freeobj 0;173;-7.19;0.08
+.freeobj 1;173;7.19;0.08;180
+55500
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;127;-4.9
+.freeobj 1;127;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+56950
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+.rail 4;-15.2;0;11
+.rail 5;19.0;0;11
+.wall 0;-1;45
+.wall 1;1;45
+.dike 0;1;5
+.freeobj 0;128;-4.9
+.freeobj 1;128;4.9
+.Sta 평촌;11.3630 ;11.37 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+56965
+.freeobj 0;174;-7.19;-0.08
+.freeobj 1;174;7.19;-0.08;180
+56975
+.wallend 0
+.wallend 1
+.wall 2;-1;45
+.wall 3;1;45
+.freeobj 0;128;-9.5
+.freeobj 1;128;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+56985
+.freeobj 0;357;-9.4
+.freeobj 1;357;9.4
+57000
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57015
+.freeobj 0;357;-9.4;0;180
+.freeobj 1;357;9.4;0;180
+57025
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57040
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57050
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57055
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57070
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57075
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57085
+.freeobj 0;174;-10.99;-0.08
+.freeobj 1;174;10.99;-0.08;180
+57100
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57110
+.freeobj 0;357;-9.4
+.freeobj 1;357;9.4
+57125
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;129;-7.2
+.freeobj 1;129;7.2
+.freeobj 0;10
+.freeobj 1;9
+57140
+.freeobj 0;357;-9.4;0;180
+.freeobj 1;357;9.4;0;180
+57150
+.wallend 2
+.wallend 3
+.wall 0;-1;45
+.wall 1;1;45
+.freeobj 0;128;-9.5
+.freeobj 1;128;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;12
+.freeobj 1;9
+57155
+.stop 1
+57160
+.freeobj 0;174;-7.19;-0.08
+.freeobj 1;174;7.19;-0.08;180
+57175
+.freeobj 0;128;-4.9
+.freeobj 1;128;4.9
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+58200
+.rail 2;-1.9;0;11
+.rail 3;5.7;0;11
+.rail 4;-13.3;0;11
+.rail 5;17.1;0;11
+.wall 0;-1;46
+.wall 1;1;46
+.dike 0;1;5
+.freeobj 0;130;-4.9
+.freeobj 1;130;4.9
+.Sta 범계; 11.3830;11.39 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;18
+.freeobj 1;9
+58215
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58225
+.wallend 0
+.wallend 1
+.wall 2;-1;46
+.wall 3;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58230
+.freeobj 0;358;-7.5
+.freeobj 1;358;7.5
+58250
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58270
+.freeobj 0;358;-7.5;0;180
+.freeobj 1;358;7.5;0;180
+58275
+.wallend 2
+.wallend 3
+.wall 0;-1;46
+.wall 1;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58290
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58300
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58305
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58320
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58325
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58335
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58350
+.wallend 0
+.wallend 1
+.wall 2;-1;46
+.wall 3;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58355
+.freeobj 0;358;-7.5
+.freeobj 1;358;7.5
+58375
+.form 0;4;2;0
+.form 1;5;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+58395
+.freeobj 0;358;-7.5;0;180
+.freeobj 1;358;7.5;0;180
+58400
+.wallend 2
+.wallend 3
+.wall 0;-1;46
+.wall 1;1;46
+.freeobj 0;130;-9.5
+.freeobj 1;130;9.5
+.form 0;l;2;0
+.form 1;r;2;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+58405
+.stop 1
+58410
+.freeobj 0;175;-7.19;0.08
+.freeobj 1;175;7.19;0.08;180
+58425
+.railend 2
+.railend 3
+.railend 4
+.railend 5
+.freeobj 0;130;-4.9
+.freeobj 1;130;4.9
+.wall 0;-1;0
+.wall 1;1;0
+.dike 0;1;4
+
+59300
+.wall 0;0;0
+.wall 1;0;0
+.dikeend 0
+
+59700
+59900
+60000
+.back 0
+60025
+.Height -8.45
+60325
+.railtype 0;0
+.Height 0.45
+.wall 0;0;4;
+.wall 1;0;4;
+60550
+.wallend 0;
+.wallend 1;
+,;금정정거장
+,;상선
+59277.67,.rail 1;4.4;0;0;
+59300,.rail 1;4.4;0;
+59325,.rail 1;4.4;0;
+59350,.rail 1;4.419;-0.003;
+59375,.rail 1;4.748;-0.006;
+59400,.rail 1;5.789;-0.007;
+59425,.rail 1;7.589;-0.006;
+59450,.rail 1;9.847;-0.002;
+59475,.rail 1;12.145;0.004;
+59500,.rail 1;14.404;0.011;
+59525,.rail 1;16.616;0.021;
+59550,.rail 1;18.771;0.032;
+59575,.rail 1;20.862;0.044;
+59600,.rail 1;22.879;0.058;
+59625,.rail 1;24.814;0.074;
+59650,.rail 1;26.659;0.091;
+59675,.rail 1;28.407;0.109;
+59700,.rail 1;30.05;0.128;
+59725,.rail 1;31.581;0.149;
+59750,.rail 1;32.993;0.171;
+59775,.rail 1;34.281;0.194;
+59800,.rail 1;35.439;0.217;
+59825,.rail 1;36.462;0.242;
+59850,.rail 1;37.345;0.319;
+59875,.rail 1;38.085;0.417;
+59900,.rail 1;38.678;0.515;
+59925,.rail 1;39.122;0.614;
+59950,.rail 1;39.414;0.714;
+59975,.rail 1;39.553;0.814;
+60000,.rail 1;39.54;0.915;
+60025,.rail 1;39.38;1.015;
+60050,.rail 1;39.316;1.108;
+60075,.rail 1;39.6;1.177;
+60100,.rail 1;40.274;1.222;
+60125,.rail 1;41.066;1.243;
+60150,.rail 1;41.545;1.241;
+60175,.rail 1;41.442;1.216;
+60200,.rail 1;40.733;1.176;
+60225,.rail 1;39.618;1.137;
+60250,.rail 1;38.377;1.107;
+60275,.rail 1;37.33;1.097;
+60300,.rail 1;36.919;1.108;
+60325,.rail 1;37.343;1.133;
+60350,.rail 1;38.335;1.158;
+60375,.rail 1;39.494;1.184;
+60400,.rail 1;40.663;1.21;
+60425,.rail 1;42.038;1.236;
+60450,.rail 1;43.715;1.263;
+60475,.rail 1;44.963;1.24;
+60500,.rail 1;45.409;1.216;
+60525,.rail 1;45.055;0.775;
+60550,.rail 1;43.9;0;
+60575,.rail 1;42.245;0;
+60600,.rail 1;40.59;0;
+60625,.rail 1;38.935;0;
+60650,.rail 1;37.634;0;
+60675,.rail 1;37.206;0;
+60700,.rail 1;37.21;0;
+60725,.rail 1;37.214;0;
+60750,.rail 1;37.219;0;
+60775,.rail 1;37.223;0;
+60800,.rail 1;37.227;0;
+60825,.rail 1;37.231;0;
+60850,.rail 1;37.235;0;
+60875,.rail 1;37.24;0;
+60900,.rail 1;37.244;0;
+60925,.rail 1;37.248;0;
+60950,.rail 1;37.252;0;
+60975,.rail 1;37.256;0;
+61000,.rail 1;37.261;0;
+61025,.rail 1;37.265;0;
+61050,.rail 1;37.269;0;
+61075,.rail 1;37.273;-0.525;
+61100,.rail 1;37.277;-0.472;
+61125,.rail 1;37.282;-0.372;
+61150,.rail 1;37.286;-0.272;
+61175,.rail 1;37.969;-0.112;
+61200,.rail 1;40.958;0.074;
+61225,.rail 1;46.426;0.278;
+61250,.rail 1;53.875;0.465;
+61275,.rail 1;61.092;0.591;
+61300,.rail 1;68.24;0.711;
+61325,.rail 1;74.516;0.782;
+61350,.rail 1;79.201;0.784;
+61375,.rail 1;82.004;0.72;
+61400,.rail 1;83.186;0.637;
+61425,.rail 1;83.073;0.551;
+61450,.rail 1;81.924;0.468;
+61475,.rail 1;79.986;0.39;
+61500,.rail 1;77.487;0.319;
+61525,.rail 1;74.507;0.255;
+61550,.rail 1;71.046;0.201;
+61575,.rail 1;67.105;0.157;
+61600,.rail 1;62.689;0.125;
+61625,.rail 1;57.804;0.105;
+61650,.rail 1;52.46;0.1;
+61675,.rail 1;46.673;0.109;
+61700,.rail 1;40.466;0.092;
+61725,.rail 1;33.864;0.034;
+61750,.rail 1;26.898;-0.006;
+61775,.rail 1;19.737;-0.019;
+61800,.rail 1;13.237;-0.014;
+61825,.rail 1;8.351;-0.005;
+61850,.rail 1;5.613;-0.001;
+61875,.rail 1;4.512;0;
+61900,.rail 1;4.302;0;
+61925,.rail 1;4.3;0;
+61950,.rail 1;4.3;0;
+61975,.rail 1;4.3;0;
+62000,.rail 1;4.3;0.001;
+62025,.rail 1;4.3;0.001;
+62050,.rail 1;4.3;0.001;
+62075,.rail 1;4.3;0.001;
+62100,.rail 1;4.3;0.001;
+62125,.rail 1;4.3;0.001;
+62150,.rail 1;4.3;0.001;
+62175,.rail 1;4.3;0.001;
+62200,.rail 1;4.3;0.001;
+62225,.rail 1;4.3;0.001;
+62250,.rail 1;4.3;0.001;
+62275,.rail 1;4.3;0.001;
+62300,.rail 1;4.3;0.001;
+62325,.rail 1;4.3;0.001;
+62350,.rail 1;4.3;0.001;
+62375,.rail 1;4.3;0.002;
+62400,.rail 1;4.3;0.002;
+62425,.rail 1;4.3;0.002;
+62450,.rail 1;4.3;0.002;
+62475,.rail 1;4.3;0.002;
+62500,.rail 1;4.3;0.002;
+62525,.rail 1;4.3;0;
+
+,;하2선
+59277.67,.rail 2;6072.991;26.263;0;
+59300,.rail 2;6025.455;26.263;
+59325,.rail 2;5971.878;26.263;
+59350,.rail 2;5860.761;26.263;
+59375,.rail 2;5185.332;26.263;
+59400,.rail 2;2727.458;26.263;
+59425,.rail 2;936.398;26.263;
+59450,.rail 2;784.314;26.263;
+59475,.rail 2;663.675;26.263;
+59500,.rail 2;566.288;26.263;
+59525,.rail 2;488.425;26.263;
+59550,.rail 2;427.087;25.925;
+59575,.rail 2;375.745;25.588;
+59600,.rail 2;332.675;25.25;
+59625,.rail 2;296.639;24.913;
+59650,.rail 2;265.475;24.575;
+59675,.rail 2;237.598;24.238;
+59700,.rail 2;211.708;23.9;
+59725,.rail 2;186.324;23.563;
+59750,.rail 2;162.358;23.225;
+59775,.rail 2;139.828;22.888;
+59800,.rail 2;118.582;22.55;
+59825,.rail 2;98.224;22.213;
+59850,.rail 2;79.837;21.7;
+59875,.rail 2;63.532;20.925;
+59900,.rail 2;49.326;20.15;
+59925,.rail 2;37.297;19.375;
+59950,.rail 2;27.345;18.6;
+59975,.rail 2;19.315;17.825;
+60000,.rail 2;13.087;17.05;
+60025,.rail 2;8.652;16.275;
+60050,.rail 2;6.27;15.5;
+60075,.rail 2;5.533;14.725;
+60100,.rail 2;6.122;13.95;
+60125,.rail 2;6.852;13.175;
+60150,.rail 2;8.251;12.4;
+60175,.rail 2;9.408;11.625;
+60200,.rail 2;10.37;10.85;
+60225,.rail 2;10.784;10.075;
+60250,.rail 2;10.692;9.3;
+60275,.rail 2;10.489;8.525;
+60300,.rail 2;10.194;7.75;
+60325,.rail 2;10.452;6.975;
+60350,.rail 2;11.274;6.2;
+60375,.rail 2;12.437;5.425;
+60400,.rail 2;13.862;4.65;
+60425,.rail 2;15.414;3.875;
+60450,.rail 2;17.176;3.1;
+60475,.rail 2;18.488;2.325;
+60500,.rail 2;19.002;1.55;
+60525,.rail 2;18.798;0.775;
+60550,.rail 2;17.606;0;
+60575,.rail 2;15.793;0;
+60600,.rail 2;14.152;0;
+60625,.rail 2;12.586;0;
+60650,.rail 2;11.351;0;
+60675,.rail 2;10.887;0;
+60700,.rail 2;10.873;0;
+60725,.rail 2;10.886;0;
+60750,.rail 2;10.898;0;
+60775,.rail 2;10.911;0;
+60800,.rail 2;10.924;0;
+60825,.rail 2;10.936;0;
+60850,.rail 2;10.949;0;
+60875,.rail 2;10.962;0;
+60900,.rail 2;10.952;0;
+60925,.rail 2;10.94;0;
+60950,.rail 2;10.928;0;
+60975,.rail 2;10.916;0;
+61000,.rail 2;10.927;0;
+61025,.rail 2;10.94;0;
+61050,.rail 2;10.955;0;
+61075,.rail 2;10.926;-0.525;
+61100,.rail 2;10.705;-1.05;
+61125,.rail 2;10.532;-1.574;
+61150,.rail 2;10.885;-2.099;
+61175,.rail 2;11.46;-2.624;
+61200,.rail 2;14.168;-3.149;
+61225,.rail 2;19.177;-3.673;
+61250,.rail 2;26.311;-4.198;
+61275,.rail 2;33.562;-4.723;
+61300,.rail 2;40.714;-5.248;
+61325,.rail 2;47.179;-5.773;
+61350,.rail 2;52.136;-6.297;
+61375,.rail 2;55.21;-6.822;
+61400,.rail 2;56.419;-7.347;
+61425,.rail 2;55.849;-7.872;
+61450,.rail 2;53.595;-8.396;
+61475,.rail 2;49.441;-8.921;
+61500,.rail 2;43.271;-9.446;
+61525,.rail 2;34.772;-9.971;
+61550,.rail 2;23.663;-10.496;
+61575,.rail 2;9.383;-11.02;
+61600,.rail 2;-8.593;-11.545;
+61625,.rail 2;-31.787;-12.07;
+61650,.rail 2;-62.194;-12.595;
+61675,.rail 2;-103.294;-13.119;
+61700,.rail 2;-161.144;-13.686;
+61725,.rail 2;-245.218;-14.311;
+61750,.rail 2;-372.247;-14.936;
+61775,.rail 2;-493.373;-15.561;
+61800,.rail 2;-569.15;-16.185;
+61825,.rail 2;-614.289;-16.81;
+61850,.rail 2;-650.467;-17.435;
+61875,.rail 2;-686.209;-18.06;
+61900,.rail 2;-721.86;-18.685;
+61925,.rail 2;-757.484;-19.31;
+61950,.rail 2;-793.363;-19.935;
+61975,.rail 2;-829.738;-20.559;
+62000,.rail 2;-866.737;0;
+62025,.rail 2;-903.929;0;
+62050,.rail 2;-941.293;0;
+62075,.rail 2;-978.667;0;
+62100,.rail 2;-1014.787;0;
+62125,.rail 2;-1050.811;0;
+62150,.rail 2;-1086.637;0;
+62175,.rail 2;-1122.469;0;
+62200,.rail 2;-1158.334;0;
+62225,.rail 2;-1194.199;0;
+62250,.rail 2;-1230.082;0;
+62275,.rail 2;-1265.996;0;
+62300,.rail 2;-1301.82;0;
+62325,.rail 2;-1336.903;0;
+62350,.rail 2;-1371.985;0;
+62375,.rail 2;-1407.04;0;
+62400,.rail 2;-1442.095;0;
+62425,.rail 2;-1477.15;0;
+62450,.rail 2;-1512.258;0;
+62475,.rail 2;-1547.429;0;
+62500,.rail 2;-1583.659;0;
+62525,.rail 2;-1620.422;0;
+62550,.rail 2;-1657.571;0;
+62575,.rail 2;-1694.72;0;
+62600,.rail 2;-1731.86;0;
+62625,.rail 2;-1769.121;0;
+62650,.rail 2;-1806.407;0;
+62675,.rail 2;-1843.575;0;
+62700,.rail 2;-1880.773;0;
+62725,.rail 2;-1918.039;0;
+62750,.rail 2;-1955.116;0;
+62775,.rail 2;-1992.293;0;
+62800,.rail 2;-2029.537;0;
+62825,.railend 2;-2066.727;0;
+
+,;하1선
+59525,.rail 3;505.844;26.263;0;
+59550,.rail 3;442.748;25.925;
+59575,.rail 3;390.391;25.588;
+59600,.rail 3;346.585;25.25;
+59625,.rail 3;309.719;24.913;
+59650,.rail 3;278.098;24.575;
+59675,.rail 3;249.622;24.238;
+59700,.rail 3;222.836;23.9;
+59725,.rail 3;197.221;23.563;
+59750,.rail 3;172.832;23.225;
+59775,.rail 3;149.719;22.888;
+59800,.rail 3;127.913;22.55;
+59825,.rail 3;107.439;22.213;
+59850,.rail 3;88.543;21.7;
+59875,.rail 3;71.609;20.925;
+59900,.rail 3;56.868;20.15;
+59925,.rail 3;44.425;19.375;
+59950,.rail 3;34.176;18.6;
+59975,.rail 3;25.914;17.825;
+60000,.rail 3;19.504;17.05;
+60025,.rail 3;14.955;16.275;
+60050,.rail 3;12.292;15.5;
+60075,.rail 3;11.251;14.725;
+60100,.rail 3;11.425;13.95;
+60125,.rail 3;12.411;13.175;
+60150,.rail 3;13.772;12.4;
+60175,.rail 3;15.075;11.625;
+60200,.rail 3;15.934;10.85;
+60225,.rail 3;16.234;10.075;
+60250,.rail 3;16;9.3;
+60275,.rail 3;15.505;8.525;
+60300,.rail 3;15.174;7.75;
+60325,.rail 3;15.39;6.975;
+60350,.rail 3;16.177;6.2;
+60375,.rail 3;17.406;5.425;
+60400,.rail 3;18.942;4.65;
+60425,.rail 3;20.654;3.875;
+60450,.rail 3;22.411;3.1;
+60475,.rail 3;23.697;2.325;
+60500,.rail 3;24.157;1.55;
+60525,.rail 3;23.792;0.775;
+60550,.rail 3;22.601;0;
+60575,.rail 3;20.946;0;
+60600,.rail 3;19.291;0;
+60625,.rail 3;17.636;0;
+60650,.rail 3;16.371;0;
+60675,.rail 3;15.954;0;
+60700,.rail 3;15.958;0;
+60725,.rail 3;15.962;0;
+60750,.rail 3;15.966;0;
+60775,.rail 3;15.971;0;
+60800,.rail 3;15.975;0;
+60825,.rail 3;15.979;0;
+60850,.rail 3;15.983;0;
+60875,.rail 3;15.987;0;
+60900,.rail 3;15.992;0;
+60925,.rail 3;15.996;0;
+60950,.rail 3;16;0;
+60975,.rail 3;16.004;0;
+61000,.rail 3;16.009;0;
+61025,.rail 3;16.013;0;
+61050,.rail 3;16.017;0;
+61075,.rail 3;16.021;-0.525;
+61100,.rail 3;16.025;-1.05;
+61125,.rail 3;16.03;-1.574;
+61150,.rail 3;16.034;-2.099;
+61175,.rail 3;16.674;-2.624;
+61200,.rail 3;19.474;-3.149;
+61225,.rail 3;24.598;-3.673;
+61250,.rail 3;31.755;-4.198;
+61275,.rail 3;38.972;-4.723;
+61300,.rail 3;46.138;-5.248;
+61325,.rail 3;52.583;-5.773;
+61350,.rail 3;57.55;-6.297;
+61375,.rail 3;60.627;-6.822;
+61400,.rail 3;61.874;-7.347;
+61425,.rail 3;61.375;-7.872;
+61450,.rail 3;59.11;-8.396;
+61475,.rail 3;55.012;-8.921;
+61500,.rail 3;49.026;-9.446;
+61525,.rail 3;40.935;-9.971;
+61550,.rail 3;30.408;-10.496;
+61575,.rail 3;16.903;-11.02;
+61600,.rail 3;-0.502;-11.545;
+61625,.rail 3;-23.034;-12.07;
+61650,.rail 3;-53.088;-12.595;
+61675,.rail 3;-94.033;-13.119;
+61700,.rail 3;-150.454;-13.686;
+61725,.rail 3;-231.721;-14.311;
+61750,.rail 3;-355.121;-14.936;
+61775,.rail 3;-479.937;-15.561;
+61800,.rail 3;-557.715;-16.185;
+61825,.rail 3;-603.445;-16.81;
+61850,.rail 3;-639.502;-17.435;
+61875,.rail 3;-675.344;-18.06;
+61900,.rail 3;-711.187;-18.685;
+61925,.rail 3;-747.03;-19.31;
+61950,.rail 3;-782.873;-19.935;
+61975,.railend 3;-818.716;-20.559;
+
+,;상1선
+59277.67,.rail 4;6097.329;26.263;0;
+59300,.rail 4;6050.002;26.263;
+59325,.rail 4;5997.016;26.263;
+59350,.rail 4;5892.233;26.263;
+59375,.rail 4;5241.566;26.263;
+59400,.rail 4;2894.804;26.263;
+59425,.rail 4;962.234;26.263;
+59450,.rail 4;806.594;26.263;
+59475,.rail 4;685.977;26.263;
+59500,.rail 4;590.217;26.263;
+59525,.rail 4;512.758;26.263;
+59550,.rail 4;449.191;25.925;
+59575,.rail 4;396.443;25.588;
+59600,.rail 4;352.31;25.25;
+59625,.rail 4;315.172;24.913;
+59650,.rail 4;283.403;24.575;
+59675,.rail 4;254.896;24.238;
+59700,.rail 4;228.139;23.9;
+59725,.rail 4;202.539;23.563;
+59750,.rail 4;178.138;23.225;
+59775,.rail 4;154.99;22.888;
+59800,.rail 4;133.129;22.55;
+59825,.rail 4;112.58;22.213;
+59850,.rail 4;93.575;21.7;
+59875,.rail 4;76.511;20.925;
+59900,.rail 4;61.637;20.15;
+59925,.rail 4;49.071;19.375;
+59950,.rail 4;38.719;18.6;
+59975,.rail 4;30.376;17.825;
+60000,.rail 4;23.915;17.05;
+60025,.rail 4;19.359;16.275;
+60050,.rail 4;16.736;15.5;
+60075,.rail 4;15.78;14.725;
+60100,.rail 4;16.071;13.95;
+60125,.rail 4;17.185;13.175;
+60150,.rail 4;18.666;12.4;
+60175,.rail 4;20.079;11.625;
+60200,.rail 4;21.042;10.85;
+60225,.rail 4;21.444;10.075;
+60250,.rail 4;21.311;9.3;
+60275,.rail 4;20.915;8.525;
+60300,.rail 4;20.677;7.75;
+60325,.rail 4;20.977;6.975;
+60350,.rail 4;21.831;6.2;
+60375,.rail 4;23.107;5.425;
+60400,.rail 4;24.673;4.65;
+60425,.rail 4;26.394;3.875;
+60450,.rail 4;28.148;3.1;
+60475,.rail 4;29.421;2.325;
+60500,.rail 4;29.874;1.55;
+60525,.rail 4;29.509;0.775;
+60550,.rail 4;28.323;0;
+60575,.rail 4;26.665;0;
+60600,.rail 4;25.007;0;
+60625,.rail 4;23.348;0;
+60650,.rail 4;22.07;0;
+60675,.rail 4;21.646;0;
+60700,.rail 4;21.647;0;
+60725,.rail 4;21.647;0;
+60750,.rail 4;21.648;0;
+60775,.rail 4;21.649;0;
+60800,.rail 4;21.649;0;
+60825,.rail 4;21.65;0;
+60850,.rail 4;21.651;0;
+60875,.rail 4;21.652;0;
+60900,.rail 4;21.652;0;
+60925,.rail 4;21.653;0;
+60950,.rail 4;21.654;0;
+60975,.rail 4;21.654;0;
+61000,.rail 4;21.655;0;
+61025,.rail 4;21.656;0;
+61050,.rail 4;21.657;0;
+61075,.rail 4;21.657;-0.525;
+61100,.rail 4;21.658;-1.05;
+61125,.rail 4;21.659;-1.574;
+61150,.rail 4;21.659;-2.099;
+61175,.rail 4;22.307;-2.624;
+61200,.rail 4;25.154;-3.149;
+61225,.rail 4;30.364;-3.673;
+61250,.rail 4;37.594;-4.198;
+61275,.rail 4;44.807;-4.723;
+61300,.rail 4;51.965;-5.248;
+61325,.rail 4;58.362;-5.773;
+61350,.rail 4;63.252;-6.297;
+61375,.rail 4;66.254;-6.822;
+61400,.rail 4;67.466;-7.347;
+61425,.rail 4;66.977;-7.872;
+61450,.rail 4;64.767;-8.396;
+61475,.rail 4;60.746;-8.921;
+61500,.rail 4;54.743;-9.446;
+61525,.rail 4;46.572;-9.971;
+61550,.rail 4;35.976;-10.496;
+61575,.rail 4;22.482;-11.02;
+61600,.rail 4;5.283;-11.545;
+61625,.rail 4;-16.924;-12.07;
+61650,.rail 4;-46.411;-12.595;
+61675,.rail 4;-86.546;-13.119;
+61700,.rail 4;-141.838;-13.686;
+61725,.rail 4;-221.478;-14.311;
+61750,.rail 4;-342.822;-14.936;
+61775,.rail 4;-470.143;-15.561;
+61800,.rail 4;-549.581;-16.185;
+61825,.rail 4;-595.797;-16.81;
+61850,.rail 4;-631.985;-17.435;
+61875,.rail 4;-667.828;-18.06;
+61900,.rail 4;-703.671;-18.685;
+61925,.rail 4;-739.514;-19.31;
+61950,.rail 4;-775.356;-19.935;
+61975,.rail 4;-811.199;-20.559;
+62000,.rail 4;-847.042;0;
+62025,.rail 4;-882.885;0;
+62050,.rail 4;-918.728;0;
+62075,.rail 4;-954.57;0;
+62100,.rail 4;-990.413;0;
+62125,.rail 4;-1026.256;0;
+62150,.rail 4;-1062.099;0;
+62175,.rail 4;-1097.942;0;
+62200,.rail 4;-1133.784;0;
+62225,.rail 4;-1169.627;0;
+62250,.rail 4;-1205.47;0;
+62275,.rail 4;-1241.313;0;
+62300,.rail 4;-1277.156;0;
+62325,.rail 4;-1312.999;0;
+62350,.rail 4;-1348.841;0;
+62375,.rail 4;-1384.684;0;
+62400,.rail 4;-1420.527;0;
+62425,.rail 4;-1456.37;0;
+62450,.rail 4;-1492.213;0;
+62475,.rail 4;-1528.609;0;
+62500,.rail 4;-1565.746;0;
+62525,.rail 4;-1602.895;0;
+62550,.rail 4;-1640.045;0;
+62575,.rail 4;-1677.195;0;
+62600,.rail 4;-1714.344;0;
+62625,.rail 4;-1751.494;0;
+62650,.rail 4;-1788.644;0;
+62675,.rail 4;-1825.793;0;
+62700,.rail 4;-1862.943;0;
+62725,.rail 4;-1900.093;0;
+62750,.rail 4;-1937.242;0;
+62775,.rail 4;-1974.392;0;
+62800,.rail 4;-2011.542;0;
+62825,.railend 4;-2048.691;0;
+
+
+,;상2
+59277.67,.rail 5;6111.906;26.263;0;
+59300,.rail 5;6064.864;26.263;
+59325,.rail 5;6011.981;26.263;
+59350,.rail 5;5909.394;26.263;
+59375,.rail 5;5273.935;26.263;
+59400,.rail 5;2962.604;26.263;
+59425,.rail 5;976.245;26.263;
+59450,.rail 5;819.237;26.263;
+59475,.rail 5;697.988;26.263;
+59500,.rail 5;604.79;26.263;
+59525,.rail 5;529.163;26.263;
+59550,.rail 5;464.909;25.925;
+59575,.rail 5;411.11;25.588;
+59600,.rail 5;366.26;25.25;
+59625,.rail 5;328.332;24.913;
+59650,.rail 5;295.715;24.575;
+59675,.rail 5;266.705;24.238;
+59700,.rail 5;239.256;23.9;
+59725,.rail 5;212.833;23.563;
+59750,.rail 5;187.334;23.225;
+59775,.rail 5;163.538;22.888;
+59800,.rail 5;141.16;22.55;
+59825,.rail 5;120.067;22.213;
+59850,.rail 5;100.251;21.7;
+59875,.rail 5;83.025;20.925;
+59900,.rail 5;68.084;20.15;
+59925,.rail 5;55.631;19.375;
+59950,.rail 5;45.437;18.6;
+59975,.rail 5;37.155;17.825;
+60000,.rail 5;30.837;17.05;
+60025,.rail 5;26.691;16.275;
+60050,.rail 5;24.486;15.5;
+60075,.rail 5;24.129;14.725;
+60100,.rail 5;25.231;13.95;
+60125,.rail 5;26.693;13.175;
+60150,.rail 5;28.403;12.4;
+60175,.rail 5;29.982;11.625;
+60200,.rail 5;30.773;10.85;
+60225,.rail 5;30.768;10.075;
+60250,.rail 5;30.239;9.3;
+60275,.rail 5;29.373;8.525;
+60300,.rail 5;28.571;7.75;
+60325,.rail 5;27.937;6.975;
+60350,.rail 5;28.107;6.2;
+60375,.rail 5;28.719;5.425;
+60400,.rail 5;29.724;4.65;
+60425,.rail 5;30.949;3.875;
+60450,.rail 5;32.395;3.1;
+60475,.rail 5;33.731;2.325;
+60500,.rail 5;34.392;1.55;
+60525,.rail 5;33.785;0.775;
+60550,.rail 5;32.584;0;
+60575,.rail 5;30.986;0;
+60600,.rail 5;29.371;0;
+60625,.rail 5;27.739;0;
+60650,.rail 5;26.48;0;
+60675,.rail 5;26.044;0;
+60700,.rail 5;26.032;0;
+60725,.rail 5;26.02;0;
+60750,.rail 5;25.987;0;
+60775,.rail 5;25.952;0;
+60800,.rail 5;25.917;0;
+60825,.rail 5;25.926;0;
+60850,.rail 5;25.971;0;
+60875,.rail 5;26.016;0;
+60900,.rail 5;26.053;0;
+60925,.rail 5;26.032;0;
+60950,.rail 5;26.011;0;
+60975,.rail 5;25.99;0;
+61000,.rail 5;25.969;0;
+61025,.rail 5;25.948;0;
+61050,.rail 5;25.926;0;
+61075,.rail 5;25.905;-0.525;
+61100,.rail 5;25.884;-1.05;
+61125,.rail 5;25.863;-1.574;
+61150,.rail 5;25.842;-2.099;
+61175,.rail 5;26.475;-2.624;
+61200,.rail 5;29.383;-3.149;
+61225,.rail 5;34.76;-3.673;
+61250,.rail 5;41.944;-4.198;
+61275,.rail 5;49.069;-4.723;
+61300,.rail 5;56.369;-5.248;
+61325,.rail 5;62.803;-5.773;
+61350,.rail 5;67.59;-6.297;
+61375,.rail 5;70.518;-6.822;
+61400,.rail 5;71.764;-7.347;
+61425,.rail 5;71.343;-7.872;
+61450,.rail 5;69.238;-8.396;
+61475,.rail 5;65.361;-8.921;
+61500,.rail 5;59.596;-9.446;
+61525,.rail 5;51.697;-9.971;
+61550,.rail 5;41.446;-10.496;
+61575,.rail 5;28.556;-11.02;
+61600,.rail 5;11.846;-11.545;
+61625,.rail 5;-9.692;-12.07;
+61650,.rail 5;-37.632;-12.595;
+61675,.rail 5;-75.239;-13.119;
+61700,.rail 5;-128.81;-13.686;
+61725,.rail 5;-206.308;-14.311;
+61750,.rail 5;-326.091;-14.936;
+61775,.rail 5;-456.471;-15.561;
+61800,.rail 5;-537.991;-16.185;
+61825,.rail 5;-584.889;-16.81;
+61850,.rail 5;-621.512;-17.435;
+61875,.rail 5;-657.297;-18.06;
+61900,.rail 5;-693.253;-18.685;
+61925,.rail 5;-729.027;-19.31;
+61950,.rail 5;-764.8;-19.935;
+61975,.rail 5;-800.712;-20.559;
+62000,.rail 5;-836.259;0;
+62025,.rail 5;-871.81;0;
+62050,.rail 5;-906.677;0;
+62075,.rail 5;-940.483;0;
+62100,.rail 5;-973.716;0;
+62125,.rail 5;-1007.709;0;
+62150,.rail 5;-1043.01;0;
+62175,.rail 5;-1078.906;0;
+62200,.rail 5;-1114.804;0;
+62225,.rail 5;-1150.713;0;
+62250,.rail 5;-1186.419;0;
+62275,.rail 5;-1222.045;0;
+62300,.rail 5;-1257.999;0;
+62325,.rail 5;-1294.131;0;
+62350,.rail 5;-1330.574;0;
+62375,.rail 5;-1367.906;0;
+62400,.rail 5;-1405.042;0;
+62425,.rail 5;-1442.14;0;
+62450,.rail 5;-1479.554;0;
+62475,.rail 5;-1516.828;0;
+62500,.rail 5;-1554.075;0;
+62525,.rail 5;-1591.273;0;
+62550,.rail 5;-1628.485;0;
+62575,.rail 5;-1665.739;0;
+62600,.rail 5;-1702.992;0;
+62625,.rail 5;-1740.238;0;
+62650,.rail 5;-1777.48;0;
+62675,.rail 5;-1814.693;0;
+62700,.rail 5;-1851.897;0;
+62725,.rail 5;-1889.155;0;
+62750,.rail 5;-1926.425;0;
+62775,.rail 5;-1963.604;0;
+62800,.rail 5;-2000.778;0;
+62825,.rail 5;-2037.935;0;
+62850,.rail 5;-2075.087;0;
+62875,.rail 5;-2112.239;0;
+62900,.rail 5;-2149.507;0;
+62925,.rail 5;-2186.947;0;
+62950,.rail 5;-2224.056;0;
+62975,.rail 5;-2261.095;0;
+63000,.rail 5;-2298.011;0;
+63025,.rail 5;-2335.142;0;
+63050,.rail 5;-2372.274;0;
+63075,.rail 5;-2409.415;0;
+63100,.rail 5;-2446.578;0;
+63125,.rail 5;-2483.74;0;
+63150,.rail 5;-2520.902;0;
+63175,.rail 5;-2558.063;0;
+63200,.rail 5;-2595.223;0;
+63225,.rail 5;-2632.306;0;
+63250,.rail 5;-2668.974;0;
+63275,.rail 5;-2704.433;0;
+63300,.rail 5;-2739.677;0;
+63325,.rail 5;-2774.19;0;
+63350,.rail 5;-2808.702;0;
+63364.6,.railend 5;-2828.874;0;
+
+,;안산선하선
+60300,.rail 6;4.836;7.75;0;
+60325,.rail 6;5.339;6.975;
+60350,.rail 6;5.687;6.2;
+60375,.rail 6;6.031;5.425;
+60400,.rail 6;6.475;4.65;
+60425,.rail 6;6.795;3.875;
+60450,.rail 6;7.534;3.1;
+60475,.rail 6;8.071;2.325;
+60500,.rail 6;8.17;1.55;
+60525,.rail 6;7.803;0.775;
+60550,.rail 6;6.551;0;
+60575,.rail 6;4.897;0;
+60600,.rail 6;3.367;0;
+60625,.rail 6;1.825;0;
+60650,.rail 6;0.412;0;
+60675,.railend 6;-0.029;0;
+
+,;안산선하부본선
+60575,.rail 7;0;0;0;
+60600,.rail 7;-3.024;0;
+60625,.rail 7;-6.237;0;
+60650,.rail 7;-9.396;0;
+60675,.rail 7;-10.589;0;
+60700,.rail 7;-10.843;0;
+60725,.rail 7;-10.855;0;
+60750,.rail 7;-10.813;0;
+60775,.rail 7;-10.892;0;
+60800,.rail 7;-10.953;0;
+60825,.rail 7;-10.824;0;
+60850,.rail 7;-10.684;0;
+60875,.rail 7;-10.246;0;
+60900,.rail 7;-9.809;0;
+60925,.rail 7;-7.817;0;
+60950,.rail 7;-5.265;0;
+60975,.rail 7;-2.505;0;
+61000,.railend 7;0;0;
+
+,;안산선 상부본선
+60650,.rail 8;37.634;0;0;
+60675,.rail 8;39.4;0;
+60700,.rail 8;41.006;0;
+60725,.rail 8;41.414;0;
+60750,.rail 8;41.365;0;
+60775,.rail 8;41.27;0;
+60800,.rail 8;41.269;0;
+60825,.rail 8;41.338;0;
+60850,.rail 8;41.407;0;
+60875,.rail 8;41.45;0;
+60900,.rail 8;41.482;0;
+60925,.rail 8;41.514;0;
+60950,.rail 8;41.513;0;
+60975,.rail 8;41.475;0;
+61000,.rail 8;41.436;0;
+61025,.rail 8;41.395;0;
+61050,.railend 8;41.375;0;
+
+,;안전측선
+60950,.rail 9;-5.265;0;0;
+60975,.rail 9;-4.546;0;
+61000,.rail 9;-5.493;0;
+61025,.rail 9;-7.801;0;
+61050,.railend 9;-8.749;0;
+
+,;건넘선1
+60400,.rail 10;13.862;4.65;0;
+60425,.rail 10;13.992;3.875;
+60450,.rail 10;13.917;3.1;
+60475,.rail 10;12.907;2.325;
+60500,.rail 10;10.982;1.55;
+60525,.rail 10;8.931;0.775;
+60550,.railend 10;6.551;0;
+
+,;건넘선2
+60475,.rail 11;33.731;2.325;0;
+60500,.rail 11;35.625;1.55;
+60525,.rail 11;37.53;0.775;
+60550,.rail 11;38.72;0;
+60575,.rail 11;39.792;0;
+60600,.railend 11;40.59;0;
+
+,;건넘선3
+60900,.rail 12;41.482;0;0;
+60925,.rail 12;40.086;0;
+60950,.rail 12;38.44;0;
+60975,.railend 12;37.256;0;
+
+,;건넘선4
+61025,.rail 13;0;0;0;
+61050,.rail 13;2.633;0;
+61075,.rail 13;5.266;-0.525;
+61100,.rail 13;7.899;-1.05;
+61125,.railend 13;10.532;-1.574;
+
+,;건넘선5
+61000,.rail 14;37.261;0;0;
+61025,.rail 14;33.741;0;
+61050,.rail 14;30.742;0;
+61075,.rail 14;28.837;-0.525;
+61100,.rail 14;27.35;-1.05;
+61125,.railend 14;25.863;-1.574;
+
+,;승강장
+60700
+.Sta 금정;11.42 ;11.4230 ; 0; 1; 0; 0; ; 30; 0; 
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;9
+.freeobj 1;8
+60725
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+60750
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+60775
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+60800
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+60825
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+60850
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+.freeobj 2;25;5.7
+.freeobj 2;24;-5.3
+.freeobj 5;24;5.3
+60875
+.freeobj 0;176;5.7;0
+.freeobj 1;176;-5.7;0;180
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;78
+.freeobj 1;77
+.freeobj 0;11
+.freeobj 1;8
+.freeobj 2;25;5.7
+60900
+.form 0;2;4;0
+.form 0;7;4;0
+.form 1;5;4;0
+.freeobj 0;13
+.freeobj 1;8
+60917,.stop 0;
+
+61050,.height 1;
+
+,;금정고가
+61300
+.wall 0;0;3
+.wall 1;0;3
+
+61600
+.height 12;
+
+61775
+.freeobj 0;241;10;-8
+.freeobj 1;238;-10;-8
+
+61800
+.freeobj 0;247;10;-8
+.freeobj 1;246;-10;-8
+
+61825
+.freeobj 0;239;10;-8
+.freeobj 1;242;-10;-8
+
+61850
+.freeobj 0;245;10;-8
+.freeobj 1;240;-10;-8
+;선로 합류점
+
+61850
+.wall 0;-1;3
+.wall 1;1;3
+61875
+.freeobj 0;243;10;-8
+.freeobj 1;248;-10;-8
+61900
+.freeobj 0;237;10;-8
+.freeobj 1;244;-10;-8
+
+,;건넘선6
+61900,.rail 23;0;0;0
+61925,.rail 23;1.46;0;
+61950,.rail 23;2.8;0;
+61975,.railend 23;4.3;0;
+
+61925
+.freeobj 0;239;10;-8
+.freeobj 1;246;-10;-8
+61950
+.freeobj 0;241;10;-8
+.freeobj 1;238;-10;-8
+61975
+.freeobj 0;247;10;-8
+.freeobj 1;246;-10;-8
+62000
+.freeobj 0;239;10;-8
+.freeobj 1;242;-10;-8
+62025
+.freeobj 0;245;10;-8
+.freeobj 1;240;-10;-8
+62050
+.freeobj 0;243;10;-8
+.freeobj 1;248;-10;-8
+62075
+.freeobj 0;237;10;-8
+.freeobj 1;244;-10;-8
+62100
+.freeobj 0;204;-30;-8;0
+.freeobj 0;204;-80;-8;0
+.freeobj 0;204;-130;-8;0
+.freeobj 1;246;-10;-8
+.freeobj 1;251;35;-8
+62125
+.freeobj 1;217;35;-8
+62150
+.freeobj 1;252;35;-8
+62175
+.freeobj 1;214;35;-8
+62200
+.freeobj 0;210;-80;-8;0
+.freeobj 1;249;35;-8
+62225
+.freeobj 1;216;35;-8
+62250
+.freeobj 1;250;35;-8
+62275
+.freeobj 1;215;35;-8
+62300
+.freeobj 1;214;35;-8
+62325
+.freeobj 0;202;-60;-8;0
+.freeobj 0;202;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 1;217;35;-8
+62350
+.freeobj 1;216;35;-8
+62375
+.freeobj 1;213;35;-8
+62400
+.freeobj 1;215;35;-8
+62425
+.freeobj 0;202;-60;-8;0
+.freeobj 0;202;-110;-8;0
+.freeobj 0;202;-160;-8;0
+62525
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-230;-8;0
+.freeobj 0;208;-280;-8;0
+.freeobj 0;202;-330;-8;0
+62650
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-230;-8;0
+.freeobj 0;208;-280;-8;0
+.freeobj 0;202;-330;-8;0
+
+62850
+.wallend 0
+.wallend 1
+;산본 부본선 분기
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+.wall 2;-1;3
+.wall 3;1;3
+62875
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+62900
+.rail 2;-3.8;0;0
+.rail 3;7.6;0;0
+.rail 4;0;0;8
+62925
+.rail 2;-7.6;0;8
+.rail 3;11.4;0;7
+.rail 4;0.95;0;0
+62950
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+.rail 4;2.85;0;7
+62975
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+.railend 4;3.8;0
+63000
+.freeobj 1;230;0;-8;0
+.freeobj 1;226;0;-8;0
+.wall 2;-1;48
+.wall 3;1;48
+.Sta 산본;11.4630 ; 11.47; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+63025
+.freeobj 1;224;0;-8;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63027
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+63047
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63050
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63073
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+63075
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63097
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63100
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63125
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.freeobj 0;202;-60;-8;0
+.freeobj 0;208;-110;-8;0
+.freeobj 0;202;-160;-8;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63128
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63150
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63152
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+63175
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+63178
+.freeobj 0;177;-5.7;0
+.freeobj 1;177;5.7;0;180
+63198
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+63200
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+63205
+.stop 1
+63225
+.wall 2;-1;3
+.wall 3;1;3
+;산본역 끝
+.rail 4;3.8;0;7
+63250
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+.rail 4;2.85;0;0
+63275
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+.rail 4;0.95;0;8
+63300
+.rail 2;-7.6;0;0
+.rail 3;8.55;0;0
+.railend 4;0;0
+63325
+.rail 2;-3.8;0;7
+.rail 3;7.6;0;8
+63350
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+63375
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;0;0
+.railend 3;3.8;0
+63475
+63900
+
+63975
+64000
+
+64025
+.freeobj 0;212;-90
+64100
+.freeobj 0;212;-90
+.wall 0;-1;49
+.wall 1;1;49
+.Sta 수리산; 11.4830; 11.49; 0; -1; 0; 0; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;18
+.freeobj 1;9
+64125
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64150
+.freeobj 0;212;-90
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64175
+.freeobj 1;212;90
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64200
+.wallend 0
+.wallend 1
+;역사 계단 15m
+.freeobj 0;212;-90
+.freeobj 0;33;1.9
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64225
+;역사 시점
+.freeobj 0;34;1.9
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64250
+.freeobj 0;212;-90
+.freeobj 1;212;90
+.freeobj 0;34;1.9
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64275
+;역사 끝 종점
+.wall 0;-1;49
+.wall 1;1;49
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+64300
+.freeobj 0;178;-4.1;0
+.freeobj 1;178;4.1;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;10
+.freeobj 1;9
+64305
+.stop 1
+64325
+.freeobj 1;212;90
+.wall 0;-1;9
+.wall 1;1;9
+.dike 0;-1;6
+.dike 1;1;7
+64400
+.freeobj 1;212;90
+64525
+.freeobj 1;206;70
+64600
+.freeobj 1;206;70
+.rail 2;-7.6;0;11
+.dike 2;-1;2
+64675
+.freeobj 1;206;70
+64700
+.wallend 0
+64775
+64825
+.freeobj 1;206;70
+64900
+.freeobj 1;206;70
+64925
+64975
+.freeobj 1;206;70
+65000
+.railend 2
+.dikeend 0
+.dikeend 1
+.dikeend 2
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+65450
+.height 0.95
+65475
+.height 8.45
+65500
+.height 2.45
+65600
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+65825
+;육교
+65875
+66100
+;육교
+66150
+;육교
+66275
+66600
+.rail 2;-0.1;0;11
+.rail 3;3.9;0;1
+.dikeend 0
+.dikeend 1
+.dike 2;-1;0
+.dike 3;1;0
+66625
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+66650
+.freeobj 0;218;-50
+.rail 2;-2.85;0;11
+.rail 3;6.65;0;11
+66675
+.freeobj 0;214;-50
+.rail 2;-4.75;0;11
+.rail 3;8.55;0;11
+66700
+.freeobj 0;217;-50
+.rail 2;-6.65;0;11
+.rail 3;10.45;0;11
+66725
+.freeobj 0;213;-50
+.rail 2;-8.55;0;11
+.rail 3;12.35;0;11
+66750
+.freeobj 0;216;-50
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+66775
+.freeobj 0;217;-50
+.rail 2;-11.4;0;11
+.rail 3;15.2;0;11
+.Sta 대야미;11.52 ;11.5230 ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;18
+.freeobj 1;9
+66800
+.freeobj 0;214;-50
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66802
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+66825
+.freeobj 0;213;-50
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66848
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+66850
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66860
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+66875
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66900
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66915
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+66925
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66927
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+66950
+.freeobj 0;179;-5.7;0
+.freeobj 1;179;5.7;0;180
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+66973
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+66975
+.form 0;2;5;0
+.form 1;3;5;0
+.freeobj 0;12
+.freeobj 1;9
+66980
+.stop 1
+67000
+67025
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+67050
+.rail 2;-8.55;0;11
+.rail 3;12.35;0;11
+67075
+.rail 2;-6.65;0;11
+.rail 3;10.45;0;11
+67100
+.rail 2;-4.75;0;11
+.rail 3;8.55;0;11
+67125
+.rail 2;-2.85;0;11
+.rail 3;6.65;0;11
+67150
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+67175
+.dikeend 2
+.dikeend 3
+.dike 0;-1;0
+.dike 1;1;0
+.railend 2;-0.1;0
+.railend 3;3.9;0
+67350
+67500
+;육교
+68075
+.dike 0;-1;1
+.dike 1;1;1
+68225
+.dike 0;-1;0
+.dike 1;1;0
+68475
+68675
+.rail 2;-0.1;0;11
+.rail 3;3.9;0;1
+.dikeend 0
+.dikeend 1
+.dike 2;-1;0
+.dike 3;1;0
+68700
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+68725
+.rail 2;-2.85;0;11
+.rail 3;6.65;0;11
+68750
+.rail 2;-4.75;0;11
+.rail 3;8.55;0;11
+68775
+.rail 2;-6.65;0;11
+.rail 3;10.45;0;11
+68800
+.rail 2;-8.55;0;11
+.rail 3;12.35;0;11
+68825
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+68850
+.rail 2;-11.4;0;11
+.rail 3;15.2;0;11
+.Sta 반월;11.5430 ;11.55 ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;18
+.freeobj 1;9
+68875
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+68877
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+68900
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+68923
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+68925
+.dike 3;1;2
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+68935
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+68950
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+68975
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+68990
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+69000
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69002
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+69025
+.freeobj 0;180;-5.7;0
+.freeobj 1;180;5.7;0;180
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+69048
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+69050
+.form 0;2;6;0
+.form 1;3;6;0
+.freeobj 0;12
+.freeobj 1;9
+69055
+.stop 1
+69075
+.dike 0;-1;2
+.rail 2;-11.4;0;11
+.rail 3;15.2;0;11
+69100
+.rail 2;-10.45;0;11
+.rail 3;14.25;0;11
+69125
+.rail 2;-7.6;0;11
+.rail 3;11.4;0;11
+69150
+.rail 2;-3.8;0;11
+.rail 3;7.6;0;11
+69175
+.rail 2;-0.95;0;11
+.rail 3;4.75;0;11
+69200
+.dikeend 2
+.dikeend 3
+.dike 0;-1;2
+.dike 1;1;2
+.railend 2;-0.1;0
+.railend 3;3.9;0
+69225
+.dikeend 0
+.dikeend 1
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+.freeobj 0;89;81.9
+.freeobj 0;89;161.9
+.freeobj 0;89;241.9
+69425
+69525
+.wallend 0
+.wallend 1
+.dike 0;-1;3
+.dike 1;1;3
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+69650
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+.height 0.45
+69750
+.height 8.45
+70000
+70025
+;아래 고속도로
+70050
+;아래 고속도로
+70350
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+70370
+;고속철도 교각
+70425
+.dikeend 0
+.dikeend 1
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+.freeobj 0;89;81.9
+.freeobj 0;89;161.9
+.freeobj 0;89;241.9
+70625
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+70900
+.dikeend 0
+.dikeend 1
+.wall 0;-1;0
+.wall 1;1;0
+.freeobj 0;85
+.freeobj 0;88;1.9
+.freeobj 0;89;-78.1
+.freeobj 0;89;-158.1
+.freeobj 0;89;-238.1
+.freeobj 0;89;81.9
+.freeobj 0;89;161.9
+.freeobj 0;89;241.9
+71200
+.height 8.45
+71550
+.height 9.45
+71975
+.wallend 0
+.wallend 1
+.dike 0;-1;2
+.dike 1;1;2
+.freeobj 1;85;0;0;180
+.freeobj 0;88;1.9;0;180
+.freeobj 0;89;-78.1;0;180
+.freeobj 0;89;-158.1;0;180
+.freeobj 0;89;-238.1;0;180
+.freeobj 0;89;81.9;0;180
+.freeobj 0;89;161.9;0;180
+.freeobj 0;89;241.9;0;180
+72225
+72250
+.dikeend 0
+.wall 0;-1;3
+72275
+.rail 2;3.8;0;7
+.rail 3;0;0;8
+72300
+.rail 2;2.85;0;0
+.rail 3;0.95;0;0
+72325
+.rail 2;0.95;0;8
+.rail 3;2.85;0;7
+72350
+.wallend 0
+.dikeend 1
+.wall 2;-1;3
+.dike 3;1;2
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+72375
+.rail 2;-0.95;0;0
+.rail 3;4.75;0;0
+72400
+.rail 2;-2.85;0;0
+.rail 3;6.65;0;0
+72425
+.rail 2;-4.75;0;0
+.rail 3;8.55;0;0
+72450
+.rail 2;-6.65;0;0
+.rail 3;10.45;0;0
+72475
+.rail 2;-8.55;0;0
+.rail 3;12.35;0;0
+72500
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+72525
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+.wall 2;-1;51
+.wall 3;1;51
+.Sta 상록수;11.58 ;11.5830 ; 0; -1; 0; 0; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+72550
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72552
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+72572
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+72575
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72598
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+72600
+.dikeend 3
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72603
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+72625
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72650
+.freeobj -1;202;-250
+.freeobj -1;202;-275
+.freeobj -1;202;-290
+.freeobj -1;202;-320
+.freeobj -1;202;-345
+.freeobj -1;202;-365
+.freeobj -1;202;-385
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72653
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+72675
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72677
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+72700
+.freeobj -1;247;-20
+.freeobj -1;245;-50
+.freeobj -1;241;-90
+.freeobj -1;243;-120
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+72703
+.freeobj 0;181;-5.7;0
+.freeobj 1;181;5.7;0;180
+72723
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+72725
+.freeobj -1;239;-20
+.freeobj -1;243;-50
+.freeobj -1;245;-90
+.freeobj -1;237;-120
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;12
+.freeobj 1;9
+72730
+.stop 1
+72750
+.freeobj -1;243;-20
+.freeobj -1;237;-50
+.freeobj -1;241;-90
+.freeobj -1;239;-120
+.wall 2;-1;3
+.wall 3;1;3
+72775
+.freeobj -1;245;-20
+.freeobj -1;239;-50
+.freeobj -1;243;-90
+.freeobj -1;241;-120
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+72800
+.freeobj -1;202;-250
+.freeobj -1;202;-275
+.freeobj -1;202;-290
+.freeobj -1;202;-320
+.freeobj -1;202;-345
+.freeobj -1;202;-365
+.freeobj -1;202;-385
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+72825
+.rail 2;-7.6;0;0
+.rail 3;11.4;0;0
+72850
+.rail 2;-3.8;0;7
+.rail 3;7.6;0;8
+72875
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+72900
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;0;0
+.railend 3;3.8;0
+
+73075
+73500
+.rail 2;-36.1;-9;7
+.rail 3;-28.5;-9;7
+73525
+.rail 2;-24.7;-9;7
+.rail 3;-13.3;-9;7
+73550
+.rail 2;-17.1;-9;7
+.rail 3;-1.9;-9;7
+73575
+.rail 2;-12.825;-9;7
+.rail 3;6.175;-9;7
+73600
+.height 9.45
+.rail 2;-11.4;-9;0
+.rail 3;11.4;-9;7
+73625
+.rail 2;-11.4;-8.25;0
+.rail 3;14.25;-8.25;7
+73650
+.rail 2;-11.4;-7.5;0
+.rail 3;15.2;-7.5;0
+73675
+.rail 2;-11.4;-6.75;0
+.rail 3;15.2;-6.75;0
+73700
+.rail 2;-11.4;-6;0
+.rail 3;15.2;-6;0
+73725
+.rail 2;-11.4;-5.25;0
+.rail 3;15.2;-5.25;0
+73750
+.rail 2;-11.4;-4.5;0
+.rail 3;15.2;-4.5;0
+73775
+.rail 2;-11.4;-3.75;0
+.rail 3;15.2;-3.75;0
+73800
+.wallend 0
+.wallend 1
+.rail 2;-11.4;-3;0
+.rail 3;15.2;-3;0
+73825
+.rail 2;-11.4;-2.25;0
+.rail 3;15.2;-2.25;0
+73850
+.rail 2;-11.4;-1.5;0
+.rail 3;15.2;-1.5;0
+73875
+.rail 2;-11.4;-0.75;0
+.rail 3;15.2;-0.75;0
+73900
+.freeobj 1;209;-225;-4.95
+.freeobj 1;208;-410;-4.95
+.height 4.95
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+73950
+.freeobj 1;209;-225;-4.95
+74000
+.freeobj 1;209;-225;-4.95
+.freeobj 1;208;-410;-4.95
+74050
+.freeobj 1;209;-225;-4.95
+.freeobj 1;208;-410;-4.95
+74100
+.Sta 한대앞;12.00 ; 12.0030; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+74125
+.freeobj -1;245;-170
+.freeobj -1;239;-210
+.freeobj -1;243;-250
+.freeobj -1;241;-290
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74150
+.form 0;2;4;0
+.form 1;3;4;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74175
+.freeobj -1;247;-170
+.freeobj -1;241;-210
+.freeobj -1;239;-250
+.freeobj -1;237;-290
+.freeobj 0;182;-5.7;0
+.freeobj 1;182;5.7;0;180
+.form 0;2;4;0
+.form 1;3;4;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74180
+.freeobj 0;24;-5.3
+.freeobj 1;24;5.3
+74200
+.freeobj 0;35;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74225
+.freeobj -1;241;-170
+.freeobj -1;245;-210
+.freeobj -1;237;-250
+.freeobj -1;239;-290
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74250
+.freeobj 0;182;-5.7;0
+.freeobj 1;182;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74275
+.freeobj -1;239;-170
+.freeobj -1;237;-210
+.freeobj -1;243;-250
+.freeobj -1;241;-290
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+74300
+.freeobj 0;182;-5.7;0
+.freeobj 1;182;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;12
+.freeobj 1;9
+74305
+.stop 1
+74325
+74450
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+74475
+.rail 2;-10.45;0;0
+.rail 3;14.25;0;0
+74500
+.rail 2;-8.55;0;0
+.rail 3;12.35;0;0
+74525
+.rail 2;-6.65;0;0
+.rail 3;10.45;0;0
+74550
+.rail 2;-4.75;0;0
+.rail 3;8.55;0;0
+74575
+.rail 2;-2.85;0;0
+.rail 3;6.65;0;0
+74600
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+74625
+.dike 0;-1;0
+.dike 1;1;0
+.railend 2;0;0
+.railend 3;3.8;0
+74725
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+74775
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+75200
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+75300
+75425
+.ground 3
+75450
+.ground 0
+75475
+.freeobj 0;242;60;0;0
+75500
+.freeobj 0;246;60;0;0
+75475
+.freeobj 0;244;60;0;0
+.rail 2;0;0;12
+.rail 3;3.8;0;12
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+75500
+.freeobj 0;246;60;0;0
+.freeobj 0;239;-110;0;0
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+75525
+.freeobj 0;240;60;0;0
+.freeobj 0;243;-110;0;0
+.rail 2;-3.8;0;12
+.rail 3;7.6;0;12
+75550
+.freeobj 0;238;60;0;0
+.freeobj 0;247;-110;0;0
+.rail 2;-7.6;0;12
+.rail 3;11.4;0;12
+75575
+.freeobj 0;242;60;0;0
+.freeobj 0;243;-110;0;0
+.rail 2;-10.45;0;12
+.rail 3;14.25;0;12
+75600
+.freeobj 0;244;60;0;0
+.freeobj 0;245;-110;0;0
+.rail 2;-11.4;0;12
+.rail 3;15.2;0;12
+75625
+.freeobj 0;248;60;0;0
+.freeobj 0;239;-110;0;0
+75650
+.freeobj 0;246;60;0;0
+.freeobj 0;237;-110;0;0
+.wall 2;-1;52
+.wall 3;1;52
+.Sta 중앙; 12.0230;12.03 ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;18
+.freeobj 1;9
+75675
+.freeobj 0;240;60;0;0
+.freeobj 0;241;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75677
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+75697
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+75700
+.freeobj 0;242;60;0;0
+.freeobj 0;243;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75723
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+75725
+.freeobj 0;238;60;0;0
+.freeobj 0;247;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75728
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+75750
+.freeobj 0;248;60;0;0
+.freeobj 0;245;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75775
+.freeobj 0;244;60;0;0
+.freeobj 0;239;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75778
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+75800
+.freeobj 0;246;60;0;0
+.freeobj 0;241;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75802
+.freeobj 0;306;-5.7;0;0
+.freeobj 1;306;5.7;0;0
+75825
+.freeobj 0;240;60;0;0
+.freeobj 0;237;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+75828
+.freeobj 0;183;-5.7;0
+.freeobj 1;183;5.7;0;180
+75848
+.freeobj 0;306;-5.7;0;180
+.freeobj 1;306;5.7;0;180
+75850
+.freeobj 0;238;60;0;0
+.freeobj 0;247;-110;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;12
+.freeobj 1;9
+.stop -1
+75875
+.freeobj 0;242;60;0;0
+.freeobj 0;243;-110;0;0
+.wall 2;-1;3
+.wall 3;1;3
+.rail 2;-11.4;0;12
+.rail 3;15.2;0;12
+75900
+.freeobj 0;244;60;0;0
+.freeobj 0;245;-110;0;0
+.rail 2;-10.45;0;12
+.rail 3;14.25;0;12
+75925
+.freeobj 0;201;-250;0;0
+.freeobj 0;201;-300;0;0
+.freeobj 0;201;-350;0;0
+.freeobj 0;201;-400;0;0
+.freeobj 0;248;60;0;0
+.freeobj 0;239;-110;0;0
+.rail 2;-7.6;0;12
+.rail 3;11.4;0;12
+75950
+.freeobj 0;246;60;0;0
+.rail 2;-3.8;0;12
+.rail 3;7.6;0;12
+75975
+.freeobj 0;240;60;0;0
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+76000
+.freeobj 0;242;60;0;0
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;-0.1;0
+.railend 3;3.9;0
+
+76075
+.freeobj 0;201;-250;0;0
+.freeobj 0;201;-300;0;0
+.freeobj 0;201;-350;0;0
+.freeobj 0;201;-400;0;0
+.freeobj 0;238;60;0;0
+76100
+.freeobj 0;248;60;0;0
+76125
+.freeobj 0;244;60;0;0
+76150
+.freeobj 0;246;60;0;0
+76175
+.freeobj 0;201;-250;0;0
+.freeobj 0;201;-300;0;0
+.freeobj 0;201;-350;0;0
+.freeobj 0;201;-400;0;0
+.freeobj 0;240;60;0;0
+76200
+.freeobj 0;248;60;0;0
+76225
+.freeobj 0;244;60;0;0
+76250
+.freeobj 0;246;60;0;0
+76275
+.freeobj 0;240;60;0;0
+76300
+.freeobj 0;238;60;0;0
+76325
+.freeobj 0;242;60;0;0
+76350
+.freeobj 0;244;60;0;0
+76375
+.freeobj 0;248;60;0;0
+76400
+.freeobj 0;246;60;0;0
+76425
+.freeobj 0;240;60;0;0
+76450
+.freeobj 0;242;60;0;0
+76475
+.freeobj 0;238;60;0;0
+76500
+.freeobj 0;244;60;0;0
+76525
+.freeobj 0;242;60;0;0
+76775
+.rail 2;-0.1;0;12
+.rail 3;3.9;0;12
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+76800
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+76825
+.rail 2;-2.85;0;12
+.rail 3;6.65;0;12
+76850
+.rail 2;-4.75;0;12
+.rail 3;8.55;0;12
+76875
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;-6.65;0
+.railend 3;10.45;0
+76975
+.wall 0;-1;53
+.wall 1;1;53
+.Sta 고잔; 12.0430;12.05 ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77000
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77025
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77050
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77075
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77100
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77125
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77150
+.freeobj 0;184;-6.0;0
+.freeobj 1;184;6.0;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+77175
+.stop 1
+.wall 0;-1;3
+.wall 1;1;3
+77300
+.rail 2;-4.75;0;12
+.rail 3;8.55;0;12
+.wallend 0
+.wallend 1
+.wall 2;-1;3
+.wall 3;1;3
+77325
+.rail 2;-2.85;0;12
+.rail 3;6.65;0;12
+77350
+.rail 2;-0.95;0;12
+.rail 3;4.75;0;12
+77375
+.wallend 2
+.wallend 3
+.wall 0;-1;3
+.wall 1;1;3
+.railend 2;-0.1;0
+.railend 3;3.9;0
+
+78600
+.wall 0;-1;54
+.wall 1;1;54
+.Sta 초지;12.07 ;12.0730 ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;18
+.freeobj 1;9
+78625
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78637
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+78650
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78675
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78687
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+78700
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78725
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78738
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+78750
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78775
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+78788
+.freeobj 0;185;-7.2;0.5
+.freeobj 1;185;7.2;0.5;180
+78800
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;12
+.freeobj 1;9
+78805
+.stop 1
+78825
+.wall 0;-1;3
+.wall 1;1;3
+
+79150
+.height 4.45
+79300
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+79375
+.wallend 0
+.wallend 1
+.dike 0;-1;0
+.dike 1;1;0
+79425
+79625
+79875
+.dikeend 0
+.dikeend 1
+;서해선 선로 시작점
+79850
+.height 0.45
+.rail 4;9.5;0;0
+.rail 5;-5.7;0;0
+79900
+.rail 3;0;0;8
+79925
+.rail 3;0.95;0;0
+79950
+.rail 3;2.85;0;7
+79975
+.rail 3;3.8;0;8
+80000
+.rail 3;4.75;0;0
+80025
+.rail 2;0;0;7
+.rail 3;6.65;0
+80050
+.rail 2;-0.95;0;0
+.rail 3;8.55;0
+.rail 4;9.5;0;8
+80075
+.rail 2;-2.85;0;0
+.rail 3;10.45;0
+.rail 4;10.45;0;8
+.rail 7;-19;0;0
+.rail 8;-24.7;0;0
+.rail 9;-30.4;0;0
+.rail 10;-38;0;0
+.freeobj 8;39
+80100
+.freeobj 8;39
+.rail 2;-4.75;0;0
+.rail 3;12.35;0
+.rail 4;13.3;0;0
+.rail 5;-5.7;0;7
+80125
+.freeobj 8;39
+.rail 2;-6.65;0;0
+.rail 3;14.25;0;7
+.railend 5;-6.65;0
+.rail 4;17.1;0;3
+.rail 5;17.1;0;0
+80150
+.freeobj 8;39
+.rail 2;-8.55;0;0
+.rail 3;15.2;0;0
+.rail 4;19;0;0
+.rail 5;20.9;0;3
+.rail 6;20.9;0;0
+80175
+.freeobj 8;39
+.rail 2;-10.45;0;8
+.rail 5;22.8;0;0
+.rail 6;24.7;0;3
+80200
+.freeobj 8;39
+.rail 2;-11.4;0;0
+.rail 6;26.6;0;0
+80225
+.freeobj 8;39
+80250
+.freeobj 8;39
+.Sta 안산;12.0930 ; 12.1030; 0; -1; 0; 1; ; 60; 0; 
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;18
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80275
+.freeobj 8;39
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80300
+.rail 9;-30.4;0;8
+.rail 10;-36.1;0;8
+.freeobj 0;38;30.4
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80325
+.rail 9;-29.45;0;8
+.rail 10;-35.15;0;8
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.freeobj 0;38;30.4
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80330
+.freeobj 0;24;-5.7
+.freeobj 1;24;5.7
+80350
+.freeobj 0;37;1.9
+;역사 전방 25m 후방 10m
+.rail 8;-24.7;0;4
+.rail 9;-26.6;0;0
+.rail 10;-32.3;0;0
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80375
+.railend 8;-22.8;0
+.rail 9;-22.8;0;7
+.rail 10;-28.5;0;0
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80400
+.rail 9;-19.95;0;7
+.rail 10;-25.65;0;7
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80425
+.railend 9;-19;0
+.rail 10;-24.7;0;0
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80450
+.rail 7;-19;0;0
+.rail 10;-23.75;0;8
+.freeobj 0;186;-5.7;0
+.freeobj 1;186;5.7;0;180
+.form 0;2;7;0
+.form 1;3;7;0
+.freeobj 0;12
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+80455
+.stop 1
+80475
+.rail 3;15.2;0;0
+.rail 4;19;0;0
+.rail 5;22.8;0;3
+.rail 6;26.6;0;3
+.rail 7;-19;0;0
+.rail 10;-20.9;0;3
+80500
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;3
+.rail 4;19;0;3
+.rail 5;20.9;0;0
+.rail 6;24.7;0;0
+.rail 7;-19;0;0
+.railend 10;-19;0
+80525
+.rail 2;-10.45;0;8
+.rail 3;13.3;0;0
+.rail 4;17.1;0;3
+.railend 5;17.1;0
+.rail 6;20.9;0;0
+.rail 7;-19;0;8
+.rail 8;-26.6;0;0
+80550
+.rail 2;-7.6;0;0
+.rail 3;9.5;0;0
+.rail 4;11.4;0;4
+.rail 6;17.1;0;0
+.rail 7;-18.05;0;8
+.rail 8;-22.8;0;0
+80575
+.rail 2;-3.8;0;7
+.rail 3;5.7;0;4
+.railend 4;5.7;0
+.rail 6;13.3;0;0
+.rail 7;-15.2;0;0
+.rail 8;-19;0;0
+80600
+.rail 2;-0.95;0;7
+.rail 3;3.8;0;7
+.rail 6;9.5;0;4
+.rail 7;-11.4;0;0
+.rail 8;-15.2;0;0
+80625
+.railend 2;0;0
+.rail 3;2.85;0;0
+.rail 6;7.6;0;0
+.rail 7;-7.6;0;7
+.rail 8;-11.4;0;7
+80650
+.rail 3;0.95;0;8
+.rail 7;-4.75;0;7
+.rail 8;-8.55;0;7
+80675
+.rail 3;0;0;0
+.rail 7;-3.8;0;0
+.rail 8;-7.6;0;0
+80700
+.rail 3;0;0;7
+80725
+.rail 3;-0.95;0;0
+80750
+.rail 3;-2.85;0;8
+80775
+.rail 2;-3.8;0;3
+.rail 3;-3.8;0;0
+.railend 7
+80800
+.rail 2;-5.7;0;0
+.rail 8;-7.6;0;3
+80825
+.rail 2;-9.5;0;4
+.rail 7;-3.8;0;3
+.railend 8;-9.5;0
+80850
+.rail 2;-11.4;0;0
+.rail 7;-5.7;0;4
+80875
+.rail 2;-11.4;0;0
+.rail 7;-7.6;0;0
+.railend 6
+81075
+.railend 2
+81100
+.railend 3
+.railend 7
+
+
+81650
+81875
+;육교
+81900
+82225
+;육교
+.rail 3;0;0;8
+82250
+;육교
+.rail 3;0.95;0;0
+82275
+.rail 3;2.85;0;7
+82300
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+82350
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+82375
+.rail 2;-3.8;0;0
+.rail 3;7.6;0;0
+82400
+.rail 2;-7.6;0;8
+.rail 3;11.4;0;7
+82425
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+82450
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+82525
+.Sta 신길온천;12.13 ;12.1330 ; 0; -1; 0; 1; ; 30; 0; 
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;18
+.freeobj 1;9
+82550
+.freeobj 0;187;-5.7;0
+.freeobj 1;187;5.7;0;180
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82575
+.freeobj 0;40;1.9
+;역사 시작
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82600
+.freeobj 0;40;1.9
+.freeobj 0;41;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82625
+.freeobj 0;40;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82650
+;역사 끝
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82665
+.freeobj 0;41;1.9;0;180
+82675
+.freeobj 0;187;-5.7;0
+.freeobj 1;187;5.7;0;180
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82700
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+82725
+.freeobj 0;187;-5.7;0
+.freeobj 1;187;5.7;0;180
+.form 0;2;9;0
+.form 1;3;9;0
+.freeobj 0;12
+.freeobj 1;9
+82730
+.stop 1
+82750
+82775
+.rail 2;-11.4;0;8
+.rail 3;15.2;0;7
+82800
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+82825
+.rail 2;-7.6;0;0
+.rail 3;11.4;0;0
+82850
+.rail 2;-3.8;0;7
+.rail 3;7.6;0;8
+82875
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+82900
+.wall 0;-1;7
+.railend 2;0;0
+.rail 3;3.8;0;0
+82950
+.rail 3;3.8;0;7
+82975
+.rail 3;2.85;0;0
+83000
+.rail 3;0.95;0;8
+83025
+.railend 3;0;0
+
+
+83300
+.dike 1;1;0
+.height 0.45
+83375
+;육교
+83475
+.wallend 0
+.dike 0;-1;0
+83625
+.dikeend 0
+.dikeend 1
+.wall 0;-1;3
+.wall 1;1;3
+83675
+.wallend 1
+.dike 1;1;0
+83775
+.height 5.45
+84000
+.dikeend 1
+.wall 1;1;3
+84275
+.height 5.45
+84500
+84775
+.height 5.95
+85050
+.rail 3;0;0;8
+85075
+.rail 3;0.95;0;0
+85100
+.rail 3;2.85;0;7
+85125
+.railend 3;3.8;0
+85275
+.wall 0;-1;55
+.wall 1;1;55
+.Sta 정왕;12.16 ; 12.1630; 0; -1; 0; 1; ; 30; 0; 
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;18
+.freeobj 1;9
+85300
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85325
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85350
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85375
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85400
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85425
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85450
+.freeobj 0;188;-5.7;0
+.freeobj 1;188;5.7;0;180
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+85475
+.form 0;l;0;0
+.form 1;r;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+85480
+.stop 1
+85500
+.wall 0;-1;3
+.wall 1;1;3
+85550
+.rail 3;3.8;0;3
+85575
+.rail 3;1.9;0;4
+85600
+.railend 3;0;0
+
+85725
+85875
+.height 5.95
+86100
+.wallend 1
+.dike 1;1;0
+86375
+.height 0.95
+86550
+.wallend 0
+.dikeend 1
+86475
+.rail 2;3.8;0;7
+.rail 3;0;0;8
+86500
+.rail 2;2.85;0;0
+.rail 3;0.95;0;0
+86525
+.rail 2;0.95;0;8
+.rail 3;2.85;0;7
+86550
+.rail 2;0;0;0
+.rail 3;3.8;0;0
+86575
+.rail 2;0;0;7
+.rail 3;3.8;0;8
+86600
+.rail 2;-0.95;0;7
+.rail 3;4.75;0;8
+86625
+.rail 2;-3.8;0;0
+.rail 3;7.6;0;0
+86650
+.rail 2;-7.6;0;8
+.rail 3;11.4;0;7
+86675
+.rail 2;-10.45;0;8
+.rail 3;14.25;0;7
+86700
+.rail 2;-11.4;0;0
+.rail 3;15.2;0;0
+86750
+.Sta 오이도; 12.19;12.21 ; 0; -1; 0; 1; ; 120; 0; 
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;18
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86775
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86800
+.freeobj 0;189;-5.7;0
+.freeobj 1;189;5.7;0;180
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86825
+.freeobj 0;42;1.9
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86850
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86860
+.freeobj 0;43;1.9
+86875
+.freeobj 0;43;1.9
+.form 0;2;0;0
+.form 1;3;0;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86900
+;역사 끝
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86925
+.freeobj 0;189;-5.7;0
+.freeobj 1;189;5.7;0;180
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;10
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86950
+.form 0;2;10;0
+.form 1;3;10;0
+.freeobj 0;77
+.freeobj 1;78
+.freeobj 0;12
+.freeobj 1;9
+.freeobj 2;9
+.freeobj 3;8
+86955
+.stop 1
+
+
+
+
+,;평면선형
+,;원본
+,;당고개회차선
+15275,.curve 166
+15300,.curve -166
+15325,.curve 0;
+
+,;성신여대입구
+28075
+.curve 664
+28100
+.curve 0
+28150
+.curve -664
+28175,.curve 3000
+28250
+.curve 0
+
+28750
+.curve -664
+28800
+.curve 664
+28825,.curve 0;
+
+,;동대문역사문화공원
+31875
+.curve -664
+31925
+.curve 664
+31975
+.curve 0
+
+,;서울역
+
+,;사당
+44775
+.curve 664
+44800
+.curve 0
+44875
+.curve -664
+44900
+.curve 0
+
+
+15032.432,.curve 1499.911
+15057.432,.curve 300.01
+15082.433,.curve 250
+15186.709,.curve 300.01
+15211.709,.curve 1499.911
+15236.71,.curve 0
+15426.657,.curve -1800
+15602.511,.curve 0
+15896.837,.curve -1379.903
+15921.838,.curve -276.011
+15946.838,.curve -230
+16028.083,.curve -276.011
+16053.083,.curve -1379.903
+16078.084,.curve 0
+16112.783,.curve 800
+16218.34,.curve 0
+16329.792,.curve 1079.876
+16354.793,.curve 216.014
+16379.794,.curve 180
+16440.691,.curve 216.014
+16465.692,.curve 1079.876
+16490.693,.curve 0
+16629.886,.curve -1000
+16738.297,.curve 0
+16873.294,.curve 1499.911
+16898.294,.curve 300.01
+16923.295,.curve 250
+17043.195,.curve 300.01
+17068.196,.curve 1499.911
+17093.196,.curve 0
+17166.404,.curve -1559.914
+17191.404,.curve -312.01
+17216.404,.curve -260
+17250.913,.curve -312.01
+17275.913,.curve -1559.914
+17300.914,.curve 0
+17383.969,.curve 1799.926
+17408.969,.curve 360.009
+17433.969,.curve 300
+17476.011,.curve 360.009
+17501.011,.curve 1799.926
+17526.012,.curve 0
+17824.33,.curve -2000
+17836.084,.curve 0
+18421.425,.curve 2999.936
+18451.425,.curve 600.007
+18481.425,.curve 500
+18535.539,.curve 600.007
+18565.539,.curve 2999.936
+18595.539,.curve 0
+18629.175,.curve -2999.936
+18659.175,.curve -600.007
+18689.175,.curve -500
+18750.927,.curve -600.007
+18780.927,.curve -2999.936
+18810.927,.curve 0
+19636.096,.curve 1000
+19808.485,.curve 0
+20040.352,.curve -1499.911
+20065.353,.curve -300.01
+20090.353,.curve -250
+20290.941,.curve -300.01
+20315.941,.curve -1499.911
+20340.942,.curve 0
+20982.982,.curve 1000
+21237.042,.curve 0
+22140.432,.curve -1799.926
+22165.432,.curve -360.009
+22190.433,.curve -300
+22405.001,.curve -360.009
+22430.001,.curve -1799.926
+22455.001,.curve 0
+22556.229,.curve -4799.972
+22581.229,.curve -960.003
+22606.229,.curve -800
+22665.463,.curve -960.003
+22690.463,.curve -4799.972
+22715.463,.curve 0
+23651.865,.curve 6000
+23708.105,.curve 0
+24330.517,.curve 3599.963
+24355.517,.curve 720.004
+24380.517,.curve 600
+24487.881,.curve 720.004
+24512.881,.curve 3599.963
+24537.881,.curve 0
+24824.009,.curve -3000
+24882.585,.curve 0
+25037.358,.curve 900
+25196.101,.curve 0
+25235.211,.curve 1559.914
+25260.211,.curve 312.01
+25285.212,.curve 260
+25362.194,.curve 312.01
+25387.194,.curve 1559.914
+25412.195,.curve 0
+25589.024,.curve 5399.975
+25614.024,.curve 1080.003
+25639.024,.curve 900
+25735.287,.curve 1080.003
+25760.287,.curve 5399.975
+25785.287,.curve 0
+25825.05,.curve -2399.944
+25850.05,.curve -480.006
+25875.05,.curve -400
+25969.939,.curve -480.006
+25994.94,.curve -2399.944
+26019.94,.curve 0
+26754.469,.curve 5399.996
+26764.469,.curve 1080
+26774.469,.curve 900
+27058.183,.curve 1080
+27068.183,.curve 5399.996
+27078.183,.curve 0
+27228.353,.curve 850
+27285.275,.curve 0
+27380.868,.curve 2399.944
+27405.868,.curve 480.006
+27430.869,.curve 400
+27612.647,.curve 480.006
+27637.648,.curve 2399.944
+27662.648,.curve 0
+27707.117,.curve -1199.888
+27732.117,.curve -240.013
+27757.118,.curve -200
+27789.112,.curve -240.013
+27814.113,.curve -1199.888
+27839.113,.curve 0
+28156.351,.curve 1000
+28269.073,.curve 0
+28488.708,.curve 1500
+28574.884,.curve 0
+28712.74,.curve -2399.857
+28752.74,.curve -480.016
+28792.741,.curve -400
+29241.703,.curve -480.009
+29271.703,.curve -2399.92
+29301.704,.curve 0
+29546.226,.curve 4799.945
+29581.226,.curve 960.006
+29616.226,.curve 800
+29650.705,.curve 960.006
+29685.705,.curve 4799.945
+29720.705,.curve 0
+29872.884,.curve -1499.911
+29897.885,.curve -300.01
+29922.885,.curve -250
+30118.962,.curve -300.01
+30143.963,.curve -1499.911
+30168.963,.curve 0
+30237.813,.curve 1499.911
+30262.813,.curve 300.01
+30287.814,.curve 250
+30328.686,.curve 300.01
+30353.687,.curve 1499.911
+30378.687,.curve 0
+30814.561,.curve 2699.95
+30839.562,.curve 540.006
+30864.562,.curve 450
+31206.112,.curve 540.006
+31231.112,.curve 2699.95
+31256.112,.curve 0
+31344.612,.curve 2099.936
+31369.612,.curve 420.007
+31394.612,.curve 350
+31454.24,.curve 420.007
+31479.24,.curve 2099.936
+31504.24,.curve 0
+31570.155,.curve 2399.944
+31595.155,.curve 480.006
+31620.155,.curve 400
+31869.224,.curve 480.006
+31894.224,.curve 2399.944
+31919.225,.curve 0
+32897.531,.curve 3599.963
+32922.531,.curve 720.004
+32947.531,.curve 600
+33111.84,.curve 720.004
+33136.84,.curve 3599.963
+33161.841,.curve 0
+33263.006,.curve -4199.968
+33288.006,.curve -840.004
+33313.006,.curve -700
+33387.139,.curve -840.004
+33412.139,.curve -4199.968
+33437.139,.curve 0
+33853.217,.curve -2399.944
+33878.217,.curve -480.006
+33903.217,.curve -400
+34018.716,.curve -480.006
+34043.716,.curve -2399.944
+34068.717,.curve 0
+34250.594,.curve -2399.98
+34265.594,.curve -480.002
+34280.594,.curve -400
+34361.135,.curve -480.002
+34376.135,.curve -2399.98
+34391.135,.curve 0
+34420.099,.curve 2399.944
+34445.1,.curve 480.006
+34470.1,.curve 400
+34601.194,.curve 480.006
+34626.194,.curve 2399.944
+34651.194,.curve 0
+34755.443,.curve -1499.911
+34780.443,.curve -300.01
+34805.444,.curve -250
+35051.624,.curve -300.01
+35076.625,.curve -1499.911
+35101.625,.curve 0
+35186,.curve 1000
+35383,.curve 0
+35654.777,.curve -3599.963
+35679.777,.curve -720.004
+35704.777,.curve -600
+35800.785,.curve -720.004
+35825.785,.curve -3599.963
+35850.785,.curve 0
+36086.946,.curve -900
+36230.786,.curve 0
+36846.026,.curve -2000
+36962.432,.curve 0
+37044.084,.curve 1499.911
+37069.085,.curve 300.01
+37094.085,.curve 250
+37273.182,.curve 300.01
+37298.183,.curve 1499.911
+37323.183,.curve 0
+37949.787,.curve 2000
+38012.187,.curve 0
+38265.287,.curve -1499.911
+38290.287,.curve -300.01
+38315.288,.curve -250
+38668.394,.curve -300.01
+38693.394,.curve -1499.911
+38718.395,.curve 0
+38842.648,.curve -2099.936
+38867.648,.curve -420.007
+38892.648,.curve -350
+38967.978,.curve -420.007
+38992.978,.curve -2099.936
+39017.978,.curve 0
+39174.542,.curve 1000
+39264.592,.curve 0
+39880.207,.curve -2000
+39958.601,.curve 0
+40026.637,.curve 1499.911
+40051.637,.curve 300.01
+40076.638,.curve 250
+40336.86,.curve 300.01
+40361.861,.curve 1499.911
+40386.861,.curve 0
+40513.61,.curve 3599.963
+40538.61,.curve 720.004
+40563.61,.curve 600
+40641.819,.curve 720.004
+40666.819,.curve 3599.963
+40691.819,.curve 0
+41854.843,.curve -2399.944
+41879.843,.curve -480.006
+41904.843,.curve -400
+42259.533,.curve -480.006
+42284.533,.curve -2399.944
+42309.533,.curve 0
+42355.6,.curve 1787.925
+42380.601,.curve 357.609
+42405.601,.curve 298
+42670.631,.curve 357.609
+42695.631,.curve 1787.925
+42720.631,.curve 0
+42807.392,.curve -2399.891
+42842.392,.curve -480.013
+42877.393,.curve -400
+42934.659,.curve -480.013
+42969.659,.curve -2399.891
+43004.66,.curve 0
+43234.91,.curve 1500
+43380.251,.curve 0
+43522.412,.curve 1200
+43680.444,.curve 0
+43803.93,.curve -1200
+43952.894,.curve 0
+44618.837,.curve -1500
+44719.649,.curve 0
+
+
+
+,;사당~오이도
+,;하선
+45275.733,.curve -1799.85
+45311.234,.curve -360.017
+45346.735,.curve -300
+45403.04,.curve -360.017
+45438.541,.curve -1799.85
+45474.042,.curve 0
+45765.002,.curve -11996.889
+45773.269,.curve -2999.233
+45777.402,.curve -2499.381
+45784.291,.curve -1599.704
+45789.802,.curve -1371.277
+45796.415,.curve -1050.192
+45802.202,.curve -943.264
+45808.696,.curve -780.177
+45814.602,.curve -719.251
+45821.029,.curve -621.208
+45827.002,.curve -600
+45991.416,.curve -621.208
+45997.389,.curve -719.251
+46003.816,.curve -780.177
+46009.722,.curve -943.264
+46016.216,.curve -1050.192
+46022.003,.curve -1371.277
+46028.616,.curve -1599.704
+46034.127,.curve -2499.38
+46041.016,.curve -2999.233
+46045.149,.curve -11996.879
+46053.416,.curve 0
+46088.691,.curve 11993.884
+46100.158,.curve 2998.494
+46105.891,.curve 2498.793
+46115.446,.curve 1599.433
+46123.091,.curve 1371.138
+46132.263,.curve 1050.369
+46140.291,.curve 943.64
+46149.297,.curve 781.059
+46157.491,.curve 720.454
+46166.403,.curve 623.205
+46174.691,.curve 600
+46330.465,.curve 623.205
+46338.754,.curve 720.454
+46347.665,.curve 781.059
+46355.859,.curve 943.64
+46364.865,.curve 1050.369
+46372.893,.curve 1371.138
+46382.065,.curve 1599.433
+46389.71,.curve 2498.793
+46399.265,.curve 2998.494
+46404.998,.curve 11993.886
+46416.465,.curve 0
+
+47032.269,.curve -19995.07
+47045.602,.curve -4998.788
+47052.269,.curve -4165.693
+47063.38,.curve -2666.207
+47072.269,.curve -2285.479
+47082.935,.curve -1750.3
+47092.269,.curve -1572.065
+47102.743,.curve -1300.193
+47112.269,.curve -1198.614
+47122.636,.curve -1035.118
+47132.269,.curve -1000
+47474.687,.curve -1035.118
+47484.321,.curve -1198.614
+47494.687,.curve -1300.193
+47504.213,.curve -1572.065
+47514.687,.curve -1750.3
+47524.021,.curve -2285.479
+47534.687,.curve -2666.207
+47543.576,.curve -4165.693
+47554.687,.curve -4998.788
+47561.354,.curve -19995.071
+47574.687,.curve 0
+48385.024,.curve 18089.451
+48391.691,.curve 4522.347
+48395.024,.curve 3768.623
+48400.579,.curve 2411.957
+48405.024,.curve 2067.433
+48410.357,.curve 1583.007
+48415.024,.curve 1421.577
+48420.262,.curve 1175.125
+48425.024,.curve 1082.904
+48430.209,.curve 934.177
+48435.024,.curve 904.53
+48686.068,.curve 934.177
+48690.883,.curve 1082.904
+48696.068,.curve 1175.125
+48700.83,.curve 1421.577
+48706.068,.curve 1583.007
+48710.734,.curve 2067.433
+48716.068,.curve 2411.957
+48720.512,.curve 3768.624
+48726.068,.curve 4522.342
+48729.401,.curve 18089.277
+48736.068,.curve 0
+
+,;복선
+49383.994,.curve 600
+49660.106,.curve 0
+50006.073,.curve 400
+50236.167,.curve 0
+50621.821,.curve 300
+50940.357,.curve 0
+51257.143,.curve -500
+51751.133,.curve 0
+52110.781,.curve 2000
+52275.409,.curve 0
+53318.02,.curve -1000
+53655.425,.curve 0
+53991.35,.curve -1200
+54176.829,.curve 0
+55678.991,.curve 400
+56080.923,.curve 0
+58502.144,.curve -400
+58677.996,.curve 0
+59082.579,.curve 800
+59312.625,.curve 0
+
+,;단선
+59334.704,.curve -8393.381
+59344.704,.curve -2098.369
+59349.704,.curve -1748.692
+59358.037,.curve -1119.384
+59364.704,.curve -959.686
+59372.703,.curve -735.403
+59379.704,.curve -660.853
+59387.557,.curve -547.454
+59394.704,.curve -505.287
+59402.4729999999,.curve -437.85
+59409.704,.curve -420
+60031.92,.curve -437.85
+60039.151,.curve -505.287
+60046.92,.curve -547.454
+60054.067,.curve -660.853
+60061.92,.curve -735.403
+60068.921,.curve -959.686
+60076.92,.curve -1119.384
+60083.587,.curve -1748.692
+60091.92,.curve -2098.369
+60096.92,.curve -8393.381
+60106.92,.curve 0
+60107.335,.curve 9994.754
+60117.068,.curve 2498.707
+60121.935,.curve 2082.295
+60130.046,.curve 1332.843
+60136.535,.curve 1142.606
+60144.321,.curve 875.32
+60151.135,.curve 786.392
+60158.78,.curve 650.94
+60165.735,.curve 600.456
+60173.299,.curve 519.467
+60180.335,.curve 500
+60232.178,.curve 519.467
+60239.213,.curve 600.456
+60246.778,.curve 650.94
+60253.733,.curve 786.392
+60261.378,.curve 875.32
+60268.192,.curve 1142.606
+60275.978,.curve 1332.843
+60282.467,.curve 2082.295
+60290.578,.curve 2498.708
+60295.445,.curve 9994.753
+60305.178,.curve 0
+
+,;금정역
+60450,.curve 733.527
+60550,.curve 0
+
+,;f10
+60625,.curve -754.551
+60675,.curve 0
+
+,;안산선
+61155.988,.curve -300
+61240.249,.curve 0
+61288.862,.curve 5590.041
+61298.862,.curve 1397.547
+61303.862,.curve 1164.7
+61312.195,.curve 745.742
+61318.862,.curve 639.53
+61326.859,.curve 490.608
+61333.862,.curve 441.283
+61341.709,.curve 366.639
+61348.862,.curve 339.131
+61356.619,.curve 295.667
+61363.862,.curve 280
+61744.627,.curve 295.667
+61751.87,.curve 339.131
+61759.627,.curve 366.639
+61766.78,.curve 441.283
+61774.627,.curve 490.608
+61781.631,.curve 639.53
+61789.627,.curve 745.742
+61796.294,.curve 1164.7
+61804.627,.curve 1397.547
+61809.627,.curve 5590.041
+61819.627,.curve 0
+
+,;복선
+63511.344,.curve -600
+63947.416,.curve 0
+64766.017,.curve -600
+64835.342,.curve 0
+65934.981,.curve 600
+66215.609,.curve 0
+69420.315,.curve 600
+69806.91,.curve 0
+71153.542,.curve 600
+71324.347,.curve 0
+72067.671,.curve 600
+72157.958,.curve 0
+72949.632,.curve 600
+73424.254,.curve 0
+74632.448,.curve -600
+75132.424,.curve 0
+77808.159,.curve 600
+78084.649,.curve 0
+79102.603,.curve -600
+79284.9,.curve 0
+79602.663,.curve 600
+79781.298,.curve 0
+81670.624,.curve 600
+81716.909,.curve 0
+83194.637,.curve 600
+83479.917,.curve 0
+83976.763,.curve -600
+84415.37,.curve 0
+85627.637,.curve 500
+86406.279,.curve 0
+
+,;구배
+14998,.PITCH -3
+15378.5,.PITCH -3.62
+15382.25,.PITCH -4.88
+15386,.PITCH -6.12
+15389.75,.PITCH -7.37
+15393.5,.PITCH -8
+15498,.PITCH -8
+15613.4,.PITCH -7.37
+15617.15,.PITCH -6.12
+15620.9,.PITCH -4.88
+15624.65,.PITCH -3.62
+15628.4,.PITCH -3
+15740.51,.PITCH -3.63
+15744.31,.PITCH -4.9
+15748.11,.PITCH -6.17
+15751.91,.PITCH -7.43
+15755.7,.PITCH -8.7
+15759.5,.PITCH -9.96
+15763.3,.PITCH -11.23
+15767.1,.PITCH -12.5
+15770.9,.PITCH -13.76
+15774.7,.PITCH -15.03
+15778.5,.PITCH -16.3
+15782.3,.PITCH -17.56
+15786.1,.PITCH -18.83
+15789.89,.PITCH -20.09
+15793.69,.PITCH -21.36
+15797.49,.PITCH -22.63
+15801.29,.PITCH -23.26
+16176.11,.PITCH -22.6
+16180.1,.PITCH -21.27
+16184.08,.PITCH -19.94
+16188.07,.PITCH -18.61
+16192.06,.PITCH -17.28
+16196.04,.PITCH -15.95
+16200.03,.PITCH -14.62
+16204.01,.PITCH -13.29
+16208,.PITCH -11.97
+16211.99,.PITCH -10.64
+16215.97,.PITCH -9.31
+16219.96,.PITCH -7.98
+16223.94,.PITCH -6.65
+16227.93,.PITCH -5.32
+16231.92,.PITCH -3.99
+16235.9,.PITCH -2.66
+16239.89,.PITCH -2
+16596,.PITCH -3
+16833.5,.PITCH -3.56
+16836.87,.PITCH -4.69
+16840.25,.PITCH -5.81
+16843.62,.PITCH -6.94
+16847,.PITCH -8.06
+16850.37,.PITCH -9.19
+16853.75,.PITCH -10.31
+16857.12,.PITCH -11.44
+16860.5,.PITCH -12
+17332,.PITCH -11.56
+17334.62,.PITCH -10.69
+17337.25,.PITCH -9.81
+17339.88,.PITCH -8.94
+17342.5,.PITCH -8.06
+17345.12,.PITCH -7.19
+17347.75,.PITCH -6.31
+17350.38,.PITCH -5.44
+17353,.PITCH -4.56
+17355.62,.PITCH -3.69
+17358.25,.PITCH -2.81
+17360.88,.PITCH -1.94
+17363.5,.PITCH -1.06
+17366.12,.PITCH -0.19
+17368.75,.PITCH 0.69
+17371.38,.PITCH 1.56
+17374,.PITCH 2
+17603,.PITCH -2
+17862,.PITCH 0
+18049.5,.PITCH 0.45
+18052.22,.PITCH 1.36
+18054.94,.PITCH 2.27
+18057.66,.PITCH 3.17
+18060.38,.PITCH 4.08
+18063.09,.PITCH 4.98
+18065.81,.PITCH 5.89
+18068.53,.PITCH 6.8
+18071.25,.PITCH 7.7
+18073.97,.PITCH 8.61
+18076.69,.PITCH 9.52
+18079.41,.PITCH 10.42
+18082.12,.PITCH 11.33
+18084.84,.PITCH 12.23
+18087.56,.PITCH 13.14
+18090.28,.PITCH 14.05
+18093,.PITCH 14.95
+18095.72,.PITCH 15.86
+18098.44,.PITCH 16.77
+18101.16,.PITCH 17.67
+18103.88,.PITCH 18.58
+18106.59,.PITCH 19.48
+18109.31,.PITCH 20.39
+18112.03,.PITCH 21.3
+18114.75,.PITCH 22.2
+18117.47,.PITCH 23.11
+18120.19,.PITCH 24.02
+18122.91,.PITCH 24.92
+18125.62,.PITCH 25.83
+18128.34,.PITCH 26.73
+18131.06,.PITCH 27.64
+18133.78,.PITCH 28.55
+18136.5,.PITCH 29
+18219.5,.PITCH 28.23
+18224.09,.PITCH 26.7
+18228.69,.PITCH 25.17
+18233.28,.PITCH 23.64
+18237.88,.PITCH 22.11
+18242.47,.PITCH 20.58
+18247.06,.PITCH 19.05
+18251.66,.PITCH 17.52
+18256.25,.PITCH 15.98
+18260.84,.PITCH 14.45
+18265.44,.PITCH 12.92
+18270.03,.PITCH 11.39
+18274.62,.PITCH 9.86
+18279.22,.PITCH 8.33
+18283.81,.PITCH 6.8
+18288.41,.PITCH 5.27
+18293,.PITCH 3.73
+18297.59,.PITCH 2.2
+18302.19,.PITCH 0.67
+18306.78,.PITCH -0.86
+18311.38,.PITCH -2.39
+18315.97,.PITCH -3.92
+18320.56,.PITCH -5.45
+18325.16,.PITCH -6.98
+18329.75,.PITCH -8.52
+18334.34,.PITCH -10.05
+18338.94,.PITCH -11.58
+18343.53,.PITCH -13.11
+18348.12,.PITCH -14.64
+18352.72,.PITCH -16.17
+18357.31,.PITCH -17.7
+18361.91,.PITCH -19.23
+18366.5,.PITCH -20
+18634,.PITCH -16
+18815,.PITCH -15.25
+18819.5,.PITCH -13.75
+18824,.PITCH -12.25
+18828.5,.PITCH -10.75
+18833,.PITCH -9.25
+18837.5,.PITCH -7.75
+18842,.PITCH -6.25
+18846.5,.PITCH -4.75
+18851,.PITCH -4
+19313,.PITCH -4.47
+19315.81,.PITCH -5.41
+19318.62,.PITCH -6.34
+19321.44,.PITCH -7.28
+19324.25,.PITCH -8.22
+19327.06,.PITCH -9.16
+19329.88,.PITCH -10.09
+19332.69,.PITCH -11.03
+19335.5,.PITCH -11.97
+19338.31,.PITCH -12.91
+19341.12,.PITCH -13.84
+19343.94,.PITCH -14.78
+19346.75,.PITCH -15.72
+19349.56,.PITCH -16.66
+19352.38,.PITCH -17.59
+19355.19,.PITCH -18.53
+19358,.PITCH -19.47
+19360.81,.PITCH -20.41
+19363.62,.PITCH -21.34
+19366.44,.PITCH -22.28
+19369.25,.PITCH -23.22
+19372.06,.PITCH -24.16
+19374.88,.PITCH -25.09
+19377.69,.PITCH -26.03
+19380.5,.PITCH -26.97
+19383.31,.PITCH -27.91
+19386.12,.PITCH -28.84
+19388.94,.PITCH -29.78
+19391.75,.PITCH -30.72
+19394.56,.PITCH -31.66
+19397.38,.PITCH -32.59
+19400.19,.PITCH -33.53
+19403,.PITCH -34
+19729.5,.PITCH -33.23
+19734.09,.PITCH -31.7
+19738.69,.PITCH -30.17
+19743.28,.PITCH -28.64
+19747.88,.PITCH -27.11
+19752.47,.PITCH -25.58
+19757.06,.PITCH -24.05
+19761.66,.PITCH -22.52
+19766.25,.PITCH -20.98
+19770.84,.PITCH -19.45
+19775.44,.PITCH -17.92
+19780.03,.PITCH -16.39
+19784.62,.PITCH -14.86
+19789.22,.PITCH -13.33
+19793.81,.PITCH -11.8
+19798.41,.PITCH -10.27
+19803,.PITCH -8.73
+19807.59,.PITCH -7.2
+19812.19,.PITCH -5.67
+19816.78,.PITCH -4.14
+19821.38,.PITCH -2.61
+19825.97,.PITCH -1.08
+19830.56,.PITCH 0.45
+19835.16,.PITCH 1.98
+19839.75,.PITCH 3.52
+19844.34,.PITCH 5.05
+19848.94,.PITCH 6.58
+19853.53,.PITCH 8.11
+19858.12,.PITCH 9.64
+19862.72,.PITCH 11.17
+19867.31,.PITCH 12.7
+19871.91,.PITCH 14.23
+19876.5,.PITCH 15
+20394,.PITCH 14.5
+20397,.PITCH 13.5
+20400,.PITCH 12.5
+20403,.PITCH 11.5
+20406,.PITCH 10.5
+20409,.PITCH 9.5
+20412,.PITCH 8.5
+20415,.PITCH 7.5
+20418,.PITCH 7
+20762,.PITCH 6.44
+20765.38,.PITCH 5.31
+20768.75,.PITCH 4.19
+20772.12,.PITCH 3.06
+20775.5,.PITCH 1.94
+20778.88,.PITCH 0.81
+20782.25,.PITCH -0.31
+20785.62,.PITCH -1.44
+20789,.PITCH -2.56
+20792.38,.PITCH -3.69
+20795.75,.PITCH -4.81
+20799.12,.PITCH -5.94
+20802.5,.PITCH -7.06
+20805.88,.PITCH -8.19
+20809.25,.PITCH -9.31
+20812.62,.PITCH -10.44
+20816,.PITCH -11.56
+20819.38,.PITCH -12.69
+20822.75,.PITCH -13.81
+20826.12,.PITCH -14.94
+20829.5,.PITCH -16.06
+20832.88,.PITCH -17.19
+20836.25,.PITCH -18.31
+20839.62,.PITCH -19.44
+20843,.PITCH -20.56
+20846.38,.PITCH -21.69
+20849.75,.PITCH -22.81
+20853.12,.PITCH -23.94
+20856.5,.PITCH -25.06
+20859.88,.PITCH -26.19
+20863.25,.PITCH -27.31
+20866.62,.PITCH -28.44
+20870,.PITCH -29
+21114.5,.PITCH -28.36
+21118.34,.PITCH -27.08
+21122.19,.PITCH -25.8
+21126.03,.PITCH -24.52
+21129.88,.PITCH -23.23
+21133.72,.PITCH -21.95
+21137.56,.PITCH -20.67
+21141.41,.PITCH -19.39
+21145.25,.PITCH -18.11
+21149.09,.PITCH -16.83
+21152.94,.PITCH -15.55
+21156.78,.PITCH -14.27
+21160.62,.PITCH -12.98
+21164.47,.PITCH -11.7
+21168.31,.PITCH -10.42
+21172.16,.PITCH -9.14
+21176,.PITCH -7.86
+21179.84,.PITCH -6.58
+21183.69,.PITCH -5.3
+21187.53,.PITCH -4.02
+21191.38,.PITCH -2.73
+21195.22,.PITCH -1.45
+21199.06,.PITCH -0.17
+21202.91,.PITCH 1.11
+21206.75,.PITCH 2.39
+21210.59,.PITCH 3.67
+21214.44,.PITCH 4.95
+21218.28,.PITCH 6.23
+21222.12,.PITCH 7.52
+21225.97,.PITCH 8.8
+21229.81,.PITCH 10.08
+21233.66,.PITCH 11.36
+21237.5,.PITCH 12
+21543.5,.PITCH 11.28
+21547.81,.PITCH 9.84
+21552.12,.PITCH 8.41
+21556.44,.PITCH 6.97
+21560.75,.PITCH 5.53
+21565.06,.PITCH 4.09
+21569.38,.PITCH 2.66
+21573.69,.PITCH 1.22
+21578,.PITCH -0.22
+21582.31,.PITCH -1.66
+21586.62,.PITCH -3.09
+21590.94,.PITCH -4.53
+21595.25,.PITCH -5.97
+21599.56,.PITCH -7.41
+21603.88,.PITCH -8.84
+21608.19,.PITCH -10.28
+21612.5,.PITCH -11
+21837,.PITCH -10.56
+21839.62,.PITCH -9.69
+21842.25,.PITCH -8.81
+21844.88,.PITCH -7.94
+21847.5,.PITCH -7.06
+21850.12,.PITCH -6.19
+21852.75,.PITCH -5.31
+21855.38,.PITCH -4.44
+21858,.PITCH -3.56
+21860.62,.PITCH -2.69
+21863.25,.PITCH -1.81
+21865.88,.PITCH -0.94
+21868.5,.PITCH -0.06
+21871.12,.PITCH 0.81
+21873.75,.PITCH 1.69
+21876.38,.PITCH 2.56
+21879,.PITCH 3
+22095.5,.PITCH 3.44
+22098.12,.PITCH 4.31
+22100.75,.PITCH 5.19
+22103.38,.PITCH 6.06
+22106,.PITCH 6.94
+22108.62,.PITCH 7.81
+22111.25,.PITCH 8.69
+22113.88,.PITCH 9.56
+22116.5,.PITCH 10
+22618,.PITCH 7
+22810.5,.PITCH 6.38
+22814.25,.PITCH 5.13
+22818,.PITCH 3.87
+22821.75,.PITCH 2.62
+22825.5,.PITCH 2
+23242,.PITCH 1.37
+23245.75,.PITCH 0.13
+23249.5,.PITCH -1.12
+23253.25,.PITCH -2.38
+23257,.PITCH -3.63
+23260.75,.PITCH -4.87
+23264.5,.PITCH -6.13
+23268.25,.PITCH -7.37
+23272,.PITCH -8
+23437.5,.PITCH -7.59
+23439.94,.PITCH -6.78
+23442.38,.PITCH -5.97
+23444.81,.PITCH -5.16
+23447.25,.PITCH -4.34
+23449.69,.PITCH -3.53
+23452.12,.PITCH -2.72
+23454.56,.PITCH -1.91
+23457,.PITCH -1.09
+23459.44,.PITCH -0.28
+23461.88,.PITCH 0.53
+23464.31,.PITCH 1.34
+23466.75,.PITCH 2.16
+23469.19,.PITCH 2.97
+23471.62,.PITCH 3.78
+23474.06,.PITCH 4.59
+23476.5,.PITCH 5
+23784.5,.PITCH 4.59
+23786.94,.PITCH 3.78
+23789.38,.PITCH 2.97
+23791.81,.PITCH 2.16
+23794.25,.PITCH 1.34
+23796.69,.PITCH 0.53
+23799.12,.PITCH -0.28
+23801.56,.PITCH -1.09
+23804,.PITCH -1.91
+23806.44,.PITCH -2.72
+23808.88,.PITCH -3.53
+23811.31,.PITCH -4.34
+23813.75,.PITCH -5.16
+23816.19,.PITCH -5.97
+23818.62,.PITCH -6.78
+23821.06,.PITCH -7.59
+23823.5,.PITCH -8
+24057,.PITCH -4
+24409.5,.PITCH -4.59
+24413.06,.PITCH -5.78
+24416.62,.PITCH -6.97
+24420.19,.PITCH -8.16
+24423.75,.PITCH -9.34
+24427.31,.PITCH -10.53
+24430.88,.PITCH -11.72
+24434.44,.PITCH -12.91
+24438,.PITCH -14.09
+24441.56,.PITCH -15.28
+24445.12,.PITCH -16.47
+24448.69,.PITCH -17.66
+24452.25,.PITCH -18.84
+24455.81,.PITCH -20.03
+24459.38,.PITCH -21.22
+24462.94,.PITCH -22.41
+24466.5,.PITCH -23
+24690,.PITCH -22.44
+24693.38,.PITCH -21.31
+24696.75,.PITCH -20.19
+24700.12,.PITCH -19.06
+24703.5,.PITCH -17.94
+24706.88,.PITCH -16.81
+24710.25,.PITCH -15.69
+24713.62,.PITCH -14.56
+24717,.PITCH -13.44
+24720.38,.PITCH -12.31
+24723.75,.PITCH -11.19
+24727.12,.PITCH -10.06
+24730.5,.PITCH -8.94
+24733.88,.PITCH -7.81
+24737.25,.PITCH -6.69
+24740.62,.PITCH -5.56
+24744,.PITCH -5
+24952,.PITCH -4.38
+24955.75,.PITCH -3.12
+24959.5,.PITCH -1.87
+24963.25,.PITCH -0.62
+24967,.PITCH 0.62
+24970.75,.PITCH 1.87
+24974.5,.PITCH 3.12
+24978.25,.PITCH 4.38
+24982,.PITCH 5
+25306,.PITCH 3
+25506,.PITCH 2
+25697.5,.PITCH 2.63
+25701.25,.PITCH 3.87
+25705,.PITCH 5.12
+25708.75,.PITCH 6.38
+25712.5,.PITCH 7
+25932.5,.PITCH 6.44
+25935.88,.PITCH 5.31
+25939.25,.PITCH 4.19
+25942.62,.PITCH 3.06
+25946,.PITCH 1.94
+25949.38,.PITCH 0.81
+25952.75,.PITCH -0.31
+25956.12,.PITCH -1.44
+25959.5,.PITCH -2
+26237,.PITCH -1.25
+26241.5,.PITCH 0.25
+26246,.PITCH 1.75
+26250.5,.PITCH 3.25
+26255,.PITCH 4
+26775,.PITCH 3.56
+26777.62,.PITCH 2.69
+26780.25,.PITCH 1.81
+26782.88,.PITCH 0.94
+26785.5,.PITCH 0.06
+26788.12,.PITCH -0.81
+26790.75,.PITCH -1.69
+26793.38,.PITCH -2.56
+26796,.PITCH -3.44
+26798.62,.PITCH -4.31
+26801.25,.PITCH -5.19
+26803.88,.PITCH -6.06
+26806.5,.PITCH -6.94
+26809.12,.PITCH -7.81
+26811.75,.PITCH -8.69
+26814.38,.PITCH -9.56
+26817,.PITCH -10
+27126.5,.PITCH -9.38
+27130.25,.PITCH -8.12
+27134,.PITCH -6.88
+27137.75,.PITCH -5.62
+27141.5,.PITCH -5
+27448,.PITCH -4.38
+27451.75,.PITCH -3.12
+27455.5,.PITCH -1.87
+27459.25,.PITCH -0.62
+27463,.PITCH 0.62
+27466.75,.PITCH 1.87
+27470.5,.PITCH 3.12
+27474.25,.PITCH 4.38
+27478,.PITCH 5
+27659.5,.PITCH 5.56
+27662.88,.PITCH 6.69
+27666.25,.PITCH 7.81
+27669.62,.PITCH 8.94
+27673,.PITCH 10.06
+27676.38,.PITCH 11.19
+27679.75,.PITCH 12.31
+27683.12,.PITCH 13.44
+27686.5,.PITCH 14
+28091.4,.PITCH 13.55
+28094.1,.PITCH 12.65
+28096.8,.PITCH 11.75
+28099.5,.PITCH 10.85
+28102.2,.PITCH 9.95
+28104.9,.PITCH 9.05
+28107.6,.PITCH 8.15
+28110.3,.PITCH 7.25
+28113,.PITCH 6.35
+28115.7,.PITCH 5.45
+28118.4,.PITCH 4.55
+28121.1,.PITCH 3.65
+28123.8,.PITCH 2.75
+28126.5,.PITCH 1.85
+28129.2,.PITCH 0.95
+28131.9,.PITCH 0.05
+28134.6,.PITCH -0.4
+28438.9,.PITCH 0.06
+28441.68,.PITCH 0.99
+28444.45,.PITCH 1.91
+28447.22,.PITCH 2.84
+28450,.PITCH 3.76
+28452.78,.PITCH 4.69
+28455.55,.PITCH 5.61
+28458.32,.PITCH 6.54
+28461.1,.PITCH 7
+28653.5,.PITCH 6.28
+28657.81,.PITCH 4.84
+28662.12,.PITCH 3.41
+28666.44,.PITCH 1.97
+28670.75,.PITCH 0.53
+28675.06,.PITCH -0.91
+28679.38,.PITCH -2.34
+28683.69,.PITCH -3.78
+28688,.PITCH -5.22
+28692.31,.PITCH -6.66
+28696.62,.PITCH -8.09
+28700.94,.PITCH -9.53
+28705.25,.PITCH -10.97
+28709.56,.PITCH -12.41
+28713.88,.PITCH -13.84
+28718.19,.PITCH -15.28
+28722.5,.PITCH -16
+29359.5,.PITCH -15.44
+29362.87,.PITCH -14.31
+29366.25,.PITCH -13.19
+29369.62,.PITCH -12.06
+29373,.PITCH -10.94
+29376.37,.PITCH -9.81
+29379.75,.PITCH -8.69
+29383.12,.PITCH -7.56
+29386.5,.PITCH -7
+29600.5,.PITCH -6.31
+29604.63,.PITCH -4.94
+29608.75,.PITCH -3.56
+29612.88,.PITCH -2.19
+29617,.PITCH -0.81
+29621.13,.PITCH 0.56
+29625.25,.PITCH 1.94
+29629.38,.PITCH 3.31
+29633.5,.PITCH 4
+30064.5,.PITCH 3.41
+30068.06,.PITCH 2.22
+30071.63,.PITCH 1.03
+30075.19,.PITCH -0.16
+30078.75,.PITCH -1.34
+30082.31,.PITCH -2.53
+30085.88,.PITCH -3.72
+30089.44,.PITCH -4.91
+30093,.PITCH -6.09
+30096.56,.PITCH -7.28
+30100.13,.PITCH -8.47
+30103.69,.PITCH -9.66
+30107.25,.PITCH -10.84
+30110.81,.PITCH -12.03
+30114.38,.PITCH -13.22
+30117.94,.PITCH -14.41
+30121.5,.PITCH -15
+30459.5,.PITCH -15.59
+30463.06,.PITCH -16.78
+30466.62,.PITCH -17.97
+30470.19,.PITCH -19.16
+30473.75,.PITCH -20.34
+30477.31,.PITCH -21.53
+30480.88,.PITCH -22.72
+30484.44,.PITCH -23.91
+30488,.PITCH -25.09
+30491.56,.PITCH -26.28
+30495.12,.PITCH -27.47
+30498.69,.PITCH -28.66
+30502.25,.PITCH -29.84
+30505.81,.PITCH -31.03
+30509.38,.PITCH -32.22
+30512.94,.PITCH -33.41
+30516.5,.PITCH -34
+30726,.PITCH -33.5
+30729,.PITCH -32.5
+30732,.PITCH -31.5
+30735,.PITCH -30.5
+30738,.PITCH -29.5
+30741,.PITCH -28.5
+30744,.PITCH -27.5
+30747,.PITCH -26.5
+30750,.PITCH -25.5
+30753,.PITCH -24.5
+30756,.PITCH -23.5
+30759,.PITCH -22.5
+30762,.PITCH -21.5
+30765,.PITCH -20.5
+30768,.PITCH -19.5
+30771,.PITCH -18.5
+30774,.PITCH -17.5
+30777,.PITCH -16.5
+30780,.PITCH -15.5
+30783,.PITCH -14.5
+30786,.PITCH -13.5
+30789,.PITCH -12.5
+30792,.PITCH -11.5
+30795,.PITCH -10.5
+30798,.PITCH -9.5
+30801,.PITCH -8.5
+30804,.PITCH -7.5
+30807,.PITCH -6.5
+30810,.PITCH -5.5
+30813,.PITCH -4.5
+30816,.PITCH -3.5
+30819,.PITCH -2.5
+30822,.PITCH -2
+31068.5,.PITCH -1.37
+31072.25,.PITCH -0.13
+31076,.PITCH 1.12
+31079.75,.PITCH 2.38
+31083.5,.PITCH 3
+31565,.PITCH 6
+31793.5,.PITCH 6.47
+31796.31,.PITCH 7.41
+31799.12,.PITCH 8.34
+31801.94,.PITCH 9.28
+31804.75,.PITCH 10.22
+31807.56,.PITCH 11.16
+31810.37,.PITCH 12.09
+31813.19,.PITCH 13.03
+31816,.PITCH 13.97
+31818.81,.PITCH 14.91
+31821.62,.PITCH 15.84
+31824.44,.PITCH 16.78
+31827.25,.PITCH 17.72
+31830.06,.PITCH 18.66
+31832.87,.PITCH 19.59
+31835.69,.PITCH 20.53
+31838.5,.PITCH 21
+32137.5,.PITCH 20.41
+32141.06,.PITCH 19.22
+32144.62,.PITCH 18.03
+32148.19,.PITCH 16.84
+32151.75,.PITCH 15.66
+32155.31,.PITCH 14.47
+32158.88,.PITCH 13.28
+32162.44,.PITCH 12.09
+32166,.PITCH 10.91
+32169.56,.PITCH 9.72
+32173.12,.PITCH 8.53
+32176.69,.PITCH 7.34
+32180.25,.PITCH 6.16
+32183.81,.PITCH 4.97
+32187.38,.PITCH 3.78
+32190.94,.PITCH 2.59
+32194.5,.PITCH 2
+32461.5,.PITCH 2.72
+32465.81,.PITCH 4.16
+32470.12,.PITCH 5.59
+32474.44,.PITCH 7.03
+32478.75,.PITCH 8.47
+32483.06,.PITCH 9.91
+32487.37,.PITCH 11.34
+32491.69,.PITCH 12.78
+32496,.PITCH 14.22
+32500.31,.PITCH 15.66
+32504.62,.PITCH 17.09
+32508.94,.PITCH 18.53
+32513.25,.PITCH 19.97
+32517.56,.PITCH 21.41
+32521.87,.PITCH 22.84
+32526.19,.PITCH 24.28
+32530.5,.PITCH 25
+32754.5,.PITCH 24.58
+32757.03,.PITCH 23.73
+32759.56,.PITCH 22.89
+32762.09,.PITCH 22.05
+32764.62,.PITCH 21.2
+32767.16,.PITCH 20.36
+32769.69,.PITCH 19.52
+32772.22,.PITCH 18.67
+32774.75,.PITCH 17.83
+32777.28,.PITCH 16.98
+32779.81,.PITCH 16.14
+32782.34,.PITCH 15.3
+32784.88,.PITCH 14.45
+32787.41,.PITCH 13.61
+32789.94,.PITCH 12.77
+32792.47,.PITCH 11.92
+32795,.PITCH 11.08
+32797.53,.PITCH 10.23
+32800.06,.PITCH 9.39
+32802.59,.PITCH 8.55
+32805.12,.PITCH 7.7
+32807.66,.PITCH 6.86
+32810.19,.PITCH 6.02
+32812.72,.PITCH 5.17
+32815.25,.PITCH 4.33
+32817.78,.PITCH 3.48
+32820.31,.PITCH 2.64
+32822.84,.PITCH 1.8
+32825.38,.PITCH 0.95
+32827.91,.PITCH 0.11
+32830.44,.PITCH -0.73
+32832.97,.PITCH -1.58
+32835.5,.PITCH -2
+33029.5,.PITCH -1.38
+33033.25,.PITCH -0.13
+33037,.PITCH 1.13
+33040.75,.PITCH 2.38
+33044.5,.PITCH 3
+33489.5,.PITCH 2.38
+33493.25,.PITCH 1.12
+33497,.PITCH -0.13
+33500.75,.PITCH -1.37
+33504.5,.PITCH -2
+33796,.PITCH 2
+34517,.PITCH 1.56
+34519.63,.PITCH 0.69
+34522.25,.PITCH -0.19
+34524.88,.PITCH -1.06
+34527.5,.PITCH -1.94
+34530.13,.PITCH -2.81
+34532.75,.PITCH -3.69
+34535.38,.PITCH -4.56
+34538,.PITCH -5.44
+34540.63,.PITCH -6.31
+34543.25,.PITCH -7.19
+34545.88,.PITCH -8.06
+34548.5,.PITCH -8.94
+34551.13,.PITCH -9.81
+34553.75,.PITCH -10.69
+34556.38,.PITCH -11.56
+34559,.PITCH -12
+34934.5,.PITCH -11.38
+34938.25,.PITCH -10.12
+34942,.PITCH -8.88
+34945.75,.PITCH -7.62
+34949.5,.PITCH -7
+35156,.PITCH -3
+35836,.PITCH -3.63
+35839.75,.PITCH -4.87
+35843.5,.PITCH -6.13
+35847.25,.PITCH -7.37
+35851,.PITCH -8.63
+35854.75,.PITCH -9.87
+35858.5,.PITCH -11.13
+35862.25,.PITCH -12.37
+35866,.PITCH -13.62
+35869.75,.PITCH -14.88
+35873.5,.PITCH -16.13
+35877.25,.PITCH -17.37
+35881,.PITCH -18.63
+35884.75,.PITCH -19.87
+35888.5,.PITCH -21.13
+35892.25,.PITCH -22.37
+35896,.PITCH -23
+36144.5,.PITCH -22.47
+36147.69,.PITCH -21.41
+36150.87,.PITCH -20.34
+36154.06,.PITCH -19.28
+36157.25,.PITCH -18.22
+36160.44,.PITCH -17.16
+36163.62,.PITCH -16.09
+36166.81,.PITCH -15.03
+36170,.PITCH -13.97
+36173.19,.PITCH -12.91
+36176.37,.PITCH -11.84
+36179.56,.PITCH -10.78
+36182.75,.PITCH -9.72
+36185.94,.PITCH -8.66
+36189.12,.PITCH -7.59
+36192.31,.PITCH -6.53
+36195.5,.PITCH -6
+36350.5,.PITCH -5.38
+36354.25,.PITCH -4.12
+36358,.PITCH -2.88
+36361.75,.PITCH -1.62
+36365.5,.PITCH -1
+36875,.PITCH -1.75
+36879.5,.PITCH -3.25
+36884,.PITCH -4.75
+36888.5,.PITCH -6.25
+36893,.PITCH -7
+37357.5,.PITCH -6.37
+37361.25,.PITCH -5.13
+37365,.PITCH -3.87
+37368.75,.PITCH -2.63
+37372.5,.PITCH -2
+37587,.PITCH -1.25
+37591.5,.PITCH 0.25
+37596,.PITCH 1.75
+37600.5,.PITCH 3.25
+37605,.PITCH 4.75
+37609.5,.PITCH 6.25
+37614,.PITCH 7.75
+37618.5,.PITCH 9.25
+37623,.PITCH 10
+37765.5,.PITCH 9.22
+37770.19,.PITCH 7.66
+37774.88,.PITCH 6.09
+37779.56,.PITCH 4.53
+37784.25,.PITCH 2.97
+37788.94,.PITCH 1.41
+37793.63,.PITCH -0.16
+37798.31,.PITCH -1.72
+37803,.PITCH -3.28
+37807.69,.PITCH -4.84
+37812.38,.PITCH -6.41
+37817.06,.PITCH -7.97
+37821.75,.PITCH -9.53
+37826.44,.PITCH -11.09
+37831.13,.PITCH -12.66
+37835.81,.PITCH -14.22
+37840.5,.PITCH -15
+37979.5,.PITCH -14.47
+37982.69,.PITCH -13.41
+37985.88,.PITCH -12.34
+37989.06,.PITCH -11.28
+37992.25,.PITCH -10.22
+37995.44,.PITCH -9.16
+37998.63,.PITCH -8.09
+38001.81,.PITCH -7.03
+38005,.PITCH -5.97
+38008.19,.PITCH -4.91
+38011.38,.PITCH -3.84
+38014.56,.PITCH -2.78
+38017.75,.PITCH -1.72
+38020.94,.PITCH -0.66
+38024.13,.PITCH 0.41
+38027.31,.PITCH 1.47
+38030.5,.PITCH 2
+38350,.PITCH 2.62
+38353.75,.PITCH 3.87
+38357.5,.PITCH 5.13
+38361.25,.PITCH 6.37
+38365,.PITCH 7.63
+38368.75,.PITCH 8.87
+38372.5,.PITCH 10.12
+38376.25,.PITCH 11.38
+38380,.PITCH 12
+38754.5,.PITCH 11.47
+38757.69,.PITCH 10.41
+38760.88,.PITCH 9.34
+38764.06,.PITCH 8.28
+38767.25,.PITCH 7.22
+38770.44,.PITCH 6.16
+38773.63,.PITCH 5.09
+38776.81,.PITCH 4.03
+38780,.PITCH 2.97
+38783.19,.PITCH 1.91
+38786.38,.PITCH 0.84
+38789.56,.PITCH -0.22
+38792.75,.PITCH -1.28
+38795.94,.PITCH -2.34
+38799.13,.PITCH -3.41
+38802.31,.PITCH -4.47
+38805.5,.PITCH -5
+39275.5,.PITCH -4.31
+39279.63,.PITCH -2.94
+39283.75,.PITCH -1.56
+39287.88,.PITCH -0.19
+39292,.PITCH 1.19
+39296.13,.PITCH 2.56
+39300.25,.PITCH 3.94
+39304.38,.PITCH 5.31
+39308.5,.PITCH 6
+39595,.PITCH 5.5
+39598,.PITCH 4.5
+39601,.PITCH 3.5
+39604,.PITCH 2.5
+39607,.PITCH 1.5
+39610,.PITCH 0.5
+39613,.PITCH -0.5
+39616,.PITCH -1.5
+39619,.PITCH -2
+39889,.PITCH -1.59
+39891.44,.PITCH -0.78
+39893.87,.PITCH 0.03
+39896.31,.PITCH 0.84
+39898.75,.PITCH 1.66
+39901.19,.PITCH 2.47
+39903.62,.PITCH 3.28
+39906.06,.PITCH 4.09
+39908.5,.PITCH 4.91
+39910.94,.PITCH 5.72
+39913.37,.PITCH 6.53
+39915.81,.PITCH 7.34
+39918.25,.PITCH 8.16
+39920.69,.PITCH 8.97
+39923.12,.PITCH 9.78
+39925.56,.PITCH 10.59
+39928,.PITCH 11.41
+39930.44,.PITCH 12.22
+39932.87,.PITCH 13.03
+39935.31,.PITCH 13.84
+39937.75,.PITCH 14.66
+39940.19,.PITCH 15.47
+39942.62,.PITCH 16.28
+39945.06,.PITCH 17.09
+39947.5,.PITCH 17.91
+39949.94,.PITCH 18.72
+39952.37,.PITCH 19.53
+39954.81,.PITCH 20.34
+39957.25,.PITCH 21.16
+39959.69,.PITCH 21.97
+39962.12,.PITCH 22.78
+39964.56,.PITCH 23.59
+39967,.PITCH 24
+40134,.PITCH 24.5
+40137,.PITCH 25.5
+40140,.PITCH 26.5
+40143,.PITCH 27.5
+40146,.PITCH 28.5
+40149,.PITCH 29.5
+40152,.PITCH 30.5
+40155,.PITCH 31.5
+40158,.PITCH 32
+40484,.PITCH 31.25
+40488.5,.PITCH 29.75
+40493,.PITCH 28.25
+40497.5,.PITCH 26.75
+40502,.PITCH 26
+40698.5,.PITCH 25.28
+40702.81,.PITCH 23.84
+40707.12,.PITCH 22.41
+40711.44,.PITCH 20.97
+40715.75,.PITCH 19.53
+40720.06,.PITCH 18.09
+40724.37,.PITCH 16.66
+40728.69,.PITCH 15.22
+40733,.PITCH 13.78
+40737.31,.PITCH 12.34
+40741.62,.PITCH 10.91
+40745.94,.PITCH 9.47
+40750.25,.PITCH 8.03
+40754.56,.PITCH 6.59
+40758.87,.PITCH 5.16
+40763.19,.PITCH 3.72
+40767.5,.PITCH 3
+41944.5,.PITCH 2.56
+41947.12,.PITCH 1.69
+41949.75,.PITCH 0.81
+41952.37,.PITCH -0.06
+41955,.PITCH -0.94
+41957.62,.PITCH -1.81
+41960.25,.PITCH -2.69
+41962.87,.PITCH -3.56
+41965.5,.PITCH -4
+42446,.PITCH -4.44
+42448.62,.PITCH -5.31
+42451.25,.PITCH -6.19
+42453.87,.PITCH -7.06
+42456.5,.PITCH -7.94
+42459.12,.PITCH -8.81
+42461.75,.PITCH -9.69
+42464.37,.PITCH -10.56
+42467,.PITCH -11.44
+42469.62,.PITCH -12.31
+42472.25,.PITCH -13.19
+42474.87,.PITCH -14.06
+42477.5,.PITCH -14.94
+42480.12,.PITCH -15.81
+42482.75,.PITCH -16.69
+42485.37,.PITCH -17.56
+42488,.PITCH -18.44
+42490.62,.PITCH -19.31
+42493.25,.PITCH -20.19
+42495.87,.PITCH -21.06
+42498.5,.PITCH -21.94
+42501.12,.PITCH -22.81
+42503.75,.PITCH -23.69
+42506.37,.PITCH -24.56
+42509,.PITCH -25.44
+42511.62,.PITCH -26.31
+42514.25,.PITCH -27.19
+42516.87,.PITCH -28.06
+42519.5,.PITCH -28.94
+42522.12,.PITCH -29.81
+42524.75,.PITCH -30.69
+42527.37,.PITCH -31.56
+42530,.PITCH -32
+43044.5,.PITCH -31.58
+43047.03,.PITCH -30.73
+43049.56,.PITCH -29.89
+43052.09,.PITCH -29.05
+43054.63,.PITCH -28.2
+43057.16,.PITCH -27.36
+43059.69,.PITCH -26.52
+43062.22,.PITCH -25.67
+43064.75,.PITCH -24.83
+43067.28,.PITCH -23.98
+43069.81,.PITCH -23.14
+43072.34,.PITCH -22.3
+43074.88,.PITCH -21.45
+43077.41,.PITCH -20.61
+43079.94,.PITCH -19.77
+43082.47,.PITCH -18.92
+43085,.PITCH -18.08
+43087.53,.PITCH -17.23
+43090.06,.PITCH -16.39
+43092.59,.PITCH -15.55
+43095.13,.PITCH -14.7
+43097.66,.PITCH -13.86
+43100.19,.PITCH -13.02
+43102.72,.PITCH -12.17
+43105.25,.PITCH -11.33
+43107.78,.PITCH -10.48
+43110.31,.PITCH -9.64
+43112.84,.PITCH -8.8
+43115.38,.PITCH -7.95
+43117.91,.PITCH -7.11
+43120.44,.PITCH -6.27
+43122.97,.PITCH -5.42
+43125.5,.PITCH -5
+43344,.PITCH -9
+43726,.PITCH -8.25
+43730.5,.PITCH -6.75
+43735,.PITCH -5.25
+43739.5,.PITCH -3.75
+43744,.PITCH -2.25
+43748.5,.PITCH -0.75
+43753,.PITCH 0.75
+43757.5,.PITCH 2.25
+43762,.PITCH 3
+43971.5,.PITCH 3.47
+43974.31,.PITCH 4.41
+43977.12,.PITCH 5.34
+43979.94,.PITCH 6.28
+43982.75,.PITCH 7.22
+43985.56,.PITCH 8.16
+43988.38,.PITCH 9.09
+43991.19,.PITCH 10.03
+43994,.PITCH 10.97
+43996.81,.PITCH 11.91
+43999.62,.PITCH 12.84
+44002.44,.PITCH 13.78
+44005.25,.PITCH 14.72
+44008.06,.PITCH 15.66
+44010.88,.PITCH 16.59
+44013.69,.PITCH 17.53
+44016.5,.PITCH 18
+44198,.PITCH 14
+44341,.PITCH 13.34
+44344.94,.PITCH 12.03
+44348.88,.PITCH 10.72
+44352.81,.PITCH 9.41
+44356.75,.PITCH 8.09
+44360.69,.PITCH 6.78
+44364.62,.PITCH 5.47
+44368.56,.PITCH 4.16
+44372.5,.PITCH 2.84
+44376.44,.PITCH 1.53
+44380.38,.PITCH 0.22
+44384.31,.PITCH -1.09
+44388.25,.PITCH -2.41
+44392.19,.PITCH -3.72
+44396.12,.PITCH -5.03
+44400.06,.PITCH -6.34
+44404,.PITCH -7.66
+44407.94,.PITCH -8.97
+44411.88,.PITCH -10.28
+44415.81,.PITCH -11.59
+44419.75,.PITCH -12.91
+44423.69,.PITCH -14.22
+44427.62,.PITCH -15.53
+44431.56,.PITCH -16.84
+44435.5,.PITCH -18.16
+44439.44,.PITCH -19.47
+44443.38,.PITCH -20.78
+44447.31,.PITCH -22.09
+44451.25,.PITCH -23.41
+44455.19,.PITCH -24.72
+44459.12,.PITCH -26.03
+44463.06,.PITCH -27.34
+44467,.PITCH -28
+44650.5,.PITCH -27.22
+44655.19,.PITCH -25.66
+44659.88,.PITCH -24.09
+44664.56,.PITCH -22.53
+44669.25,.PITCH -20.97
+44673.94,.PITCH -19.41
+44678.62,.PITCH -17.84
+44683.31,.PITCH -16.28
+44688,.PITCH -14.72
+44692.69,.PITCH -13.16
+44697.38,.PITCH -11.59
+44702.06,.PITCH -10.03
+44706.75,.PITCH -8.47
+44711.44,.PITCH -6.91
+44716.12,.PITCH -5.34
+44720.81,.PITCH -3.78
+44725.5,.PITCH -3
+44909,.PITCH -2 
+
+45124,.pitch 2
+45703,.pitch 27
+46438,.pitch 8
+46861,.pitch 30
+
+,;과천선
+47281,.pitch -7
+47721,.pitch -30
+48241,.pitch -2
+48541,.pitch 18
+48861,.pitch 7
+49621,.pitch 25
+49981,.pitch -5
+50581,.pitch -20
+51024,.pitch -5
+51481,.pitch 2
+51827,.pitch 7
+52121,.pitch 8
+52524,.pitch 4
+52904,.pitch 18
+53784,.pitch -15
+54504,.pitch -8
+54824,.pitch -18
+55186,.pitch -8
+55841,.pitch -4
+56141,.pitch 19
+56451,.pitch -14
+56761,.pitch -3
+58377,.pitch -7
+
+59277.67,.pitch -12
+59330,.pitch 13.5
+59840,.pitch 31
+60550,.pitch 0
+61050,.pitch 21
+61689.56,.pitch 25
+62509.59,.pitch 0
+63363.99,.pitch 0
+
+
+,;안산선
+63698,.pitch 8
+64321,.pitch 17
+64981,.pitch -15
+66461,.pitch -3
+67201,.pitch -19
+68341,.pitch 0
+69241,.pitch -10
+69981,.pitch -15
+70329,.pitch 15
+70741,.pitch -12
+71581,.pitch -7
+72181,.pitch -2
+73261,.pitch -15
+73701,.pitch 0
+74721,.pitch 7
+75191,.pitch -2
+76035,.pitch 0
+77481,.pitch 2
+79031,.pitch -12
+79831,.pitch 0
+81121,.pitch 4
+81601,.pitch -10
+82001,.pitch 2
+82921,.pitch 10
+83425,.pitch 0
+83921,.pitch 1
+84431,.pitch 0
+85341,.pitch -10
+86081,.pitch 0
+86621,.pitch 2.5
+87127,.pitch 0

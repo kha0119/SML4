@@ -1,0 +1,38 @@
+CreateMeshBuilder
+AddVertex,-2.6, 6.0, 0
+AddVertex,-2.6, 6.0, 25
+AddVertex,-2.6, -0.55, 25
+AddVertex,-2.6, -0.55, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, hoehyeon.bmp
+SetTextureCoordinates, 0, 2, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 2, 1
+
+CreateMeshBuilder
+AddVertex,-2.6, 6.0, 0
+AddVertex,-2.6, 6.0, 25
+AddVertex,20, 6.0, 25
+AddVertex,20, 6.0, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, hoehyeon.bmp
+SetTextureCoordinates, 0, 2, 1
+SetTextureCoordinates, 1, 0, 1
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 2, 1
+
+CreateMeshBuilder
+AddVertex,-2.6, -0.55, 0
+AddVertex,-2.6,-0.55, 25
+AddVertex,20, -0.55, 25
+AddVertex,20, -0.55, 0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, hoehyeon.bmp
+SetTextureCoordinates, 0, 2, 0
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 2, 0

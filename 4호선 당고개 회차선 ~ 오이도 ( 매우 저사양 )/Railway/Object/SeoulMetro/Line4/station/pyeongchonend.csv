@@ -1,0 +1,14 @@
+
+CreateMeshBuilder
+AddVertex,-2.3,4.7,0
+AddVertex,2.3,4.7,0
+AddVertex,2.3,1.1,0
+AddVertex,-2.3,1.1,0
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, pyeongchon.bmp
+SetTextureCoordinates,0,0.75,0
+SetTextureCoordinates,1,0.25,0
+SetTextureCoordinates,2,0.25,1
+SetTextureCoordinates,3,0.75,1
+SetDecalTransparentColor,0,0,0

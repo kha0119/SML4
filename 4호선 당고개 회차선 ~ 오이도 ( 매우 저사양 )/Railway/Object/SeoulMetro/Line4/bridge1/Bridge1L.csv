@@ -1,0 +1,333 @@
+CreateMeshBuilder
+AddVertex,1.9, -0.6, 0
+AddVertex,1.9, 7, 5
+AddVertex,-2.6, 7, 5
+AddVertex,-2.6, -0.6, 0
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+;↑各最後の一行を調節することで色を変えることができます。
+
+CreateMeshBuilder
+AddVertex,-2, -0.6, 5
+AddVertex,-2, 7, 5
+AddVertex,-2.6, 7, 5
+AddVertex,-2.6, -0.6, 5
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, -0.6, 10
+AddVertex,-2, 7, 5
+AddVertex,-2.6, 7, 5
+AddVertex,-2.6, -0.6, 10
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, -0.6, 10
+AddVertex,-2, 7, 10
+AddVertex,-2.6, 7, 10
+AddVertex,-2.6, -0.6, 10
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, 7, 10
+AddVertex,-2, -0.6, 15
+AddVertex,-2.6, -0.6, 15
+AddVertex,-2.6, 7, 10
+AddFace,0, 1, 2, 3
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, 7, 15
+AddVertex,-2, -0.6, 10
+AddVertex,-2.6, -0.6, 10
+AddVertex,-2.6, 7, 15
+AddFace,0, 1, 2, 3
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, -0.6, 15
+AddVertex,-2, 7, 15
+AddVertex,-2.6, 7, 15
+AddVertex,-2.6, -0.6, 15
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, 7, 20
+AddVertex,-2, -0.6, 15
+AddVertex,-2.6, -0.6, 15
+AddVertex,-2.6, 7, 20
+AddFace,0, 1, 2, 3
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2, -0.6, 20
+AddVertex,-2, 7, 20
+AddVertex,-2.6, 7, 20
+AddVertex,-2.6, -0.6, 20
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B3.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 15, 0
+SetTextureCoordinates,2, 15, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,1.9, -0.6, 25
+AddVertex,1.9, 7, 20
+AddVertex,-2.6, 7, 20
+AddVertex,-2.6, -0.6, 25
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetDecalTransparentColor,0, 0, 255
+SetColor,0,200,50 
+
+CreateMeshBuilder
+AddVertex,-2.6, 7, 5
+AddVertex,-2.6, 7, 20
+AddVertex,1.9, 7, 20
+AddVertex,1.9, 7, 5
+AddFace,3, 2, 1, 0
+GenerateNormals
+LoadTexture,B2.bmp
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 1, 1
+SetTextureCoordinates,2, 0, 1
+SetTextureCoordinates,3, 0, 0
+SetDecalTransparentColor,0, 0, 255, 
+SetColor,0,200,50
+
+CreateMeshBuilder
+AddVertex,-2.9,-0.58,0
+AddVertex,-2.9,-0.58,25
+AddVertex,-2.9,-0.13,25
+AddVertex,-2.9,-0.13,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,B5.bmp
+SetTextureCoordinates,0,20,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,20,0
+SetColor,0,200,50
+
+
+CreateMeshBuilder
+Cube,0.08,0.03,12.5
+Translate,-2.75,0.92,12.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.03,12.5
+Translate,-2.75,0.42,12.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,0
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,1.25
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,2.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,3.75
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,6.25
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,7.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,8.75
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,10
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,11.25
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,12.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,13.75
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,15
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,16.25
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,17.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,18.75
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,20
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,21.25
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,22.5
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,23.75
+SetColor,0,100,50
+
+CreateMeshBuilder
+Cube,0.08,0.55,0.03
+Translate,-2.75,0.4,25
+SetColor,0,100,50
+
+;↓この?文の色は変えないでください。
+CreateMeshBuilder
+AddVertex,-2.9, -0.13, 0
+AddVertex,-2.9, -0.13, 25
+AddVertex,-1.9, -0.13, 25
+AddVertex,-1.9, -0.13, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,B4.bmp
+SetTextureCoordinates,0, 1, 6
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 0.79, 0
+SetTextureCoordinates,3, 0.79, 6
+SetColor,200,200,200
+
+CreateMeshBuilder
+AddVertex,-1.9, -0.13, 0
+AddVertex,-1.9, -0.13, 25
+AddVertex,-1.9, -0.45, 25
+AddVertex,-1.9, -0.45, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,B4.bmp
+SetTextureCoordinates,0, 1, 6
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 0.78, 0
+SetTextureCoordinates,3, 0.78, 6
+SetColor,20,20,20
+
+CreateMeshBuilder
+AddVertex,-1.9, -0.45, 0
+AddVertex,-1.9, -0.45, 25
+AddVertex,1.9, -0.45, 25
+AddVertex,1.9, -0.45, 0
+AddFace2, 0, 1, 2,3
+GenerateNormals
+SetColor,0,100,50
