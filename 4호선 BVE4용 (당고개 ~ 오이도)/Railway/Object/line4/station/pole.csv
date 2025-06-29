@@ -1,0 +1,14 @@
+CreateMeshBuilder,,,,
+AddVertex,3,1.1,0,
+AddVertex,3,5,0,
+AddVertex,4,5,0,
+AddVertex,4,1.1,0,
+AddFace2,0,1,2,3
+
+GenerateNormals,,,,
+
+LoadTexture,daegongwonpole.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,

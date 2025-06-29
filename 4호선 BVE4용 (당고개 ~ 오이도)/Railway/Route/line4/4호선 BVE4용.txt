@@ -1,0 +1,57 @@
+4호선 개발5 BVE4용
+[Metro Park]권현우 제작 (mire0313@naver.com)
+[BVE 100년 프로젝트 제작팀]유승현 제작 (teciyoo@hanmail.net)
+[Metro Park]원곡군 제작 (tgis.tistory.com)
+
+특징
+당고개-상계구간 완공
+인덕원-범계구간 완공
+4호선 전구간 완공
+
+'4호선 BVE4용'의 발전 과정
+-4호선 개발1 BVE4용(2006.04.16)
+   당고개회차선-당고개 완공
+-4호선 개발2 BVE4용(2007.02.28)
+   당고개-상계 완공
+-4호선 개발3 BVE4용(2007.02.28)
+   Metro Park 4호선을 인수받음
+   당고개-상계구간 제작한것은 일단 제외시킴
+   인덕원-범계구간 완공
+-4호선 개발4 BVE4용(2007.12.02)
+   인덕원역 추가
+-4호선 개발5 BVE4용(2007.12.25)
+   당고개회차선-상계구간 고디테일 다시 적용시킴
+   4호선 전구간 완공
+
+승무 환경
+-최소 사양
+펜티엄4-2.6Ghz, DDR 512MB, FX5600이상/R9600이상
+-권장 사양
+콘로E6300/윈저4200, DDR2 2GB RAM, GF7600이상/X1600이상
+
+저작권
+-이 노선의 저작권은 
+ [Metro Park]권현우(mire0313@naver.com),
+ [BVE 100년 프로젝트 제작팀]유승현(teciyoo@hanmail.net),
+ [Metro Park]원곡군(tgis.tistory.com)
+ 에게 있습니다.
+-이 노선을 저작권자의 홈페이지(http://teciyoo.tistory.com/)
+ 이외의 온/오프라인상의 다른 곳에 업로드하거나 배포하시면 안됩니다.
+-이 노선을 무단수정하시면 안됩니다.
+-이 노선의 구성요소(오브젝트, 텍스쳐, 열차, 사운드, 루트 
+ 등의 모든 파일)를 함부로 추출, 수정, 무단도용 및 
+ 재배포 하는 것을 금지합니다.
+-본 노선은 BVE4.2, 메모장, 계산기, Excel 2003, Photoshop 7.0,
+ 3ds Max 8 등을 이용하여 제작했습니다.
+-세부저작권
+ -S452 Train : 권현우, 원곡군
+ -Object, Route, Sound : 권현우, 유승현
+ -2141 Train : 유승현
+
+문의
+-teciyoo@hanmail.net
+-http://teciyoo.tistory.com/
+-http://cafe.naver.com/railoadgame10
+-http://cafe.naver.com/wrmsts
+-http://tgis.tistory.com/
+2007.12.25.화

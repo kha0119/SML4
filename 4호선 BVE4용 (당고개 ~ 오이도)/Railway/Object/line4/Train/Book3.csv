@@ -1,0 +1,501 @@
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.05,0.05,0.6
+SetColor,130,130,130
+Translate        ,0.53,3.85,-2.95
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.05,0.05,0.6
+SetColor,130,130,130
+Translate        ,-0.53,3.85,-2.95
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.072,0.02,0.6
+SetColor,130,130,130
+Translate        ,0,3.85,-2.95
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.58,0.02,0.05
+SetColor,130,130,130
+Translate        ,0,3.85,-2.3
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.58,0.02,0.05
+SetColor,130,130,130
+Translate        ,0,3.85,-3.6
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,45
+Translate        ,0.55,3.83,-3.64,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,315
+Translate        ,-0.55,3.83,-3.64,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,315
+Translate        ,0.55,3.83,-2.26,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,45
+Translate        ,-0.55,3.83,-2.24,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子1,,
+Cylinder,6,0.08,0.08,0.26
+Translate        ,0.6,3.68,-3.68,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子2,,
+Cylinder,6,0.08,0.08,0.26
+Translate        ,-0.6,3.68,-3.68,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子3,,
+Cylinder,6,0.08,0.08,0.26
+Translate        ,0.6,3.68,-2.22,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子4,,
+Cylinder,6,0.08,0.08,0.26
+Translate        ,-0.6,3.68,-2.22,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,4,0.03,0.05,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,61
+Translate        ,0.44,4.2,-2.8,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,6,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,122
+Translate        ,0.44,4.8,-2.54,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,4,0.05,0.03,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,119
+Translate        ,0.38,4.2,-3.1,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,4,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,58
+Translate        ,0.38,4.8,-3.36,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.03,0.05,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,61
+Translate        ,-0.38,4.2,-2.8,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,122
+Translate        ,-0.38,4.8,-2.54,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.05,0.03,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,119
+Translate        ,-0.44,4.2,-3.1,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,58
+Translate        ,-0.44,4.8,-3.36,
+
+
+CreateMeshBuilder,,;//ア??横?,,
+Cylinder,4,0.03,0.03,0.88
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,0.03,4.55,-2.15,
+
+
+CreateMeshBuilder,,;//ア??,,
+Cylinder,4,0.02,0.02,1.15
+SetColor,120,120,120,
+Rotate,-1,0,1,65
+Translate        ,0.04,4.79,-2.5,
+
+
+CreateMeshBuilder,,;//ア??横?,,
+Cylinder,4,0.03,0.03,0.88
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,-0.03,4.55,-3.75,
+
+
+CreateMeshBuilder,,;//ア??,,
+Cylinder,4,0.02,0.02,1.15
+SetColor,120,120,120,
+Rotate,-1,0,1,114
+Translate        ,-0.04,4.79,-3.4,
+
+
+CreateMeshBuilder,,;//シャフト,,
+Cylinder,4,0.03,0.03,1
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,0,3.87,-3.4,
+
+
+CreateMeshBuilder,,;//シャフト,,
+Cylinder,4,0.03,0.03,1
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,0,3.87,-2.5,
+
+
+CreateMeshBuilder,,;//集電部,
+Cube,0.6,0.03,0.05
+SetColor,90,90,90
+Translate        ,0,5.07,-3.03
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//集電部,
+Cube,0.6,0.03,0.05
+SetColor,90,90,90
+Translate        ,0,5.07,-2.87
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//集電部,
+Cylinder,4,0.02,0.02,1.5
+SetColor,140,140,140,
+Rotate,0,0,1,90
+Translate        ,0,5.07,-3.03,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,1.5
+SetColor,140,140,140,
+Rotate,0,0,1,90
+Translate        ,0,5.07,-2.87,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,45
+Translate        ,0.85,4.97,-3.03,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,45
+Translate        ,0.85,4.97,-2.87,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,315
+Translate        ,-0.85,4.97,-3.03,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,315
+Translate        ,-0.85,4.97,-2.87,
+
+
+;（Ｃ）２００４ ＲＯＮ,,,,
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.05,0.05,0.6,
+SetColor,130,130,130,
+Translate         ,0.53,3.85,-15.55,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.05,0.05,0.6
+SetColor,130,130,130
+Translate         ,-0.53,3.85,-15.55
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.072,0.02,0.6
+SetColor,130,130,130
+Translate         ,0,3.85,-15.55
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.58,0.02,0.05
+SetColor,130,130,130
+Translate         ,0,3.85,-14.9
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.58,0.02,0.05
+SetColor,130,130,130
+Translate         ,0,3.85,-16.2
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,
+Cube,0.12,0.02,0.05
+SetColor,130,130,130,
+Rotate,0,1,0,45
+Translate         ,0.55,3.83,-16.24,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,315
+Translate         ,-0.55,3.83,-16.24,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,315
+Translate         ,0.55,3.83,-14.86,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベ?ス,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,45
+Translate         ,-0.55,3.83,-14.84,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子1,,
+Cylinder,6,0.08,0.08,0.26
+Translate         ,0.6,3.68,-16.28,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子2,,
+Cylinder,6,0.08,0.08,0.26
+Translate         ,-0.6,3.68,-16.28,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子3,,
+Cylinder,6,0.08,0.08,0.26
+Translate         ,0.6,3.68,-14.82,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子4,,
+Cylinder,6,0.08,0.08,0.26
+Translate         ,-0.6,3.68,-14.82,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,4,0.03,0.05,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,61
+Translate         ,0.44,4.2,-15.4,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,6,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,122
+Translate         ,0.44,4.8,-15.14,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,4,0.05,0.03,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,119
+Translate         ,0.38,4.2,-15.7,
+
+
+CreateMeshBuilder,,;//左側ア??,,
+Cylinder,4,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,58
+Translate         ,0.38,4.8,-15.96,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.03,0.05,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,61
+Translate         ,-0.38,4.2,-15.4,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,122
+Translate         ,-0.38,4.8,-15.14,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.05,0.03,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,119
+Translate         ,-0.44,4.2,-15.7,
+
+
+CreateMeshBuilder,,;//右側ア??,,
+Cylinder,4,0.03,0.03,0.93
+SetColor,120,120,120,
+Rotate,1,0,0,58
+Translate         ,-0.44,4.8,-15.96,
+
+
+CreateMeshBuilder,,;//ア??横?,,
+Cylinder,4,0.03,0.03,0.88
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate         ,0.03,4.55,-14.75,
+
+
+CreateMeshBuilder,,;//ア??,,
+Cylinder,4,0.02,0.02,1.15
+SetColor,120,120,120,
+Rotate,-1,0,1,65
+Translate         ,0.04,4.79,-15.1,
+
+
+CreateMeshBuilder,,;//ア??横?,,
+Cylinder,4,0.03,0.03,0.88
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate         ,-0.03,4.55,-16.35,
+
+
+CreateMeshBuilder,,;//ア??,,
+Cylinder,4,0.02,0.02,1.15
+SetColor,120,120,120,
+Rotate,-1,0,1,114
+Translate         ,-0.04,4.79,-16,
+
+
+CreateMeshBuilder,,;//シャフト,,
+Cylinder,4,0.03,0.03,1
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate         ,0,3.87,-16,
+
+
+CreateMeshBuilder,,;//シャフト,,
+Cylinder,4,0.03,0.03,1
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate         ,0,3.87,-15.1,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cube,0.6,0.03,0.05,
+SetColor,90,90,90,
+Translate         ,0,5.07,-15.63,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cube,0.6,0.03,0.05,
+SetColor,90,90,90,
+Translate         ,0,5.07,-15.47,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,1.5
+SetColor,140,140,140,
+Rotate,0,0,1,90
+Translate         ,0,5.07,-15.63,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,1.5
+SetColor,140,140,140,
+Rotate,0,0,1,90
+Translate         ,0,5.07,-15.47,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,45
+Translate         ,0.85,4.97,-15.63,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,45
+Translate         ,0.85,4.97,-15.47,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,315
+Translate         ,-0.85,4.97,-15.63,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,4,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,315
+Translate         ,-0.85,4.97,-15.47,
+
+
+;（Ｃ）２００４ ＲＯＮ,,,,

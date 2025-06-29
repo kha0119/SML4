@@ -1,0 +1,14 @@
+CreateMeshBuilder,,,,
+Addvertex,-2,1,-0.4,
+AddVertex,-2,2,-0.4,
+Addvertex,-2.4,2,-0.4,
+Addvertex,-2.4,1,-0.4,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,atswar.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,

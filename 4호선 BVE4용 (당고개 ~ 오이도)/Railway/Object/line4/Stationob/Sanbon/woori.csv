@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-7.2,2,0,
+AddVertex,-7.2,3.5,0,
+AddVertex,-2.7,3.5,0,
+AddVertex,-2.7,2,0,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,fence.bmp,,,
+SetTextureCoordinates,0,2,1,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,255,255,0,

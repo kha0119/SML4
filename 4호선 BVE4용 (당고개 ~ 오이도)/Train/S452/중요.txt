@@ -1,0 +1,47 @@
+[Pilotlamp]
+Subject = ats0
+Location = 488, 4
+DaytimeImage = d3d\atswhite.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats1
+Location = 488, 24
+DaytimeImage = d3d\atsred.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats2
+Location = 488, 44
+DaytimeImage = d3d\p-power.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats3
+Location = 488, 64
+DaytimeImage = d3d\pattern.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats4
+Location = 488, 84
+DaytimeImage = d3d\brakerelease.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats5
+Location = 488, 104
+DaytimeImage = d3d\brakeapply.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats6
+Location = 488, 124
+DaytimeImage = d3d\ats-p.bmp
+Layer = 10
+
+[Pilotlamp]
+Subject = ats7
+Location = 488, 144
+DaytimeImage = d3d\failure.bmp
+Layer = 10

@@ -1,0 +1,159 @@
+CreateMeshBuilder,,,,
+AddVertex,10,1.1,0,
+AddVertex,10,1.1,25.1,
+AddVertex,2.7,1.1,25.1,
+AddVertex,2.7,1.1,0,
+AddFace,3,2,1,0
+GenerateNormals,,,,
+LoadTexture,FormC.bmp,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,,,,
+AddVertex,10,-0.45,0,
+AddVertex,10,1.1,0,
+AddVertex,2.7,1.1,0,
+AddVertex,2.7,-0.45,0,
+AddFace,3,2,1,0
+GenerateNormals,,,,
+LoadTexture,Wall.bmp,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+;description=Created by Sphere Creator (c) Sanford Mace 2004, for,,,
+;Author=,,,,
+;Copyright=,,,,
+ ,,,,
+CreateMeshBuilder,,,,
+AddVertex ,7.5,4.2,0,
+AddVertex,7.5,1.1,0, ; vertex; 1; 
+AddVertex,6.5,1.1,0, ; vertex; 2; 
+AddVertex,6.5,4.2,0, ; vertex; 3; 
+AddVertex,7.5,4.2,1, ; vertex; 4; 
+AddVertex,7.5,1.1,1, ; vertex; 5; 
+AddVertex,6.5,1.1,1, ; vertex; 6; 
+AddVertex,6.5,4.2,1, ; vertex; 7; 
+Addface,0,1,2,3 ; Front Face
+Addface,0,4,5,1 ; Right lateral Face
+Addface,0,3,7,4 ; Upper Face
+Addface,6,5,4,7 ; Back Face
+Addface,6,7,3,2 ; Left lateral Face
+Addface,6,2,1,5 ; Lower Face
+Generatenormals,,,,
+ LoadTexture, pole.bmp,,,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,7,-1,0,
+SetTextureCoordinates,6,-1,1,
+
+CreateMeshBuilder,,,,
+AddVertex ,7.5,4.2,6,
+AddVertex,7.5,1.1,6, ; vertex; 1; 
+AddVertex,6.5,1.1,6, ; vertex; 2; 
+AddVertex,6.5,4.2,6, ; vertex; 3; 
+AddVertex,7.5,4.2,7, ; vertex; 4; 
+AddVertex,7.5,1.1,7, ; vertex; 5; 
+AddVertex,6.5,1.1,7, ; vertex; 6; 
+AddVertex,6.5,4.2,7, ; vertex; 7; 
+Addface,0,1,2,3 ; Front Face
+Addface,0,4,5,1 ; Right lateral Face
+Addface,0,3,7,4 ; Upper Face
+Addface,6,5,4,7 ; Back Face
+Addface,6,7,3,2 ; Left lateral Face
+Addface,6,2,1,5 ; Lower Face
+Generatenormals,,,,
+ LoadTexture, pole.bmp,,,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,7,-1,0,
+SetTextureCoordinates,6,-1,1,
+
+CreateMeshBuilder,,,,
+AddVertex ,7.5,4.2,12,
+AddVertex,7.5,1.1,12, ; vertex; 1; 
+AddVertex,6.5,1.1,12, ; vertex; 2; 
+AddVertex,6.5,4.2,12, ; vertex; 3; 
+AddVertex,7.5,4.2,13, ; vertex; 4; 
+AddVertex,7.5,1.1,13, ; vertex; 5; 
+AddVertex,6.5,1.1,13, ; vertex; 6; 
+AddVertex,6.5,4.2,13, ; vertex; 7; 
+Addface,0,1,2,3 ; Front Face
+Addface,0,4,5,1 ; Right lateral Face
+Addface,0,3,7,4 ; Upper Face
+Addface,6,5,4,7 ; Back Face
+Addface,6,7,3,2 ; Left lateral Face
+Addface,6,2,1,5 ; Lower Face
+Generatenormals,,,,
+ LoadTexture, pole.bmp,,,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,7,-1,0,
+SetTextureCoordinates,6,-1,1,
+
+CreateMeshBuilder,,,,
+AddVertex ,7.5,4.2,18,
+AddVertex,7.5,1.1,18, ; vertex; 1; 
+AddVertex,6.5,1.1,18, ; vertex; 2; 
+AddVertex,6.5,4.2,18, ; vertex; 3; 
+AddVertex,7.5,4.2,19, ; vertex; 4; 
+AddVertex,7.5,1.1,19, ; vertex; 5; 
+AddVertex,6.5,1.1,19, ; vertex; 6; 
+AddVertex,6.5,4.2,19, ; vertex; 7; 
+Addface,0,1,2,3 ; Front Face
+Addface,0,4,5,1 ; Right lateral Face
+Addface,0,3,7,4 ; Upper Face
+Addface,6,5,4,7 ; Back Face
+Addface,6,7,3,2 ; Left lateral Face
+Addface,6,2,1,5 ; Lower Face
+Generatenormals,,,,
+ LoadTexture, pole.bmp,,,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,7,-1,0,
+SetTextureCoordinates,6,-1,1,
+
+CreateMeshBuilder,,,,
+AddVertex,10,1.1,0,
+AddVertex,10,1.1,25.1,
+AddVertex,10,4.2,25.1,
+AddVertex,10,4.2,0,
+AddFace2,3,2,1,0
+GenerateNormals,,,,
+LoadTexture,Formwall.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,0,0,
+
+CreateMeshBuilder,,,,
+AddVertex,10,1.1,0,
+AddVertex,14.4,1.1,0,
+AddVertex,14.4,4.2,0,
+AddVertex,10,4.2,0,
+AddFace2,3,2,1,0
+GenerateNormals,,,,
+LoadTexture,wall2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,0,0,

@@ -1,0 +1,14 @@
+CreateMeshBuilder,,,,
+AddVertex,-1.5,1.1,0,
+AddVertex,-1.5,6,0,
+AddVertex,-2,6,0,
+AddVertex,-2,1.1,0,
+AddFace2,0,1,2,3
+Setcolor,20,20,20,
+GenerateNormals,,,,
+
+LoadTexture,Stairwall.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,

@@ -1,0 +1,14 @@
+CreateMeshBuilder,,,,
+AddVertex,0.375,2,-1,
+AddVertex,1.5,2,-1,
+AddVertex,1.5,1,-1,
+AddVertex,0.375,1,-1,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,danger.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,256,
